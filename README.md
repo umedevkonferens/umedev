@@ -8,7 +8,7 @@
 * Vuefire: https://vuefire.vuejs.org/vuefire/
 * Firebase functions samples: https://github.com/firebase/functions-samples
 
-#Vue README
+# Vue README
 
 ## Project setup
 ```
@@ -37,4 +37,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-=======
