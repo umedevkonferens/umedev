@@ -6,10 +6,11 @@
         <span class="font-weight-light">DEV</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn text to="/">Home</v-btn>
+      <v-btn text to="/about">About</v-btn>
     </v-app-bar>
-
     <v-content>
-      <HelloWorld/>
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
@@ -21,10 +22,10 @@ import HelloWorld from './components/HelloWorld.vue';
 export default Vue.extend({
   name: 'App',
   components: {
-    HelloWorld,
+    HelloWorld
   },
   data: () => ({
     //
-  }),
+  })
 });
 </script>
