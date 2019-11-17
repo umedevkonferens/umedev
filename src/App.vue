@@ -7,6 +7,8 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text to="/">Home</v-btn>
+      <v-btn text to="/program">Program</v-btn>
+      <v-btn text to="/kidz">Kidz</v-btn>
       <v-btn text to="/about">About</v-btn>
     </v-app-bar>
     <v-content>
