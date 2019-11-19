@@ -20,11 +20,13 @@
 <script lang="ts">
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
+import CfpForm from './components/CfpForm.vue';
 
 export default Vue.extend({
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    CfpForm
   },
   data: () => ({
     //

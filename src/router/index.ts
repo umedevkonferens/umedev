@@ -4,6 +4,8 @@ import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Program from '../views/Program.vue';
 import Kidz from '../views/Kidz.vue';
+import CFP from '../views/CFP.vue';
+import CFPThankYou from '../views/CFP_2.vue';
 
 Vue.use(VueRouter);
 
@@ -27,6 +29,16 @@ const routes = [
     path: '/kidz',
     name: 'kidz',
     component: Kidz,
+  },
+  {
+    path: '/cfp',
+    name: 'cfp',
+    component: CFP,
+  },
+  {
+    path: '/cfp_thankyou',
+    name: 'cfp_thankyou',
+    component: CFPThankYou,
   },
 ];
 
