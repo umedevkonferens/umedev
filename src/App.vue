@@ -6,10 +6,10 @@
         <span class="font-weight-light">DEV</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text to="/">Home</v-btn>
+      <v-btn text to="/">Hem</v-btn>
       <v-btn text to="/program">Program</v-btn>
       <v-btn text to="/kidz">Kidz</v-btn>
-      <v-btn text to="/about">About</v-btn>
+      <v-btn text to="/about">Om Umedev</v-btn>
     </v-app-bar>
     <v-content>
       <router-view></router-view>

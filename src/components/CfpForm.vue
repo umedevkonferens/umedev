@@ -18,13 +18,13 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 
 export default Vue.extend({
   data: () => ({
     valid: true,
     snackbar: false,
-    name: "",
+    name: '',
     nameRules: [
       (v: string) => !!v || 'Name is required',
       (v: string) =>
@@ -49,12 +49,9 @@ export default Vue.extend({
 
   methods: {
     validate() {
-      console.log('Validate form');
       if (this.form.validate()) {
         this.snackbar = true;
-        console.log('Submit form');
       }
-      console.log('In valid form');
     },
     reset() {
       this.form.reset();
