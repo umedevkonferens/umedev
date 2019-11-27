@@ -37,3 +37,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Deploy to firebase
+Make sure you have logged in to firebase (`firebase login`) the run
+1. `npm run build`
+2. `firebase deploy`
