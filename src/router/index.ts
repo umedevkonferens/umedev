@@ -4,7 +4,9 @@ import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Program from '../views/Program.vue';
 import Kidz from '../views/Kidz.vue';
-import CFP from '../views/CFP.vue';
+import cfp from '../views/cfp.vue';
+import Organisation from '../views/Organisation.vue';
+import Sponsring from '../views/Sponsring.vue';
 
 Vue.use(VueRouter);
 
@@ -32,7 +34,17 @@ const routes = [
   {
     path: '/cfp',
     name: 'cfp',
-    component: CFP,
+    component: cfp,
+  },
+  {
+    path: '/organisation',
+    name: 'organisation',
+    component: Organisation,
+  },
+  {
+    path: '/sponsra',
+    name: 'sponsra',
+    component: Sponsring,
   },
 ];
 
