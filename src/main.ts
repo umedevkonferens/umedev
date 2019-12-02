@@ -2,9 +2,9 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 import vuetify from './plugins/vuetify';
-import { rtdbPlugin } from 'vuefire'
+import { rtdbPlugin } from 'vuefire';
 
-Vue.use(rtdbPlugin)
+Vue.use(rtdbPlugin);
 
 Vue.config.productionTip = false;
 

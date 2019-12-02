@@ -18,8 +18,8 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import { db } from '../db'
-var proposals_db = db.ref('proposals')
+import { db } from '../db';
+const proposalsDb = db.ref('proposals');
 
 export default Vue.extend({
   data: () => ({
@@ -64,8 +64,8 @@ export default Vue.extend({
     submit() {
       if (this.form.validate()) {
         this.snackbar = true;
-        proposals_db.push(this.proposal)
-        this.reset()
+        proposalsDb.push(this.proposal);
+        this.reset();
       }
     },
     reset() {
