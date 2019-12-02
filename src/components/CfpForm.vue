@@ -4,8 +4,8 @@
       <v-row align="center">
         <v-col>
           <v-form ref="form" v-model="valid" lazy-validation>
-            <v-text-field v-model="proposal.title" :rules="titleRules" label="Title" required></v-text-field>
-            <v-textarea v-model="proposal.description" :rules="descriptionRules" label="Desciption" required></v-textarea>
+            <v-text-field v-model="proposal.title" :counter="100" :rules="titleRules" label="Title" required></v-text-field>
+            <v-textarea v-model="proposal.description" :counter="1000" :rules="descriptionRules" label="Desciption" required></v-textarea>
             <v-text-field v-model="proposal.name" :counter="30" :rules="nameRules" label="Name" required></v-text-field>
             <v-text-field v-model="proposal.email" :rules="emailRules" label="E-mail" required></v-text-field>
             <v-btn :disabled="!valid" color="success" class="mr-4" @click="submit">Submit</v-btn>
