@@ -38,6 +38,4 @@ export default Vue.extend({
 .umedev-header {
   background-color: #56ab2f;
 }
-.theme--light.v-btn {
-}
 </style>
