@@ -4,7 +4,7 @@ import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import Program from '../views/Program.vue';
 import Kidz from '../views/Kidz.vue';
-import cfp from '../views/cfp.vue';
+import cfp from '../views/CFP.vue';
 import Organisation from '../views/Organisation.vue';
 import Sponsring from '../views/Sponsring.vue';
 

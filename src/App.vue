@@ -9,6 +9,7 @@
       <v-btn color="grey lighten-2" text to="/">Hem</v-btn>
       <v-btn color="grey lighten-2" text to="/program">Program</v-btn>
       <v-btn color="grey lighten-2" text to="/kidz">Kidz</v-btn>
+      <v-btn color="grey lighten-2" text to="/cfp">Cfp</v-btn>
       <v-btn color="grey lighten-2" text to="/about">Om Umedev</v-btn>
     </v-app-bar>
     <v-content class="green lighten-3">
