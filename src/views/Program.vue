@@ -1,9 +1,9 @@
 <template>
   <div class="about">
-        <v-container>
+    <v-container>
       <v-row class="mb-6" justify="center">
         <v-col md="auto">
-          <h1 class="display-2 font-weight-bold mb-3">Program</h1>
+          <h1 class="display-2 mb-3">Program</h1>
         </v-col>
       </v-row>
       <v-row class="mb-6" justify="center">
