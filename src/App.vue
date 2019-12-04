@@ -6,13 +6,13 @@
         <span class="font-weight-light">DEV</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn color="" text to="/">Hem</v-btn>
-      <v-btn color="" text to="/program">Program</v-btn>
-      <v-btn color="" text to="/kidz">Kidz</v-btn>
-      <v-btn color="" text to="/cfp">Cfp</v-btn>
-      <v-btn color="" text to="/about">Om Umedev</v-btn>
+      <v-btn text to="/">Hem</v-btn>
+      <v-btn text to="/program">Program</v-btn>
+      <v-btn text to="/kidz">Kidz</v-btn>
+      <v-btn text to="/cfp">Cfp</v-btn>
+      <v-btn text to="/about">Om Umedev</v-btn>
     </v-app-bar>
-    <v-content class="">
+    <v-content class>
       <router-view></router-view>
     </v-content>
   </v-app>
