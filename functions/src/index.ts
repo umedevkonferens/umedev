@@ -49,7 +49,7 @@ exports.sendEmailConfirmation = functions.database.ref('/proposals/{proposal}').
 
   const mailOptions = {
     from: gmailEmail,
-    to: val.mail,
+    to: val.email,
     bcc: gmailEmail,
     subject: "",
     text: ""
@@ -84,7 +84,7 @@ exports.sendEmailApproval = functions.database.ref('/proposals/{proposal}').onWr
 
   const mailOptions = {
     from: gmailEmail,
-    to: val.mail,
+    to: val.email,
     bcc: gmailEmail,
     subject: "",
     text: ""
