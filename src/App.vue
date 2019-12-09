@@ -1,5 +1,5 @@
 <template>
-  <v-app class="umedev-header">
+  <v-app>
     <v-app-bar app class="umedev-header">
       <v-toolbar-title class="headline text-uppercase">
         <span>UME</span>
