@@ -3,7 +3,6 @@
     <v-container>
       <v-row class="mb-6" justify="flex-start">
         <v-col md="auto" class="content">
-          <br />
           <h1>Hjälp oss genomföra Umedev!</h1>
           <p>
             Kan ditt företag hjälpa oss att genomföra Umedev 2020? Vi har några
@@ -14,7 +13,7 @@
           </p>
           <br />
           <h2>Guldsponsor ca 15 000 kr</h2>
-          <p>Som guldsponsor så får ni:</p>
+          <p>Ni får:</p>
           <ul>
             <li>
               Särskilt omnämnande i samband med inledning och avslutning
@@ -35,7 +34,7 @@
           <br />
           <br />
           <h2>Silversponsor ca 10 000 kr</h2>
-          <p>Som silversponsor så får ni:</p>
+          <p>Ni får:</p>
           <ul>
             <li>
               Ställa upp information om att ni sponsrar i form av vepa e.dyl.
@@ -53,7 +52,7 @@
           <br />
           <br />
           <h2>Bronssponsor ca 5 000 kr</h2>
-          <p>Som bronssponsor så får ni:</p>
+          <p>Ni får:</p>
           <ul>
             <li>
               Ställa upp information om att ni sponsrar i form av vepa e.dyl.
@@ -85,5 +84,9 @@
 .content {
   max-width: 700px;
   width: 100%;
+}
+h1,
+h2 {
+  font-weight: normal;
 }
 </style>
