@@ -10,9 +10,10 @@
       <v-btn text to="/program">Program</v-btn>
       <v-btn text to="/kidz">Kidz</v-btn>
       <v-btn text to="/cfp">Cfp</v-btn>
+      <v-btn text to="/sponsra">Sponsra!</v-btn>
       <v-btn text to="/about">Om Umedev</v-btn>
     </v-app-bar>
-    <v-content class>
+    <v-content class="content">
       <router-view></router-view>
     </v-content>
   </v-app>
@@ -37,5 +38,10 @@ export default Vue.extend({
 <style scoped>
 .umedev-header {
   background-color: #56ab2f;
+}
+.content {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
 }
 </style>
