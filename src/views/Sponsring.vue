@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <v-row class="mb-6" justify="flex-start">
+      <v-row class="mb-6" justify="start">
         <v-col md="auto" class="content">
           <h1>Hjälp oss genomföra Umedev!</h1>
           <p>

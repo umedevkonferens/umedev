@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-row class="mb-6" justify="center">
+    <v-row class="mb-6" justify="start">
       <v-col md="auto">
         <h1 class="display-4 mb-3">Umedev</h1>
       </v-col>
@@ -12,7 +12,7 @@
     </v-row>
     <v-row>
       <v-col>
-        <v-card min-height="190">
+        <v-card min-height="167">
           <v-card-title>Anmälan öppnar igen under 2020!</v-card-title>
           <v-card-text>
             Konferensen hålls den 23 april 2020 i Humanisthuset, Umeå

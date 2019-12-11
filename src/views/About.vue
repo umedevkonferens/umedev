@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container>
-      <v-row class="mb-6" justify="flex-start">
+      <v-row class="mb-6" justify="start">
         <v-col md="auto" class="content">
           <h1>Syfte</h1>
           <p>
