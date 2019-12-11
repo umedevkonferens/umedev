@@ -16,6 +16,7 @@
     <v-content class="wrapper">
       <router-view></router-view>
     </v-content>
+    <Footer />
   </v-app>
 </template>
 
@@ -23,12 +24,14 @@
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
 import CfpForm from './components/CfpForm.vue';
+import Footer from './components/Footer.vue';
 
 export default Vue.extend({
   name: 'App',
   components: {
     HelloWorld,
     CfpForm,
+    Footer,
   },
   data: () => ({
     //
