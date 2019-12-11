@@ -37,11 +37,6 @@ const routes = [
     component: cfp,
   },
   {
-    path: '/organisation',
-    name: 'organisation',
-    component: Organisation,
-  },
-  {
     path: '/sponsra',
     name: 'sponsra',
     component: Sponsring,
