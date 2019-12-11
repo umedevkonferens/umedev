@@ -1,14 +1,43 @@
 <template>
-  <v-card class="mx-auto" max-width="480">
+  <v-card class="mx-auto" max-width="800">
     <v-container>
-      <v-row align="center">
+      <v-row align="start">
         <v-col>
           <v-form ref="form" v-model="valid" lazy-validation>
-            <v-text-field v-model="proposal.title" :counter="100" :rules="titleRules" label="Title" required></v-text-field>
-            <v-textarea v-model="proposal.description" :counter="1000" :rules="descriptionRules" label="Desciption" required></v-textarea>
-            <v-text-field v-model="proposal.name" :counter="30" :rules="nameRules" label="Name" required></v-text-field>
-            <v-text-field v-model="proposal.email" :rules="emailRules" label="E-mail" required></v-text-field>
-            <v-btn :disabled="!valid" color="success" class="mr-4" @click="submit">Submit</v-btn>
+            <v-text-field
+              v-model="proposal.title"
+              :counter="100"
+              :rules="titleRules"
+              label="Title"
+              required
+            ></v-text-field>
+            <v-textarea
+              v-model="proposal.description"
+              :counter="1000"
+              :rules="descriptionRules"
+              label="Desciption"
+              required
+            ></v-textarea>
+            <v-text-field
+              v-model="proposal.name"
+              :counter="30"
+              :rules="nameRules"
+              label="Name"
+              required
+            ></v-text-field>
+            <v-text-field
+              v-model="proposal.email"
+              :rules="emailRules"
+              label="E-mail"
+              required
+            ></v-text-field>
+            <v-btn
+              :disabled="!valid"
+              color="success"
+              class="mr-4"
+              @click="submit"
+              >Submit</v-btn
+            >
           </v-form>
         </v-col>
       </v-row>
@@ -30,27 +59,28 @@ export default Vue.extend({
       title: '',
       email: '',
       description: '',
-      approved: false
+      approved: false,
     },
     nameRules: [
       (v: string) => !!v || 'Name is required',
       (v: string) =>
-        (v && v.length <= 30) || 'Name must be less than 30 characters'
+        (v && v.length <= 30) || 'Name must be less than 30 characters',
     ],
     emailRules: [
       (v: string) => !!v || 'E-mail is required',
-      (v: string) => /.+@.+\..+/.test(v) || 'E-mail must be valid'
+      (v: string) => /.+@.+\..+/.test(v) || 'E-mail must be valid',
     ],
     titleRules: [
       (v: string) => !!v || 'Field is required',
-      (v: string) => (v && v.length <= 100) || 'Field must be less than 100 characters'
+      (v: string) =>
+        (v && v.length <= 100) || 'Field must be less than 100 characters',
     ],
     descriptionRules: [
       (v: string) => !!v || 'Description is required',
       (v: string) =>
         (v && v.length <= 1000) ||
-        'Description must be less than 1000 characters'
-    ]
+        'Description must be less than 1000 characters',
+    ],
   }),
   computed: {
     form(): Vue & { validate: () => boolean; reset: () => boolean } {
@@ -58,7 +88,7 @@ export default Vue.extend({
         validate: () => boolean;
         reset: () => boolean;
       };
-    }
+    },
   }, // Use it like so: this.form.validate()
   methods: {
     submit() {
@@ -73,7 +103,7 @@ export default Vue.extend({
     },
     resetValidation() {
       //    this.$refs.form.resetValidation();
-    }
-  }
+    },
+  },
 });
 </script>

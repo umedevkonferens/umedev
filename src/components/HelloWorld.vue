@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <v-row class="mb-6" justify="start">
+    <v-row class="mb-6" justify="center">
       <v-col md="auto">
-        <h1 class="display-4 mb-3">Umedev</h1>
+        <h1 class="display-4 mb-3">UmeDev</h1>
       </v-col>
     </v-row>
     <v-row class="mb-6" justify="center">
@@ -53,12 +53,11 @@
       </v-col>
       <v-col>
         <v-card min-height="190">
-          <v-card-title>Följ oss på</v-card-title>
+          <v-card-title>UmeDev Kidz</v-card-title>
           <v-card-text>
-            Få våra uppdateringar på våra sociala medier...
-            https://www.instagram.com/umedevkonferens/
-            https://twitter.com/umedevkonferens
-            https://www.facebook.com/umedevkonferens/
+            Vi är glada att meddela att vi även detta år kommer kunna erbjuda
+            UmeDev Kidz i samband med konferensen. Mer info kommer dyka upp här
+            på hemsidan inom kort.
           </v-card-text>
         </v-card>
       </v-col>
