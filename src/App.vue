@@ -10,11 +10,13 @@
       <v-btn text to="/program">Program</v-btn>
       <v-btn text to="/kidz">Kidz</v-btn>
       <v-btn text to="/cfp">Cfp</v-btn>
+      <v-btn text to="/sponsra">Sponsra!</v-btn>
       <v-btn text to="/about">Om Umedev</v-btn>
     </v-app-bar>
-    <v-content class>
+    <v-content class="wrapper">
       <router-view></router-view>
     </v-content>
+    <Footer />
   </v-app>
 </template>
 
@@ -22,12 +24,14 @@
 import Vue from 'vue';
 import HelloWorld from './components/HelloWorld.vue';
 import CfpForm from './components/CfpForm.vue';
+import Footer from './components/Footer.vue';
 
 export default Vue.extend({
   name: 'App',
   components: {
     HelloWorld,
     CfpForm,
+    Footer,
   },
   data: () => ({
     //
@@ -37,5 +41,27 @@ export default Vue.extend({
 <style scoped>
 .umedev-header {
   background-color: #56ab2f;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+</style>
+<style>
+.content {
+  max-width: 700px;
+  width: 100%;
+}
+h1,
+h2 {
+  font-weight: normal;
+}
+h1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+h2 {
+  margin-bottom: 5px;
 }
 </style>

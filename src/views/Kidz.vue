@@ -1,14 +1,12 @@
 <template>
-  <div class="about">
-    <v-container>
-      <v-row class="mb-6" justify="center">
-        <v-col md="auto">
-          <h1 class="display-2 mb-3">Umedev Kidz</h1>
-        </v-col>
-      </v-row>
-      <v-row class="mb-6" justify="center">
-        <v-col md="auto">Information om Umedev Kidz</v-col>
-      </v-row>
-    </v-container>
-  </div>
+  <v-container>
+    <v-row class="mb-6" justify="start">
+      <v-col md="auto" class="content">
+        <h1>Kidz</h1>
+        <p>
+          Mer info inom kort.
+        </p>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>

@@ -1,19 +1,16 @@
 <template>
-  <div class="cfp">
-    <v-container>
-      <v-row class="mb-6" justify="center">
-        <v-col md="auto">
-          <h1 class="display-2 mb-3">Call for proposals</h1>
-        </v-col>
-      </v-row>
-      <v-row class="mb-6" justify="center">
-        <v-col md="auto">Information om format, riktlinjer etc</v-col>
-      </v-row>
-    </v-container>
-    <cfp-form />
-  </div>
+  <v-container>
+    <v-row class="mb-6" justify="start">
+      <v-col md="auto" class="content">
+        <h1>Call for proposals</h1>
+        <p>
+          Information om format, riktlinjer etc.
+        </p>
+        <cfp-form />
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
-
 <script>
 // @ is an alias to /src
 import CfpForm from '@/components/CfpForm.vue';
