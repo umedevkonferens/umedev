@@ -1,9 +1,9 @@
 <template>
   <div>
     <HeaderWithPepper header="Program" />
-
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
+        <br />
         <h2>Program</h2>
         <p>Mer info om årets program kommer senare i vår.</p>
         <br />

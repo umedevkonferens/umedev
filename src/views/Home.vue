@@ -1,21 +1,25 @@
 <template>
   <div>
-    <HeaderWithPepper header="Umedev" sub-header="23 april 2020" />
+    <HeaderWithPepper
+      header="Umedev"
+      sub-header1="- Vår norrländska IT - konferens"
+      sub-header2="23 april 2020"
+    />
     <div class="home-content-container content">
-      <v-card min-height="167">
-        <v-card-title>Anmälan öppnar igen under 2020!</v-card-title>
-        <v-card-text>
-          Konferensen hålls den 23 april 2020 i Humanisthuset, Umeå universitet.
-          Deltagandet är kostnadsfritt! Välkommen!
-        </v-card-text>
-      </v-card>
       <v-card>
-        <v-card-title>Call for Papers öppnar i december 2019!</v-card-title>
+        <v-card-title>Call For Papers öppnar i december 2019!</v-card-title>
         <v-card-text>
           Detta är en konferens för oss - till oss själva, vi behöver lokala
           talare inom alla discipliner. Dela med dig av din framtidsspaning, ett
           misstag, en effektiv metod eller en cool teknik. Du kan välja upplägg
           mellan en 45 min föreläsning eller en 15 min blixtföreläsning.
+        </v-card-text>
+      </v-card>
+      <v-card min-height="167">
+        <v-card-title>Anmälan öppnar igen under 2020!</v-card-title>
+        <v-card-text>
+          Konferensen hålls den 23 april 2020 i Humanisthuset, Umeå universitet.
+          Deltagandet är kostnadsfritt! Välkommen!
         </v-card-text>
       </v-card>
       <v-card>

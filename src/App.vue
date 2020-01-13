@@ -59,4 +59,7 @@ h1 {
 h2 {
   margin-bottom: 5px;
 }
+.bold {
+  font-weight: bold;
+}
 </style>

@@ -8,27 +8,27 @@
               v-model="proposal.title"
               :counter="100"
               :rules="titleRules"
-              label="Title"
+              label="Titel"
               required
             ></v-text-field>
             <v-textarea
               v-model="proposal.description"
               :counter="1000"
               :rules="descriptionRules"
-              label="Desciption"
+              label="Beskrivning"
               required
             ></v-textarea>
             <v-text-field
               v-model="proposal.name"
               :counter="30"
               :rules="nameRules"
-              label="Name"
+              label="Namn"
               required
             ></v-text-field>
             <v-text-field
               v-model="proposal.email"
               :rules="emailRules"
-              label="E-mail"
+              label="E-post"
               required
             ></v-text-field>
             <v-btn
@@ -36,7 +36,7 @@
               color="success"
               class="mr-4"
               @click="submit"
-              >Submit</v-btn
+              >Skicka</v-btn
             >
           </v-form>
         </v-col>

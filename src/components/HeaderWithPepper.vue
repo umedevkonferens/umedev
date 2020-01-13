@@ -1,7 +1,8 @@
 <template>
   <div class="header-with-pepper">
     <h1>{{ header }}</h1>
-    <h2>{{ subHeader }}</h2>
+    <h2>{{ subHeader1 }}</h2>
+    <h2>{{ subHeader2 }}</h2>
   </div>
 </template>
 <script>
@@ -10,7 +11,7 @@ import CfpForm from '@/components/CfpForm.vue';
 
 export default {
   name: 'HeaderWithPepper',
-  props: ['header', 'subHeader'],
+  props: ['header', 'subHeader1', 'subHeader2'],
 };
 </script>
 
@@ -29,7 +30,7 @@ export default {
 h2 {
   font-size: 4rem;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 5%;
   color: white;
   text-shadow: black 1px 0 10px;
   display: table;

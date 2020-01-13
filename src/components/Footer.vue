@@ -1,6 +1,20 @@
 <template>
   <v-footer padless>
     <div class="footer">
+      <div class="sponsorer">
+        <h3>Tack till våra sponsorer!</h3>
+        <div class="container">
+          <div
+            class="spons-container"
+            v-for="item in sponsors"
+            v-bind:key="item.url"
+          >
+            <a target="_blank" rel="noopener noreferrer" v-bind:href="item.url">
+              <img v-bind:src="item.icon" v-bind:alt="item.alt" />
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="sociala-media">
         <h3>Följ oss på</h3>
         <div>
@@ -31,20 +45,6 @@
             href="https://www.facebook.com/umedevkonferens/"
             >Facebook
           </a>
-        </div>
-      </div>
-      <div class="sponsorer">
-        <h3>Tack till våra sponsorer!</h3>
-        <div class="container">
-          <div
-            class="spons-container"
-            v-for="item in sponsors"
-            v-bind:key="item.url"
-          >
-            <a target="_blank" rel="noopener noreferrer" v-bind:href="item.url">
-              <img v-bind:src="item.icon" v-bind:alt="item.alt" />
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -116,29 +116,25 @@ export default Vue.extend({
   width: 100%;
   color: black;
   background-color: white;
-  min-height: 250px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border-top: 4px solid #56ab2f;
+  //border-top: 4px solid #56ab2f;
 }
-@media screen and (max-width: 600px) {
-  .footer {
-    flex-direction: column;
-  }
-}
+
 .sociala-media {
-  width: 20%;
+  margin: 0 auto;
+  display: table;
+  padding-bottom: 50px;
 }
 
 h3 {
   font-size: 1.5rem;
   font-weight: normal;
   margin-bottom: 15px;
+  margin-top: 20px;
   display: inline-block;
 }
 .sponsorer {
-  width: 80%;
+  width: 100%;
+  border-bottom: 4px solid #56ab2f;
 }
 
 .sponsorer h3 {
