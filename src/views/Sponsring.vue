@@ -2,7 +2,7 @@
   <div>
     <v-container>
       <v-row class="mb-6" justify="start">
-        <v-col md="auto" class="content">
+        <v-col md="auto" class="content wrapper">
           <h1>Hjälp oss genomföra Umedev!</h1>
           <p>
             Kan ditt företag hjälpa oss att genomföra Umedev 2020? Vi har några

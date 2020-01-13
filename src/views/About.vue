@@ -2,7 +2,7 @@
   <div>
     <v-container>
       <v-row class="mb-6" justify="start">
-        <v-col md="auto" class="content">
+        <v-col md="auto" class="content wrapper">
           <h1>Syfte</h1>
           <p>
             En endags konferens för den norrländska IT-branschen. Här möts alla
