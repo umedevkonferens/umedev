@@ -130,10 +130,11 @@ export default Vue.extend({
 .sociala-media {
   width: 20%;
 }
+
 h3 {
-  font-size: 20px;
+  font-size: 1.5rem;
+  font-weight: normal;
   margin-bottom: 15px;
-  font-weight: bold;
   display: inline-block;
 }
 .sponsorer {
