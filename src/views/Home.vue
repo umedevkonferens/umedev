@@ -30,9 +30,7 @@
           kan man göra genom att ställa upp med
           <router-link :to="{ path: 'cfp' }">talare</router-link>, delta i någon
           av de
-          <router-link :to="{ path: 'organisation' }"
-            >arbetsgrupper</router-link
-          >
+          <router-link :to="{ path: 'about' }">arbetsgrupper</router-link>
           som organiserar konferensen, eller
           <router-link :to="{ path: 'sponsra' }">sponsra</router-link>.
         </v-card-text>
