@@ -11,8 +11,8 @@
             oss för en enskild lösning, mejla oss på
             <a href="mailto:info@umedev.org!">info@umedev.org!</a>
           </p>
-          <br />
-          <h2>Guldsponsor ca 15 000 kr</h2>
+          <h2>Sponsorpaket</h2>
+          <h3>Guldsponsor ca 15 000 kr</h3>
           <p>Ni får:</p>
           <ul>
             <li>
@@ -33,7 +33,7 @@
           </ul>
           <br />
           <br />
-          <h2>Silversponsor ca 10 000 kr</h2>
+          <h3>Silversponsor ca 10 000 kr</h3>
           <p>Ni får:</p>
           <ul>
             <li>
@@ -51,7 +51,7 @@
           </ul>
           <br />
           <br />
-          <h2>Bronssponsor ca 5 000 kr</h2>
+          <h3>Bronssponsor ca 5 000 kr</h3>
           <p>Ni får:</p>
           <ul>
             <li>
@@ -88,5 +88,8 @@
 h1,
 h2 {
   font-weight: normal;
+}
+h3 {
+  margin-bottom: 15px;
 }
 </style>
