@@ -1,10 +1,6 @@
 <template>
   <div>
-    <div class="main-title">
-      <h1>Umedev</h1>
-      <h2>23 april 2020</h2>
-    </div>
-
+    <HeaderWithPepper header="Umedev" sub-header="23 april 2020" />
     <div class="home-content-container content">
       <v-card min-height="167">
         <v-card-title>Anmälan öppnar igen under 2020!</v-card-title>
@@ -53,40 +49,19 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
 
-export default Vue.extend({
-  data: () => ({
-    //
-  }),
-});
+export default {
+  name: 'Home',
+  components: {
+    HeaderWithPepper,
+  },
+};
 </script>
 
 <style scoped>
 .content {
   max-width: 1024px;
-}
-.main-title {
-  width: 100%;
-  background-image: url('../assets/Umedevpepper_svartvit.jpg');
-  background-color: white;
-  min-height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  margin: 0 auto;
-}
-.main-title h1,
-h2 {
-  font-size: 4rem;
-  margin: 0 auto;
-  padding-top: 10%;
-  color: white;
-  text-shadow: black 1px 0 10px;
-  display: table;
-}
-.main-title h2 {
-  padding: 0;
-  font-size: 2.5rem;
 }
 .home-content-container {
   display: flex;

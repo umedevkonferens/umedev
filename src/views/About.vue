@@ -1,9 +1,7 @@
 <template>
   <div>
     <v-row class="mb-6" justify="start">
-      <div class="header-with-pepper">
-        <h1>Om Umedev</h1>
-      </div>
+      <HeaderWithPepper header="Om Umedev" />
       <v-col md="auto" class="content wrapper">
         <br />
         <p>
@@ -139,3 +137,18 @@
     </v-row>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue';
+import HeaderWithPepper from '../components/HeaderWithPepper.vue';
+
+export default Vue.extend({
+  name: 'About',
+  components: {
+    HeaderWithPepper,
+  },
+  data: () => ({
+    //
+  }),
+});
+</script>

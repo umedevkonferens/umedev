@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div class="header-with-pepper">
-      <h1>Sponsra!</h1>
-    </div>
+    <HeaderWithPepper header="Sponsra!" />
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <h1>Hjälp oss genomföra Umedev!</h1>
@@ -77,6 +75,17 @@
     </v-row>
   </div>
 </template>
+<script>
+import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
+
+export default {
+  name: 'Sponsring',
+  components: {
+    HeaderWithPepper,
+  },
+};
+</script>
+
 <style scoped>
 .content {
   max-width: 700px;

@@ -48,34 +48,6 @@ export default Vue.extend({
   width: 100%;
   padding: 20px;
 }
-.header-with-pepper {
-  width: 100%;
-  background-image: url('./assets/Umedevpepper_svartvit.jpg');
-  background-color: white;
-  min-height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  margin: 0 auto;
-}
-.header-with-pepper h1 {
-  font-size: 4rem;
-  margin: 0 auto;
-  padding-top: 10%;
-  color: white;
-  text-shadow: black 1px 0 10px;
-  display: table;
-}
-@media screen and (max-width: 1024px) {
-  .header-with-pepper {
-    min-height: 350px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .header-with-pepper {
-    min-height: 200px;
-  }
-}
 h1,
 h2 {
   font-weight: normal;
