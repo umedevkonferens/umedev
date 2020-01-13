@@ -58,6 +58,12 @@ export default Vue.extend({
   data: () => ({
     sponsors: [
       {
+        name: 'Intinor',
+        url: 'https://intinor.com/',
+        icon: require('../assets/Intinor.png'),
+        alt: 'Länk till Intinors hemsida',
+      },
+      {
         name: 'Omegapoint',
         url: 'https://www.omegapoint.se/',
         icon: require('../assets/OmegaPoint.png'),
