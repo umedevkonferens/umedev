@@ -10,7 +10,6 @@
             och utveckla vårt kunnande. Konferensen är kostnadsfri för
             deltagarna.
           </p>
-          <br />
           <h1>Organisation</h1>
           <p>
             För att genomföra Umedev arbetar en rad personer i olika
@@ -22,7 +21,6 @@
             också glada för punktinsatser.
           </p>
 
-          <br />
           <h2>Programkommittén</h2>
           <ul>
             <li>Sätta tema för konferens (om vi vill ha ett tema)</li>
@@ -54,7 +52,6 @@
             och program skapas samt i efterarbete efter konferensen blir
             arbetsinsatsen uppskattningsvis 4h/vecka under 2-4 veckor.
           </p>
-          <br />
           <h2>Umedev Kidz</h2>
           <p>
             I samband med konferensen hölls en minikonferens för ungdomar ca
@@ -65,7 +62,6 @@
             jobbar med UmedevKidz behöver uppskattningsvis lägga ner 2 h/vecka
             under månaden före konferensen + genomförandet under kvällen före.
           </p>
-          <br />
           <h2>Kommunikationsgruppen</h2>
           <ul>
             <li>Skapa och underhålla Umedevs webbsida</li>
@@ -97,7 +93,6 @@
             under hösten. I perioden runt konferensen blir arbetsinsatsen
             uppskattningsvis 4h/vecka under 2-4 veckor.
           </p>
-          <br />
           <h2>Sponsringsgruppen</h2>
           <ul>
             <li>
@@ -115,7 +110,6 @@
             med koncept och börja kontakta företag. Arbetsinsats är
             uppskattningsvis 1-2 h/vecka fram till konferensen.
           </p>
-          <br />
           <h2>Mat och lokalgruppen</h2>
           <ul>
             <li>Samordna och beställa fika och lunch</li>
