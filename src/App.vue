@@ -13,7 +13,7 @@
       <v-btn text to="/sponsra">Sponsra!</v-btn>
       <v-btn text to="/about">Om Umedev</v-btn>
     </v-app-bar>
-    <v-content class="wrapper">
+    <v-content>
       <router-view></router-view>
     </v-content>
     <Footer />
@@ -40,16 +40,13 @@ export default Vue.extend({
 .umedev-header {
   background-color: #56ab2f;
 }
-.wrapper {
-  margin: 0 auto;
-  max-width: 1024px;
-  width: 100%;
-}
 </style>
 <style>
 .content {
+  margin: 0 auto;
   max-width: 700px;
   width: 100%;
+  padding: 20px;
 }
 h1,
 h2 {
@@ -61,5 +58,8 @@ h1 {
 }
 h2 {
   margin-bottom: 5px;
+}
+.bold {
+  font-weight: bold;
 }
 </style>
