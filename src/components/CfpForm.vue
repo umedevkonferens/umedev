@@ -92,6 +92,7 @@
                 label="Övrig information"
               ></v-text-field>
             </fieldset>
+            <br />
 
             <v-btn
               :disabled="!valid"
@@ -103,6 +104,7 @@
           </v-form>
         </v-col>
       </v-row>
+      <br />
     </v-container>
   </v-card>
 </template>
