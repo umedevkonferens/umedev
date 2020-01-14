@@ -182,24 +182,37 @@ export default Vue.extend({
   }, // Use it like so: this.form.validate()
   methods: {
     submit() {
-      const onComplete = function(error) {
-        if (error) {
-          this.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
-        } else {
-          this.snackbarText = 'Tack för ditt bidrag!';
-        }
+      if (!navigator.onLine) {
+        this.snackbarText =
+          'Du verkar sakna intenetuppkoppling. Anslut till internet och prova igen. ';
         this.snackbar = true;
-      }.bind(this);
+        return;
+      }
+
+      const that = this;
+
+      const onComplete = (error: any) => {
+        if (error) {
+          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
+        } else {
+          that.reset();
+          that.snackbarText = 'Tack för ditt bidrag!';
+        }
+        that.snackbar = true;
+      };
 
       if (this.form.validate()) {
-        this.snackbar = true;
-        proposalsDb.push(this.proposal, onComplete);
-        this.reset();
+        try {
+          proposalsDb.push(this.proposal, onComplete);
+        } catch (e) {
+          this.snackbarText = 'Oväntat fel. Var vänlig försök igen senare.';
+          this.snackbar = true;
+        }
       }
     },
     reset() {
+      this.form.reset();
       this.proposal = JSON.parse(JSON.stringify(proposalDefaults));
-      this.$refs.form.resetValidation();
     },
     resetValidation() {
       //    this.$refs.form.resetValidation();
