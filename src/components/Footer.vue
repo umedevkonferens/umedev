@@ -116,7 +116,6 @@ export default Vue.extend({
   width: 100%;
   color: black;
   background-color: white;
-  //border-top: 4px solid #56ab2f;
 }
 
 .sociala-media {
