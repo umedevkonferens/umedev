@@ -6,15 +6,19 @@
         <span class="font-weight-light">DEV</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text to="/">Hem</v-btn>
-      <v-btn text to="/program">Program</v-btn>
-      <v-btn text to="/kidz">Kidz</v-btn>
-      <v-btn text to="/cfp">Cfp</v-btn>
-      <v-btn text to="/sponsra">Sponsra!</v-btn>
-      <v-btn text to="/about">Om Umedev</v-btn>
+      <button class="toggle-menu-btn" v-on:click="toggleMenu">
+        <v-icon class="mdi" color="black" large>mdi-menu</v-icon>
+      </button>
+      <ul v-if="largeScreen || showMenu">
+        <li v-for="item in menu" v-bind:key="item.link">
+          <v-btn text :to="item.link">{{ item.title }}</v-btn>
+        </li>
+      </ul>
     </v-app-bar>
     <v-content>
-      <router-view></router-view>
+      <div v-on:click="clickListener">
+        <router-view></router-view>
+      </div>
     </v-content>
     <Footer />
   </v-app>
@@ -31,14 +35,97 @@ export default Vue.extend({
     CfpForm,
     Footer,
   },
+  watch: {
+    $route(to: any, from: any) {
+      this.showMenu = false;
+    },
+  },
+  methods: {
+    toggleMenu(event: any) {
+      this.showMenu = !this.showMenu;
+    },
+    clickListener(event: any) {
+      this.showMenu = false;
+    },
+    getWindowWidth() {
+      this.largeScreen = window.innerWidth > 900;
+    },
+  },
+  mounted() {
+    this.$nextTick(function() {
+      window.addEventListener('resize', this.getWindowWidth);
+      this.getWindowWidth();
+    });
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.getWindowWidth);
+  },
   data: () => ({
-    //
+    showMenu: false,
+    largeScreen: window.innerWidth > 900,
+    menu: [
+      {
+        link: '/',
+        title: 'Hem',
+      },
+      {
+        link: '/program',
+        title: 'Program',
+      },
+      {
+        link: '/kidz',
+        title: 'Kidz',
+      },
+      {
+        link: '/cfp',
+        title: 'Cfp',
+      },
+      {
+        link: '/sponsra',
+        title: 'Sponsra!',
+      },
+      {
+        link: '/about',
+        title: 'Om Umedev',
+      },
+    ],
   }),
 });
 </script>
 <style scoped>
 .umedev-header {
   background-color: #56ab2f;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.toggle-menu-btn {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .toggle-menu-btn {
+    display: block;
+  }
+  .v-application ul {
+    position: absolute;
+    right: 0;
+    top: 56px;
+    flex-direction: column;
+    background-color: #56ab2f;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding: 5px 10px;
+    border-bottom: 2px solid white;
+  }
+  li:first-of-type {
+    border-top: 2px solid white;
+  }
 }
 </style>
 <style>
