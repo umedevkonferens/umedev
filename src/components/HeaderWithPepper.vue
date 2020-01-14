@@ -25,6 +25,7 @@ export default {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   margin: 0 auto;
+  padding: 16px;
 }
 .header-with-pepper h1,
 h2 {
@@ -34,6 +35,7 @@ h2 {
   color: white;
   text-shadow: black 1px 0 10px;
   display: table;
+  text-align: center;
 }
 h2 {
   padding: 0;
@@ -47,6 +49,12 @@ h2 {
 @media screen and (max-width: 600px) {
   .header-with-pepper {
     min-height: 200px;
+  }
+  .header-with-pepper h1 {
+    font-size: 2.5rem;
+  }
+  .header-with-pepper h2 {
+    font-size: 1.5rem;
   }
 }
 </style>
