@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app class="umedev-header">
+    <v-app-bar class="umedev-header">
       <v-toolbar-title class="headline text-uppercase">
         <span>UME</span>
         <span class="font-weight-light">DEV</span>
@@ -15,6 +15,7 @@
         </li>
       </ul>
     </v-app-bar>
+
     <v-content>
       <div v-on:click="clickListener">
         <router-view></router-view>
@@ -48,7 +49,7 @@ export default Vue.extend({
       this.showMenu = false;
     },
     getWindowWidth() {
-      this.largeScreen = window.innerWidth > 900;
+      this.largeScreen = window.innerWidth > 700;
     },
   },
   mounted() {
@@ -62,7 +63,7 @@ export default Vue.extend({
   },
   data: () => ({
     showMenu: false,
-    largeScreen: window.innerWidth > 900,
+    largeScreen: window.innerWidth > 700,
     menu: [
       {
         link: '/',
@@ -95,18 +96,21 @@ export default Vue.extend({
 <style scoped>
 .umedev-header {
   background-color: #56ab2f;
+  z-index: 5;
 }
 ul {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  z-index: 5;
 }
 .toggle-menu-btn {
   display: none;
+  margin-right: 5px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   .toggle-menu-btn {
     display: block;
   }
@@ -129,6 +133,9 @@ ul {
 }
 </style>
 <style>
+body {
+  overflow: hidden;
+}
 .content {
   margin: 0 auto;
   max-width: 700px;
