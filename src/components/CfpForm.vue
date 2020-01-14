@@ -111,28 +111,28 @@
 import Vue from 'vue';
 import { db } from '../db';
 const proposalsDb = db.ref('proposals');
-
+const proposalDefaults = {
+  name: '',
+  descriptionOfSpeaker: '',
+  title: '',
+  email: '',
+  target: '',
+  description: '',
+  typeOfTalk: '',
+  otherInfo: '',
+  equipment: {
+    internet: false,
+    projector: false,
+    whiteboard: false,
+    flipboard: false,
+  },
+  approved: false,
+};
 export default Vue.extend({
   data: () => ({
     valid: true,
     snackbar: false,
-    proposal: {
-      name: '',
-      descriptionOfSpeaker: '',
-      title: '',
-      email: '',
-      target: '',
-      description: '',
-      typeOfTalk: '',
-      otherInfo: '',
-      equipment: {
-        internet: false,
-        projector: false,
-        whiteboard: false,
-        flipboard: false,
-      },
-      approved: false,
-    },
+    proposal: JSON.parse(JSON.stringify(proposalDefaults)),
     nameRules: [
       (v: string) => !!v || 'Namn är obligatoriskt',
       (v: string) =>
@@ -171,8 +171,6 @@ export default Vue.extend({
   }, // Use it like so: this.form.validate()
   methods: {
     submit() {
-      console.log(this.proposal);
-      return;
       if (this.form.validate()) {
         this.snackbar = true;
         proposalsDb.push(this.proposal);
@@ -180,7 +178,8 @@ export default Vue.extend({
       }
     },
     reset() {
-      this.form.reset();
+      this.proposal = JSON.parse(JSON.stringify(proposalDefaults));
+      this.$refs.form.resetValidation();
     },
     resetValidation() {
       //    this.$refs.form.resetValidation();
