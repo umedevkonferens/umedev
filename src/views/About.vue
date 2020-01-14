@@ -1,7 +1,7 @@
 <template>
   <div>
+    <HeaderWithPepper header="Om Umedev" />
     <v-row class="mb-6" justify="start">
-      <HeaderWithPepper header="Om Umedev" />
       <v-col md="auto" class="content wrapper">
         <br />
         <p>

@@ -24,3 +24,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+.content img {
+  width: 100%;
+}
+</style>
