@@ -106,6 +106,13 @@
       </v-row>
       <br />
     </v-container>
+
+    <v-snackbar v-model="snackbar" :multi-line="multiLine" :timeout="0">
+      {{ this.snackbarText }}
+      <v-btn color="#56ab2f" @click="snackbar = false">
+        Stäng
+      </v-btn>
+    </v-snackbar>
   </v-card>
 </template>
 
@@ -133,7 +140,9 @@ const proposalDefaults = {
 export default Vue.extend({
   data: () => ({
     valid: true,
+    multiLine: true,
     snackbar: false,
+    snackbarText: '',
     proposal: JSON.parse(JSON.stringify(proposalDefaults)),
     nameRules: [
       (v: string) => !!v || 'Namn är obligatoriskt',
@@ -173,9 +182,18 @@ export default Vue.extend({
   }, // Use it like so: this.form.validate()
   methods: {
     submit() {
+      const onComplete = function(error) {
+        if (error) {
+          this.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
+        } else {
+          this.snackbarText = 'Tack för ditt bidrag!';
+        }
+        this.snackbar = true;
+      }.bind(this);
+
       if (this.form.validate()) {
         this.snackbar = true;
-        proposalsDb.push(this.proposal);
+        proposalsDb.push(this.proposal, onComplete);
         this.reset();
       }
     },
