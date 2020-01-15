@@ -61,12 +61,12 @@ exports.sendEmailConfirmation = functions.database
     // Building Email message.
     mailOptions.subject = 'Bidrag "' + val.title + '" har mottagits';
     mailOptions.text =
-      'Tack... \n \n För att du är med och bidrar till vår norrländska konferens! Det betyder oerhört mycket för oss och IT marknaden i Umeå.' +
-      '\n \n I ett första skede kommer vår programkomitté att gå igenom alla bidragen efter sista anmälningsdagen den 28 / 2.' +
+      'Tack... \nFör att du är med och bidrar till vår norrländska konferens! Det betyder oerhört mycket för oss och IT marknaden i Umeå.' +
+      '\n\nI ett första skede kommer vår programkomitté att gå igenom alla bidragen efter sista anmälningsdagen den 28 / 2.' +
       ' Efter det återkopplar de till dig angende ditt bidrag och vad som händer på konferensdagen.' +
       '\nHar du frågor kan du alltid höra av dig till info@umedev.org. Var god att då uppge följande id: "' +
       key +
-      '"\n\nVi ses i april!';
+      '".\n\nVi ses i april!';
     try {
       console.log(mailTransport);
       console.log(mailOptions);
