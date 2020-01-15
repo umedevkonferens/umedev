@@ -7,7 +7,7 @@
         <p>
           Kan ditt företag hjälpa oss att genomföra Umedev 2020? Vi har några
           färdiga paket sponsorpaket som du kan läsa om längre ner på sidan. Om
-          inget av de passar så är går det såklart bra att höra av sig till oss
+          inget av dem passar så är går det såklart bra att höra av sig till oss
           för en enskild lösning, mejla oss på
           <a href="mailto:info@umedev.org!">info@umedev.org!</a>
         </p>

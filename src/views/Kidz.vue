@@ -5,22 +5,18 @@
       <v-col md="auto" class="content wrapper">
         <br />
         <p>
-          Kvällen innan konferensen Umedev organiserar vi en kväll där barn får
-          prova på programmering. Genom att låta barn programmera så engagerar
-          vi dem att bli aktiva producenter av den nya teknologin istället för
-          passiva konsumenter.
+          Kvällen innan konferensen Umedev organiserar vi en kväll där
+          10-15-åringar får prova på programmering. Genom att låta dem
+          experimentera och programmera så engagerar vi dem att bli aktiva
+          producenter av den nya teknologin istället för passiva konsumenter.
+          Programmering handlar om samarbete och kommunikation i ett team och
+          det är också så vi kommer att arbeta under sessionerna - tillsammans.
         </p>
         <p>
-          Barn i åldrarna 10-15 år är välkomna att experimentera och lära sig
-          mer om programmering. Programmering handlar om samarbeta och
-          kommunikation i ett team och det är också så vi kommer att arbeta
-          under sessionerna - tillsammans.
-        </p>
-        <p>
-          Vi har plats för 30 flickor och 30 pojkar. Enda kravet är att ta med
-          en egen bärbar dator, vilket operativsystem som är inlagt på datorn
-          spelar ingen roll, Windows, MacOS eller någon variant av Linux - alla
-          går bra!
+          Vi har plats för 30 flickor och 30 pojkar. Det enda kravet är att ta
+          med en egen bärbar dator, vilket operativsystem som är inlagt på
+          datorn spelar ingen roll, Windows, MacOS eller någon variant av Linux
+          - alla går bra!
         </p>
         <br />
 

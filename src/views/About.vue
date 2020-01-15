@@ -5,9 +5,10 @@
       <v-col md="auto" class="content wrapper">
         <br />
         <p>
-          En endags konferens för den norrländska IT-branschen. Här möts alla
-          discipliner för att utbyta erfarenheter, nätverka och ta tillvara och
-          utveckla vårt kunnande. Konferensen är kostnadsfri för deltagarna.
+          Umedev är en endagskonferens för den norrländska IT-branschen. Här
+          möts alla discipliner för att utbyta erfarenheter, nätverka och ta
+          tillvara och utveckla vårt kunnande. Konferensen är kostnadsfri för
+          deltagarna.
         </p>
         <h1>Organisation</h1>
         <p>
@@ -54,13 +55,19 @@
         <br />
         <h2>Umedev Kidz</h2>
         <p>
-          I samband med konferensen hölls en minikonferens för ungdomar ca 10-15
-          år där de får testa programmering. Ungdomskonferensen hade i år två
-          olika workshops. Tankar finns att samtidigt som ungdomar bjuds in även
-          utbilda deras föräldrar eller ha ett spår för lärare. Planera och
-          genomföra en förkonferens för ungdomar. Gruppen som jobbar med
-          UmedevKidz behöver uppskattningsvis lägga ner 2 h/vecka under månaden
-          före konferensen + genomförandet under kvällen före.
+          I samband med konferensen hålls en minikonferens för 10-15 åringar där
+          de får testa programmering. Kidz hade i år två olika workshops. Tankar
+          finns att samtidigt som ungdomarbjuds in även utbilda deras föräldrar
+          eller ha ett spår för lärare.
+        </p>
+        <ul>
+          <li>Planera och genomföra en förkonferens för ungdomar.</li>
+        </ul>
+        <br />
+        <p>
+          Gruppen som jobbar med UmedevKidz behöver uppskattningsvis lägga ner 2
+          h/vecka under månaden före konferensen + genomförandet under kvällen
+          före.
         </p>
         <br />
         <h2>Kommunikationsgruppen</h2>
