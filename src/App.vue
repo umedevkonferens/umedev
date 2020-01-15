@@ -150,7 +150,12 @@ body {
   margin: 0 auto;
   max-width: 700px;
   width: 100%;
-  padding: 20px;
+  padding: 10px 20px;
+}
+@media screen and (max-width: 600px) {
+  .content {
+    padding: 0px 30px;
+  }
 }
 h1,
 h2 {
