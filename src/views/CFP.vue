@@ -21,6 +21,9 @@
           och korta ner beskrivningar och texter för att passa in i det tryckta
           programmet.
         </p>
+        <p>
+          Sista datum för att skicka in ditt bidrag är 23/2 - 20
+        </p>
         <p class="bold">Anmäl dig nedan!</p>
         <br />
 

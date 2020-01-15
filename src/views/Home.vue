@@ -15,6 +15,11 @@
             ett misstag, en effektiv metod eller en cool teknik. Du kan välja
             upplägg mellan en 45 min föreläsning eller en 15 min
             blixtföreläsning.
+            <br />
+            <br />
+            <p class="bold">
+              Sista datum för att skicka in ditt bidrag är 23/2 - 20
+            </p>
           </v-card-text>
         </v-card>
       </a>
