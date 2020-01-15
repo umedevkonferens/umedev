@@ -17,7 +17,7 @@
     </v-app-bar>
 
     <v-content>
-      <div v-on:click="clickListener">
+      <div v-on:click="clickListener" class="main-wrapper">
         <router-view></router-view>
       </div>
     </v-content>
@@ -97,6 +97,10 @@ export default Vue.extend({
 .umedev-header {
   background-color: #56ab2f;
   z-index: 5;
+  position: fixed;
+}
+.main-wrapper {
+  margin-top: 56px;
 }
 ul {
   list-style: none;
@@ -123,9 +127,15 @@ ul {
     margin: 0;
     padding: 0;
   }
+  ul {
+    width: 100%;
+  }
   li {
     padding: 5px 10px;
     border-bottom: 2px solid white;
+  }
+  li a {
+    width: 100%;
   }
   li:first-of-type {
     border-top: 2px solid white;
