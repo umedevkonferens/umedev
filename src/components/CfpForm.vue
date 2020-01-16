@@ -87,6 +87,11 @@
                 label="Email adress *"
                 required
               ></v-text-field>
+              <legend>Jag är ny talare på Umedev</legend>
+              <v-radio-group v-model="proposal.newSpeaker">
+                <v-radio label="Ja" value="yes"></v-radio>
+                <v-radio label="Nej" value="no"></v-radio>
+              </v-radio-group>
               <v-text-field
                 v-model="proposal.otherInfo"
                 label="Övrig information"
@@ -129,6 +134,7 @@ const proposalDefaults = {
   description: '',
   typeOfTalk: '',
   otherInfo: '',
+  newSpeaker: '',
   equipment: {
     internet: false,
     projector: false,
