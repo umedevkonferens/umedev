@@ -24,7 +24,7 @@
         </v-card>
       </a>
       <v-card min-height="167" class="a">
-        <v-card-title>Anmälan öppnar igen under 2020!</v-card-title>
+        <v-card-title>Anmälan öppnar 1 mars 2020!</v-card-title>
         <v-card-text>
           Konferensen hålls den 23 april 2020 i Humanisthuset, Umeå universitet.
           Deltagandet är kostnadsfritt! Välkommen!
