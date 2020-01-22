@@ -8,7 +8,7 @@
     <div class="home-content-container content">
       <a href="/cfp">
         <v-card>
-          <v-card-title>Call For Papers öppnar i december 2019!</v-card-title>
+          <v-card-title>Call For Papers är öppet!</v-card-title>
           <v-card-text>
             Detta är en konferens för oss - till oss själva. Vi behöver lokala
             talare inom alla discipliner. Dela med dig av din framtidsspaning,
