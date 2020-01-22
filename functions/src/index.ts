@@ -147,9 +147,9 @@ exports.sendEmailConfirmation = functions.database
     // Building Email message.
     mailOptions.subject = 'Tack för din anmälan!';
     mailOptions.text =
-      'Det här är en bekräftelse på anmälan till Umedev 2020. \n' +
+      '\nDet här är en bekräftelse på anmälan till Umedev 2020. \n' +
       'Du kan se, ändra och ta bort din bokning online här: \n\n' +
-      'https://umedev.org/' +
+      'https://umedev.org/anmalan/' +
       key +
       ' \n\n' +
       '--------------------------------------------------\n' +
@@ -162,7 +162,7 @@ exports.sendEmailConfirmation = functions.database
       'Starttid: 2020 - 04 - 23 09: 00\n' +
       'Sluttid: 2020 - 04 - 23 17: 00\n' +
       'Plats: Humanisthuset Umeå Universitet\n' +
-      '--------------------------------------------------\n' +
+      '--------------------------------------------------\n\n' +
       'Med vänliga hälsningar\n' +
       'Umedevs projektgrupp\n';
     try {
