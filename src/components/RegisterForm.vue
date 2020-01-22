@@ -1,24 +1,67 @@
 <template>
   <div>
-    <HeaderWithPepper header="Anmälan" />
+    <v-card class="mx-auto" max-width="800">
+      <v-container>
+        <v-row>
+          <v-col>
+            <v-form ref="registerForm" v-model="valid" lazy-validation>
+              <fieldset>
+                <legend class="bold">
+                  Anmälan som deltagare till Umedev 2020
+                </legend>
+                <v-text-field
+                  v-model="register.name"
+                  :rules="nameRules"
+                  label="Namn *"
+                  required
+                ></v-text-field>
+
+                <v-text-field
+                  v-model="register.email"
+                  :rules="emailRules"
+                  label="Email adress *"
+                  required
+                ></v-text-field>
+
+                <v-text-field
+                  v-model="register.company"
+                  :rules="companyRules"
+                  label="Företag *"
+                  required
+                ></v-text-field>
+
+                <v-text-field
+                  v-model="register.other"
+                  label="Specialkost"
+                ></v-text-field>
+              </fieldset>
+              <br />
+              <v-btn
+                :disabled="!valid"
+                color="success"
+                class="mr-4"
+                @click="submit"
+                >Skicka</v-btn
+              >
+            </v-form>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card>
+    <v-snackbar v-model="snackbar" :multi-line="multiLine" :timeout="0">
+      {{ this.snackbarText }}
+      <v-btn color="#56ab2f" @click="snackbar = false">
+        Stäng
+      </v-btn>
+    </v-snackbar>
     <br />
-    <div class="content">
-      <p>
-        Här kan du anmäla dig som deltagare på konferensen. Om du får förhinder
-        var snäll och avanmäl dig så att din plats kan gå till någon annan som
-        vill delta.
-      </p>
-      <br />
-      <RegisterForm />
-    </div>
+    <br />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import { db } from '../db';
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
-import RegisterForm from '@/components/RegisterForm.vue';
 
 const proposalsDb = db.ref('register');
 const registerDefault = {
@@ -28,11 +71,7 @@ const registerDefault = {
   other: '',
 };
 export default Vue.extend({
-  name: 'Register',
-  components: {
-    HeaderWithPepper,
-    RegisterForm,
-  },
+  name: 'RegisterForm',
   data: () => ({
     valid: true,
     multiLine: true,
