@@ -1,42 +1,129 @@
 <template>
   <div class="content">
     <br />
-    <h1>Ändra eller ta bort anmälan</h1>
-    <p>
-      {{ $route.params.id }}
-    </p>
+    <h1>Anmälan: {{ $route.params.id }}</h1>
     <br />
-    <RegisterForm />
-    <br />
+    <div v-if="showRegister">
+      <v-card class="mx-auto">
+        <v-container>
+          <p><span class="bold">Namn: </span> {{ anmalan.name }}</p>
+          <p><span class="bold">Email adress: </span> {{ anmalan.email }}</p>
+          <p><span class="bold">Företag: </span> {{ anmalan.company }}</p>
+          <p>
+            <span class="bold">Övrigt (specialkost): </span> {{ anmalan.other }}
+          </p>
+          <v-btn color="#C72A11" @click="deleteRegister">
+            Avboka din plats
+          </v-btn>
+        </v-container>
+      </v-card>
+      <br />
+
+      <p>
+        Vill du ändra något i din anmälan var vänlig maila oss
+        <a href="mailto:info@umedev.org!">info@umedev.org</a>
+      </p>
+    </div>
+    <div v-if="deletedRegisterSuccess">
+      <p>
+        Din plats på Umedev 2020 är nu avbokad. Vi hoppas se dig ett annat år.
+      </p>
+      <p>- Umedev</p>
+    </div>
+    <v-snackbar v-model="snackbar" :multi-line="multiLine" :timeout="0">
+      {{ this.snackbarText }}
+      <v-btn color="#56ab2f" @click="snackbar = false">
+        Stäng
+      </v-btn>
+    </v-snackbar>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
 import { db } from '../db';
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
-import RegisterForm from '@/components/RegisterForm.vue';
 
-const proposalsDb = db.ref('register');
-const registerDefault = {
-  name: '',
-  company: '',
-  email: '',
-  other: '',
-};
 export default Vue.extend({
   name: 'EditRegister',
-  components: {
-    HeaderWithPepper,
-    RegisterForm,
+  created() {
+    this.fetchData();
   },
   data: () => ({
-    editRegistry: false,
+    deletedRegisterSuccess: false,
+    showRegister: false,
+    multiLine: true,
+    snackbar: false,
+    snackbarText: '',
+    anmalan: {},
   }),
-
   methods: {
-    submit() {},
-    deleteRegister() {},
+    deleteRegister() {
+      const badConnection = this.checkInternetConnection();
+      if (badConnection) {
+        return;
+      }
+
+      const confirmDelete = window.confirm(
+        'Är du säker på att du att du vill avboka din plats? ',
+      );
+
+      if (confirmDelete) {
+        const that = this;
+        db.ref('register/' + this.$route.params.id)
+          .remove()
+          .then(() => {
+            that.deletedRegisterSuccess = true;
+            that.showRegister = false;
+          })
+          .catch(error => {
+            that.snackbarText =
+              'Något gick fel. Var vänlig försök igen senare.';
+            that.snackbar = true;
+          });
+      }
+    },
+    checkInternetConnection() {
+      if (!navigator.onLine) {
+        this.snackbarText =
+          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
+        this.snackbar = true;
+        return true;
+      }
+    },
+    fetchData() {
+      const badConnection = this.checkInternetConnection();
+      if (badConnection) {
+        return;
+      }
+      const that = this;
+      const registerDb = db.ref('register/' + this.$route.params.id);
+      registerDb.once('value').then(
+        snapshot => {
+          if (snapshot.val() !== null) {
+            that.anmalan = snapshot.val();
+            that.showRegister = true;
+          } else {
+            that.snackbarText =
+              'Anmälan med id: ' +
+              that.$route.params.id +
+              ' finns inte. Kontakta oss på Umedev för frågor.';
+            that.snackbar = true;
+          }
+        },
+        error => {
+          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
+          that.snackbar = true;
+        },
+      );
+    },
   },
 });
 </script>
+<style scoped>
+.content {
+  min-height: 80vh;
+}
+button {
+  margin: 30px 0px;
+}
+</style>
