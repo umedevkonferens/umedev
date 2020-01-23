@@ -24,18 +24,35 @@
         <a href="mailto:info@umedev.org!">info@umedev.org</a>
       </p>
     </div>
+
     <div v-if="deletedRegisterSuccess">
       <v-card class="mx-auto">
         <v-container>
-          <br />
           <p>
             Din plats på Umedev 2020 är nu avbokad. Vi hoppas se dig ett annat
             år.
           </p>
-          <p class="bold">/ Umedev</p>
+          <p>/ Umedev</p>
         </v-container>
       </v-card>
     </div>
+
+    <div v-if="noRegisterWithId">
+      <v-card class="mx-auto">
+        <v-container>
+          <p>
+            Anmälan med id
+            <span class="bold">{{ $route.params.id }}</span> finns inte.
+          </p>
+          <p>
+            Har du frågor var vänlig maila oss
+            <a href="mailto:info@umedev.org!">info@umedev.org</a>
+          </p>
+          <p>/ Umedev</p>
+        </v-container>
+      </v-card>
+    </div>
+
     <v-snackbar v-model="snackbar" :multi-line="multiLine" :timeout="0">
       {{ this.snackbarText }}
       <v-btn color="#56ab2f" @click="snackbar = false">
@@ -56,6 +73,7 @@ export default Vue.extend({
   },
   data: () => ({
     deletedRegisterSuccess: false,
+    noRegisterWithId: false,
     showRegister: false,
     multiLine: true,
     snackbar: false,
@@ -109,11 +127,7 @@ export default Vue.extend({
             that.anmalan = snapshot.val();
             that.showRegister = true;
           } else {
-            that.snackbarText =
-              'Anmälan med id: ' +
-              that.$route.params.id +
-              ' finns inte. Kontakta oss på Umedev för frågor.';
-            that.snackbar = true;
+            that.noRegisterWithId = true;
           }
         },
         error => {
