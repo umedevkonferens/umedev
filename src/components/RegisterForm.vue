@@ -63,7 +63,7 @@
 import Vue from 'vue';
 import { db } from '../db';
 
-const proposalsDb = db.ref('register');
+const registerDb = db.ref('register');
 const registerDefault = {
   name: '',
   company: '',
@@ -116,7 +116,7 @@ export default Vue.extend({
 
       if (this.form.validate()) {
         try {
-          proposalsDb.push(this.register, onComplete);
+          registerDb.push(this.register, onComplete);
         } catch (e) {
           this.snackbarText = 'Oväntat fel. Var vänlig försök igen senare.';
           this.snackbar = true;
@@ -126,9 +126,6 @@ export default Vue.extend({
     reset() {
       this.form.reset();
       this.register = JSON.parse(JSON.stringify(registerDefault));
-    },
-    resetValidation() {
-      //    this.$refs.form.resetValidation();
     },
   },
 });
