@@ -5,8 +5,8 @@ import About from '../views/About.vue';
 import Program from '../views/Program.vue';
 import Kidz from '../views/Kidz.vue';
 import cfp from '../views/CFP.vue';
-import Organisation from '../views/Organisation.vue';
 import Sponsring from '../views/Sponsring.vue';
+import PrivacyPolicy from '../views/PrivacyPolicy.vue';
 
 Vue.use(VueRouter);
 
@@ -40,6 +40,11 @@ const routes = [
     path: '/sponsra',
     name: 'sponsra',
     component: Sponsring,
+  },
+  {
+    path: '/integritetspolicy',
+    name: 'integritetspolicy',
+    component: PrivacyPolicy,
   },
 ];
 

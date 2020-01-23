@@ -46,6 +46,7 @@
             >Facebook
           </a>
         </div>
+        <h4>Läs vår <a href="/integritetspolicy">integritetspolicy </a></h4>
       </div>
     </div>
   </v-footer>
@@ -156,6 +157,17 @@ h3 {
 }
 .spons-container img {
   width: 100%;
+}
+h4 {
+  border-top: 1px solid #56ab2f;
+  padding-top: 3px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+h4 a {
+  margin-left: 0;
+  font-weight: normal;
 }
 a {
   margin-left: 10px;
