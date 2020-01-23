@@ -25,10 +25,16 @@
       </p>
     </div>
     <div v-if="deletedRegisterSuccess">
-      <p>
-        Din plats på Umedev 2020 är nu avbokad. Vi hoppas se dig ett annat år.
-      </p>
-      <p>- Umedev</p>
+      <v-card class="mx-auto">
+        <v-container>
+          <br />
+          <p>
+            Din plats på Umedev 2020 är nu avbokad. Vi hoppas se dig ett annat
+            år.
+          </p>
+          <p class="bold">/ Umedev</p>
+        </v-container>
+      </v-card>
     </div>
     <v-snackbar v-model="snackbar" :multi-line="multiLine" :timeout="0">
       {{ this.snackbarText }}
