@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <br />
-    <h1>Anmälan: {{ $route.params.id }}</h1>
+    <h1>Anmälan Umedev 2020</h1>
     <br />
     <div v-if="showRegister">
       <v-card class="mx-auto">
