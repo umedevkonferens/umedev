@@ -59,6 +59,12 @@ export default Vue.extend({
   data: () => ({
     sponsors: [
       {
+        name: '84 Codes',
+        url: 'https://www.84codes.com/',
+        icon: require('../assets/84Codes.jpg'),
+        alt: 'Länk till 84 Codes hemsida',
+      },
+      {
         name: 'Intinor',
         url: 'https://intinor.com/',
         icon: require('../assets/Intinor.png'),
@@ -69,6 +75,12 @@ export default Vue.extend({
         url: 'https://www.omegapoint.se/',
         icon: require('../assets/OmegaPoint.png'),
         alt: 'Länk till Omgeapoints hemsida',
+      },
+      {
+        name: 'One Group',
+        url: 'https://one-group.se/',
+        icon: require('../assets/OneGroup.png'),
+        alt: 'Länk till One Groups hemsida',
       },
       {
         name: 'Pure IT',
