@@ -18,7 +18,7 @@
             <br />
             <br />
             <p class="bold">
-              Sista datum för att skicka in ditt bidrag är 23/2 - 20
+              Sista datum för att skicka in ditt bidrag är 23/3 - 20
             </p>
           </v-card-text>
         </v-card>
