@@ -65,6 +65,12 @@ export default Vue.extend({
         alt: 'Länk till 84 Codes hemsida',
       },
       {
+        name: 'Coeo',
+        url: 'https://coeo.events/se',
+        icon: require('../assets/coeo-events.svg'),
+        alt: 'Länk till 84 Codes hemsida',
+      },
+      {
         name: 'Intinor',
         url: 'https://intinor.com/',
         icon: require('../assets/Intinor.png'),
