@@ -80,6 +80,10 @@
             Information om bidraget du skickar in
           </li>
           <li>Övrig info du som uppgiftslämnare väljer att ge oss</li>
+          <li>
+            Om du godkänner att bli filmad under din presentation (videon är
+            endast tillgänglig för Umedevs besökare och under en begränsad tid)
+          </li>
         </ul>
         <br />
         <p>
@@ -103,6 +107,7 @@
             specialkost
           </li>
         </ul>
+
         <br />
         <h2 id="5">
           5. Samtycke till mejlutskick, direktmarknadsföring och fortsatt
