@@ -99,6 +99,27 @@
             </fieldset>
             <br />
 
+            <fieldset>
+              <legend class="video-legend">Livestreaming under Umedev</legend>
+              <p class="video-info">
+                Under 2020 satsar Umedev på att förbättra tillgängligheten och
+                konferensupplevelsen digitalt. Som en del i detta vill vi
+                tillsammans med våra sponsorer Intinor och Coeo filma så många
+                talks som möjligt för att kunna erbjuda deltagarna att se dem de
+                missar i efterhand.
+                <br />
+                Videorna kommer endast vara tillgängliga för Umedevs besökare
+                och tas bort en vecka efter konferensen.
+              </p>
+              <v-row justify="start">
+                <v-checkbox
+                  class="mx-2"
+                  v-model="proposal.approvedBeingFilmed"
+                  label="Jag godkänner att bli filmad"
+                ></v-checkbox>
+              </v-row>
+            </fieldset>
+
             <v-btn
               :disabled="!valid"
               color="success"
@@ -141,6 +162,7 @@ const proposalDefaults = {
     whiteboard: false,
     flipboard: false,
   },
+  approvedBeingFilmed: true,
   approved: false,
 };
 export default Vue.extend({
@@ -232,6 +254,13 @@ fieldset {
 }
 legend {
   padding-top: 10px;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.video-legend {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.video-info {
   color: rgba(0, 0, 0, 0.6) !important;
 }
 </style>
