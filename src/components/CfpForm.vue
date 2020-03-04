@@ -212,7 +212,7 @@ export default Vue.extend({
     submit() {
       if (!navigator.onLine) {
         this.snackbarText =
-          'Du verkar sakna intenetuppkoppling. Anslut till internet och prova igen. ';
+          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
         this.snackbar = true;
         return;
       }

@@ -122,3 +122,56 @@ exports.sendEmailApproval = functions.database
 
     return null;
   });
+
+// Sends an email confirmation when a user register to Umedev.
+exports.sendEmailConfirmationForRegister = functions.database
+  .ref('/register/{register}')
+  .onCreate(async (change: any, context: any) => {
+    console.log(context.params.proposal);
+    console.log(change);
+
+    const val = change.val();
+    const key = change.key;
+
+    console.log(val);
+    console.log(key);
+
+    const mailOptions = {
+      from: gmailEmail,
+      to: val.email,
+      bcc: gmailEmail,
+      subject: '',
+      text: '',
+    };
+
+    // Building Email message.
+    mailOptions.subject = 'Tack för din anmälan!';
+    mailOptions.text =
+      '\nDet här är en bekräftelse på anmälan till Umedev 2020. \n' +
+      'Du kan se, ändra och ta bort din bokning online här: \n\n' +
+      'https://umedev.org/anmalan/' +
+      key +
+      ' \n\n' +
+      '--------------------------------------------------\n' +
+      'Bokningsnummer: ' +
+      key +
+      '\n' +
+      'Event: Umedev 23 april 2020\n' +
+      'Arrangör: Umedev\n' +
+      'Kontakta arrangören: info@umedev.org\n' +
+      'Starttid: 2020 - 04 - 23 09: 00\n' +
+      'Sluttid: 2020 - 04 - 23 17: 00\n' +
+      'Plats: Humanisthuset Umeå Universitet\n' +
+      '--------------------------------------------------\n\n' +
+      'Med vänliga hälsningar\n' +
+      'Umedevs projektgrupp\n';
+    try {
+      console.log(mailTransport);
+      console.log(mailOptions);
+      await mailTransport.sendMail(mailOptions);
+      console.log(`New register confirmation email sent to:`, val.mail);
+    } catch (error) {
+      console.error('There was an error while sending the email:', error);
+    }
+    return null;
+  });

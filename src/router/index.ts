@@ -7,6 +7,8 @@ import Kidz from '../views/Kidz.vue';
 import cfp from '../views/CFP.vue';
 import Sponsring from '../views/Sponsring.vue';
 import PrivacyPolicy from '../views/PrivacyPolicy.vue';
+import Register from '../views/Register.vue';
+import EditRegister from '../views/EditRegister.vue';
 
 Vue.use(VueRouter);
 
@@ -46,6 +48,12 @@ const routes = [
     name: 'integritetspolicy',
     component: PrivacyPolicy,
   },
+  {
+    path: '/anmalan',
+    name: 'anmalan',
+    component: Register,
+  },
+  { path: '/anmalan/:id', name: 'edit-anmalan', component: EditRegister },
 ];
 
 const router = new VueRouter({
