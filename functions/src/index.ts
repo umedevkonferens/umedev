@@ -148,7 +148,7 @@ exports.sendEmailConfirmationForRegister = functions.database
     mailOptions.subject = 'Tack för din anmälan!';
     mailOptions.text =
       '\nDet här är en bekräftelse på anmälan till Umedev 2020. \n' +
-      'Du kan se, ändra och ta bort din bokning online här: \n\n' +
+      'Du kan se och ta bort din bokning online här: \n\n' +
       'https://umedev.org/anmalan/' +
       key +
       ' \n\n' +
