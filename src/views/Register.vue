@@ -3,10 +3,19 @@
     <HeaderWithPepper header="Anmälan" />
     <br />
     <div class="content">
+      <p class="bold">Nytt för i år; följ konferensen via livesändning</p>
       <p>
-        Här kan du anmäla dig som deltagare på konferensen. Om du får förhinder
-        var snäll och avanmäl dig så att din plats kan gå till någon annan som
-        vill delta.
+        Tack vare Umedevs samarbetspartners så erbjuder vi i år möjligheten att
+        delta på distans. Du kan då följa eventet via våra livesändningar.
+        <br />Länk till video-feeden kommer mailas till dig i samband med
+        eventstart.
+      </p>
+      <p class="bold">
+        Här nedan anmäler du dig som deltagare/distans-deltagare
+      </p>
+      <p>
+        Om du får förhinder var snäll och avanmäl dig så att din plats kan gå
+        till någon annan som vill delta.
       </p>
       <br />
       <RegisterForm />

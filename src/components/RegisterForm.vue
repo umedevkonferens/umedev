@@ -9,6 +9,7 @@
                 <legend class="bold">
                   Anmälan som deltagare till Umedev 2020
                 </legend>
+
                 <v-text-field
                   v-model="register.name"
                   :rules="nameRules"
@@ -30,12 +31,28 @@
                   required
                 ></v-text-field>
 
+                <v-checkbox
+                  class="mx-2"
+                  v-model="register.remote"
+                  label="Jag deltar på distans"
+                ></v-checkbox>
+
                 <v-text-field
+                  v-if="!register.remote"
                   v-model="register.other"
                   label="Specialkost"
                 ></v-text-field>
+
+                <v-text-field
+                  v-if="register.remote"
+                  v-model="register.remoteCity"
+                  label="Vart deltar du ifrån?"
+                ></v-text-field>
               </fieldset>
               <br />
+
+              <br />
+
               <v-btn
                 :disabled="!valid"
                 color="success"
@@ -69,6 +86,8 @@ const registerDefault = {
   company: '',
   email: '',
   other: '',
+  remote: false,
+  remoteCity: '',
 };
 export default Vue.extend({
   name: 'RegisterForm',
