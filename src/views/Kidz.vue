@@ -157,7 +157,9 @@
             </div>
           </div>
         </div>
-        <div id="kidz-anmalan"></div>
+        <div id="kidz-anmalan">
+          <RegisterKidz />
+        </div>
       </v-col>
     </v-row>
   </div>
@@ -165,11 +167,13 @@
 
 <script>
 import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
+import RegisterKidz from '@/components/RegisterKidz.vue';
 
 export default {
   name: 'Kidz',
   components: {
     HeaderWithPepper,
+    RegisterKidz,
   },
 };
 </script>
