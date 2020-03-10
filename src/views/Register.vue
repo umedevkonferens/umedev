@@ -3,20 +3,20 @@
     <HeaderWithPepper header="Anmälan" />
     <br />
     <div class="content">
-      <p class="bold">Nytt för i år; följ konferensen via livesändning</p>
+      <p class="bold">Anmälan konferens</p>
       <p>
-        Tack vare Umedevs samarbetspartners så erbjuder vi i år möjligheten att
-        delta på distans. Du kan då följa eventet via våra livesändningar.
-        <br />Länk till video-feeden kommer mailas till dig i samband med
-        eventstart.
-      </p>
-      <p class="bold">
-        Här nedan anmäler du dig som deltagare/distans-deltagare
-      </p>
-      <p>
+        Här görs anmälan till konferensen i Humanisthuset på Umeå Universitet.
         Om du får förhinder var snäll och avanmäl dig så att din plats kan gå
         till någon annan som vill delta.
       </p>
+      <p class="bold">Anmälan livesänd konferens</p>
+      <p>
+        I år kan du anmäla dig till konferensen och se den live via länk om du
+        inte har möjlighet att vara på plats. Anmälan sker i samma formulär,
+        klicka i "Jag deltar på distans" så skickas det ut en länk samma morgon
+        som konferens startar.
+      </p>
+      <p>Välkomna!</p>
       <br />
       <RegisterForm />
     </div>
