@@ -42,7 +42,7 @@
           <h3>Scratch</h3>
           <img src="../assets/scratch.png" aria-hidden="true" />
           <p>
-            Den här sessionen vänder sig till dig om har gjort en del grejer i
+            Den här sessionen vänder sig till dig som har gjort en del grejer i
             <a
               href="https://scratch.mit.edu/"
               target="_blank"
@@ -63,7 +63,7 @@
         </div>
 
         <div class="kids-workshop">
-          <h3>Micro-bit</h3>
+          <h3>Micro:bit</h3>
           <div class="flex">
             <img src="../assets/Microbit.jpg" aria-hidden="true" />
             <div>
@@ -83,10 +83,12 @@
                 vi med lite elektronik som du kan använda för att bygga ett
                 tjuvalarm, testa hur snabb dina reaktioner är o.s.v.
                 <br />För att skriva programmen så används ett så kallat
-                "block-språk" som påminner mycket om Scratch. <br />På denna
-                session får du alltså chansen att skriva program för att styra
-                en dator med sensorer och styra olika typer av elektroniska
-                komponenter.
+                "block-språk" som påminner mycket om Scratch.
+              </p>
+              <p>
+                På denna session får du alltså chansen att skriva program för
+                att styra en dator med sensorer och styra olika typer av
+                elektroniska komponenter.
               </p>
             </div>
           </div>

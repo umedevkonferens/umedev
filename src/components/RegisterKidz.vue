@@ -113,7 +113,7 @@ export default Vue.extend({
     snackbarText: '',
     workshops: [
       'Scratch',
-      'Microbit',
+      'Micro:bit',
       'Designworkshop',
       'CodeCombat',
       'Kodstuga med Kattis',
@@ -149,7 +149,6 @@ export default Vue.extend({
     },
 
     submit() {
-      console.log(this.register);
       if (!navigator.onLine) {
         this.snackbarText =
           'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
