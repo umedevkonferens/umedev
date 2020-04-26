@@ -3,7 +3,7 @@
     <HeaderWithPepper
       header="Umedev"
       sub-header1="- Vår norrländska IT - konferens"
-      sub-header2="23 april 2020"
+      sub-header2="27 maj 2020"
     />
     <div class="home-content-container content">
       <div class="a">
