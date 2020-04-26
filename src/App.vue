@@ -77,14 +77,14 @@ export default Vue.extend({
         link: '/program',
         title: 'Program',
       },
-      {
-        link: '/kidz',
-        title: 'Kidz',
-      },
-      {
-        link: '/cfp',
-        title: 'Cfp',
-      },
+      // {
+      //   link: '/kidz',
+      //   title: 'Kidz',
+      // },
+      // {
+      //   link: '/cfp',
+      //   title: 'Cfp',
+      // },
       {
         link: '/sponsra',
         title: 'Sponsra!',

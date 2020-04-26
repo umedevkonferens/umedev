@@ -6,7 +6,34 @@
       sub-header2="23 april 2020"
     />
     <div class="home-content-container content">
-      <a href="/cfp">
+      <div class="a">
+        <v-card min-height="167">
+          <v-card-title>Umedev konferens uppskjuten!</v-card-title>
+          <!-- <div class="image-container">
+            <img src="../assets/postponed.png" alt="Bild av texten postponed" />
+          </div> -->
+          <v-card-text>
+            Planeringsgruppen har i veckan beslutat att ställa in Umedev. Det
+            känns väldigt tråkigt, men det är det enda beslut som går att ta vid
+            de här omständigheterna.
+            <br /><br />
+            Om läget ser annorlunda ut i höst så hoppas vi kunna genomföra
+            Umedev då istället.
+            <br /><br />
+            Tack alla ni som skickat in bidrag, vi hoppas att ni vill vara med
+            oss vid ett senare tillfälle. <br /><br /><span class="bold"
+              >För att åtminstone kunna ses virtuellt så undersöker vi
+              möjligheten att hålla en eller ett par föreläsningar online den 23
+              april.</span
+            >
+            Håll utkik efter det! <br /><br />
+            <br />Vi ses online!
+            <br />
+            <br />
+          </v-card-text>
+        </v-card>
+      </div>
+      <!-- <a href="/cfp">
         <v-card>
           <v-card-title>Call For Papers är öppet!</v-card-title>
           <v-card-text>
@@ -60,7 +87,7 @@
             på hemsidan inom kort.
           </v-card-text>
         </v-card>
-      </a>
+      </a> -->
     </div>
 
     <br />
@@ -91,6 +118,13 @@ export default {
   justify-content: flex-start;
   width: 100%;
   margin-top: 30px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+img {
+  max-width: 80%;
 }
 
 a,

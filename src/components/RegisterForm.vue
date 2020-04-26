@@ -7,7 +7,7 @@
             <v-form ref="registerForm" v-model="valid" lazy-validation>
               <fieldset>
                 <legend class="bold">
-                  Anmälan som deltagare till Umedev 2020
+                  Anmälan till Umedev 2020
                 </legend>
 
                 <v-text-field
@@ -30,7 +30,7 @@
                   label="Företag *"
                   required
                 ></v-text-field>
-
+                <!-- 
                 <v-checkbox
                   class="mx-2"
                   v-model="register.remote"
@@ -47,7 +47,7 @@
                   v-if="register.remote"
                   v-model="register.remoteCity"
                   label="Vart deltar du ifrån?"
-                ></v-text-field>
+                ></v-text-field> -->
               </fieldset>
               <br />
 
@@ -80,7 +80,7 @@
 import Vue from 'vue';
 import { db } from '../db';
 
-const registerDb = db.ref('register');
+const registerDb = db.ref('register-online');
 const registerDefault = {
   name: '',
   company: '',
