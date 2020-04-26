@@ -3,20 +3,20 @@
     <HeaderWithPepper header="Anmälan" />
     <br />
     <div class="content">
-      <p class="bold">Anmälan konferens</p>
-      <p>
+      <!-- <p class="bold">Anmälan</p> -->
+      <!-- <p>
         Här görs anmälan till konferensen i Humanisthuset på Umeå Universitet.
         Om du får förhinder var snäll och avanmäl dig så att din plats kan gå
         till någon annan som vill delta.
-      </p>
-      <p class="bold">Anmälan livesänd konferens</p>
+      </p> -->
+      <!-- <p class="bold">Anmälan livesänd konferens</p>
       <p>
         I år kan du anmäla dig till konferensen och se den live via länk om du
         inte har möjlighet att vara på plats. Anmälan sker i samma formulär,
         klicka i "Jag deltar på distans" så skickas det ut en länk samma morgon
         som konferens startar.
-      </p>
-      <p>Välkomna!</p>
+      </p> -->
+      <!-- <p>Välkomna!</p> -->
       <br />
       <RegisterForm />
     </div>
