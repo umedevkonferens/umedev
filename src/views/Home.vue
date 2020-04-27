@@ -3,32 +3,43 @@
     <HeaderWithPepper
       header="Umedev"
       sub-header1="- Vår norrländska IT - konferens"
-      sub-header2="27 maj 2020"
+      sub-header2=""
     />
     <div class="home-content-container content">
       <div class="a">
         <v-card min-height="167">
-          <v-card-title>Umedev konferens uppskjuten!</v-card-title>
+          <v-card-title>Umedev sessions 27 maj 2020!</v-card-title>
           <!-- <div class="image-container">
             <img src="../assets/postponed.png" alt="Bild av texten postponed" />
           </div> -->
           <v-card-text>
-            Planeringsgruppen har i veckan beslutat att ställa in Umedev. Det
-            känns väldigt tråkigt, men det är det enda beslut som går att ta vid
-            de här omständigheterna.
-            <br /><br />
-            Om läget ser annorlunda ut i höst så hoppas vi kunna genomföra
-            Umedev då istället.
-            <br /><br />
-            Tack alla ni som skickat in bidrag, vi hoppas att ni vill vara med
-            oss vid ett senare tillfälle. <br /><br /><span class="bold"
-              >För att åtminstone kunna ses virtuellt så undersöker vi
-              möjligheten att hålla en eller ett par föreläsningar online den 23
-              april.</span
-            >
-            Håll utkik efter det! <br /><br />
-            <br />Vi ses online!
+            För att kunna träffas i någon form har vi tagit fram en digital
+            minikonferens, Umedev sessions, som vi genomför över lunchen den 27
+            maj. Även om den är kort så har vi både key-note och två spår, så se
+            till att anmäla dig!
             <br />
+            <br />
+            <a href="/anmalan">Anmäl dig här!</a>
+            <br />
+            <a href="/program">Programmet finns här.</a>
+            <br /><br />
+            <h3>Inloggning i Zoom</h3>
+            <p>
+              Vi använder
+              <a
+                href="https://umu.zoom.us/j/63278091017?pwd=di9sc1djb2VtLzJWZWgwRzVFN0kxQT09"
+                target="_blank"
+                noopener
+                noreferal
+                >Umeå universitets Zoom, rummet Umedev</a
+              >
+
+              För att komma in i mötet krävs ett lösenord som du får när du
+              anmäler dig. Testa gärna att du kan komma in innan mötet, så du
+              vet att tekniken funkar. Har du frågor? Hör av dig till
+              <a href="mailto:info@umedev.se"></a>
+            </p>
+            Välkommen!
             <br />
           </v-card-text>
         </v-card>

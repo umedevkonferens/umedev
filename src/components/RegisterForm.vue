@@ -7,7 +7,9 @@
             <v-form ref="registerForm" v-model="valid" lazy-validation>
               <fieldset>
                 <legend class="bold">
-                  Anmälan till digitala Umedev 27 maj 2020
+                  Anmälan till Umedev sessions 27 maj 2020
+                  <br />
+                  Tid: kl 12.00 - 13.30
                 </legend>
 
                 <v-text-field
