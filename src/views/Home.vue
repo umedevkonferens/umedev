@@ -37,7 +37,7 @@
               För att komma in i mötet krävs ett lösenord som du får när du
               anmäler dig. Testa gärna att du kan komma in innan mötet, så du
               vet att tekniken funkar. Har du frågor? Hör av dig till
-              <a href="mailto:info@umedev.se"></a>
+              <a href="mailto:info@umedev.se">info@umedev.se</a>
             </p>
             Välkommen!
             <br />
