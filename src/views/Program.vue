@@ -133,7 +133,7 @@
             </div>
             <span class="content program">
               <span class="program-description"
-                >Kort avslutning där vi sammanfattar vår första Umedev session.
+                >Kort avslutning där vi sammanfattar vår första Umedev sessions.
               </span>
               <span class="speaker">
                 Mattias Sällström, Umedev
