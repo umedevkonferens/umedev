@@ -75,7 +75,7 @@
               </div>
               <div class="row">
                 <span class="time">12.30 - 12.50</span>
-                <h4>TBD</h4>
+                <h4>To Be Decided (TBD)</h4>
                 <span class="content">
                   <p class="program-description"></p>
                   <span class="speaker"> </span>
