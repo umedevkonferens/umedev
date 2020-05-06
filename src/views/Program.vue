@@ -4,7 +4,7 @@
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <br />
-        <h2>Program Umedev session 27 maj - 11.30 - 13.00</h2>
+        <h2>Program Umedev sessions 27 maj - 11.30 - 13.00</h2>
         <div class="program-container">
           <div class="row">
             <div class="program-heading">
@@ -30,7 +30,7 @@
 
             <span class="content">
               <p class="program-description">
-                Utbredningen av covid-19 pandemin här inneburit utmaningar och
+                Utbredningen av covid-19 pandemin har inneburit utmaningar och
                 behov av snabba förändringar för många branscher. Omställning är
                 idag ett dagsaktuellt begrepp. <br />Förändring är samtidigt
                 nära besläktat med design och utveckling och i vår bransch måste
