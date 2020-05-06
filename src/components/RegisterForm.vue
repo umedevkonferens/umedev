@@ -9,7 +9,7 @@
                 <legend class="bold">
                   Anmälan till Umedev sessions 27 maj 2020
                   <br />
-                  Tid: kl 12.00 - 13.30
+                  Tid: kl 11.30 - 13.00
                 </legend>
 
                 <v-text-field
