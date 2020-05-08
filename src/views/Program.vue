@@ -49,7 +49,7 @@
                 förändras.
               </p>
               <span class="speaker">
-                Mikael Wiberg, Professor i Informatik, Umeå universitet
+                Mikael Wiberg, Professor i Informatik, Umeå Universitet
               </span>
             </span>
           </div>
@@ -75,10 +75,27 @@
               </div>
               <div class="row">
                 <span class="time">12.30 - 12.50</span>
-                <h4>To Be Decided (TBD)</h4>
+                <h4>Specification by example - frontend</h4>
                 <span class="content">
-                  <p class="program-description"></p>
-                  <span class="speaker"> </span>
+                  <p class="program-description">
+                    Att använda många exempel för att beskriva ett tänkt
+                    beteende är ofta lättare än att förklara den generella
+                    principen. Det blir särskilt uppenbart vid utveckling av
+                    automatiska tester.
+                    <br />Det här passet lajv-refaktoriserar svårtillgänglig
+                    testkod till något som både går snabbare att exekvera, är
+                    lättare att förstå och enkelt att lägga till fler exempel
+                    till.
+                    <br />
+                    <br />
+                    Om du eller ditt team kommer på er själva att någon gång
+                    säga "vi skulle behöva mer tester men det är för jobbigt att
+                    skriva fler" eller "nu har jag en fungerande implementation
+                    men vet inte hur jag ska testa den" är detta passet för er!
+                  </p>
+                  <span class="speaker"
+                    >Lars-Henrik Snow, Umeå Universitet
+                  </span>
                 </span>
               </div>
             </div>
@@ -99,7 +116,7 @@
               </div>
               <div class="row">
                 <span class="time">12.30 - 12.50</span>
-                <h4>En politisk överenskommelse i en skattefråga</h4>
+                <h4>När politiken styr utvecklingen</h4>
                 <span class="content">
                   <p class="program-description">
                     En politisk överenskommelse i en skattefråga som kan
