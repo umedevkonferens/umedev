@@ -8,39 +8,68 @@
     <div class="home-content-container content">
       <div class="a">
         <v-card min-height="167">
-          <v-card-title>Umedev sessions 27 maj 2020!</v-card-title>
-          <!-- <div class="image-container">
-            <img src="../assets/postponed.png" alt="Bild av texten postponed" />
-          </div> -->
+          <v-card-title
+            >Information till alla anmälda deltagare av Umedev
+            session!</v-card-title
+          >
           <v-card-text>
-            För att kunna träffas i någon form har vi tagit fram en digital
-            minikonferens, Umedev sessions, som vi genomför över lunchen den 27
-            maj. Även om den är kort så har vi både key-note och två spår, så se
-            till att anmäla dig!
+            Vi har skickat ut ett informations mail som kan ha hamnat i er
+            skräppost.
             <br />
             <br />
-            <a href="/anmalan">Anmäl dig här!</a>
+            Här är länkarna till dom olika möterummen, password finns i mailet.
             <br />
-            <a href="/program">Programmet finns här.</a>
-            <br /><br />
-            <h3>Inloggning i Zoom</h3>
-            <p>
-              Vi använder
-              <a
-                href="https://umu.zoom.us/j/63278091017?pwd=di9sc1djb2VtLzJWZWgwRzVFN0kxQT09"
-                target="_blank"
-                noopener
-                noreferal
-                >Umeå universitets Zoom, rummet Umedev</a
-              >
+            <br />
 
-              För att komma in i mötet krävs ett lösenord som du får när du
-              anmäler dig. Testa gärna att du kan komma in innan mötet, så du
-              vet att tekniken funkar. Har du frågor? Hör av dig till
-              <a href="mailto:info@umedev.se">info@umedev.se</a>
-            </p>
-            Välkommen!
+            <h3>Programmet:</h3>
+            <h4>11.30 - 13.00 Inledning, keynote och avslutning</h4>
+            <span class="bold">Rum:</span>
+            <a
+              target="_blank"
+              noreferer
+              noopener
+              href="https://umu.zoom.us/j/63278091017"
+              >https://umu.zoom.us/j/63278091017
+            </a>
             <br />
+            <h4>12.00 - 12.50 Spår 1</h4>
+            <span class="bold">Rum:</span>
+            <a
+              target="_blank"
+              noreferer
+              noopener
+              href="https://umu.zoom.us/j/68387253514"
+            >
+              https://umu.zoom.us/j/68387253514
+            </a>
+            <p class="speaker">
+              Microservices och meddelandeköer, Lovisa Johansson, 84Codes
+            </p>
+            <p class="speaker">
+              Specification by example - frontend, Lars-Henrik Snow, Umeå
+              Universitet
+            </p>
+            <h4>12.00 - 12.50 Spår 2</h4>
+            <span class="bold">Rum:</span>
+            <a
+              target="_blank"
+              noreferer
+              noopener
+              href="https://umu.zoom.us/j/61998001836"
+            >
+              https://umu.zoom.us/j/61998001836
+            </a>
+            <p class="speaker">
+              Produktivitetstips för team, Christina Skaskiw, Acino
+            </p>
+            <p class="speaker">
+              När politiken styr utvecklingen, Roger Nilsson, Skatteverket
+            </p>
+            <br />
+            <p>
+              Hör av er på
+              <a href="mailto:info@umedev.org">info@umedev.org </a> vid frågor
+            </p>
           </v-card-text>
         </v-card>
       </div>
@@ -137,8 +166,16 @@ export default {
 img {
   max-width: 80%;
 }
-
-a,
+.speaker {
+  margin: 10px 0;
+  margin-left: 10px;
+}
+h4 {
+  margin-top: 30px;
+}
+h4:first-of-type {
+  margin-top: 20px;
+}
 .a {
   width: 45%;
   text-decoration: none;
