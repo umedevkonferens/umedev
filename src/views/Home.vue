@@ -23,7 +23,7 @@
 
             <h3>Programmet:</h3>
             <h4>11.30 - 13.00 Inledning, keynote och avslutning</h4>
-            <span class="bold">Rum:</span>
+            <span class="bold">Rum: </span>
             <a
               target="_blank"
               noreferer
@@ -33,7 +33,7 @@
             </a>
             <br />
             <h4>12.00 - 12.50 Spår 1</h4>
-            <span class="bold">Rum:</span>
+            <span class="bold">Rum: </span>
             <a
               target="_blank"
               noreferer
@@ -50,7 +50,7 @@
               Universitet
             </p>
             <h4>12.00 - 12.50 Spår 2</h4>
-            <span class="bold">Rum:</span>
+            <span class="bold">Rum: </span>
             <a
               target="_blank"
               noreferer
