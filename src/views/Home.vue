@@ -17,7 +17,7 @@
             skräppost.
             <br />
             <br />
-            Här är länkarna till dom olika möterummen, password finns i mailet.
+            Här är länkarna till dom olika möterummen.
             <br />
             <br />
 
