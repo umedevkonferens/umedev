@@ -9,67 +9,23 @@
       <div class="a">
         <v-card min-height="167">
           <v-card-title
-            >Information till alla anmälda deltagare av Umedev
-            session!</v-card-title
+            >Tusen tack till alla ni som deltog på Umedev
+            sessions!</v-card-title
           >
           <v-card-text>
-            Vi har skickat ut ett informations mail som kan ha hamnat i er
-            skräppost.
+            ... och ett extra tack till dagens talare:
             <br />
             <br />
-            Här är länkarna till dom olika möterummen.
+            <ul>
+              <li>Mikael Wiberg</li>
+              <li>Lovisa Johansson</li>
+              <li>Lars-Henrik Snow</li>
+              <li>Christina Skaskiw</li>
+              <li>Roger Nilsson</li>
+            </ul>
             <br />
+            <span class="bold">Vi ses snart igen! /Umedev</span>
             <br />
-
-            <h3>Programmet:</h3>
-            <h4>11.30 - 13.00 Inledning, keynote och avslutning</h4>
-            <span class="bold">Rum: </span>
-            <a
-              target="_blank"
-              noreferer
-              noopener
-              href="https://umu.zoom.us/j/66622138846?pwd=NXkzYndqNVNpbVBrQkpuS3BOcHluUT09"
-              >https://umu.zoom.us/j/66622138846?pwd=NXkzYndqNVNpbVBrQkpuS3BOcHluUT09
-            </a>
-            <br />
-            <h4>12.00 - 12.50 Spår 1</h4>
-            <span class="bold">Rum: </span>
-            <a
-              target="_blank"
-              noreferer
-              noopener
-              href="https://umu.zoom.us/j/68387253514?pwd=WE4yeENoZ0t2WFV2TEt3am5Xb1VPUT09"
-            >
-              https://umu.zoom.us/j/68387253514?pwd=WE4yeENoZ0t2WFV2TEt3am5Xb1VPUT09
-            </a>
-            <p class="speaker">
-              Microservices och meddelandeköer, Lovisa Johansson, 84Codes
-            </p>
-            <p class="speaker">
-              Specification by example - frontend, Lars-Henrik Snow, Umeå
-              Universitet
-            </p>
-            <h4>12.00 - 12.50 Spår 2</h4>
-            <span class="bold">Rum: </span>
-            <a
-              target="_blank"
-              noreferer
-              noopener
-              href="https://umu.zoom.us/j/61998001836?pwd=amJwU1p3Smsxci80OEMrS3ZZSUxHQT09"
-            >
-              https://umu.zoom.us/j/61998001836?pwd=amJwU1p3Smsxci80OEMrS3ZZSUxHQT09
-            </a>
-            <p class="speaker">
-              Produktivitetstips för team, Christina Skaskiw, Acino
-            </p>
-            <p class="speaker">
-              När politiken styr utvecklingen, Roger Nilsson, Skatteverket
-            </p>
-            <br />
-            <p>
-              Hör av er på
-              <a href="mailto:info@umedev.org">info@umedev.org </a> vid frågor
-            </p>
           </v-card-text>
         </v-card>
       </div>
