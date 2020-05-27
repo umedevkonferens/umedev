@@ -28,8 +28,8 @@
               target="_blank"
               noreferer
               noopener
-              href="https://umu.zoom.us/j/63278091017"
-              >https://umu.zoom.us/j/63278091017
+              href="https://umu.zoom.us/j/66622138846?pwd=NXkzYndqNVNpbVBrQkpuS3BOcHluUT09"
+              >https://umu.zoom.us/j/66622138846?pwd=NXkzYndqNVNpbVBrQkpuS3BOcHluUT09
             </a>
             <br />
             <h4>12.00 - 12.50 Spår 1</h4>
@@ -38,9 +38,9 @@
               target="_blank"
               noreferer
               noopener
-              href="https://umu.zoom.us/j/68387253514"
+              href="https://umu.zoom.us/j/68387253514?pwd=WE4yeENoZ0t2WFV2TEt3am5Xb1VPUT09"
             >
-              https://umu.zoom.us/j/68387253514
+              https://umu.zoom.us/j/68387253514?pwd=WE4yeENoZ0t2WFV2TEt3am5Xb1VPUT09
             </a>
             <p class="speaker">
               Microservices och meddelandeköer, Lovisa Johansson, 84Codes
@@ -55,9 +55,9 @@
               target="_blank"
               noreferer
               noopener
-              href="https://umu.zoom.us/j/61998001836"
+              href="https://umu.zoom.us/j/61998001836?pwd=amJwU1p3Smsxci80OEMrS3ZZSUxHQT09"
             >
-              https://umu.zoom.us/j/61998001836
+              https://umu.zoom.us/j/61998001836?pwd=amJwU1p3Smsxci80OEMrS3ZZSUxHQT09
             </a>
             <p class="speaker">
               Produktivitetstips för team, Christina Skaskiw, Acino
