@@ -2,7 +2,7 @@
   <v-footer padless>
     <div class="footer">
       <div class="sponsorer">
-        <h3>Tack till våra sponsorer!</h3>
+        <!-- <h3>Tack till våra sponsorer!</h3> -->
         <div class="container">
           <div
             class="spons-container"
@@ -57,74 +57,75 @@ import Vue from 'vue';
 
 export default Vue.extend({
   data: () => ({
-    sponsors: [
-      {
-        name: '84 Codes',
-        url: 'https://www.84codes.com/',
-        icon: require('../assets/84Codes.jpg'),
-        alt: 'Länk till 84 Codes hemsida',
-      },
-      {
-        name: 'Coeo',
-        url: 'https://coeo.events/se',
-        icon: require('../assets/coeo-events.svg'),
-        alt: 'Länk till 84 Codes hemsida',
-      },
-      {
-        name: 'Intinor',
-        url: 'https://intinor.com/',
-        icon: require('../assets/Intinor.png'),
-        alt: 'Länk till Intinors hemsida',
-      },
-      {
-        name: 'Omegapoint',
-        url: 'https://www.omegapoint.se/',
-        icon: require('../assets/OmegaPoint.png'),
-        alt: 'Länk till Omgeapoints hemsida',
-      },
-      {
-        name: 'One Group',
-        url: 'https://one-group.se/',
-        icon: require('../assets/OneGroup.png'),
-        alt: 'Länk till One Groups hemsida',
-      },
-      {
-        name: 'Pure IT',
-        url: 'http://www.pureitgroup.se/',
-        icon: require('../assets/PureIT.png'),
-        alt: 'Länk till Pure IT:s hemsida',
-      },
-      {
-        name: 'Sartorius',
-        url: 'https://www.sartorius.com/en',
-        icon: require('../assets/Sartorius.png'),
-        alt: 'Länk till Sartorius hemsida',
-      },
-      {
-        name: 'Teknikhuset',
-        url: 'https://www.teknikhuset.se/',
-        icon: require('../assets/Teknikhuset.png'),
-        alt: 'Länk till Teknikhuset hemsida',
-      },
-      {
-        name: 'Umeå Universitet',
-        url: 'https://www.umu.se/',
-        icon: require('../assets/UmeaUniversitat.png'),
-        alt: 'Länk till Umeå Universitets hemsida',
-      },
-      {
-        name: 'Umecon',
-        url: 'https://umecon.se/',
-        icon: require('../assets/UmeCon.jpg'),
-        alt: 'Länk till Umecons hemsida',
-      },
-      {
-        name: 'Xlent',
-        url: 'https://www.xlent.se/',
-        icon: require('../assets/Xlent.jpg'),
-        alt: 'Länk till Xlents hemsida',
-      },
-    ],
+    sponsors: [],
+    //  [
+    //   {
+    //     name: '84 Codes',
+    //     url: 'https://www.84codes.com/',
+    //     icon: require('../assets/84Codes.jpg'),
+    //     alt: 'Länk till 84 Codes hemsida',
+    //   },
+    //   {
+    //     name: 'Coeo',
+    //     url: 'https://coeo.events/se',
+    //     icon: require('../assets/coeo-events.svg'),
+    //     alt: 'Länk till 84 Codes hemsida',
+    //   },
+    //   {
+    //     name: 'Intinor',
+    //     url: 'https://intinor.com/',
+    //     icon: require('../assets/Intinor.png'),
+    //     alt: 'Länk till Intinors hemsida',
+    //   },
+    //   {
+    //     name: 'Omegapoint',
+    //     url: 'https://www.omegapoint.se/',
+    //     icon: require('../assets/OmegaPoint.png'),
+    //     alt: 'Länk till Omgeapoints hemsida',
+    //   },
+    //   {
+    //     name: 'One Group',
+    //     url: 'https://one-group.se/',
+    //     icon: require('../assets/OneGroup.png'),
+    //     alt: 'Länk till One Groups hemsida',
+    //   },
+    //   {
+    //     name: 'Pure IT',
+    //     url: 'http://www.pureitgroup.se/',
+    //     icon: require('../assets/PureIT.png'),
+    //     alt: 'Länk till Pure IT:s hemsida',
+    //   },
+    //   {
+    //     name: 'Sartorius',
+    //     url: 'https://www.sartorius.com/en',
+    //     icon: require('../assets/Sartorius.png'),
+    //     alt: 'Länk till Sartorius hemsida',
+    //   },
+    //   {
+    //     name: 'Teknikhuset',
+    //     url: 'https://www.teknikhuset.se/',
+    //     icon: require('../assets/Teknikhuset.png'),
+    //     alt: 'Länk till Teknikhuset hemsida',
+    //   },
+    //   {
+    //     name: 'Umeå Universitet',
+    //     url: 'https://www.umu.se/',
+    //     icon: require('../assets/UmeaUniversitat.png'),
+    //     alt: 'Länk till Umeå Universitets hemsida',
+    //   },
+    //   {
+    //     name: 'Umecon',
+    //     url: 'https://umecon.se/',
+    //     icon: require('../assets/UmeCon.jpg'),
+    //     alt: 'Länk till Umecons hemsida',
+    //   },
+    //   {
+    //     name: 'Xlent',
+    //     url: 'https://www.xlent.se/',
+    //     icon: require('../assets/Xlent.jpg'),
+    //     alt: 'Länk till Xlents hemsida',
+    //   },
+    // ],
   }),
 });
 </script>
