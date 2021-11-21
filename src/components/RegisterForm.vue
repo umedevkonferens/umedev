@@ -4,6 +4,7 @@
       <v-container>
         <v-row>
           <v-col>
+            <!-- 
             <v-form ref="registerForm" v-model="valid" lazy-validation>
               <fieldset>
                 <legend class="bold">
@@ -49,7 +50,7 @@
                   v-if="register.remote"
                   v-model="register.remoteCity"
                   label="Vart deltar du ifrån?"
-                ></v-text-field> -->
+                ></v-text-field> 
               </fieldset>
               <br />
 
@@ -63,6 +64,8 @@
                 >Skicka</v-btn
               >
             </v-form>
+            -->
+            <h2>Anmälan har ännu inte öppnat.</h2>
           </v-col>
         </v-row>
       </v-container>
@@ -79,32 +82,32 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import { db } from '../db';
+import Vue from "vue";
+import { db } from "../db";
 
-const registerDb = db.ref('register-online');
+const registerDb = db.ref("register-online");
 const registerDefault = {
-  name: '',
-  company: '',
-  email: '',
-  other: '',
+  name: "",
+  company: "",
+  email: "",
+  other: "",
   remote: false,
-  remoteCity: '',
+  remoteCity: "",
 };
 export default Vue.extend({
-  name: 'RegisterForm',
+  name: "RegisterForm",
   data: () => ({
     valid: true,
     multiLine: true,
     snackbar: false,
-    snackbarText: '',
+    snackbarText: "",
     register: JSON.parse(JSON.stringify(registerDefault)),
-    nameRules: [(v: string) => !!v || 'Namn är obligatoriskt'],
+    nameRules: [(v: string) => !!v || "Namn är obligatoriskt"],
     emailRules: [
-      (v: string) => !!v || 'Email adress är obligatoriskt',
-      (v: string) => /.+@.+\..+/.test(v) || 'Email måste vara i rätt format',
+      (v: string) => !!v || "Email adress är obligatoriskt",
+      (v: string) => /.+@.+\..+/.test(v) || "Email måste vara i rätt format",
     ],
-    companyRules: [(v: string) => !!v || 'Företag är obligatoriskt'],
+    companyRules: [(v: string) => !!v || "Företag är obligatoriskt"],
   }),
   computed: {
     form(): Vue & { validate: () => boolean; reset: () => boolean } {
@@ -118,7 +121,7 @@ export default Vue.extend({
     submit() {
       if (!navigator.onLine) {
         this.snackbarText =
-          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
+          "Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ";
         this.snackbar = true;
         return;
       }
@@ -127,10 +130,10 @@ export default Vue.extend({
 
       const onComplete = (error: any) => {
         if (error) {
-          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
+          that.snackbarText = "Något gick fel. Var vänlig försök igen senare.";
         } else {
           that.reset();
-          that.snackbarText = 'Tack för din anmälan!';
+          that.snackbarText = "Tack för din anmälan!";
         }
         that.snackbar = true;
       };
@@ -139,7 +142,7 @@ export default Vue.extend({
         try {
           registerDb.push(this.register, onComplete);
         } catch (e) {
-          this.snackbarText = 'Oväntat fel. Var vänlig försök igen senare.';
+          this.snackbarText = "Oväntat fel. Var vänlig försök igen senare.";
           this.snackbar = true;
         }
       }

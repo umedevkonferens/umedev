@@ -26,12 +26,12 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import CfpForm from './components/CfpForm.vue';
-import Footer from './components/Footer.vue';
+import Vue from "vue";
+import CfpForm from "./components/CfpForm.vue";
+import Footer from "./components/Footer.vue";
 
 export default Vue.extend({
-  name: 'App',
+  name: "App",
   components: {
     CfpForm,
     Footer,
@@ -54,28 +54,28 @@ export default Vue.extend({
   },
   mounted() {
     this.$nextTick(function() {
-      window.addEventListener('resize', this.getWindowWidth);
+      window.addEventListener("resize", this.getWindowWidth);
       this.getWindowWidth();
     });
   },
   beforeDestroy() {
-    window.removeEventListener('resize', this.getWindowWidth);
+    window.removeEventListener("resize", this.getWindowWidth);
   },
   data: () => ({
     showMenu: false,
     largeScreen: window.innerWidth > 700,
     menu: [
       {
-        link: '/',
-        title: 'Hem',
+        link: "/",
+        title: "Hem",
       },
       {
-        link: '/anmalan',
-        title: 'Anmälan',
+        link: "/anmalan",
+        title: "Anmälan",
       },
       {
-        link: '/program',
-        title: 'Program',
+        link: "/program",
+        title: "Program",
       },
       // {
       //   link: '/kidz',
@@ -86,12 +86,12 @@ export default Vue.extend({
       //   title: 'Cfp',
       // },
       {
-        link: '/sponsra',
-        title: 'Sponsra!',
+        link: "/sponsra",
+        title: "Sponsra!",
       },
       {
-        link: '/about',
-        title: 'Om Umedev',
+        link: "/about",
+        title: "Om Umedev",
       },
     ],
   }),
@@ -113,6 +113,7 @@ ul {
   justify-content: space-between;
   z-index: 5;
 }
+
 .toggle-menu-btn {
   display: none;
   margin-right: 5px;

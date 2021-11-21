@@ -8,25 +8,56 @@
     <div class="home-content-container content">
       <div class="a">
         <v-card min-height="167">
-          <v-card-title
-            >Tusen tack till alla ni som deltog på Umedev
-            sessions!</v-card-title
-          >
+          <v-card-title>Umedev konferens 2022</v-card-title>
           <v-card-text>
-            ... och ett extra tack till dagens talare:
+            Tisdagen den 5 april 2022 planerar vi en Umedev heldagskonferens i
+            HUM huset på Umeå universitet. Inför detta söker vi sponsorer,
+            arrangörer och talare till konferensen. All information går ut vi
+            våra sociala medier som finns under namnet umedevkonferens på
+            Facebook, Twitter och Instagram.
             <br />
             <br />
-            <ul>
-              <li>Mikael Wiberg</li>
-              <li>Lovisa Johansson</li>
-              <li>Lars-Henrik Snow</li>
-              <li>Christina Skaskiw</li>
-              <li>Roger Nilsson</li>
-            </ul>
-            <br />
-            <span class="bold">Vi ses snart igen! /Umedev</span>
-            <br />
+            <p class="bold">
+              Vi ses snart! / Umedev
+            </p>
           </v-card-text>
+        </v-card>
+      </div>
+      <div class="a">
+        <v-card>
+          <v-card-title>Följ oss på</v-card-title>
+          <ul>
+            <li>
+              <v-icon class="mdi" color="black" large>mdi-instagram</v-icon>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.instagram.com/umedevkonferens/"
+                >Instagram
+              </a>
+            </li>
+
+            <li>
+              <v-icon class="mdi" color="black" large>mdi-twitter</v-icon>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://twitter.com/umedevkonferens"
+                >Twitter
+              </a>
+            </li>
+
+            <li>
+              <v-icon class="mdi" color="black" large>mdi-facebook</v-icon>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.facebook.com/umedevkonferens/"
+                >Facebook
+              </a>
+            </li>
+          </ul>
+          <br />
         </v-card>
       </div>
       <!-- <a href="/cfp">
@@ -93,11 +124,11 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
+import Vue from "vue";
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     HeaderWithPepper,
   },
@@ -136,6 +167,13 @@ h4:first-of-type {
   width: 45%;
   text-decoration: none;
   margin: 10px;
+}
+li {
+  list-style: none;
+}
+.v-application a {
+  color: black;
+  margin-left: 0.5em;
 }
 .v-card__title {
   word-break: break-word;

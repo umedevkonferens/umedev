@@ -4,6 +4,9 @@
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <br />
+        <h2>Programmet för 2022 är ännu inte satt.</h2>
+
+        <!--
         <h2>Program Umedev sessions 27 maj - 11.30 - 13.00</h2>
         <div class="program-container">
           <div class="row">
@@ -164,15 +167,16 @@
         <h2>Tidigare års program</h2>
         <h3>Program från 2019</h3>
         <img src="../assets/Tidigare-schema.png" />
+        -->
       </v-col>
     </v-row>
   </div>
 </template>
 <script>
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
 
 export default {
-  name: 'Program',
+  name: "Program",
   components: {
     HeaderWithPepper,
   },
