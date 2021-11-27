@@ -5,10 +5,11 @@
       <v-col md="auto" class="content wrapper">
         <br />
         <p>
-          Konferensen består av två typer av sessioner, presentationer och
-          blixttal. Presentationer sträcker sig över 45 minuter inklusive 5
+          Konferensen består av två typer av sessioner; presentationer och
+          blixttal. Presentationer sträcker sig över 40 minuter inklusive 5
           minuter för frågor, vilket betyder att själva presentationen bör vara
-          ca 40 minuter. Blixttal är 15 minuter utan någon tid för frågor.
+          ca 35 minuter. Blixttal är 20 minuter inklusive tid för eventuella
+          frågor.
           <br />
         </p>
         <p class="bold">Policy gällande produkter</p>
@@ -22,7 +23,7 @@
           programmet.
         </p>
         <p>
-          Sista datum för att skicka in ditt bidrag är 23/3 - 20
+          Sista datum för att skicka in ditt bidrag är 5/2 - 2022
         </p>
         <p class="bold">Anmäl dig nedan!</p>
         <br />
@@ -36,11 +37,11 @@
 </template>
 <script>
 // @ is an alias to /src
-import CfpForm from '@/components/CfpForm.vue';
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
+import CfpForm from "@/components/CfpForm.vue";
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
 
 export default {
-  name: 'cfp',
+  name: "cfp",
   components: {
     CfpForm,
     HeaderWithPepper,

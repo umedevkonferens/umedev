@@ -69,22 +69,22 @@ export default Vue.extend({
         link: "/",
         title: "Hem",
       },
-      {
-        link: "/anmalan",
-        title: "Anmälan",
-      },
+      // {
+      //   link: "/anmalan",
+      //   title: "Anmälan",
+      // },
       {
         link: "/program",
         title: "Program",
       },
       // {
-      //   link: '/kidz',
-      //   title: 'Kidz',
+      //   link: "/kidz",
+      //   title: "Kidz",
       // },
-      // {
-      //   link: '/cfp',
-      //   title: 'Cfp',
-      // },
+      {
+        link: "/cfp",
+        title: "Cfp",
+      },
       {
         link: "/sponsra",
         title: "Sponsra!",

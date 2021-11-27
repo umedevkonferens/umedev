@@ -29,8 +29,8 @@
                   :rules="typeOfTalkRules"
                   required
                 >
-                  <v-radio label="45 min" value="45"></v-radio>
-                  <v-radio label="15 min" value="15"></v-radio>
+                  <v-radio label="40 min" value="40"></v-radio>
+                  <v-radio label="20 min" value="20"></v-radio>
                 </v-radio-group>
               </fieldset>
 
@@ -92,33 +92,20 @@
                 <v-radio label="Ja" value="yes"></v-radio>
                 <v-radio label="Nej" value="no"></v-radio>
               </v-radio-group>
+              <legend>
+                Jag vill ha någon att bolla min idé med
+              </legend>
+              <v-radio-group v-model="proposal.wantSomeoneTodiscussWith">
+                <v-radio label="Ja" value="true"></v-radio>
+                <v-radio label="Nej" value="false"></v-radio>
+              </v-radio-group>
+
               <v-text-field
                 v-model="proposal.otherInfo"
                 label="Övrig information"
               ></v-text-field>
             </fieldset>
             <br />
-
-            <fieldset>
-              <legend class="video-legend">Livestreaming under Umedev</legend>
-              <p class="video-info">
-                Under 2020 satsar Umedev på att förbättra tillgängligheten och
-                konferensupplevelsen digitalt. Som en del i detta vill vi
-                tillsammans med våra sponsorer Intinor och Coeo filma så många
-                talks som möjligt för att kunna erbjuda deltagarna att se dem de
-                missar i efterhand.
-                <br />
-                Videorna kommer endast vara tillgängliga för Umedevs besökare
-                och tas bort en vecka efter konferensen.
-              </p>
-              <v-row justify="start">
-                <v-checkbox
-                  class="mx-2"
-                  v-model="proposal.approvedBeingFilmed"
-                  label="Jag godkänner att bli filmad"
-                ></v-checkbox>
-              </v-row>
-            </fieldset>
 
             <v-btn
               :disabled="!valid"
@@ -143,26 +130,26 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import { db } from '../db';
-const proposalsDb = db.ref('proposals');
+import Vue from "vue";
+import { db } from "../db";
+const proposalsDb = db.ref("proposals-2022");
 const proposalDefaults = {
-  name: '',
-  descriptionOfSpeaker: '',
-  title: '',
-  email: '',
-  target: '',
-  description: '',
-  typeOfTalk: '',
-  otherInfo: '',
-  newSpeaker: '',
+  name: "",
+  descriptionOfSpeaker: "",
+  title: "",
+  email: "",
+  target: "",
+  description: "",
+  typeOfTalk: "",
+  otherInfo: "",
+  newSpeaker: "",
   equipment: {
     internet: false,
     projector: false,
     whiteboard: false,
     flipboard: false,
   },
-  approvedBeingFilmed: true,
+  wantSomeoneTodiscussWith: false,
   approved: false,
 };
 export default Vue.extend({
@@ -170,34 +157,34 @@ export default Vue.extend({
     valid: true,
     multiLine: true,
     snackbar: false,
-    snackbarText: '',
+    snackbarText: "",
     proposal: JSON.parse(JSON.stringify(proposalDefaults)),
     nameRules: [
-      (v: string) => !!v || 'Namn är obligatoriskt',
+      (v: string) => !!v || "Namn är obligatoriskt",
       (v: string) =>
-        (v && v.length <= 30) || 'Namn måste vara mindre än 30 bokstäver',
+        (v && v.length <= 30) || "Namn måste vara mindre än 30 bokstäver",
     ],
     emailRules: [
-      (v: string) => !!v || 'Email adress är obligatoriskt',
-      (v: string) => /.+@.+\..+/.test(v) || 'Email måste vara i rätt format',
+      (v: string) => !!v || "Email adress är obligatoriskt",
+      (v: string) => /.+@.+\..+/.test(v) || "Email måste vara i rätt format",
     ],
     titleRules: [
-      (v: string) => !!v || 'Titel är obligatoriskt',
+      (v: string) => !!v || "Titel är obligatoriskt",
       (v: string) =>
-        (v && v.length <= 100) || 'Titeln måste vara mindre än 100 bokstäver',
+        (v && v.length <= 100) || "Titeln måste vara mindre än 100 bokstäver",
     ],
     descriptionRules: [
-      (v: string) => !!v || 'Beskrivning är obligatoriskt',
+      (v: string) => !!v || "Beskrivning är obligatoriskt",
       (v: string) =>
         (v && v.length <= 1000) ||
-        'Beskrivningen måste vara mindre än 1000 bokstäver',
+        "Beskrivningen måste vara mindre än 1000 bokstäver",
     ],
-    typeOfTalkRules: [(v: string) => !!v || 'Typ av pass är obligatoriskt'],
+    typeOfTalkRules: [(v: string) => !!v || "Typ av pass är obligatoriskt"],
     descriptionOfSpeakerRules: [
-      (v: string) => !!v || 'Beskrivning av dig är obligatoriskt',
+      (v: string) => !!v || "Beskrivning av dig är obligatoriskt",
       (v: string) =>
         (v && v.length <= 1000) ||
-        'Beskrivningen måste vara mindre än 1000 bokstäver',
+        "Beskrivningen måste vara mindre än 1000 bokstäver",
     ],
   }),
   computed: {
@@ -212,7 +199,7 @@ export default Vue.extend({
     submit() {
       if (!navigator.onLine) {
         this.snackbarText =
-          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
+          "Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ";
         this.snackbar = true;
         return;
       }
@@ -221,19 +208,20 @@ export default Vue.extend({
 
       const onComplete = (error: any) => {
         if (error) {
-          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
+          that.snackbarText = "Något gick fel. Var vänlig försök igen senare.";
         } else {
           that.reset();
-          that.snackbarText = 'Tack för ditt bidrag!';
+          that.snackbarText = "Tack för ditt bidrag!";
         }
         that.snackbar = true;
       };
 
       if (this.form.validate()) {
         try {
-          proposalsDb.push(this.proposal, onComplete);
+          console.log(this.form);
+          //proposalsDb.push(this.proposal, onComplete);
         } catch (e) {
-          this.snackbarText = 'Oväntat fel. Var vänlig försök igen senare.';
+          this.snackbarText = "Oväntat fel. Var vänlig försök igen senare.";
           this.snackbar = true;
         }
       }
