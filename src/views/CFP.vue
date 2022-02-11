@@ -4,15 +4,27 @@
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <br />
-        <p>
-          Konferensen består av två typer av sessioner; presentationer och
-          blixttal. Presentationer sträcker sig över 40 minuter inklusive 5
-          minuter för frågor, vilket betyder att själva presentationen bör vara
-          ca 35 minuter. Blixttal är 20 minuter inklusive tid för eventuella
-          frågor.
-          <br />
+        <h2>Anmäl ditt bidrag</h2>
+        <p class="last-date">
+          Sista datum för att skicka in ditt bidrag är 28 februari 2022
         </p>
-        <p class="bold">Policy gällande produkter</p>
+        <h3>Välj mellan två typer</h3>
+        <p>
+          Konferensen består av två typer av bidrag;
+        </p>
+        <ul>
+          <li>Presentationer</li>
+          <li>Blixttal</li>
+        </ul>
+        <p>
+          Presentationer sträcker sig över 40 minuter inklusive 5 minuter för
+          frågor, vilket betyder att själva presentationen bör vara ca 35
+          minuter.
+          <br />
+          Blixttal är 20 minuter inklusive tid för eventuella frågor.
+        </p>
+        <br />
+        <h4>Policy gällande produkter</h4>
         <p>
           Sessionerna får inte användas av individer för att marknadsföra eller
           sälja produkter, konsulttjänster eller andra tjänster. Denna policy
@@ -22,13 +34,16 @@
           och korta ner beskrivningar och texter för att passa in i det tryckta
           programmet.
         </p>
-        <p>
-          Sista datum för att skicka in ditt bidrag är 5/2 - 2022
-        </p>
-        <p class="bold">Anmäl dig nedan!</p>
+
+        <a
+          class="bold"
+          href="https://forms.gle/d4FcqMPbgevBiXLy5"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Anmäl dig via Google Forms</a
+        >
         <br />
 
-        <cfp-form />
         <br />
         <br />
       </v-col>
@@ -48,3 +63,18 @@ export default {
   },
 };
 </script>
+<style>
+ul {
+  margin: 1rem 0;
+}
+h3 {
+  margin: 1rem 0;
+}
+.last-date {
+  width: fit-content;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  border: 2px solid #56ab2f;
+}
+</style>

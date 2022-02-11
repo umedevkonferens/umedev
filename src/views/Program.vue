@@ -3,34 +3,23 @@
     <HeaderWithPepper header="Program" />
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
-        <br />
-        <h2>Programmet för 2022 är ännu inte satt.</h2>
+        <v-card class="program-info">
+          <v-card-title>Anmäl ditt pass till 2022</v-card-title>
+          <v-card-text>
+            Du kan nu anmäla ditt pass till Umedev 2022. Call for papers (CFP)
+            är nu öppen till och med den sista februari.
+          </v-card-text>
+        </v-card>
 
-        <!--
-        <h2>Program Umedev sessions 27 maj - 11.30 - 13.00</h2>
+        <h2 class="program-previous">Tidigare års program</h2>
+
+        <h3 class="program-previous">Program Umedev sessions 27 maj 2020</h3>
         <div class="program-container">
-          <div class="row">
-            <div class="program-heading">
-              <span class="time">11.30 - 11.35</span>
-              <h3>Välkommen!</h3>
-            </div>
-            <span class="content program">
-              <span class="program-description"
-                >Umedev hälsar alla välkomna och går igenom lite
-                praktikaliteter.
-              </span>
-              <span class="speaker">
-                Mattias Sällström, Umedev
-              </span>
-            </span>
-          </div>
-
           <div class="row">
             <div class="program-heading">
               <span class="time">11.35 - 11.55</span>
               <h3>Keynote - Designkompetenser i en föränderlig värld</h3>
             </div>
-
             <span class="content">
               <p class="program-description">
                 Utbredningen av covid-19 pandemin har inneburit utmaningar och
@@ -145,29 +134,13 @@
               </div>
             </div>
           </div>
-
-          <div class="row">
-            <div class="program-heading">
-              <span class="time">12.50 - 13.00</span>
-              <h3>Avslutning</h3>
-            </div>
-            <span class="content program">
-              <span class="program-description"
-                >Kort avslutning där vi sammanfattar vår första Umedev sessions.
-              </span>
-              <span class="speaker">
-                Mattias Sällström, Umedev
-              </span>
-            </span>
-          </div>
         </div>
-        <div class="program-end"></div>
 
-        <br />
-        <h2>Tidigare års program</h2>
-        <h3>Program från 2019</h3>
+        <h3 class="program-previous">Program från 2019</h3>
         <img src="../assets/Tidigare-schema.png" />
-        -->
+
+        <div class="program-end"></div>
+        <br />
       </v-col>
     </v-row>
   </div>
@@ -199,7 +172,6 @@ export default {
   flex-direction: row;
   font-size: 1.2rem;
   margin: 15px 0;
-  border-bottom: 2px solid #56ab2f;
   width: 100%;
   justify-content: flex-start;
   align-items: center;
@@ -246,6 +218,17 @@ h4 {
 .track {
   width: 47%;
 }
+h2 {
+  font-size: 2rem;
+}
+.program-previous {
+  margin-top: 3rem;
+}
+h3.program-previous {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #56ab2f;
+  margin-top: 1rem;
+}
 
 @media screen and (max-width: 600px) {
   .tracks-container {
@@ -263,6 +246,10 @@ h4 {
   display: flex;
   flex-direction: column;
 }
+.program-info {
+  margin: 3rem 0;
+}
+
 .program-end {
   height: 4px;
   width: 100%;

@@ -2,65 +2,76 @@
   <div>
     <HeaderWithPepper
       header="Umedev"
-      sub-header1="- Vår norrländska IT - konferens"
+      sub-header1="- Vår norrländska IT-konferens"
       sub-header2=""
     />
-    <div class="home-content-container content">
-      <div class="a">
-        <v-card min-height="167">
-          <v-card-title>Umedev konferens 2022</v-card-title>
-          <v-card-text>
-            Tisdagen den 5 april 2022 planerar vi en Umedev heldagskonferens i
-            HUM huset på Umeå universitet. Inför detta söker vi sponsorer,
-            arrangörer och talare till konferensen. All information går ut vi
-            våra sociala medier som finns under namnet umedevkonferens på
-            Facebook, Twitter och Instagram.
-            <br />
-            <br />
+    <v-row class="mb-6" justify="start">
+      <v-col md="auto" class="content wrapper">
+        <div class="home-content-container content">
+          <div class="home-info">
+            <h2>Umedev konferens 2022</h2>
+            <p>
+              Tisdagen den <span class="bold">5 april 2022 </span>planerar vi en
+              Umedev heldagskonferens i HUM huset på Umeå universitet.
+            </p>
+            <p>
+              All information går ut vi våra sociala medier som finns under
+              namnet umedevkonferens på Facebook, Twitter och Instagram.
+            </p>
             <p class="bold">
               Vi ses snart! / Umedev
             </p>
-          </v-card-text>
-        </v-card>
-      </div>
-      <div class="a">
-        <v-card>
-          <v-card-title>Följ oss på</v-card-title>
-          <ul>
-            <li>
-              <v-icon class="mdi" color="black" large>mdi-instagram</v-icon>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.instagram.com/umedevkonferens/"
-                >Instagram
-              </a>
-            </li>
+          </div>
 
-            <li>
-              <v-icon class="mdi" color="black" large>mdi-twitter</v-icon>
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://twitter.com/umedevkonferens"
-                >Twitter
-              </a>
-            </li>
+          <div class="a">
+            <v-card min-height="167">
+              <v-card-title>Call for papers öppen!</v-card-title>
+              <v-card-text>
+                Vi söker talare till årets upplaga av Umedev.
+                <br />
+                <br />
+                <a href="/cfp">Anmäl ditt bidrag!</a>
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card>
+              <v-card-title>Följ oss på</v-card-title>
+              <ul>
+                <li>
+                  <v-icon class="mdi" color="black" large>mdi-instagram</v-icon>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.instagram.com/umedevkonferens/"
+                    >Instagram
+                  </a>
+                </li>
 
-            <li>
-              <v-icon class="mdi" color="black" large>mdi-facebook</v-icon>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.facebook.com/umedevkonferens/"
-                >Facebook
-              </a>
-            </li>
-          </ul>
-          <br />
-        </v-card>
-      </div>
-      <!-- <a href="/cfp">
+                <li>
+                  <v-icon class="mdi" color="black" large>mdi-twitter</v-icon>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://twitter.com/umedevkonferens"
+                    >Twitter
+                  </a>
+                </li>
+
+                <li>
+                  <v-icon class="mdi" color="black" large>mdi-facebook</v-icon>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.facebook.com/umedevkonferens/"
+                    >Facebook
+                  </a>
+                </li>
+              </ul>
+              <br />
+            </v-card>
+          </div>
+          <!-- <a href="/cfp">
         <v-card>
           <v-card-title>Call For Papers är öppet!</v-card-title>
           <v-card-text>
@@ -115,8 +126,9 @@
           </v-card-text>
         </v-card>
       </a> -->
-    </div>
-
+        </div>
+      </v-col>
+    </v-row>
     <br />
     <br />
     <br />
@@ -138,6 +150,13 @@ export default {
 <style scoped>
 .content {
   max-width: 1024px;
+}
+h2 {
+  display: block;
+}
+.home-info {
+  max-width: 75ch;
+  display: block;
 }
 .home-content-container {
   display: flex;

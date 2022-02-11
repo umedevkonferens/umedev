@@ -53,12 +53,36 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
+import Vue from "vue";
 
 export default Vue.extend({
   data: () => ({
-    sponsors: [],
-    //  [
+    sponsors: [
+      {
+        name: "Omegapoint",
+        url: "https://www.omegapoint.se/",
+        icon: require("../assets/OmegaPoint.png"),
+        alt: "Länk till Omgeapoints hemsida",
+      },
+      {
+        name: "Umeå Universitet",
+        url: "https://www.umu.se/",
+        icon: require("../assets/UmeaUniversitat.png"),
+        alt: "Länk till Umeå Universitets hemsida",
+      },
+      {
+        name: "Xlent",
+        url: "https://www.xlent.se/",
+        icon: require("../assets/Xlent.jpg"),
+        alt: "Länk till Xlents hemsida",
+      },
+      {
+        name: "Umecon",
+        url: "https://umecon.se/",
+        icon: require("../assets/UmeCon.jpg"),
+        alt: "Länk till Umecons hemsida",
+      },
+    ],
     //   {
     //     name: '84 Codes',
     //     url: 'https://www.84codes.com/',
@@ -77,12 +101,7 @@ export default Vue.extend({
     //     icon: require('../assets/Intinor.png'),
     //     alt: 'Länk till Intinors hemsida',
     //   },
-    //   {
-    //     name: 'Omegapoint',
-    //     url: 'https://www.omegapoint.se/',
-    //     icon: require('../assets/OmegaPoint.png'),
-    //     alt: 'Länk till Omgeapoints hemsida',
-    //   },
+
     //   {
     //     name: 'One Group',
     //     url: 'https://one-group.se/',
@@ -107,25 +126,6 @@ export default Vue.extend({
     //     icon: require('../assets/Teknikhuset.png'),
     //     alt: 'Länk till Teknikhuset hemsida',
     //   },
-    //   {
-    //     name: 'Umeå Universitet',
-    //     url: 'https://www.umu.se/',
-    //     icon: require('../assets/UmeaUniversitat.png'),
-    //     alt: 'Länk till Umeå Universitets hemsida',
-    //   },
-    //   {
-    //     name: 'Umecon',
-    //     url: 'https://umecon.se/',
-    //     icon: require('../assets/UmeCon.jpg'),
-    //     alt: 'Länk till Umecons hemsida',
-    //   },
-    //   {
-    //     name: 'Xlent',
-    //     url: 'https://www.xlent.se/',
-    //     icon: require('../assets/Xlent.jpg'),
-    //     alt: 'Länk till Xlents hemsida',
-    //   },
-    // ],
   }),
 });
 </script>

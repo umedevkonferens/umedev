@@ -16,7 +16,7 @@
           arbetsgrupper. Vi du vara med? Ju fler vi är, desto bättre konferens
           får vi! Nedan presenterar vi de arbetsgrupper som vi har just nu och
           deras tänkta arbetsuppgifter, men du kan alltid kontakta oss med egna
-          idéer, <a href="mailto:info@umedev.org!">info@umedev.org!</a>. Du
+          idéer, <a href="mailto:info@umedev.org">info@umedev.org!</a>. Du
           behöver inte vara aktiv i en arbetsgrupps alla delar, vi blir också
           glada för punktinsatser.
         </p>
@@ -146,11 +146,11 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import HeaderWithPepper from '../components/HeaderWithPepper.vue';
+import Vue from "vue";
+import HeaderWithPepper from "../components/HeaderWithPepper.vue";
 
 export default Vue.extend({
-  name: 'About',
+  name: "About",
   components: {
     HeaderWithPepper,
   },

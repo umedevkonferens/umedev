@@ -21,7 +21,7 @@
 
       <p>
         Vill du ändra något i din anmälan var vänlig maila oss
-        <a href="mailto:info@umedev.org!">info@umedev.org</a>
+        <a href="mailto:info@umedev.org">info@umedev.org</a>
       </p>
     </div>
 
@@ -46,7 +46,7 @@
           </p>
           <p>
             Har du frågor var vänlig maila oss
-            <a href="mailto:info@umedev.org!">info@umedev.org</a>
+            <a href="mailto:info@umedev.org">info@umedev.org</a>
           </p>
           <p>/ Umedev</p>
         </v-container>
@@ -63,11 +63,11 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import { db } from '../db';
+import Vue from "vue";
+import { db } from "../db";
 
 export default Vue.extend({
-  name: 'EditRegister',
+  name: "EditRegister",
   created() {
     this.fetchData();
   },
@@ -77,7 +77,7 @@ export default Vue.extend({
     showRegister: false,
     multiLine: true,
     snackbar: false,
-    snackbarText: '',
+    snackbarText: "",
     anmalan: {},
   }),
   methods: {
@@ -88,20 +88,20 @@ export default Vue.extend({
       }
 
       const confirmDelete = window.confirm(
-        'Är du säker på att du att du vill avboka din plats? ',
+        "Är du säker på att du att du vill avboka din plats? ",
       );
 
       if (confirmDelete) {
         const that = this;
-        db.ref('register/' + this.$route.params.id)
+        db.ref("register/" + this.$route.params.id)
           .remove()
           .then(() => {
             that.deletedRegisterSuccess = true;
             that.showRegister = false;
           })
-          .catch(error => {
+          .catch((error) => {
             that.snackbarText =
-              'Något gick fel. Var vänlig försök igen senare.';
+              "Något gick fel. Var vänlig försök igen senare.";
             that.snackbar = true;
           });
       }
@@ -109,7 +109,7 @@ export default Vue.extend({
     checkInternetConnection() {
       if (!navigator.onLine) {
         this.snackbarText =
-          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
+          "Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ";
         this.snackbar = true;
         return true;
       }
@@ -120,9 +120,9 @@ export default Vue.extend({
         return;
       }
       const that = this;
-      const registerDb = db.ref('register/' + this.$route.params.id);
-      registerDb.once('value').then(
-        snapshot => {
+      const registerDb = db.ref("register/" + this.$route.params.id);
+      registerDb.once("value").then(
+        (snapshot) => {
           if (snapshot.val() !== null) {
             that.anmalan = snapshot.val();
             that.showRegister = true;
@@ -130,8 +130,8 @@ export default Vue.extend({
             that.noRegisterWithId = true;
           }
         },
-        error => {
-          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
+        (error) => {
+          that.snackbarText = "Något gick fel. Var vänlig försök igen senare.";
           that.snackbar = true;
         },
       );
