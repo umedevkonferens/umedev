@@ -94,6 +94,18 @@ export default Vue.extend({
         icon: require("../assets/MFEX.png"),
         alt: "Länk till MFEX IT:s hemsida",
       },
+      {
+        name: "Intinor",
+        url: "https://intinor.com/",
+        icon: require("../assets/Intinor.png"),
+        alt: "Länk till Intinors hemsida",
+      },
+      {
+        name: "One Group",
+        url: "https://one-group.se/",
+        icon: require("../assets/Onegroup.jpg"),
+        alt: "Länk till One Groups hemsida",
+      },
     ],
     //   {
     //     name: '84 Codes',
@@ -107,19 +119,7 @@ export default Vue.extend({
     //     icon: require('../assets/coeo-events.svg'),
     //     alt: 'Länk till 84 Codes hemsida',
     //   },
-    //   {
-    //     name: 'Intinor',
-    //     url: 'https://intinor.com/',
-    //     icon: require('../assets/Intinor.png'),
-    //     alt: 'Länk till Intinors hemsida',
-    //   },
 
-    //   {
-    //     name: 'One Group',
-    //     url: 'https://one-group.se/',
-    //     icon: require('../assets/OneGroup.png'),
-    //     alt: 'Länk till One Groups hemsida',
-    //   },
     //   {
     //     name: 'Pure IT',
     //     url: 'http://www.pureitgroup.se/',
