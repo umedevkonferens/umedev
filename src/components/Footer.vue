@@ -59,16 +59,16 @@ export default Vue.extend({
   data: () => ({
     sponsors: [
       {
-        name: "Omegapoint",
-        url: "https://www.omegapoint.se/",
-        icon: require("../assets/OmegaPoint.png"),
-        alt: "Länk till Omgeapoints hemsida",
-      },
-      {
         name: "Umeå Universitet",
         url: "https://www.umu.se/",
         icon: require("../assets/UmeaUniversitat.png"),
         alt: "Länk till Umeå Universitets hemsida",
+      },
+      {
+        name: "Omegapoint",
+        url: "https://www.omegapoint.se/",
+        icon: require("../assets/OmegaPoint.png"),
+        alt: "Länk till Omgeapoints hemsida",
       },
       {
         name: "Xlent",
@@ -81,6 +81,18 @@ export default Vue.extend({
         url: "https://umecon.se/",
         icon: require("../assets/UmeCon.jpg"),
         alt: "Länk till Umecons hemsida",
+      },
+      {
+        name: "Pure IT",
+        url: "http://www.pure.se/",
+        icon: require("../assets/PureIT.png"),
+        alt: "Länk till Pure IT:s hemsida",
+      },
+      {
+        name: "MFEX",
+        url: "https://www.mfex.com/",
+        icon: require("../assets/MFEX.png"),
+        alt: "Länk till MFEX IT:s hemsida",
       },
     ],
     //   {

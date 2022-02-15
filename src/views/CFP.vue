@@ -27,8 +27,8 @@
         <h4>Policy gällande produkter</h4>
         <p>
           Sessionerna får inte användas av individer för att marknadsföra eller
-          sälja produkter, konsulttjänster eller andra tjänster. Denna policy
-          hindrar inte att produktanvändare hänvisar till specifika kommersiella
+          sälja produkter, konsulttjänster eller företag. Denna policy hindrar
+          inte att produktanvändare hänvisar till specifika kommersiella
           produkter, men fokuseringen på presentationen bör inte vara
           produktrelaterad. Programutskottet förbehåller sig rätten att redigera
           och korta ner beskrivningar och texter för att passa in i det tryckta
