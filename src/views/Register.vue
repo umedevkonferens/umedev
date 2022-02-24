@@ -3,41 +3,44 @@
     <HeaderWithPepper header="Anmälan" />
     <br />
     <div class="content">
-      <!-- <p class="bold">Anmälan</p> -->
-      <!-- <p>
-        Här görs anmälan till konferensen i Humanisthuset på Umeå Universitet.
+      <p>
+        Anmäl dig till konferensen i Humanisthuset på Umeå Universitet den 5
+        april 2022.
+      </p>
+      <p>
         Om du får förhinder var snäll och avanmäl dig så att din plats kan gå
         till någon annan som vill delta.
-      </p> -->
-      <!-- <p class="bold">Anmälan livesänd konferens</p>
-      <p>
-        I år kan du anmäla dig till konferensen och se den live via länk om du
-        inte har möjlighet att vara på plats. Anmälan sker i samma formulär,
-        klicka i "Jag deltar på distans" så skickas det ut en länk samma morgon
-        som konferens startar.
-      </p> -->
-      <!-- <p>Välkomna!</p> -->
+      </p>
+      <a
+        class="bold"
+        href="https://forms.gle/k6rPUKwBFbNsNW4m8"
+        rel="noopener noreferrer"
+        target="_blank"
+        >Anmäl dig via Google Forms</a
+      >
       <br />
-      <RegisterForm />
+      <br />
+      <br />
+      <br />
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-import { db } from '../db';
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
-import RegisterForm from '@/components/RegisterForm.vue';
+import Vue from "vue";
+import { db } from "../db";
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
+import RegisterForm from "@/components/RegisterForm.vue";
 
-const proposalsDb = db.ref('register');
+const proposalsDb = db.ref("register");
 const registerDefault = {
-  name: '',
-  company: '',
-  email: '',
-  other: '',
+  name: "",
+  company: "",
+  email: "",
+  other: "",
 };
 export default Vue.extend({
-  name: 'Register',
+  name: "Register",
   components: {
     HeaderWithPepper,
     RegisterForm,
@@ -46,14 +49,14 @@ export default Vue.extend({
     valid: true,
     multiLine: true,
     snackbar: false,
-    snackbarText: '',
+    snackbarText: "",
     register: JSON.parse(JSON.stringify(registerDefault)),
-    nameRules: [(v: string) => !!v || 'Namn är obligatoriskt'],
+    nameRules: [(v: string) => !!v || "Namn är obligatoriskt"],
     emailRules: [
-      (v: string) => !!v || 'Email adress är obligatoriskt',
-      (v: string) => /.+@.+\..+/.test(v) || 'Email måste vara i rätt format',
+      (v: string) => !!v || "Email adress är obligatoriskt",
+      (v: string) => /.+@.+\..+/.test(v) || "Email måste vara i rätt format",
     ],
-    companyRules: [(v: string) => !!v || 'Företag är obligatoriskt'],
+    companyRules: [(v: string) => !!v || "Företag är obligatoriskt"],
   }),
   computed: {
     form(): Vue & { validate: () => boolean; reset: () => boolean } {
@@ -67,7 +70,7 @@ export default Vue.extend({
     submit() {
       if (!navigator.onLine) {
         this.snackbarText =
-          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
+          "Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ";
         this.snackbar = true;
         return;
       }
@@ -76,10 +79,10 @@ export default Vue.extend({
 
       const onComplete = (error: any) => {
         if (error) {
-          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
+          that.snackbarText = "Något gick fel. Var vänlig försök igen senare.";
         } else {
           that.reset();
-          that.snackbarText = 'Tack för din anmälan!';
+          that.snackbarText = "Tack för din anmälan!";
         }
         that.snackbar = true;
       };
@@ -88,7 +91,7 @@ export default Vue.extend({
         try {
           proposalsDb.push(this.register, onComplete);
         } catch (e) {
-          this.snackbarText = 'Oväntat fel. Var vänlig försök igen senare.';
+          this.snackbarText = "Oväntat fel. Var vänlig försök igen senare.";
           this.snackbar = true;
         }
       }

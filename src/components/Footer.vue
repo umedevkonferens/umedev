@@ -106,6 +106,12 @@ export default Vue.extend({
         icon: require("../assets/Onegroup.jpg"),
         alt: "Länk till One Groups hemsida",
       },
+      {
+        name: "Algoryx",
+        url: "https://www.algoryx.se/",
+        icon: require("../assets/algoryx.png"),
+        alt: "Länk till Algoryx hemsida",
+      },
     ],
     //   {
     //     name: '84 Codes',

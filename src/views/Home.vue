@@ -35,6 +35,16 @@
             </v-card>
           </div>
           <div class="a">
+            <v-card min-height="167">
+              <v-card-title>Anmäl dig till årets konferens</v-card-title>
+              <v-card-text>
+                Du kan nu anmäla dig till årets konferens. <br />
+                <br />
+                <a href="/anmalan">Anmäl dig!</a>
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
             <v-card>
               <v-card-title>Följ oss på</v-card-title>
               <ul>
