@@ -112,6 +112,18 @@ export default Vue.extend({
         icon: require("../assets/algoryx.png"),
         alt: "Länk till Algoryx hemsida",
       },
+      {
+        name: "Teknikhuset",
+        url: "https://www.teknikhuset.se/",
+        icon: require("../assets/Teknikhuset.png"),
+        alt: "Länk till Teknikhuset hemsida",
+      },
+      {
+        name: "Kvardrat",
+        url: "https://www.kvadrat.se/",
+        icon: require("../assets/Kvadrat.png"),
+        alt: "Länk till Kvadrats hemsida",
+      },
     ],
     //   {
     //     name: '84 Codes',
@@ -137,12 +149,6 @@ export default Vue.extend({
     //     url: 'https://www.sartorius.com/en',
     //     icon: require('../assets/Sartorius.png'),
     //     alt: 'Länk till Sartorius hemsida',
-    //   },
-    //   {
-    //     name: 'Teknikhuset',
-    //     url: 'https://www.teknikhuset.se/',
-    //     icon: require('../assets/Teknikhuset.png'),
-    //     alt: 'Länk till Teknikhuset hemsida',
     //   },
   }),
 });

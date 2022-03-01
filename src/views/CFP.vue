@@ -6,7 +6,7 @@
         <br />
         <h2>Anmäl ditt bidrag</h2>
         <p class="last-date">
-          Sista datum för att skicka in ditt bidrag är 28 februari 2022
+          Sista datum för att skicka in ditt bidrag är 7 mars 2022
         </p>
         <h3>Välj mellan två typer</h3>
         <p>
