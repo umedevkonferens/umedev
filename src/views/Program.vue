@@ -19,7 +19,7 @@
                 <img
                   class="bio-image"
                   v-bind:src="
-                    require('../assets/Helena_Holmstrom_Olsson_02.jpeg')
+                    require('../assets/Helena_Holmstrom_Olsson_Mindre.jpg')
                   "
                   alt="Helena Holmström Olsson"
                 />
@@ -54,7 +54,6 @@
                 </p>
 
                 <span class="bio">
-                  <br />
                   <span class="speaker">
                     About Helena Holmström Olsson
                   </span>
@@ -97,7 +96,7 @@
               <span class="bio">
                 <img
                   class="bio-image"
-                  v-bind:src="require('../assets/Kenneth_Bodin.jpeg')"
+                  v-bind:src="require('../assets/Kenneth_Bodin_mindre.jpg')"
                   alt="Kenneth Bodin"
                 />
                 <br />
@@ -110,159 +109,166 @@
             </span>
           </div>
         </div>
-
-        <h2 class="program-previous">Tidigare års program</h2>
-        <v-expansion-panels>
-          <v-expansion-panel>
-            <v-expansion-panel-header>
-              Program Umedev sessions 27 maj 2020
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <h3 class="program-previous">
+        <div class="content">
+          <h2 class="program-previous">Tidigare års program</h2>
+          <v-expansion-panels>
+            <v-expansion-panel>
+              <v-expansion-panel-header>
                 Program Umedev sessions 27 maj 2020
-              </h3>
-              <div class="program-container">
-                <div class="row">
-                  <div class="program-heading">
-                    <span class="time">11.35 - 11.55</span>
-                    <h3>Keynote - Designkompetenser i en föränderlig värld</h3>
-                  </div>
-                  <span class="content">
-                    <p class="program-description">
-                      Utbredningen av covid-19 pandemin har inneburit utmaningar
-                      och behov av snabba förändringar för många branscher.
-                      Omställning är idag ett dagsaktuellt begrepp.
-                      <br />Förändring är samtidigt nära besläktat med design
-                      och utveckling och i vår bransch måste vi alltid se hur vi
-                      kan arbeta med design för positiv förändring - dvs god
-                      utveckling. <br /><br />Men vilka kompetenser behövs?
-                      <br />
-                      Och hur kan vi tänka kring utveckling av våra kompetenser?
-                      <br />
-                      <br />
-                      I denna keynote kommer professor Mikael Wiberg att
-                      fokusera på designkompetenser i en föränderlig värld
-                      utifrån dagsaktuella frågor om specialistkompetenser vs.
-                      att vara generalist. Han kommer även belysa vad design-
-                      och utvecklingsteam behöver reflektera över vad gäller
-                      kompetensförsörjning, inte minst i en tid då såväl
-                      teknologier, som samhället och dess behov snabbt
-                      förändras.
-                    </p>
-                    <span class="speaker">
-                      Mikael Wiberg, Professor i Informatik, Umeå Universitet
+              </v-expansion-panel-header>
+              <v-expansion-panel-content>
+                <h3 class="program-previous">
+                  Program Umedev sessions 27 maj 2020
+                </h3>
+                <div class="program-container">
+                  <div class="row">
+                    <div class="program-heading">
+                      <span class="time">11.35 - 11.55</span>
+                      <h3>
+                        Keynote - Designkompetenser i en föränderlig värld
+                      </h3>
+                    </div>
+                    <span class="content">
+                      <p class="program-description">
+                        Utbredningen av covid-19 pandemin har inneburit
+                        utmaningar och behov av snabba förändringar för många
+                        branscher. Omställning är idag ett dagsaktuellt begrepp.
+                        <br />Förändring är samtidigt nära besläktat med design
+                        och utveckling och i vår bransch måste vi alltid se hur
+                        vi kan arbeta med design för positiv förändring - dvs
+                        god utveckling. <br /><br />Men vilka kompetenser
+                        behövs?
+                        <br />
+                        Och hur kan vi tänka kring utveckling av våra
+                        kompetenser?
+                        <br />
+                        <br />
+                        I denna keynote kommer professor Mikael Wiberg att
+                        fokusera på designkompetenser i en föränderlig värld
+                        utifrån dagsaktuella frågor om specialistkompetenser vs.
+                        att vara generalist. Han kommer även belysa vad design-
+                        och utvecklingsteam behöver reflektera över vad gäller
+                        kompetensförsörjning, inte minst i en tid då såväl
+                        teknologier, som samhället och dess behov snabbt
+                        förändras.
+                      </p>
+                      <span class="speaker">
+                        Mikael Wiberg, Professor i Informatik, Umeå Universitet
+                      </span>
                     </span>
-                  </span>
-                </div>
-                <div class="tracks-container">
-                  <div class="track">
-                    <h3 class="track-heading">Spår 1</h3>
-                    <div class="row">
-                      <span class="time">12.00 - 12.20</span>
-                      <h4>Microservices och meddelandeköer</h4>
-                      <span class="content">
-                        <p class="program-description">
-                          Dagens monolitiska system ersätts i snabb takt av
-                          system byggda av flertalet microservices. Den här
-                          presentationen förklarar sambandet mellan
-                          microservices och meddelandeköer. Vi tittar på hur
-                          84codes AB, världens största leverantör av “RabbitMQ
-                          as a Service” använder RabbitMQ som kärna i deras
-                          arkitekturen.
-                        </p>
-                        <span class="speaker">
-                          Lovisa Johansson, 84Codes
+                  </div>
+                  <div class="tracks-container">
+                    <div class="track">
+                      <h3 class="track-heading">Spår 1</h3>
+                      <div class="row">
+                        <span class="time">12.00 - 12.20</span>
+                        <h4>Microservices och meddelandeköer</h4>
+                        <span class="content">
+                          <p class="program-description">
+                            Dagens monolitiska system ersätts i snabb takt av
+                            system byggda av flertalet microservices. Den här
+                            presentationen förklarar sambandet mellan
+                            microservices och meddelandeköer. Vi tittar på hur
+                            84codes AB, världens största leverantör av “RabbitMQ
+                            as a Service” använder RabbitMQ som kärna i deras
+                            arkitekturen.
+                          </p>
+                          <span class="speaker">
+                            Lovisa Johansson, 84Codes
+                          </span>
                         </span>
-                      </span>
+                      </div>
+                      <div class="row">
+                        <span class="time">12.30 - 12.50</span>
+                        <h4>Specification by example - frontend</h4>
+                        <span class="content">
+                          <p class="program-description">
+                            Att använda många exempel för att beskriva ett tänkt
+                            beteende är ofta lättare än att förklara den
+                            generella principen. Det blir särskilt uppenbart vid
+                            utveckling av automatiska tester.
+                            <br />Det här passet lajv-refaktoriserar
+                            svårtillgänglig testkod till något som både går
+                            snabbare att exekvera, är lättare att förstå och
+                            enkelt att lägga till fler exempel till.
+                            <br />
+                            <br />
+                            Om du eller ditt team kommer på er själva att någon
+                            gång säga "vi skulle behöva mer tester men det är
+                            för jobbigt att skriva fler" eller "nu har jag en
+                            fungerande implementation men vet inte hur jag ska
+                            testa den" är detta passet för er!
+                          </p>
+                          <span class="speaker"
+                            >Lars-Henrik Snow, Umeå Universitet
+                          </span>
+                        </span>
+                      </div>
                     </div>
-                    <div class="row">
-                      <span class="time">12.30 - 12.50</span>
-                      <h4>Specification by example - frontend</h4>
-                      <span class="content">
-                        <p class="program-description">
-                          Att använda många exempel för att beskriva ett tänkt
-                          beteende är ofta lättare än att förklara den generella
-                          principen. Det blir särskilt uppenbart vid utveckling
-                          av automatiska tester.
-                          <br />Det här passet lajv-refaktoriserar
-                          svårtillgänglig testkod till något som både går
-                          snabbare att exekvera, är lättare att förstå och
-                          enkelt att lägga till fler exempel till.
-                          <br />
-                          <br />
-                          Om du eller ditt team kommer på er själva att någon
-                          gång säga "vi skulle behöva mer tester men det är för
-                          jobbigt att skriva fler" eller "nu har jag en
-                          fungerande implementation men vet inte hur jag ska
-                          testa den" är detta passet för er!
-                        </p>
-                        <span class="speaker"
-                          >Lars-Henrik Snow, Umeå Universitet
+                    <div class="track">
+                      <h3 class="track-heading">Spår 2</h3>
+                      <div class="row">
+                        <span class="time">12.00 - 12.20</span>
+                        <h4>Produktivitetstips för team</h4>
+                        <span class="content">
+                          <p class="program-description">
+                            Spelar det någon roll *när* man gör saker? Ja, tiden
+                            påverkar vår produktivitet på många olika sätt och
+                            denna blixtföreläsning handlar om hur team kan jobba
+                            mer effektivt genom att planera vissa saker på vissa
+                            tider.
+                          </p>
+                          <span class="speaker">Christina Skaskiw, Acino</span>
                         </span>
-                      </span>
+                      </div>
+                      <div class="row">
+                        <span class="time">12.30 - 12.50</span>
+                        <h4>När politiken styr utvecklingen</h4>
+                        <span class="content">
+                          <p class="program-description">
+                            En politisk överenskommelse i en skattefråga som kan
+                            sammanfattas på mindre än 30 sekunder kan kosta
+                            tiotals miljoner i systemutveckling på Skatteverket
+                            och andra myndigheter. Det kan vara omöjligt att
+                            invänta färdigskrivna lagar innan utvecklingen
+                            påbörjas, på grund av kort tid fram till när de ska
+                            börja gälla.
+                            <br />
+                            <br />
+                            Hur utvecklar man med sådana förutsättningar? Vad
+                            gör man när ett politiskt utspel i pressen
+                            dramatiskt kan påverka redan pågående utveckling?
+                            Hur påverkas utvecklingsteam när medlemmarna börjar
+                            tvivla på att koden som skrivs någonsin kommer att
+                            produktionssättas?
+                            <br />
+                            Roger Nilsson, Product Owner på Skatteverket,
+                            berättar om sina erfarenheter från utveckling av en
+                            del av innehållet i Januariöverenskommelsen. Från
+                            uppgång till fall.
+                          </p>
+                          <span class="speaker"
+                            >Roger Nilsson, Skatteverket</span
+                          >
+                        </span>
+                      </div>
                     </div>
                   </div>
-                  <div class="track">
-                    <h3 class="track-heading">Spår 2</h3>
-                    <div class="row">
-                      <span class="time">12.00 - 12.20</span>
-                      <h4>Produktivitetstips för team</h4>
-                      <span class="content">
-                        <p class="program-description">
-                          Spelar det någon roll *när* man gör saker? Ja, tiden
-                          påverkar vår produktivitet på många olika sätt och
-                          denna blixtföreläsning handlar om hur team kan jobba
-                          mer effektivt genom att planera vissa saker på vissa
-                          tider.
-                        </p>
-                        <span class="speaker">Christina Skaskiw, Acino</span>
-                      </span>
-                    </div>
-                    <div class="row">
-                      <span class="time">12.30 - 12.50</span>
-                      <h4>När politiken styr utvecklingen</h4>
-                      <span class="content">
-                        <p class="program-description">
-                          En politisk överenskommelse i en skattefråga som kan
-                          sammanfattas på mindre än 30 sekunder kan kosta
-                          tiotals miljoner i systemutveckling på Skatteverket
-                          och andra myndigheter. Det kan vara omöjligt att
-                          invänta färdigskrivna lagar innan utvecklingen
-                          påbörjas, på grund av kort tid fram till när de ska
-                          börja gälla.
-                          <br />
-                          <br />
-                          Hur utvecklar man med sådana förutsättningar? Vad gör
-                          man när ett politiskt utspel i pressen dramatiskt kan
-                          påverka redan pågående utveckling? Hur påverkas
-                          utvecklingsteam när medlemmarna börjar tvivla på att
-                          koden som skrivs någonsin kommer att
-                          produktionssättas?
-                          <br />
-                          Roger Nilsson, Product Owner på Skatteverket, berättar
-                          om sina erfarenheter från utveckling av en del av
-                          innehållet i Januariöverenskommelsen. Från uppgång
-                          till fall.
-                        </p>
-                        <span class="speaker">Roger Nilsson, Skatteverket</span>
-                      </span>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-          <v-expansion-panel>
-            <v-expansion-panel-header>
-              Program från 2019
-            </v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <h3 class="program-previous">Program från 2019</h3>
-              <img src="../assets/Tidigare-schema.png" />
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-        </v-expansion-panels>
-        <div class="program-end"></div>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+            <v-expansion-panel>
+              <v-expansion-panel-header>
+                Program från 2019
+              </v-expansion-panel-header>
+              <v-expansion-panel-content>
+                <h3 class="program-previous">Program från 2019</h3>
+                <img src="../assets/Tidigare-schema.png" />
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+          </v-expansion-panels>
+          <div class="program-end"></div>
+        </div>
         <br />
       </v-col>
     </v-row>
@@ -280,7 +286,7 @@ export default {
 </script>
 <style scoped>
 .program-container {
-  margin: 20px auto 10px auto;
+  margin: 0px auto 10px auto;
 }
 @media screen and (max-width: 600px) {
   .program-container {
@@ -344,10 +350,14 @@ h4 {
   width: 47%;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.25rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-top: 16px;
 }
 .program-previous {
   margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 h3.program-previous {
   font-size: 1.5rem;
@@ -365,6 +375,14 @@ h3.program-previous {
   }
   .row {
     margin-bottom: 20px;
+  }
+  .program-container,
+  .program-heading,
+  h2:first-of-type {
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 1.75rem;
   }
 }
 .row {

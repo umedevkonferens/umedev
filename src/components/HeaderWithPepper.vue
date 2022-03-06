@@ -45,5 +45,8 @@ h2 {
     font-size: 1.5rem;
     padding: 0rem;
   }
+  .header-with-pepper .subheader {
+    font-size: 1rem;
+  }
 }
 </style>

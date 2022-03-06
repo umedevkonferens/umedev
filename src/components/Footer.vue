@@ -144,7 +144,7 @@ export default Vue.extend({
 
 <style scoped>
 .footer {
-  padding: 16px;
+  padding: 40px 16px;
   width: 100%;
   color: black;
   background-color: white;

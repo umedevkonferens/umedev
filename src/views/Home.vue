@@ -8,28 +8,41 @@
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <div>
-          <h3 class="keynote-heading">Keynotes 2022 klara!</h3>
           <div class="keynotes">
             <div class="keynote-wrapper">
-              <h4>
-                Opening keynote: Digitalization Disrupts: How software, data and
-                AI transform industry
-              </h4>
-              <img src="../assets/Helena_Holmstrom_Olsson_Mindre.jpg" />
-              <p class="speaker-name">Professor Helena Holmström Olsson</p>
+              <div class="kn-speaker text">
+                <span class="kn-speaker-pre">Opening keynote: </span>
+                <h3>
+                  Digitalization Disrupts: How software, data and AI transform
+                  industry
+                </h3>
+                <span class="kn-speaker-post">Helena Holmström Olsson</span>
+                <a href="/program">Läs mer under program</a>
+              </div>
+              <div class="kn-speaker">
+                <img src="../assets/Helena_Holmstrom_Olsson_Mindre.jpg" />
+                <p class="speaker-name">Professor Helena Holmström Olsson</p>
+              </div>
             </div>
+
             <div class="keynote-wrapper">
-              <h4>
-                Closing keynote: The Metaverse - will it revolutionize
-                innovation and social relations - or bring down our democracies?
-              </h4>
-              <img src="../assets/Kenneth_Bodin_mindre.jpg" />
-              <p class="speaker-name">
-                Kenneth Bodin, CEO and co-founder Algoryx
-              </p>
+              <div class="kn-speaker">
+                <img src="../assets/Kenneth_Bodin_mindre.jpg" />
+                <p class="speaker-name">
+                  Kenneth Bodin, CEO and co-founder Algoryx
+                </p>
+              </div>
+              <div class="kn-speaker text">
+                <span class="kn-speaker-pre">Closing keynote: </span>
+                <h3>
+                  The Metaverse - will it revolutionize innovation and social
+                  relations - or bring down our democracies?
+                </h3>
+                <span class="kn-speaker-post">Kenneth Bodin</span>
+                <a href="/program">Läs mer under program</a>
+              </div>
             </div>
           </div>
-          <a href="/program">Kolla in programmet för mer info!</a>
         </div>
         <div class="home-content-container content">
           <div class="a">
@@ -126,9 +139,7 @@ h2 {
 h4 {
   margin-top: 30px;
 }
-h4:first-of-type {
-  margin-top: 20px;
-}
+
 .a {
   width: 45%;
   text-decoration: none;
@@ -145,22 +156,57 @@ li {
   word-break: break-word;
 }
 .keynotes {
-  display: flex;
-  justify-content: flex-start;
-  justify-content: space-between;
-}
-.keynote-heading {
-  margin-top: 2rem;
-  font-size: 2rem;
-  font-weight: normal;
+  margin-top: 62px;
 }
 .keynote-wrapper {
-  width: 49%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-basis: content;
+  border-top: 4px solid #56ab2f;
+  padding-bottom: 22px;
+  margin-top: 22px;
 }
-
+.kn-speaker {
+  width: 100%;
+}
+.speaker-name {
+  width: 100%;
+  text-align: center;
+}
+.kn-speaker.text {
+  padding-top: 20px;
+}
+.kn-speaker.text:first-of-type {
+  padding-right: 16px;
+}
+.kn-speaker.text:last-of-type {
+  padding-left: 16px;
+}
+.kn-speaker-pre {
+  font-size: 1.25rem;
+}
+.kn-speaker h3 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+.kn-speaker a {
+  margin-top: 22px;
+  color: #56ab2f;
+  margin-left: 0;
+  font-size: 1.1rem;
+  display: block;
+}
+.kn-speaker-post {
+  font-size: 1.75rem;
+  display: block;
+}
 .keynote-wrapper img {
-  width: 80%;
-  margin: 0 auto;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 @media screen and (max-width: 600px) {
@@ -170,6 +216,22 @@ li {
   }
   .main-title {
     min-height: 200px;
+  }
+
+  .keynote-wrapper {
+    flex-direction: column;
+  }
+  .keynote-wrapper:last-of-type {
+    flex-flow: column-reverse;
+  }
+  .kn-speaker.text:first-of-type {
+    padding-right: 0;
+  }
+  .kn-speaker.text:last-of-type {
+    padding-left: 0;
+  }
+  .kn-speaker h3 {
+    font-size: 2rem;
   }
 }
 </style>
