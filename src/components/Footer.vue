@@ -3,16 +3,29 @@
     <div class="footer">
       <div class="sponsorer">
         <!-- <h3>Tack till våra sponsorer!</h3> -->
-        <div class="container">
+        <div class="flex-container">
           <div
             class="spons-container"
             v-for="item in sponsors"
             v-bind:key="item.url"
           >
             <a target="_blank" rel="noopener noreferrer" v-bind:href="item.url">
-              <img v-bind:src="item.icon" v-bind:alt="item.alt" />
+              <img
+                v-bind:src="item.icon"
+                v-bind:alt="item.alt"
+                v-bind:class="item.class"
+              />
             </a>
           </div>
+        </div>
+        <div class="spons-container last">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.cryptoroguegames.com/"
+          >
+            <img src="../assets/crg-logo.png" alt="Crypto Rogue Games" />
+          </a>
         </div>
       </div>
       <div class="sociala-media">
@@ -125,31 +138,6 @@ export default Vue.extend({
         alt: "Länk till Kvadrats hemsida",
       },
     ],
-    //   {
-    //     name: '84 Codes',
-    //     url: 'https://www.84codes.com/',
-    //     icon: require('../assets/84Codes.jpg'),
-    //     alt: 'Länk till 84 Codes hemsida',
-    //   },
-    //   {
-    //     name: 'Coeo',
-    //     url: 'https://coeo.events/se',
-    //     icon: require('../assets/coeo-events.svg'),
-    //     alt: 'Länk till 84 Codes hemsida',
-    //   },
-
-    //   {
-    //     name: 'Pure IT',
-    //     url: 'http://www.pureitgroup.se/',
-    //     icon: require('../assets/PureIT.png'),
-    //     alt: 'Länk till Pure IT:s hemsida',
-    //   },
-    //   {
-    //     name: 'Sartorius',
-    //     url: 'https://www.sartorius.com/en',
-    //     icon: require('../assets/Sartorius.png'),
-    //     alt: 'Länk till Sartorius hemsida',
-    //   },
   }),
 });
 </script>
@@ -185,7 +173,7 @@ h3 {
   width: 100%;
 }
 
-.sponsorer .container {
+.sponsorer .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -200,6 +188,17 @@ h3 {
 }
 .spons-container img {
   width: 100%;
+}
+.spons-container.last {
+  max-width: 200px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.spons-container.last img {
+  max-width: 250px;
+  height: auto;
 }
 h4 {
   border-top: 1px solid #56ab2f;
@@ -224,7 +223,7 @@ a {
   .sponsorer {
     width: 100%;
   }
-  .sponsorer .container {
+  .sponsorer .flex-container {
     justify-content: flex-start;
   }
   .sponsorer h3 {

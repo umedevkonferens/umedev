@@ -2,6 +2,7 @@
   <div class="header-with-pepper">
     <h1>{{ header }}</h1>
     <h2>{{ subHeader1 }}</h2>
+    <h2 class="subheader">{{ subHeader2 }}</h2>
   </div>
 </template>
 <script>
@@ -29,6 +30,10 @@ h2 {
 h2 {
   padding: 0;
   font-size: 2.5rem;
+}
+.subheader {
+  margin-top: 1rem;
+  font-size: 1.25rem;
 }
 
 @media screen and (max-width: 600px) {

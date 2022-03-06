@@ -3,49 +3,35 @@
     <HeaderWithPepper
       header="Umedev"
       sub-header1="- Vår norrländska IT-konferens"
-      sub-header2=""
+      sub-header2="5 april 2022 HUM huset, Umeå universitet"
     />
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
+        <div>
+          <h3 class="keynote-heading">Keynotes 2022 klara!</h3>
+          <div class="keynotes">
+            <div class="keynote-wrapper">
+              <h4>
+                Opening keynote: Digitalization Disrupts: How software, data and
+                AI transform industry
+              </h4>
+              <img src="../assets/Helena_Holmstrom_Olsson_Mindre.jpg" />
+              <p class="speaker-name">Professor Helena Holmström Olsson</p>
+            </div>
+            <div class="keynote-wrapper">
+              <h4>
+                Closing keynote: The Metaverse - will it revolutionize
+                innovation and social relations - or bring down our democracies?
+              </h4>
+              <img src="../assets/Kenneth_Bodin_mindre.jpg" />
+              <p class="speaker-name">
+                Kenneth Bodin, CEO and co-founder Algoryx
+              </p>
+            </div>
+          </div>
+          <a href="/program">Kolla in programmet för mer info!</a>
+        </div>
         <div class="home-content-container content">
-          <div class="home-info">
-            <h2>Umedev konferens 2022</h2>
-            <p>
-              Tisdagen den <span class="bold">5 april 2022 </span>planerar vi en
-              Umedev heldagskonferens i HUM huset på Umeå universitet.
-            </p>
-            <p>
-              All information går ut vi våra sociala medier som finns under
-              namnet umedevkonferens på Facebook, Twitter och Instagram.
-            </p>
-            <p class="bold">
-              Vi ses snart! / Umedev
-            </p>
-          </div>
-
-          <div class="a">
-            <v-card min-height="167">
-              <v-card-title>Keynotes 2022 klara!</v-card-title>
-              <v-card-text>
-                Opening keynote: <b>Digitalization Disrupts: How software, data and AI transform industry</b>, Professor Helena Holmström Olsson
-                <br />
-                Closing keynote: <b>The Metaverse - will it revolutionize innovation and social relations - or bring down our democracies?</b>, Kenneth Bodin, CEO and co-founder Algoryx
-                <br />
-                <a href="/program">Kolla in programmet för mer info!</a>
-              </v-card-text>
-            </v-card>
-          </div>
-          <div class="a">
-            <v-card min-height="167">
-              <v-card-title>Call for papers öppen!</v-card-title>
-              <v-card-text>
-                Vi söker talare till årets upplaga av Umedev.
-                <br />
-                <br />
-                <a href="/cfp">Anmäl ditt bidrag!</a>
-              </v-card-text>
-            </v-card>
-          </div>
           <div class="a">
             <v-card min-height="167">
               <v-card-title>Anmäl dig till årets konferens</v-card-title>
@@ -136,13 +122,7 @@ h2 {
   display: flex;
   justify-content: center;
 }
-img {
-  max-width: 80%;
-}
-.speaker {
-  margin: 10px 0;
-  margin-left: 10px;
-}
+
 h4 {
   margin-top: 30px;
 }
@@ -164,6 +144,25 @@ li {
 .v-card__title {
   word-break: break-word;
 }
+.keynotes {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+.keynote-heading {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.keynote-wrapper {
+  width: 49%;
+}
+
+.keynote-wrapper img {
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 600px) {
   a,
   .a {

@@ -1,185 +1,267 @@
 <template>
   <div>
-    <HeaderWithPepper header="Program" />
+    <HeaderWithPepper header="Program Umedev 2022" />
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
-        <v-card class="program-info">
-          <v-card-title>Anmäl ditt pass till 2022</v-card-title>
-          <v-card-text>
-            Du kan nu anmäla ditt pass till Umedev 2022. Call for papers (CFP)
-            är nu öppen till och med 7:e mars.
-          </v-card-text>
-        </v-card>
-
-        <h2 class="klara-talare-2022">Klara för Umedev 2022</h2>
         <div class="program-container">
           <div class="row">
-            <div class="program-heading">
-              <h3>Ending Keynote: The Metaverse - will it revolutionize innovation and social relations - or bring down our democracies?</h3>
-            </div>
             <span class="content">
-              <p class="program-description">
-              </p>
-              <span class="speaker">
-                Kenneth Bodin, CEO and co-founder Algoryx.
-              </span>
-              <span class="bio">
-                <img class="bio-image" v-bind:src="require('../assets/Kenneth_Bodin.jpeg')" alt="Kenneth Bodin"/>
-                <br/>
-                Kenneth Bodin is CEO and co-founder of Algoryx. He has a research background in computational physics and virtual reality before co-founding Algoryx. Algoryx brings real-world physics to virtual engineering environments to realize an open engineering metaverse for innovation and collaboration.
-              </span>
-            </span>
-          </div>
-          <div class="row">
-            <div class="program-heading">
-              <h3>Opening Keynote: Digitalization Disrupts: How software, data and AI transform industry</h3>
-            </div>
-            <span class="content">
-              <p class="program-description">
-                With digitalization and with technologies such as software, data, and artificial intelligence, industry in general, and companies in the embedded systems domain in particular, are experiencing a rapid transformation of their conventional businesses. While the physical products and associated product sales still provide the core revenue, these are increasingly being complemented with service offerings, new data-driven services, and digital products that allow for continuous value creation and delivery to customers. This talk explores the difference between what constitutes a traditional and a digital company and details the typical evolution path embedded systems companies take when transitioning towards becoming digital companies. The talk focuses on the opportunities and challenges that companies face in their digital transformation and it highlights the importance, and disruptive forces, of software, data and artificial intelligence. The talk provides concrete examples based on action-oriented research conducted in close collaboration with companies in the the embedded systems domain.
-              </p>
+              <div class="program-heading">
+                <h2>
+                  Opening Keynote: Digitalization Disrupts: How software, data
+                  and AI transform industry
+                </h2>
+              </div>
               <span class="speaker">
                 Professor Helena Holmström Olsson, Malmö Universitet
               </span>
+              <div class="bio">
+                <img
+                  class="bio-image"
+                  v-bind:src="
+                    require('../assets/Helena_Holmstrom_Olsson_02.jpeg')
+                  "
+                  alt="Helena Holmström Olsson"
+                />
+              </div>
+              <span class="content">
+                <p class="program-description">
+                  With digitalization and with technologies such as software,
+                  data, and artificial intelligence, industry in general, and
+                  companies in the embedded systems domain in particular, are
+                  experiencing a rapid transformation of their conventional
+                  businesses.
+                </p>
+                <p>
+                  While the physical products and associated product sales still
+                  provide the core revenue, these are increasingly being
+                  complemented with service offerings, new data-driven services,
+                  and digital products that allow for continuous value creation
+                  and delivery to customers.
+                </p>
+                <p>
+                  This talk explores the difference between what constitutes a
+                  traditional and a digital company and details the typical
+                  evolution path embedded systems companies take when
+                  transitioning towards becoming digital companies. The talk
+                  focuses on the opportunities and challenges that companies
+                  face in their digital transformation and it highlights the
+                  importance, and disruptive forces, of software, data and
+                  artificial intelligence. The talk provides concrete examples
+                  based on action-oriented research conducted in close
+                  collaboration with companies in the the embedded systems
+                  domain.
+                </p>
+
+                <span class="bio">
+                  <br />
+                  <span class="speaker">
+                    About Helena Holmström Olsson
+                  </span>
+                  Helena Holmström Olsson is a Professor in Computer Science at
+                  the Department of Computer Science and Media Technology at
+                  Malmö University, Sweden, and a senior researcher in
+                  <a
+                    href="https://www.software-center.se/"
+                    rel="noopener noreffer"
+                    target="_blank"
+                    >Software Center </a
+                  >. She received her Ph.D. in Informatics from University of
+                  Gothenburg in 2004 and did her Post doc in LERO (‘The Irish
+                  Software Research Center’) at University of Limerick, Ireland.
+                  Her research is conducted in close collaboration with industry
+                  and primarily with software-intensive companies in the
+                  embedded systems domain. Her research interests include
+                  engineering aspects of AI systems, data driven development
+                  practices, data management, digital transformation and
+                  software and business ecosystems.
+                  <br />
+                  <a
+                    href="https://scholar.google.com/citations?user=bjGw_5QAAAAJ&hl=en&oi=ao"
+                    >Google Scholar profile</a
+                  >
+                </span>
+              </span>
+              <br />
+              <br />
+              <div class="program-heading">
+                <h2>
+                  Ending Keynote: The Metaverse - will it revolutionize
+                  innovation and social relations - or bring down our
+                  democracies?
+                </h2>
+              </div>
+              <span class="speaker">
+                Kenneth Bodin, CEO and co-founder Algoryx
+              </span>
               <span class="bio">
-                <img class="bio-image" v-bind:src="require('../assets/Helena_Holmstrom_Olsson_02.jpeg')" alt="Helena Holmström Olsson"/>
-                <br/>
-                Helena Holmström Olsson is a Professor in Computer Science at the Department of Computer Science and Media Technology at Malmö University, Sweden, and a senior researcher in Software Center (https://www.software-center.se <https://www.software-center.se/>). She received her Ph.D. in Informatics from University of Gothenburg in 2004 and did her Post doc in LERO (‘The Irish Software Research Center’) at University of Limerick, Ireland. Her research is conducted in close collaboration with industry and primarily with software-intensive companies in the embedded systems domain. Her research interests include engineering aspects of AI systems, data driven development practices, data management, digital transformation and software and business ecosystems. Her research is published in e.g. Journal of Software Maintenance and Evolution, IEEE Software, Information and Software Technology, International Conference on Software Engineering (ICSE), Software Engineering Advanced Applications (SEAA), International Conference on the Quality of Information and Communications Technology (QUATIC), Asia-Pacific Software Engineering Conference (APSEC). In addition, she has published in Information Systems venues such as e.g., MIS Quarterly, Information Systems Management and International Conference on Information Systems (ICIS). Helena is a fellow member of the International Software Product Management Association (ISPMA) and a board member of Malmö University, Sweden. Contact: helena.holmstrom.olsson@mau.se
-                <br/>
-                <a href="https://scholar.google.com/citations?user=bjGw_5QAAAAJ&hl=en&oi=ao">Google Scholar profile</a>
+                <img
+                  class="bio-image"
+                  v-bind:src="require('../assets/Kenneth_Bodin.jpeg')"
+                  alt="Kenneth Bodin"
+                />
+                <br />
+                Kenneth Bodin is CEO and co-founder of Algoryx. He has a
+                research background in computational physics and virtual reality
+                before co-founding Algoryx. Algoryx brings real-world physics to
+                virtual engineering environments to realize an open engineering
+                metaverse for innovation and collaboration.
               </span>
             </span>
           </div>
         </div>
 
         <h2 class="program-previous">Tidigare års program</h2>
-
-        <h3 class="program-previous">Program Umedev sessions 27 maj 2020</h3>
-        <div class="program-container">
-          <div class="row">
-            <div class="program-heading">
-              <span class="time">11.35 - 11.55</span>
-              <h3>Keynote - Designkompetenser i en föränderlig värld</h3>
-            </div>
-            <span class="content">
-              <p class="program-description">
-                Utbredningen av covid-19 pandemin har inneburit utmaningar och
-                behov av snabba förändringar för många branscher. Omställning är
-                idag ett dagsaktuellt begrepp. <br />Förändring är samtidigt
-                nära besläktat med design och utveckling och i vår bransch måste
-                vi alltid se hur vi kan arbeta med design för positiv förändring
-                - dvs god utveckling. <br /><br />Men vilka kompetenser behövs?
-                <br />
-                Och hur kan vi tänka kring utveckling av våra kompetenser?
-                <br />
-                <br />
-                I denna keynote kommer professor Mikael Wiberg att fokusera på
-                designkompetenser i en föränderlig värld utifrån dagsaktuella
-                frågor om specialistkompetenser vs. att vara generalist. Han
-                kommer även belysa vad design- och utvecklingsteam behöver
-                reflektera över vad gäller kompetensförsörjning, inte minst i en
-                tid då såväl teknologier, som samhället och dess behov snabbt
-                förändras.
-              </p>
-              <span class="speaker">
-                Mikael Wiberg, Professor i Informatik, Umeå Universitet
-              </span>
-            </span>
-          </div>
-          <div class="tracks-container">
-            <div class="track">
-              <h3 class="track-heading">Spår 1</h3>
-              <div class="row">
-                <span class="time">12.00 - 12.20</span>
-                <h4>Microservices och meddelandeköer</h4>
-                <span class="content">
-                  <p class="program-description">
-                    Dagens monolitiska system ersätts i snabb takt av system
-                    byggda av flertalet microservices. Den här presentationen
-                    förklarar sambandet mellan microservices och meddelandeköer.
-                    Vi tittar på hur 84codes AB, världens största leverantör av
-                    “RabbitMQ as a Service” använder RabbitMQ som kärna i deras
-                    arkitekturen.
-                  </p>
-                  <span class="speaker">
-                    Lovisa Johansson, 84Codes
+        <v-expansion-panels>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              Program Umedev sessions 27 maj 2020
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <h3 class="program-previous">
+                Program Umedev sessions 27 maj 2020
+              </h3>
+              <div class="program-container">
+                <div class="row">
+                  <div class="program-heading">
+                    <span class="time">11.35 - 11.55</span>
+                    <h3>Keynote - Designkompetenser i en föränderlig värld</h3>
+                  </div>
+                  <span class="content">
+                    <p class="program-description">
+                      Utbredningen av covid-19 pandemin har inneburit utmaningar
+                      och behov av snabba förändringar för många branscher.
+                      Omställning är idag ett dagsaktuellt begrepp.
+                      <br />Förändring är samtidigt nära besläktat med design
+                      och utveckling och i vår bransch måste vi alltid se hur vi
+                      kan arbeta med design för positiv förändring - dvs god
+                      utveckling. <br /><br />Men vilka kompetenser behövs?
+                      <br />
+                      Och hur kan vi tänka kring utveckling av våra kompetenser?
+                      <br />
+                      <br />
+                      I denna keynote kommer professor Mikael Wiberg att
+                      fokusera på designkompetenser i en föränderlig värld
+                      utifrån dagsaktuella frågor om specialistkompetenser vs.
+                      att vara generalist. Han kommer även belysa vad design-
+                      och utvecklingsteam behöver reflektera över vad gäller
+                      kompetensförsörjning, inte minst i en tid då såväl
+                      teknologier, som samhället och dess behov snabbt
+                      förändras.
+                    </p>
+                    <span class="speaker">
+                      Mikael Wiberg, Professor i Informatik, Umeå Universitet
+                    </span>
                   </span>
-                </span>
+                </div>
+                <div class="tracks-container">
+                  <div class="track">
+                    <h3 class="track-heading">Spår 1</h3>
+                    <div class="row">
+                      <span class="time">12.00 - 12.20</span>
+                      <h4>Microservices och meddelandeköer</h4>
+                      <span class="content">
+                        <p class="program-description">
+                          Dagens monolitiska system ersätts i snabb takt av
+                          system byggda av flertalet microservices. Den här
+                          presentationen förklarar sambandet mellan
+                          microservices och meddelandeköer. Vi tittar på hur
+                          84codes AB, världens största leverantör av “RabbitMQ
+                          as a Service” använder RabbitMQ som kärna i deras
+                          arkitekturen.
+                        </p>
+                        <span class="speaker">
+                          Lovisa Johansson, 84Codes
+                        </span>
+                      </span>
+                    </div>
+                    <div class="row">
+                      <span class="time">12.30 - 12.50</span>
+                      <h4>Specification by example - frontend</h4>
+                      <span class="content">
+                        <p class="program-description">
+                          Att använda många exempel för att beskriva ett tänkt
+                          beteende är ofta lättare än att förklara den generella
+                          principen. Det blir särskilt uppenbart vid utveckling
+                          av automatiska tester.
+                          <br />Det här passet lajv-refaktoriserar
+                          svårtillgänglig testkod till något som både går
+                          snabbare att exekvera, är lättare att förstå och
+                          enkelt att lägga till fler exempel till.
+                          <br />
+                          <br />
+                          Om du eller ditt team kommer på er själva att någon
+                          gång säga "vi skulle behöva mer tester men det är för
+                          jobbigt att skriva fler" eller "nu har jag en
+                          fungerande implementation men vet inte hur jag ska
+                          testa den" är detta passet för er!
+                        </p>
+                        <span class="speaker"
+                          >Lars-Henrik Snow, Umeå Universitet
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="track">
+                    <h3 class="track-heading">Spår 2</h3>
+                    <div class="row">
+                      <span class="time">12.00 - 12.20</span>
+                      <h4>Produktivitetstips för team</h4>
+                      <span class="content">
+                        <p class="program-description">
+                          Spelar det någon roll *när* man gör saker? Ja, tiden
+                          påverkar vår produktivitet på många olika sätt och
+                          denna blixtföreläsning handlar om hur team kan jobba
+                          mer effektivt genom att planera vissa saker på vissa
+                          tider.
+                        </p>
+                        <span class="speaker">Christina Skaskiw, Acino</span>
+                      </span>
+                    </div>
+                    <div class="row">
+                      <span class="time">12.30 - 12.50</span>
+                      <h4>När politiken styr utvecklingen</h4>
+                      <span class="content">
+                        <p class="program-description">
+                          En politisk överenskommelse i en skattefråga som kan
+                          sammanfattas på mindre än 30 sekunder kan kosta
+                          tiotals miljoner i systemutveckling på Skatteverket
+                          och andra myndigheter. Det kan vara omöjligt att
+                          invänta färdigskrivna lagar innan utvecklingen
+                          påbörjas, på grund av kort tid fram till när de ska
+                          börja gälla.
+                          <br />
+                          <br />
+                          Hur utvecklar man med sådana förutsättningar? Vad gör
+                          man när ett politiskt utspel i pressen dramatiskt kan
+                          påverka redan pågående utveckling? Hur påverkas
+                          utvecklingsteam när medlemmarna börjar tvivla på att
+                          koden som skrivs någonsin kommer att
+                          produktionssättas?
+                          <br />
+                          Roger Nilsson, Product Owner på Skatteverket, berättar
+                          om sina erfarenheter från utveckling av en del av
+                          innehållet i Januariöverenskommelsen. Från uppgång
+                          till fall.
+                        </p>
+                        <span class="speaker">Roger Nilsson, Skatteverket</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="row">
-                <span class="time">12.30 - 12.50</span>
-                <h4>Specification by example - frontend</h4>
-                <span class="content">
-                  <p class="program-description">
-                    Att använda många exempel för att beskriva ett tänkt
-                    beteende är ofta lättare än att förklara den generella
-                    principen. Det blir särskilt uppenbart vid utveckling av
-                    automatiska tester.
-                    <br />Det här passet lajv-refaktoriserar svårtillgänglig
-                    testkod till något som både går snabbare att exekvera, är
-                    lättare att förstå och enkelt att lägga till fler exempel
-                    till.
-                    <br />
-                    <br />
-                    Om du eller ditt team kommer på er själva att någon gång
-                    säga "vi skulle behöva mer tester men det är för jobbigt att
-                    skriva fler" eller "nu har jag en fungerande implementation
-                    men vet inte hur jag ska testa den" är detta passet för er!
-                  </p>
-                  <span class="speaker"
-                    >Lars-Henrik Snow, Umeå Universitet
-                  </span>
-                </span>
-              </div>
-            </div>
-            <div class="track">
-              <h3 class="track-heading">Spår 2</h3>
-              <div class="row">
-                <span class="time">12.00 - 12.20</span>
-                <h4>Produktivitetstips för team</h4>
-                <span class="content">
-                  <p class="program-description">
-                    Spelar det någon roll *när* man gör saker? Ja, tiden
-                    påverkar vår produktivitet på många olika sätt och denna
-                    blixtföreläsning handlar om hur team kan jobba mer effektivt
-                    genom att planera vissa saker på vissa tider.
-                  </p>
-                  <span class="speaker">Christina Skaskiw, Acino</span>
-                </span>
-              </div>
-              <div class="row">
-                <span class="time">12.30 - 12.50</span>
-                <h4>När politiken styr utvecklingen</h4>
-                <span class="content">
-                  <p class="program-description">
-                    En politisk överenskommelse i en skattefråga som kan
-                    sammanfattas på mindre än 30 sekunder kan kosta tiotals
-                    miljoner i systemutveckling på Skatteverket och andra
-                    myndigheter. Det kan vara omöjligt att invänta färdigskrivna
-                    lagar innan utvecklingen påbörjas, på grund av kort tid fram
-                    till när de ska börja gälla.
-                    <br />
-                    <br />
-                    Hur utvecklar man med sådana förutsättningar? Vad gör man
-                    när ett politiskt utspel i pressen dramatiskt kan påverka
-                    redan pågående utveckling? Hur påverkas utvecklingsteam när
-                    medlemmarna börjar tvivla på att koden som skrivs någonsin
-                    kommer att produktionssättas?
-                    <br />
-                    Roger Nilsson, Product Owner på Skatteverket, berättar om
-                    sina erfarenheter från utveckling av en del av innehållet i
-                    Januariöverenskommelsen. Från uppgång till fall.
-                  </p>
-                  <span class="speaker">Roger Nilsson, Skatteverket</span>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h3 class="program-previous">Program från 2019</h3>
-        <img src="../assets/Tidigare-schema.png" />
-
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              Program från 2019
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <h3 class="program-previous">Program från 2019</h3>
+              <img src="../assets/Tidigare-schema.png" />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
         <div class="program-end"></div>
         <br />
       </v-col>
@@ -198,7 +280,7 @@ export default {
 </script>
 <style scoped>
 .program-container {
-  margin: 50px auto 10px auto;
+  margin: 20px auto 10px auto;
 }
 @media screen and (max-width: 600px) {
   .program-container {
