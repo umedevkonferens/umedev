@@ -25,6 +25,18 @@
 
           <div class="a">
             <v-card min-height="167">
+              <v-card-title>Keynotes 2022 klara!</v-card-title>
+              <v-card-text>
+                Opening keynote: <b>Digitalization Disrupts: How software, data and AI transform industry</b>, Professor Helena Holmström Olsson
+                <br />
+                Closing keynote: <b>The Metaverse - will it revolutionize innovation and social relations - or bring down our democracies?</b>, Kenneth Bodin, CEO and co-founder Algoryx
+                <br />
+                <a href="/program">Kolla in programmet för mer info!</a>
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card min-height="167">
               <v-card-title>Call for papers öppen!</v-card-title>
               <v-card-text>
                 Vi söker talare till årets upplaga av Umedev.

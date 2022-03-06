@@ -7,9 +7,50 @@
           <v-card-title>Anmäl ditt pass till 2022</v-card-title>
           <v-card-text>
             Du kan nu anmäla ditt pass till Umedev 2022. Call for papers (CFP)
-            är nu öppen till och med den sista februari.
+            är nu öppen till och med 7:e mars.
           </v-card-text>
         </v-card>
+
+        <h2 class="klara-talare-2022">Klara för Umedev 2022</h2>
+        <div class="program-container">
+          <div class="row">
+            <div class="program-heading">
+              <h3>Ending Keynote: The Metaverse - will it revolutionize innovation and social relations - or bring down our democracies?</h3>
+            </div>
+            <span class="content">
+              <p class="program-description">
+              </p>
+              <span class="speaker">
+                Kenneth Bodin, CEO and co-founder Algoryx.
+              </span>
+              <span class="bio">
+                <img class="bio-image" v-bind:src="require('../assets/Kenneth_Bodin.jpeg')" alt="Kenneth Bodin"/>
+                <br/>
+                Kenneth Bodin is CEO and co-founder of Algoryx. He has a research background in computational physics and virtual reality before co-founding Algoryx. Algoryx brings real-world physics to virtual engineering environments to realize an open engineering metaverse for innovation and collaboration.
+              </span>
+            </span>
+          </div>
+          <div class="row">
+            <div class="program-heading">
+              <h3>Opening Keynote: Digitalization Disrupts: How software, data and AI transform industry</h3>
+            </div>
+            <span class="content">
+              <p class="program-description">
+                With digitalization and with technologies such as software, data, and artificial intelligence, industry in general, and companies in the embedded systems domain in particular, are experiencing a rapid transformation of their conventional businesses. While the physical products and associated product sales still provide the core revenue, these are increasingly being complemented with service offerings, new data-driven services, and digital products that allow for continuous value creation and delivery to customers. This talk explores the difference between what constitutes a traditional and a digital company and details the typical evolution path embedded systems companies take when transitioning towards becoming digital companies. The talk focuses on the opportunities and challenges that companies face in their digital transformation and it highlights the importance, and disruptive forces, of software, data and artificial intelligence. The talk provides concrete examples based on action-oriented research conducted in close collaboration with companies in the the embedded systems domain.
+              </p>
+              <span class="speaker">
+                Professor Helena Holmström Olsson, Malmö Universitet
+              </span>
+              <span class="bio">
+                <img class="bio-image" v-bind:src="require('../assets/Helena_Holmstrom_Olsson_02.jpeg')" alt="Helena Holmström Olsson"/>
+                <br/>
+                Helena Holmström Olsson is a Professor in Computer Science at the Department of Computer Science and Media Technology at Malmö University, Sweden, and a senior researcher in Software Center (https://www.software-center.se <https://www.software-center.se/>). She received her Ph.D. in Informatics from University of Gothenburg in 2004 and did her Post doc in LERO (‘The Irish Software Research Center’) at University of Limerick, Ireland. Her research is conducted in close collaboration with industry and primarily with software-intensive companies in the embedded systems domain. Her research interests include engineering aspects of AI systems, data driven development practices, data management, digital transformation and software and business ecosystems. Her research is published in e.g. Journal of Software Maintenance and Evolution, IEEE Software, Information and Software Technology, International Conference on Software Engineering (ICSE), Software Engineering Advanced Applications (SEAA), International Conference on the Quality of Information and Communications Technology (QUATIC), Asia-Pacific Software Engineering Conference (APSEC). In addition, she has published in Information Systems venues such as e.g., MIS Quarterly, Information Systems Management and International Conference on Information Systems (ICIS). Helena is a fellow member of the International Software Product Management Association (ISPMA) and a board member of Malmö University, Sweden. Contact: helena.holmstrom.olsson@mau.se
+                <br/>
+                <a href="https://scholar.google.com/citations?user=bjGw_5QAAAAJ&hl=en&oi=ao">Google Scholar profile</a>
+              </span>
+            </span>
+          </div>
+        </div>
 
         <h2 class="program-previous">Tidigare års program</h2>
 
@@ -156,9 +197,6 @@ export default {
 };
 </script>
 <style scoped>
-.content img {
-  width: 100%;
-}
 .program-container {
   margin: 50px auto 10px auto;
 }
@@ -192,6 +230,11 @@ export default {
   margin-bottom: 15px;
   margin-top: 10px;
   display: block;
+}
+.bio img {
+  max-height: 300px;
+  height: auto;
+  width: auto;
 }
 h4 {
   font-size: 1.15rem;
