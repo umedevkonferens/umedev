@@ -47,6 +47,7 @@ h2 {
   }
   .header-with-pepper .subheader {
     font-size: 1rem;
+    font-weight: bold;
   }
 }
 </style>

@@ -227,6 +227,10 @@ li {
   .kn-speaker.text:first-of-type {
     padding-right: 0;
   }
+  .kn-speaker a {
+    margin-top: 12px;
+    margin-bottom: 2rem;
+  }
   .kn-speaker.text:last-of-type {
     padding-left: 0;
   }
