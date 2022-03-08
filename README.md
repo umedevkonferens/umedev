@@ -53,5 +53,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Make sure you have logged in to firebase (`firebase login`) then run
 
 1. `npm run build`
-2. `firebase deploy`
+2. `firebase deploy` (not needed 2022 - collecting via google forms)
 3. `firebase deploy --only hosting`
+
+
+## Adding contributors
+
+NOTE: In order to add contributors, you must be logged in with umedevkonferens
