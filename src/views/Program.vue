@@ -107,6 +107,64 @@
                 metaverse for innovation and collaboration.
               </span>
             </span>
+
+            <!-- --------------------- -->
+            <div class="tracks-container">
+              <div class="track">
+                <!-- Vi sätter heading när vi bestämt tracks! -->
+                <h3 class="track-heading"></h3>
+                <div class="row">
+                  <span class="time">---</span>
+                  <h4>The Future is Dark</h4>
+                  <span class="content">
+                    <p class="program-description">
+                      Vad är ett programmeringsspråk? Varför kan inte våra verktyg skriva koden åt oss? Kan man skriva kod direkt i produktion, och vad händer om man gör det? Samt, kan man inte bara kompilera koden medan man skriver den och därmed aldrig behöva råka ut för ett kompileringsfel igen?  
+                      <p/>
+                      Beväpnade med en nyckel till en stängd beta tar vi oss en titt på programmeringsspråket Dark. Ett språk som utmanar gamla (och i vissa fall, förlegade) föreställningar om hur vi utvecklar mjukvara och som visar oss hur man återuppfinner mjukvaruutveckling på 2020-talet.                    </p>
+                    <span class="speaker">
+                      Linus Lagerhjelm, Omegapoint
+                    </span>
+                  </span>
+                </div>
+                <div class="row">
+                  <span class="time">---</span>
+                  <h4>Konfiguration för kreativitet</h4>
+                  <span class="content">
+                    <p class="program-description">
+                      Hur något så torrt som konfiguration kan avgöra den kreativa höjden. Hur man hittar en balans för användbarhet, enkelhet och flexibilitet för att skapa kreativitet för rätt person. I allt från spelutveckling till bokföring.
+                    </p>
+                    <span class="speaker"
+                      >Anders Gunnarsson, Coeo
+                    </span>
+                  </span>
+                </div>
+              </div>
+              <div class="track">
+                <!-- Vi sätter heading när vi bestämt tracks! -->
+                <h3 class="track-heading"></h3>
+                <div class="row">
+                  <span class="time">---</span>
+                  <h4>Prediktion av vårdtid på IVA</h4>
+                  <span class="content">
+                    <p class="program-description">
+                      Vi ha med hjälp av elektroniska journaler och maskininlärning skapat en modell som predikterar hur länge en patient kommer att ligga inne på NUS intensivvårdsavdelning. Detta för att underlätta resurssättning och logistikplanering kring sängplatser.                      </p>
+                    <span class="speaker">Petter Lindgren, Sogeti</span>
+                  </span>
+                </div>
+                <div class="row">
+                  <span class="time">---</span>
+                  <h4>Service blueprint - How user interactions affect front-end and back-end</h4>
+                  <span class="content">
+                    <p class="program-description">
+                      Jag kommer att prata om hur vi på Sartorius använder oss av verktyget - Service Blueprint som annars används för tjänstedesign, och hur vi använder det för vår mjukvaruutveckling för att synka, kommunicera och diskutera olika idéers påverkan på systemet från front-end till back-end.
+                    </p>
+                    <span class="speaker"
+                      >Paul Alvarado Mendoza, Sartorius</span
+                    >
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="content">
