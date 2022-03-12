@@ -115,6 +115,18 @@
                 <h3 class="track-heading">Spår 1</h3>
                 <div class="row">
                   <span class="time">---</span>
+                  <h4>Migrera till .NET 6 Blazor med hjälp av Strangler Fig Pattern</h4>
+                  <span class="content">
+                    <p class="program-description">
+                      Introduktion till webbutveckling med .NET Blazor. Hur vi använde Strangler Fig Pattern för att börja använda den nya tekniken utan att först behöva skriva om hela applikationen på en gång.
+                    </p>
+                    <span class="speaker">
+                      Tommy Hörnlund, Trimma AB
+                    </span>
+                  </span>
+                </div>
+                <div class="row">
+                  <span class="time">---</span>
                   <h4>The Future is Dark</h4>
                   <span class="content">
                     <p class="program-description">
