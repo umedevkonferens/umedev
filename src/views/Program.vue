@@ -110,9 +110,9 @@
 
             <!-- --------------------- -->
             <div class="tracks-container">
+              <!-- TRACK 1 -->
               <div class="track">
-                <!-- Vi sätter heading när vi bestämt tracks! -->
-                <h3 class="track-heading"></h3>
+                <h3 class="track-heading">Spår 1</h3>
                 <div class="row">
                   <span class="time">---</span>
                   <h4>The Future is Dark</h4>
@@ -128,20 +128,20 @@
                 </div>
                 <div class="row">
                   <span class="time">---</span>
-                  <h4>Konfiguration för kreativitet</h4>
+                  <h4>Service blueprint - How user interactions affect front-end and back-end</h4>
                   <span class="content">
                     <p class="program-description">
-                      Hur något så torrt som konfiguration kan avgöra den kreativa höjden. Hur man hittar en balans för användbarhet, enkelhet och flexibilitet för att skapa kreativitet för rätt person. I allt från spelutveckling till bokföring.
+                      Jag kommer att prata om hur vi på Sartorius använder oss av verktyget - Service Blueprint som annars används för tjänstedesign, och hur vi använder det för vår mjukvaruutveckling för att synka, kommunicera och diskutera olika idéers påverkan på systemet från front-end till back-end.
                     </p>
                     <span class="speaker"
-                      >Anders Gunnarsson, Coeo
-                    </span>
+                      >Paul Alvarado Mendoza, Sartorius</span
+                    >
                   </span>
                 </div>
               </div>
+              <!-- TRACK 2 -->
               <div class="track">
-                <!-- Vi sätter heading när vi bestämt tracks! -->
-                <h3 class="track-heading"></h3>
+                <h3 class="track-heading">Spår 2</h3>
                 <div class="row">
                   <span class="time">---</span>
                   <h4>Prediktion av vårdtid på IVA</h4>
@@ -151,16 +151,20 @@
                     <span class="speaker">Petter Lindgren, Sogeti</span>
                   </span>
                 </div>
+              </div>
+              <!-- TRACK 3 -->
+              <div class="track">
+                <h3 class="track-heading">Spår 3</h3>
                 <div class="row">
                   <span class="time">---</span>
-                  <h4>Service blueprint - How user interactions affect front-end and back-end</h4>
+                  <h4>Konfiguration för kreativitet</h4>
                   <span class="content">
                     <p class="program-description">
-                      Jag kommer att prata om hur vi på Sartorius använder oss av verktyget - Service Blueprint som annars används för tjänstedesign, och hur vi använder det för vår mjukvaruutveckling för att synka, kommunicera och diskutera olika idéers påverkan på systemet från front-end till back-end.
+                      Hur något så torrt som konfiguration kan avgöra den kreativa höjden. Hur man hittar en balans för användbarhet, enkelhet och flexibilitet för att skapa kreativitet för rätt person. I allt från spelutveckling till bokföring.
                     </p>
                     <span class="speaker"
-                      >Paul Alvarado Mendoza, Sartorius</span
-                    >
+                      >Anders Gunnarsson, Coeo
+                    </span>
                   </span>
                 </div>
               </div>
