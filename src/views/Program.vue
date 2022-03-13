@@ -464,11 +464,12 @@ Tracks CSS
   margin-bottom: 1rem;
 }
 .track-speaker {
-  font-weight: bold;
-  font-size: 0.95rem;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  font-size: 0.85rem;
+  margin: 1rem 0;
   display: block;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  padding-left: 0.25rem;
 }
 .content {
   padding: 10px 15px;

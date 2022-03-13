@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <v-app-bar class="umedev-header">
-      <v-toolbar-title class="headline text-uppercase">
-        <span>UME</span>
-        <span class="font-weight-light">DEV</span>
+      <v-toolbar-title class="text-uppercase">
+        <span class="quicksand bold">UME</span>
+        <span class="quicksand font-weight-light">DEV</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <button class="toggle-menu-btn" v-on:click="toggleMenu">
@@ -102,6 +102,9 @@ export default Vue.extend({
   background-color: #56ab2f;
   z-index: 5;
   position: fixed;
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
 }
 .main-wrapper {
   margin-top: 56px;
