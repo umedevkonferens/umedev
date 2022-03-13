@@ -122,7 +122,7 @@
               Strangler Fig Pattern för att börja använda den nya tekniken utan
               att först behöva skriva om hela applikationen på en gång.
             </p>
-            <span class="speaker">
+            <span class="track-speaker">
               Tommy Hörnlund, Trimma AB
             </span>
           </span>
@@ -147,7 +147,7 @@
               mjukvara och som visar oss hur man återuppfinner
               mjukvaruutveckling på 2020-talet.
             </p>
-            <span class="speaker">
+            <span class="track-speaker">
               Linus Lagerhjelm, Omegapoint
             </span>
           </span>
@@ -166,7 +166,7 @@
               för att synka, kommunicera och diskutera olika idéers påverkan på
               systemet från front-end till back-end.
             </p>
-            <span class="speaker">Paul Alvarado Mendoza, Sartorius</span>
+            <span class="track-speaker">Paul Alvarado Mendoza, Sartorius</span>
           </span>
         </div>
       </div>
@@ -183,7 +183,7 @@
               ligga inne på NUS intensivvårdsavdelning. Detta för att underlätta
               resurssättning och logistikplanering kring sängplatser.
             </p>
-            <span class="speaker">Petter Lindgren, Sogeti</span>
+            <span class="track-speaker">Petter Lindgren, Sogeti</span>
           </span>
         </div>
       </div>
@@ -200,7 +200,7 @@
               flexibilitet för att skapa kreativitet för rätt person. I allt
               från spelutveckling till bokföring.
             </p>
-            <span class="speaker">Anders Gunnarsson, Coeo </span>
+            <span class="track-speaker">Anders Gunnarsson, Coeo </span>
           </span>
         </div>
       </div>
@@ -342,7 +342,9 @@
                           innehållet i Januariöverenskommelsen. Från uppgång
                           till fall.
                         </p>
-                        <span class="speaker">Roger Nilsson, Skatteverket</span>
+                        <span class="track-speaker"
+                          >Roger Nilsson, Skatteverket</span
+                        >
                       </span>
                     </div>
                   </div>
@@ -460,6 +462,13 @@ Tracks CSS
   border: 1px solid rgba(86, 171, 47, 0.5);
   padding: 10px;
   margin-bottom: 1rem;
+}
+.track-speaker {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  display: block;
 }
 .content {
   padding: 10px 15px;
