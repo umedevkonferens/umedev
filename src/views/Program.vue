@@ -107,6 +107,175 @@
         </div>
       </v-col>
     </v-row>
+    <div class="schedule">
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time"><time>08:30</time></div>
+        <div class="time-slot-content">
+          <p>Inledning</p>
+          <p class="schedule-name">Konferencier Ellen Jacobsson</p>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>08.45 - 09.30</time>
+        </div>
+        <div class="time-slot-content">
+          <p>Keynote</p>
+          <p class="bold">
+            Digitalization Disrupts: How software, data and AI transform
+            industry
+          </p>
+          <p class="schedule-name">Prof. Holmström Olsson</p>
+        </div>
+      </div>
+      <div class="time-slot-row paus">
+        <div class="time-slot-actual-time">
+          <time>09.30 - 10.00</time>
+        </div>
+        <div class="time-slot-content">
+          <p>Fika</p>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>10.00 - 10.40</time>
+        </div>
+        <div class="time-slot-content with-tracks">
+          <div class="schedule-track">
+            <p>Migrera till .NET 6 Blazor med hjälp av Strangler Fig Pattern</p>
+          </div>
+          <div class="schedule-track">
+            <p>The future of blockchain technology in gaming</p>
+          </div>
+          <div class="schedule-track">
+            <p>Trygghetsskapande tester</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>10.50 - 11.10</time>
+        </div>
+        <div class="time-slot-content with-tracks">
+          <div class="schedule-track">
+            <p>Mår man mindre Python efter en Java?</p>
+          </div>
+          <div class="schedule-track">
+            <p>How we build our game using blockchain</p>
+          </div>
+          <div class="schedule-track">
+            <p>Design för färgblinda - en personlig reflexion</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>11.20 - 11.40</time>
+        </div>
+        <div class="time-slot-content with-tracks">
+          <div class="schedule-track">
+            <p>The Future is Dark</p>
+          </div>
+          <div class="schedule-track">
+            <p>Prediktion av vårdtid på IVA</p>
+          </div>
+          <div class="schedule-track">
+            <p>Ledarskap som ökar engagemang och prestation</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-slot-row paus">
+        <div class="time-slot-actual-time">
+          <time>11.40 - 12.50</time>
+        </div>
+        <div class="time-slot-content">
+          <p>Lunch</p>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>12.50 - 13:30</time>
+        </div>
+        <div class="time-slot-content with-tracks">
+          <div class="schedule-track">
+            <p>Jakarta EE 10 is Coming Your Way!</p>
+          </div>
+          <div class="schedule-track">
+            <p>Space, the final frontier</p>
+          </div>
+          <div class="schedule-track">
+            <p>Norrsken i fyra dimensioner</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>13:40 - 14:00</time>
+        </div>
+        <div class="time-slot-content with-tracks">
+          <div class="schedule-track">
+            <p>
+              Service blueprint - How user interactions affect front-end and
+              back-end
+            </p>
+          </div>
+          <div class="schedule-track">
+            <p>Cybersäkerhet, varför vi behöver det</p>
+          </div>
+          <div class="schedule-track">
+            <p>Konfiguration för kreativitet</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-slot-row paus">
+        <div class="time-slot-actual-time">
+          <time>14:00 - 14:30</time>
+        </div>
+        <div class="time-slot-content">
+          <p>Fika</p>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>14:30 - 15:10</time>
+        </div>
+        <div class="time-slot-content with-tracks">
+          <div class="schedule-track">
+            <p>Jetpack Compose - Nutiden är här för UI på Android</p>
+          </div>
+          <div class="schedule-track">
+            <p>Arkitektur i en snabbt växande organisation</p>
+          </div>
+          <div class="schedule-track">
+            <p>Daglig automatisk uppgradering av Ladok</p>
+          </div>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>15.20 - 16:05</time>
+        </div>
+        <div class="time-slot-content">
+          <p>Keynote</p>
+          <p class="bold">
+            The Metaverse - will it revolutionize innovation and social
+            relations - or bring down our democracies?
+          </p>
+          <p class="schedule-name">Kenneth Bodin, Algoryx</p>
+        </div>
+      </div>
+      <div class="time-slot-row">
+        <div class="time-slot-actual-time">
+          <time>16:05 - 16.20</time>
+        </div>
+        <div class="time-slot-content">
+          <p>Avslutning</p>
+          <p class="schedule-name">
+            Konferencier Ellen
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- --------------------- -->
     <div class="tracks-container">
@@ -132,7 +301,13 @@
           <h4>Mår man mindre Python efter en Java?</h4>
           <span class="content">
             <p class="program-description">
-              Efter ca 15 år med i huvudsak Enterprise Java (och en del Javascript såklart) så var det spännande att bryta av helt till en miljö där större delen av kodbasen är i C++, och där jag i huvudsak spenderar min tid med Python. Jag funderar över en del av Pythons bra saker, över att Python nu är etta på TIOBE Index över världens mest populära språk. Och över att det finns ett par saker jag saknar från Java.
+              Efter ca 15 år med i huvudsak Enterprise Java (och en del
+              Javascript såklart) så var det spännande att bryta av helt till en
+              miljö där större delen av kodbasen är i C++, och där jag i
+              huvudsak spenderar min tid med Python. Jag funderar över en del av
+              Pythons bra saker, över att Python nu är etta på TIOBE Index över
+              världens mest populära språk. Och över att det finns ett par saker
+              jag saknar från Java.
             </p>
             <span class="track-speaker">
               Jonas Andersson, Algoryx
@@ -168,15 +343,25 @@
           <h4>Jakarta EE 10 is Coming Your Way!</h4>
           <span class="content">
             <p class="program-description">
-              Jakarta EE 9 lowered the barriers of entry and established a foundation for future innovation paving the way for Jakarta EE 10.
-              <p/>
-              With Jakarta EE 10, we introduced Jakarta EE Core Profile which targets smaller runtimes suitable for microservices.
-              The Jakarta EE Core Profile also aims to be an even better fit for compiling to native images.
-              But it does not stop there. Both Jakarta EE Web Profile and Jakarta EE Platform is moving forward as well with updates to almost all the individual specifications.
-              <p/>
-              Join this session for the latest updates on the progress with Jakarta EE 10. 
-              I will go through what Jakarta EE 10 brings to the table, and what to expect when the specifications are moving forward.
-              The session will also give you a clear understanding of how to migrate from previous versions of Jakarta EE and Java EE as well as show how to leverage Java SE 17 and newer features with Jakarta EE.
+              Jakarta EE 9 lowered the barriers of entry and established a
+              foundation for future innovation paving the way for Jakarta EE 10.
+            </p>
+
+            <p />
+            With Jakarta EE 10, we introduced Jakarta EE Core Profile which
+            targets smaller runtimes suitable for microservices. The Jakarta EE
+            Core Profile also aims to be an even better fit for compiling to
+            native images. But it does not stop there. Both Jakarta EE Web
+            Profile and Jakarta EE Platform is moving forward as well with
+            updates to almost all the individual specifications.
+            <p />
+            Join this session for the latest updates on the progress with
+            Jakarta EE 10. I will go through what Jakarta EE 10 brings to the
+            table, and what to expect when the specifications are moving
+            forward. The session will also give you a clear understanding of how
+            to migrate from previous versions of Jakarta EE and Java EE as well
+            as show how to leverage Java SE 17 and newer features with Jakarta
+            EE.
             <span class="track-speaker">
               Ivar Grimstad, Eclipse Foundation
             </span>
@@ -204,10 +389,17 @@
           <h4>Jetpack Compose - Nutiden är här för UI på Android</h4>
           <span class="content">
             <p class="program-description">
-              Vi har sett förändringen ske på webben, där vi gick från statiska hemsidor till de dynamiska webbplatser vi tar för givet idag. I takt med användarens växande behov och krav, utvecklades också de tekniker och ramverk som vi använder oss av idag. 
-              </p>
-              Under den här presentationen kommer ni att få följa drivkrafterna bakom denna utvecklingen fram till dagens deklarativa ramverk som t.ex. React. Vi kommer sedan se hur samma kliv just nu tas inom utvecklingen av mobila appar, där markup i XML ersätts av nya deklarativa ramverk som Jetpack Compose, något som helt förändrar vårt sätt att bygga appar på Android. 
-              Nutiden är här!
+              Vi har sett förändringen ske på webben, där vi gick från statiska
+              hemsidor till de dynamiska webbplatser vi tar för givet idag. I
+              takt med användarens växande behov och krav, utvecklades också de
+              tekniker och ramverk som vi använder oss av idag.
+            </p>
+            Under den här presentationen kommer ni att få följa drivkrafterna
+            bakom denna utvecklingen fram till dagens deklarativa ramverk som
+            t.ex. React. Vi kommer sedan se hur samma kliv just nu tas inom
+            utvecklingen av mobila appar, där markup i XML ersätts av nya
+            deklarativa ramverk som Jetpack Compose, något som helt förändrar
+            vårt sätt att bygga appar på Android. Nutiden är här!
             <span class="track-speaker">
               Michael Knutsson, Swedbank
             </span>
@@ -222,8 +414,11 @@
           <h4>The future of blockchain technology in gaming</h4>
           <span class="content">
             <p class="program-description">
-              Möjligheter och utmaningar med att integrera blockchain med spel. 
-              <p/>
+              Möjligheter och utmaningar med att integrera blockchain med spel.
+            </p>
+
+            <p />
+            <p>
               Hur vi har tacklat det i vårat spel och vilka lärdomar som finns.
             </p>
             <span class="track-speaker">
@@ -236,7 +431,11 @@
           <h4>How we build our game using blockchain</h4>
           <span class="content">
             <p class="program-description">
-              We are developing a multiplayer action RPG Game called Crystals of Naramunz and our focus is to create an excellent in-game experience and bridge the world of crypto and gaming. We will talk about the challenges developing with blockchain and how we tackle them
+              We are developing a multiplayer action RPG Game called Crystals of
+              Naramunz and our focus is to create an excellent in-game
+              experience and bridge the world of crypto and gaming. We will talk
+              about the challenges developing with blockchain and how we tackle
+              them
             </p>
             <span class="track-speaker">
               Klaas Tojkander & Viktor Svensson, Crypto Rogue Games AB
@@ -261,13 +460,25 @@
           <h4>Space, the final frontier</h4>
           <span class="content">
             <p class="program-description">
-              Swedbank valde för ett antal år sedan att investera att ta fram en ny utvecklingsplatform baserat på micro-services, containers, CI/CD, autonoma teams, DevOps, m.m.
-              <p/>
-              Plattformen fick namnet Andromeda, efter våran närmaste galax, för att hänvisa till den långa resa som team behöver göra kompetensmässigt, processmässigt och kulturmässigt. Men för att överbrygga och göra denna resa snabbare och smidigare skapade ett platform team som drivs utifrån att leverera en smidigt produkt till sina kunder, dvs utvecklingsteamen.
+              Swedbank valde för ett antal år sedan att investera att ta fram en
+              ny utvecklingsplatform baserat på micro-services, containers,
+              CI/CD, autonoma teams, DevOps, m.m.
+            </p>
 
-              Att bygga en utvecklingsplatform som ska möta 100-tals utvecklingsteams förväntningar, driva kulturförändring gentemot moderna utvecklingsprinciper, säkerställa en stabil drift av de applikationer som byggs på plattformen, etc är en svår balansgång.
-
-              Denna presentation lyfter de erfarenheter och vägval som har uppkommit under resan från att erbjuda en smidig ombordning för team, utveckling på plattformen samt drift från de team som bygger upp och erbjuder plattformen som tjänst.
+            <p />
+            Plattformen fick namnet Andromeda, efter våran närmaste galax, för
+            att hänvisa till den långa resa som team behöver göra
+            kompetensmässigt, processmässigt och kulturmässigt. Men för att
+            överbrygga och göra denna resa snabbare och smidigare skapade ett
+            platform team som drivs utifrån att leverera en smidigt produkt till
+            sina kunder, dvs utvecklingsteamen. Att bygga en utvecklingsplatform
+            som ska möta 100-tals utvecklingsteams förväntningar, driva
+            kulturförändring gentemot moderna utvecklingsprinciper, säkerställa
+            en stabil drift av de applikationer som byggs på plattformen, etc är
+            en svår balansgång. Denna presentation lyfter de erfarenheter och
+            vägval som har uppkommit under resan från att erbjuda en smidig
+            ombordning för team, utveckling på plattformen samt drift från de
+            team som bygger upp och erbjuder plattformen som tjänst.
             <span class="track-speaker">
               Markus Backman, Swedbank
             </span>
@@ -278,7 +489,9 @@
           <h4>Cybersäkerhet, varför vi behöver det.</h4>
           <span class="content">
             <p class="program-description">
-              En grundläggande introduktion till cybersäkerhet och varför vi behöver det. Enkla begrepp och förklaringar kopplas till kända incidenter.
+              En grundläggande introduktion till cybersäkerhet och varför vi
+              behöver det. Enkla begrepp och förklaringar kopplas till kända
+              incidenter.
             </p>
             <span class="track-speaker">
               Mirjam Borén, Omegapoint
@@ -287,10 +500,13 @@
         </div>
         <div class="program-row">
           <span class="time">---</span>
-          <h4>Arkitektur i en snabbt växande organisation </h4>
+          <h4>Arkitektur i en snabbt växande organisation</h4>
           <span class="content">
             <p class="program-description">
-              Vi tar en titt på hur mjukvaruarkitektur och en organisation som växer kan samverka för att på ett effektivt sätt kunna uppfylla det önskvärda syftet. I Sartorius fall handlar det om att skynda på time to market för nya produkter och med bibehållen kvalité
+              Vi tar en titt på hur mjukvaruarkitektur och en organisation som
+              växer kan samverka för att på ett effektivt sätt kunna uppfylla
+              det önskvärda syftet. I Sartorius fall handlar det om att skynda
+              på time to market för nya produkter och med bibehållen kvalité
             </p>
             <span class="track-speaker">
               Mats Wikström, Sartorius
@@ -306,9 +522,16 @@
           <h4>Trygghetsskapande tester</h4>
           <span class="content">
             <p class="program-description">
-              I alla projekt har vi krav uppifrån på hög testteckning. Men sover vi verkligen tryggare om natten när vi vet att vi har 90% av koden täckt av tester?
-              <p/>
-              Jag pratar i min presentation om hur jag tycker att vi ska jobba med våra automatiserade tester, vilka angreppssätt vi kan använda oss av och varför jag tycker att den här förändringen av våra testsätt är viktig.
+              I alla projekt har vi krav uppifrån på hög testteckning. Men sover
+              vi verkligen tryggare om natten när vi vet att vi har 90% av koden
+              täckt av tester?
+            </p>
+
+            <p />
+            Jag pratar i min presentation om hur jag tycker att vi ska jobba med
+            våra automatiserade tester, vilka angreppssätt vi kan använda oss av
+            och varför jag tycker att den här förändringen av våra testsätt är
+            viktig.
             <span class="track-speaker">
               Adam Sernheim, Kvadrat
             </span>
@@ -319,7 +542,8 @@
           <h4>Design för färgblinda - en personlig reflexion</h4>
           <span class="content">
             <p class="program-description">
-              En personlig berättelse om hur det är att vara "färgblind" och hur det påverkar vad som kan bli svårt i ett gränssnitt. 
+              En personlig berättelse om hur det är att vara "färgblind" och hur
+              det påverkar vad som kan bli svårt i ett gränssnitt.
             </p>
             <span class="track-speaker">
               Ellen Jacobsson, ITS
@@ -331,7 +555,8 @@
           <h4>Ledarskap som ökar engagemang och prestation</h4>
           <span class="content">
             <p class="program-description">
-              En kort föreläsning om hur kontinuerliga samtal med sina medarbetare ökar engagemang och prestation.
+              En kort föreläsning om hur kontinuerliga samtal med sina
+              medarbetare ökar engagemang och prestation.
             </p>
             <span class="track-speaker">
               Tommy Eriksson, Evity
@@ -343,7 +568,15 @@
           <h4>Norrsken i fyra dimensioner</h4>
           <span class="content">
             <p class="program-description">
-              Genom att matematiskt analysera bilder på norrsken kan fysiker forska kring magnetfält, solaktivitet och atmosfärsfysik. Bättre om de kan beräkna en tredimensionell modell. Än bättre om den görs fyrdimensionell, genom att analysera förändring över tid. Vilka sorters utmaningar ställs man inför som utvecklare i ett sådant projekt? Vi börjar med en grundkurs i vad norrsken är, innan vi går in på datadriven utveckling. För när datamängderna räknas i terabyte börjar det bli viktigt med lågnivåoptimering och växling mellan programspråk. Hur testar man förresten matematiska formler?
+              Genom att matematiskt analysera bilder på norrsken kan fysiker
+              forska kring magnetfält, solaktivitet och atmosfärsfysik. Bättre
+              om de kan beräkna en tredimensionell modell. Än bättre om den görs
+              fyrdimensionell, genom att analysera förändring över tid. Vilka
+              sorters utmaningar ställs man inför som utvecklare i ett sådant
+              projekt? Vi börjar med en grundkurs i vad norrsken är, innan vi
+              går in på datadriven utveckling. För när datamängderna räknas i
+              terabyte börjar det bli viktigt med lågnivåoptimering och växling
+              mellan programspråk. Hur testar man förresten matematiska formler?
             </p>
             <span class="track-speaker">
               Lars-Henrik Snow, IRF - Institutet för Rymdfysik
@@ -368,7 +601,14 @@
           <h4>Daglig automatisk uppgradering av Ladok</h4>
           <span class="content">
             <p class="program-description">
-              Vi gör en djupdykning i de system som automatiskt rullar ut förbättringar till produktion i Ladok. Utvecklingsteamen tar själva beslut om när rättningar och förbättringar ska levereras och gör ändringen i GIT. Förändringarna testas i en automatisk pipeline i Jenkins och driftmiljöerna uppgraderas morgonen efter med hjälp av Ansible. Detta sker sömlöst utan att påverka användare. Vi kommer att prata om hur detta är implementerat från början till slut.
+              Vi gör en djupdykning i de system som automatiskt rullar ut
+              förbättringar till produktion i Ladok. Utvecklingsteamen tar
+              själva beslut om när rättningar och förbättringar ska levereras
+              och gör ändringen i GIT. Förändringarna testas i en automatisk
+              pipeline i Jenkins och driftmiljöerna uppgraderas morgonen efter
+              med hjälp av Ansible. Detta sker sömlöst utan att påverka
+              användare. Vi kommer att prata om hur detta är implementerat från
+              början till slut.
             </p>
             <span class="track-speaker">
               Fredrik Domeij, Umeå Universitet
@@ -617,6 +857,64 @@ h4 {
   }
 }
 
+/*
+Schedule
+----------- */
+.schedule {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #56ab2f;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.time-slot-row {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 1;
+  align-content: flex-start;
+  justify-content: center;
+  border-top: 1px solid #56ab2f;
+  flex-grow: 1;
+}
+.time-slot-row.paus {
+  background-color: rgba(86, 171, 47, 0.2);
+}
+.time-slot-actual-time {
+  width: 133px;
+  padding: 8px;
+  height: 100%;
+  font-weight: bold;
+  flex-grow: 1;
+}
+.time-slot-content {
+  padding: 8px;
+  border-left: 1px solid #56ab2f;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.time-slot-content.with-tracks {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.schedule-track {
+  flex-grow: 1;
+  border-left: 1px solid #56ab2f;
+  padding: 4px;
+  width: 100%;
+}
+.time-slot-content .schedule-track:first-of-type {
+  border-left: none;
+}
+.time-slot-content p {
+  margin-bottom: 4px;
+}
+.schedule-name {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
 /*
 Tracks CSS
 ------------ */
