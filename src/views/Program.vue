@@ -142,13 +142,17 @@
         </div>
         <div class="time-slot-content with-tracks">
           <div class="schedule-track">
-            <p>Migrera till .NET 6 Blazor med hjälp av Strangler Fig Pattern</p>
+            <a href="#spar-1-pass-1"
+              >Migrera till .NET 6 Blazor med hjälp av Strangler Fig Pattern</a
+            >
           </div>
           <div class="schedule-track">
-            <p>The future of blockchain technology in gaming</p>
+            <a href="#spar-2-pass-1"
+              >The future of blockchain technology in gaming</a
+            >
           </div>
           <div class="schedule-track">
-            <p>Trygghetsskapande tester</p>
+            <a href="#spar-3-pass-1">Trygghets&shy;skapande tester</a>
           </div>
         </div>
       </div>
@@ -158,13 +162,15 @@
         </div>
         <div class="time-slot-content with-tracks">
           <div class="schedule-track">
-            <p>Mår man mindre Python efter en Java?</p>
+            <a href="#spar-1-pass-2">Mår man mindre Python efter en Java?</a>
           </div>
           <div class="schedule-track">
-            <p>How we build our game using blockchain</p>
+            <a href="#spar-2-pass-2">How we build our game using blockchain</a>
           </div>
           <div class="schedule-track">
-            <p>Design för färgblinda - en personlig reflexion</p>
+            <a href="#spar-3-pass-2"
+              >Design för färgblinda - en personlig reflexion</a
+            >
           </div>
         </div>
       </div>
@@ -174,13 +180,15 @@
         </div>
         <div class="time-slot-content with-tracks">
           <div class="schedule-track">
-            <p>The Future is Dark</p>
+            <a href="#spar-1-pass-3">The Future is Dark</a>
           </div>
           <div class="schedule-track">
-            <p>Prediktion av vårdtid på IVA</p>
+            <a href="#spar-2-pass-3">Prediktion av vårdtid på IVA</a>
           </div>
           <div class="schedule-track">
-            <p>Ledarskap som ökar engagemang och prestation</p>
+            <a href="#spar-3-pass-3"
+              >Ledarskap som ökar engage&shy;mang och prestation</a
+            >
           </div>
         </div>
       </div>
@@ -198,13 +206,13 @@
         </div>
         <div class="time-slot-content with-tracks">
           <div class="schedule-track">
-            <p>Jakarta EE 10 is Coming Your Way!</p>
+            <a href="#spar-1-pass-4">Jakarta EE 10 is Coming Your Way!</a>
           </div>
           <div class="schedule-track">
-            <p>Space, the final frontier</p>
+            <a href="#spar-2-pass-4">Space, the final frontier</a>
           </div>
           <div class="schedule-track">
-            <p>Norrsken i fyra dimensioner</p>
+            <a href="#spar-3-pass-4">Norrsken i fyra dimen&shy;sioner</a>
           </div>
         </div>
       </div>
@@ -214,16 +222,18 @@
         </div>
         <div class="time-slot-content with-tracks">
           <div class="schedule-track">
-            <p>
+            <a href="#spar-1-pass-5">
               Service blueprint - How user interactions affect front-end and
               back-end
-            </p>
+            </a>
           </div>
           <div class="schedule-track">
-            <p>Cybersäkerhet, varför vi behöver det</p>
+            <a href="#spar-2-pass-5"
+              >Cyber&shy;säkerhet, varför vi behöver det</a
+            >
           </div>
           <div class="schedule-track">
-            <p>Konfiguration för kreativitet</p>
+            <a href="#spar-3-pass-5">Konfig&shy;uration för kreativitet</a>
           </div>
         </div>
       </div>
@@ -241,13 +251,19 @@
         </div>
         <div class="time-slot-content with-tracks">
           <div class="schedule-track">
-            <p>Jetpack Compose - Nutiden är här för UI på Android</p>
+            <a href="#spar-1-pass-6"
+              >Jetpack Compose - Nutiden är här för UI på Android</a
+            >
           </div>
           <div class="schedule-track">
-            <p>Arkitektur i en snabbt växande organisation</p>
+            <a href="#spar-2-pass-6"
+              >Arkitektur i en snabbt växande organ&shy;isation</a
+            >
           </div>
           <div class="schedule-track">
-            <p>Daglig automatisk uppgradering av Ladok</p>
+            <a href="#spar-3-pass-6"
+              >Daglig automatisk upp&shy;gradering av Ladok</a
+            >
           </div>
         </div>
       </div>
@@ -283,8 +299,10 @@
       <div class="track">
         <h3 class="track-heading">Spår 1</h3>
         <div class="program-row">
-          <span class="time">---</span>
-          <h4>Migrera till .NET 6 Blazor med hjälp av Strangler Fig Pattern</h4>
+          <span class="time" id="spar-1-pass-1">10.00 - 10.40</span>
+          <h4>
+            Migrera till .NET 6 Blazor med hjälp av Strangler Fig Pattern
+          </h4>
           <span class="content">
             <p class="program-description">
               Introduktion till webbutveckling med .NET Blazor. Hur vi använde
@@ -297,7 +315,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-1-pass-2">10.50 - 11.10</span>
           <h4>Mår man mindre Python efter en Java?</h4>
           <span class="content">
             <p class="program-description">
@@ -315,7 +333,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-1-pass-3">11.20 - 11.40</span>
           <h4>The Future is Dark</h4>
           <span class="content">
             <p class="program-description">
@@ -339,7 +357,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-1-pass-4">12.50 - 13:30</span>
           <h4>Jakarta EE 10 is Coming Your Way!</h4>
           <span class="content">
             <p class="program-description">
@@ -368,7 +386,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-1-pass-5">13:40 - 14:00</span>
           <h4>
             Service blueprint - How user interactions affect front-end and
             back-end
@@ -385,7 +403,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-1-pass-6">14:30 - 15:10</span>
           <h4>Jetpack Compose - Nutiden är här för UI på Android</h4>
           <span class="content">
             <p class="program-description">
@@ -410,7 +428,7 @@
       <div class="track">
         <h3 class="track-heading">Spår 2</h3>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-2-pass-1">10.00 - 10.40</span>
           <h4>The future of blockchain technology in gaming</h4>
           <span class="content">
             <p class="program-description">
@@ -427,7 +445,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-2-pass-2">10.50 - 11.10</span>
           <h4>How we build our game using blockchain</h4>
           <span class="content">
             <p class="program-description">
@@ -443,7 +461,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-2-pass-3">11.20 - 11.40</span>
           <h4>Prediktion av vårdtid på IVA</h4>
           <span class="content">
             <p class="program-description">
@@ -456,7 +474,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-2-pass-4">12.50 - 13:30</span>
           <h4>Space, the final frontier</h4>
           <span class="content">
             <p class="program-description">
@@ -465,27 +483,29 @@
               CI/CD, autonoma teams, DevOps, m.m.
             </p>
 
-            <p />
-            Plattformen fick namnet Andromeda, efter våran närmaste galax, för
-            att hänvisa till den långa resa som team behöver göra
-            kompetensmässigt, processmässigt och kulturmässigt. Men för att
-            överbrygga och göra denna resa snabbare och smidigare skapade ett
-            platform team som drivs utifrån att leverera en smidigt produkt till
-            sina kunder, dvs utvecklingsteamen. Att bygga en utvecklingsplatform
-            som ska möta 100-tals utvecklingsteams förväntningar, driva
-            kulturförändring gentemot moderna utvecklingsprinciper, säkerställa
-            en stabil drift av de applikationer som byggs på plattformen, etc är
-            en svår balansgång. Denna presentation lyfter de erfarenheter och
-            vägval som har uppkommit under resan från att erbjuda en smidig
-            ombordning för team, utveckling på plattformen samt drift från de
-            team som bygger upp och erbjuder plattformen som tjänst.
+            <p>
+              Plattformen fick namnet Andromeda, efter våran närmaste galax, för
+              att hänvisa till den långa resa som team behöver göra
+              kompetensmässigt, processmässigt och kulturmässigt. Men för att
+              överbrygga och göra denna resa snabbare och smidigare skapade ett
+              platform team som drivs utifrån att leverera en smidigt produkt
+              till sina kunder, dvs utvecklingsteamen. Att bygga en
+              utvecklingsplatform som ska möta 100-tals utvecklingsteams
+              förväntningar, driva kulturförändring gentemot moderna
+              utvecklingsprinciper, säkerställa en stabil drift av de
+              applikationer som byggs på plattformen, etc är en svår balansgång.
+              Denna presentation lyfter de erfarenheter och vägval som har
+              uppkommit under resan från att erbjuda en smidig ombordning för
+              team, utveckling på plattformen samt drift från de team som bygger
+              upp och erbjuder plattformen som tjänst.
+            </p>
             <span class="track-speaker">
               Markus Backman, Swedbank
             </span>
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-2-pass-5">13:40 - 14:00</span>
           <h4>Cybersäkerhet, varför vi behöver det.</h4>
           <span class="content">
             <p class="program-description">
@@ -499,7 +519,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-2-pass-6">14:30 - 15:10</span>
           <h4>Arkitektur i en snabbt växande organisation</h4>
           <span class="content">
             <p class="program-description">
@@ -518,7 +538,7 @@
       <div class="track">
         <h3 class="track-heading">Spår 3</h3>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-3-pass-1">10.00 - 10.40</span>
           <h4>Trygghetsskapande tester</h4>
           <span class="content">
             <p class="program-description">
@@ -526,7 +546,6 @@
               vi verkligen tryggare om natten när vi vet att vi har 90% av koden
               täckt av tester?
             </p>
-
             <p />
             Jag pratar i min presentation om hur jag tycker att vi ska jobba med
             våra automatiserade tester, vilka angreppssätt vi kan använda oss av
@@ -538,7 +557,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-3-pass-2">10.50 - 11.10</span>
           <h4>Design för färgblinda - en personlig reflexion</h4>
           <span class="content">
             <p class="program-description">
@@ -551,7 +570,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-3-pass-3">11.20 - 11.40</span>
           <h4>Ledarskap som ökar engagemang och prestation</h4>
           <span class="content">
             <p class="program-description">
@@ -564,7 +583,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-3-pass-4">12.50 - 13:30</span>
           <h4>Norrsken i fyra dimensioner</h4>
           <span class="content">
             <p class="program-description">
@@ -584,7 +603,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-3-pass-5">13:40 - 14:00</span>
           <h4>Konfiguration för kreativitet</h4>
           <span class="content">
             <p class="program-description">
@@ -597,7 +616,7 @@
           </span>
         </div>
         <div class="program-row">
-          <span class="time">---</span>
+          <span class="time" id="spar-3-pass-6">14:30 - 15:10</span>
           <h4>Daglig automatisk uppgradering av Ladok</h4>
           <span class="content">
             <p class="program-description">
@@ -867,6 +886,7 @@ Schedule
   border: 1px solid #56ab2f;
   max-width: 1024px;
   margin: 0 auto;
+  display: block;
 }
 .time-slot-row {
   display: flex;

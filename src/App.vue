@@ -151,6 +151,9 @@ ul {
 }
 </style>
 <style>
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow: hidden;
 }
