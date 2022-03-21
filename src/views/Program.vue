@@ -630,7 +630,7 @@
               början till slut.
             </p>
             <span class="track-speaker">
-              Fredrik Domeij, Umeå Universitet
+              Fredrik Domeij, ITS
             </span>
           </span>
         </div>
