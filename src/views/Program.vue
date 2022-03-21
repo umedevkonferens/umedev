@@ -542,7 +542,7 @@
           <h4>Trygghetsskapande tester</h4>
           <span class="content">
             <p class="program-description">
-              I alla projekt har vi krav uppifrån på hög testteckning. Men sover
+              I alla projekt har vi krav uppifrån på hög testtäckning. Men sover
               vi verkligen tryggare om natten när vi vet att vi har 90% av koden
               täckt av tester?
             </p>
