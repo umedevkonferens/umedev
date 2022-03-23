@@ -617,7 +617,7 @@
         </div>
         <div class="program-row">
           <span class="time" id="spar-3-pass-6">14:30 - 15:10</span>
-          <h4>Daglig automatisk uppgradering av Ladok</h4>
+          <h4>Daglig automatiserad uppgradering av Ladok</h4>
           <span class="content">
             <p class="program-description">
               Vi gör en djupdykning i de system som automatiskt rullar ut
