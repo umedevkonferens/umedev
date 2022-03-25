@@ -446,15 +446,12 @@
         </div>
         <div class="program-row">
           <span class="time" id="spar-2-pass-2">10.50 - 11.10</span>
-          <h4>How we build our game using blockchain</h4>
+          <h4>Utmaningar med att bygga ett multiplayer spel med ekonomi</h4>
           <span class="content">
             <p class="program-description">
-              We are developing a multiplayer action RPG Game called Crystals of
-              Naramunz and our focus is to create an excellent in-game
-              experience and bridge the world of crypto and gaming. We will talk
-              about the challenges developing with blockchain and how we tackle
-              them
-            </p>
+              Crystal of Naramunz är ett free-2-play multiplayer action RPG med hållbar spelekonomi.
+              <p/>
+              Vi kommer att prata om vilka problem vi ser framför oss? Vilka unika krav vi har? Och lite om hur det här projektet skiljer sig mot andra liknande spel?            </p>
             <span class="track-speaker">
               Klaas Tojkander & Viktor Svensson, Crypto Rogue Games AB
             </span>
