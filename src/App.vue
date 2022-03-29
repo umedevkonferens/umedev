@@ -69,10 +69,10 @@ export default Vue.extend({
         link: "/",
         title: "Hem",
       },
-      {
-        link: "/anmalan",
-        title: "Anmälan",
-      },
+      // {
+      //   link: "/anmalan",
+      //   title: "Anmälan",
+      // },
       {
         link: "/program",
         title: "Program",

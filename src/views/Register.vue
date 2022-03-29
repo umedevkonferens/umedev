@@ -11,13 +11,6 @@
         Om du får förhinder var snäll och avanmäl dig så att din plats kan gå
         till någon annan som vill delta.
       </p>
-      <a
-        class="bold"
-        href="https://forms.gle/k6rPUKwBFbNsNW4m8"
-        rel="noopener noreferrer"
-        target="_blank"
-        >Anmäl dig via Google Forms</a
-      >
       <br />
       <br />
       <br />

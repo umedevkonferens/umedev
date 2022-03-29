@@ -47,11 +47,9 @@
         <div class="home-content-container content">
           <div class="a">
             <v-card min-height="167">
-              <v-card-title>Anmäl dig till årets konferens</v-card-title>
+              <v-card-title>Anmälan stängd</v-card-title>
               <v-card-text>
-                Du kan nu anmäla dig till årets konferens. <br />
-                <br />
-                <a href="/anmalan">Anmäl dig!</a>
+                Nu är anmälan till årets konferens stängd.
               </v-card-text>
             </v-card>
           </div>
