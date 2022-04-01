@@ -101,14 +101,13 @@ export default Vue.extend({
 .umedev-header {
   background-color: #56ab2f;
   z-index: 5;
-  position: fixed;
+  display: block;
+  width: 100%;
 }
 .quicksand {
   font-family: "Quicksand", sans-serif;
 }
-.main-wrapper {
-  margin-top: 56px;
-}
+
 ul {
   list-style: none;
   display: flex;

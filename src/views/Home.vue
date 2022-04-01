@@ -47,9 +47,24 @@
         <div class="home-content-container content">
           <div class="a">
             <v-card min-height="167">
-              <v-card-title>Anmälan stängd</v-card-title>
+              <v-card-title>After conference</v-card-title>
               <v-card-text>
-                Nu är anmälan till årets konferens stängd.
+                Umedev välkomnar deltagare och talare på After Conference på
+                O'learys i Umeå 17:45 den 5e april. Mat och dryck beställes och
+                betalas på plats av enskild person.
+                <br />
+                <br />
+
+                <a
+                  target="_blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdAdMZiLWk2jGro6yJbRPAkX3tfd9n2ZbS-PtUPQNFxmk-4RQ/viewform"
+                  rel="nooperner noreferrer"
+                  >Anmäl dig till After conference</a
+                >
+                <br />
+                <br />
+                Avanmäl gärna din plats så att restaurangen får rätt antal
+                besökare. Avanmälan finns i bekräftelsemailet.
               </v-card-text>
             </v-card>
           </div>

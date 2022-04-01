@@ -291,6 +291,21 @@
           </p>
         </div>
       </div>
+      <div class="time-slot-row paus">
+        <div class="time-slot-actual-time">
+          <time>17:45 -</time>
+        </div>
+        <div class="time-slot-content">
+          <p class="bold">After conference 🎉</p>
+          <p>Mat och dryck beställes och betalas på plats av enskild person.</p>
+          <a
+            target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdAdMZiLWk2jGro6yJbRPAkX3tfd9n2ZbS-PtUPQNFxmk-4RQ/viewform"
+            rel="nooperner noreferrer"
+            >Anmäl dig till After conference</a
+          >
+        </div>
+      </div>
     </div>
 
     <!-- --------------------- -->
@@ -449,9 +464,16 @@
           <h4>Utmaningar med att bygga ett multiplayer spel med ekonomi</h4>
           <span class="content">
             <p class="program-description">
-              Crystal of Naramunz är ett free-2-play multiplayer action RPG med hållbar spelekonomi.
-              <p/>
-              Vi kommer att prata om vilka problem vi ser framför oss? Vilka unika krav vi har? Och lite om hur det här projektet skiljer sig mot andra liknande spel?            </p>
+              Crystal of Naramunz är ett free-2-play multiplayer action RPG med
+              hållbar spelekonomi.
+            </p>
+
+            <p />
+            <p>
+              Vi kommer att prata om vilka problem vi ser framför oss? Vilka
+              unika krav vi har? Och lite om hur det här projektet skiljer sig
+              mot andra liknande spel?
+            </p>
             <span class="track-speaker">
               Klaas Tojkander & Viktor Svensson, Crypto Rogue Games AB
             </span>
