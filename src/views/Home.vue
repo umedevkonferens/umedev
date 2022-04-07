@@ -3,68 +3,46 @@
     <HeaderWithPepper
       header="Umedev"
       sub-header1="- Vår norrländska IT-konferens"
-      sub-header2="5 april 2022 HUM huset, Umeå universitet"
+      sub-header2=""
     />
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
-        <div>
-          <div class="keynotes">
-            <div class="keynote-wrapper">
-              <div class="kn-speaker text">
-                <span class="kn-speaker-pre">Opening keynote: </span>
-                <h3>
-                  Digitalization Disrupts: How software, data and AI transform
-                  industry
-                </h3>
-                <span class="kn-speaker-post">Helena Holmström Olsson</span>
-                <a href="/program">Läs mer under program</a>
-              </div>
-              <div class="kn-speaker">
-                <img src="../assets/Helena_Holmstrom_Olsson_Mindre.jpg" />
-                <p class="speaker-name">Professor Helena Holmström Olsson</p>
-              </div>
+        <div class="thanks-container">
+          <h2 class="thanks">Tack för i år!</h2>
+          <p class="thanks-note">
+            Umedevs arbetsgrupp vill tacka alla
+            <span class="bold">talare</span>,
+            <span class="bold">volontärer </span> och
+            <span class="bold">deltagare </span>för 2022:s upplaga av Umedev. Vi
+            hoppas se er igen nästa år.
+          </p>
+          <p>
+            Stort tack till våra keynote-talare,
+            <span class="bold">Kenneth Brodin</span> och
+            <span class="bold">Professor Helena Holmström Olsson</span>.
+          </p>
+          <div class="image-container">
+            <div class="image">
+              <img alt="Kenneth Bodin" src="../assets/Kenneth_800.jpg" />
             </div>
-
-            <div class="keynote-wrapper">
-              <div class="kn-speaker">
-                <img src="../assets/Kenneth_Bodin_mindre.jpg" />
-                <p class="speaker-name">
-                  Kenneth Bodin, CEO and co-founder Algoryx
-                </p>
-              </div>
-              <div class="kn-speaker text">
-                <span class="kn-speaker-pre">Closing keynote: </span>
-                <h3>
-                  The Metaverse - will it revolutionize innovation and social
-                  relations - or bring down our democracies?
-                </h3>
-                <span class="kn-speaker-post">Kenneth Bodin</span>
-                <a href="/program">Läs mer under program</a>
-              </div>
+            <div class="image">
+              <img
+                alt="Professor Helena Holmström Olsson"
+                src="../assets/Helena_800.jpg"
+              />
             </div>
           </div>
         </div>
         <div class="home-content-container content">
           <div class="a">
-            <v-card min-height="167">
-              <v-card-title>After conference</v-card-title>
-              <v-card-text>
-                Umedev välkomnar deltagare och talare på After Conference på
-                O'learys i Umeå 17:45 den 5e april. Mat och dryck beställes och
-                betalas på plats av enskild person.
-                <br />
-                <br />
-
-                <a
-                  target="_blank"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdAdMZiLWk2jGro6yJbRPAkX3tfd9n2ZbS-PtUPQNFxmk-4RQ/viewform"
-                  rel="nooperner noreferrer"
-                  >Anmäl dig till After conference</a
-                >
-                <br />
-                <br />
-                Avanmäl gärna din plats så att restaurangen får rätt antal
-                besökare. Avanmälan finns i bekräftelsemailet.
+            <v-card>
+              <v-card-title>Var med i projektgruppen!</v-card-title>
+              <v-card-text
+                >Umedev organiseras av oss för oss för att vi vill det!
+                Projektgruppen är alltid öppen för fler som vill vara med i
+                konferensen olika delar. Vill du vara med och organsiera Umedev,
+                eller vill veta mer så maila
+                <a href="mailto:info@umedev.org">info@umedev.org</a>.
               </v-card-text>
             </v-card>
           </div>
@@ -144,10 +122,6 @@ h2 {
   width: 100%;
   margin-top: 30px;
 }
-.image-container {
-  display: flex;
-  justify-content: center;
-}
 
 h4 {
   margin-top: 30px;
@@ -168,58 +142,32 @@ li {
 .v-card__title {
   word-break: break-word;
 }
-.keynotes {
-  margin-top: 62px;
-}
-.keynote-wrapper {
-  width: 100%;
+.image-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
-  flex-basis: content;
+}
+.image-container img {
+  width: 100%;
+}
+.image {
+  width: 48%;
+}
+.thanks-container {
+  padding-bottom: 2rem;
+  border-bottom: 4px solid #56ab2f;
+}
+.thanks {
   border-top: 4px solid #56ab2f;
-  padding-bottom: 22px;
-  margin-top: 22px;
-}
-.kn-speaker {
-  width: 100%;
-}
-.speaker-name {
-  width: 100%;
-  text-align: center;
-}
-.kn-speaker.text {
-  padding-top: 20px;
-}
-.kn-speaker.text:first-of-type {
-  padding-right: 16px;
-}
-.kn-speaker.text:last-of-type {
-  padding-left: 16px;
-}
-.kn-speaker-pre {
-  font-size: 1.25rem;
-}
-.kn-speaker h3 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   font-size: 2.5rem;
   line-height: 1.2;
 }
-.kn-speaker a {
-  margin-top: 22px;
-  color: #56ab2f;
-  margin-left: 0;
-  font-size: 1.1rem;
-  display: block;
-}
-.kn-speaker-post {
-  font-size: 1.75rem;
-  display: block;
-}
-.keynote-wrapper img {
-  height: auto;
-  width: auto;
-  max-width: 100%;
-  max-height: 100%;
+.thanks-note {
+  max-width: 65ch;
+  margin-bottom: 2.5rem;
+  font-size: 1.25rem;
 }
 
 @media screen and (max-width: 600px) {
@@ -230,25 +178,15 @@ li {
   .main-title {
     min-height: 200px;
   }
-
-  .keynote-wrapper {
+  .image-container {
     flex-direction: column;
   }
-  .keynote-wrapper:last-of-type {
-    flex-flow: column-reverse;
+  .image {
+    width: 100%;
+    margin-bottom: 1rem;
   }
-  .kn-speaker.text:first-of-type {
-    padding-right: 0;
-  }
-  .kn-speaker a {
-    margin-top: 12px;
-    margin-bottom: 2rem;
-  }
-  .kn-speaker.text:last-of-type {
-    padding-left: 0;
-  }
-  .kn-speaker h3 {
-    font-size: 2rem;
+  .thanks {
+    font-size: 1.75rem;
   }
 }
 </style>
