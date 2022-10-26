@@ -2,8 +2,10 @@
   <v-app>
     <v-app-bar class="umedev-header">
       <v-toolbar-title class="text-uppercase">
-        <span class="quicksand bold">UME</span>
-        <span class="quicksand font-weight-light">DEV</span>
+        <a class="home-link" href="/">
+          <span class="quicksand bold">UME</span>
+          <span class="quicksand font-weight-light">DEV</span>
+        </a>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <button class="toggle-menu-btn" v-on:click="toggleMenu">
@@ -160,11 +162,12 @@ body {
   margin: 0 auto;
   max-width: 700px;
   width: 100%;
-  padding: 10px 20px;
+  padding: 1rem 1.5rem;
+  margin: 0 auto;
 }
 @media screen and (max-width: 600px) {
   .content {
-    padding: 0px 30px;
+    padding: 0 1rem;
   }
 }
 h1,
@@ -183,5 +186,25 @@ h2 {
 }
 .italic {
   font-style: italic;
+}
+p {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+a,
+.v-application a {
+  padding: 4px;
+  color: #224412 !important;
+}
+a:hover {
+  background-color: rgba(86, 171, 47, 0.2);
+}
+a:focus {
+  outline: 2px solid #224412;
+}
+.home-link {
+  color: black;
+  text-decoration: none;
 }
 </style>

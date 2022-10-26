@@ -18,15 +18,6 @@
             </a>
           </div>
         </div>
-        <div class="spons-container last">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.cryptoroguegames.com/"
-          >
-            <img src="../assets/crg-logo.png" alt="Crypto Rogue Games" />
-          </a>
-        </div>
       </div>
       <div class="sociala-media">
         <h3>Följ oss på</h3>
@@ -84,6 +75,18 @@ export default Vue.extend({
         alt: "Länk till Omgeapoints hemsida",
       },
       {
+        name: "Algoryx",
+        url: "https://www.algoryx.se/",
+        icon: require("../assets/algoryx.png"),
+        alt: "Länk till Algoryx hemsida",
+      },
+      {
+        name: "Umecon",
+        url: "https://umecon.se/",
+        icon: require("../assets/UmeCon.jpg"),
+        alt: "Länk till Umecons hemsida",
+      },
+      /*{
         name: "Xlent",
         url: "https://www.xlent.se/",
         icon: require("../assets/Xlent.jpg"),
@@ -136,7 +139,7 @@ export default Vue.extend({
         url: "https://www.kvadrat.se/",
         icon: require("../assets/Kvadrat.png"),
         alt: "Länk till Kvadrats hemsida",
-      },
+      },*/
     ],
   }),
 });
@@ -166,6 +169,7 @@ h3 {
 .sponsorer {
   width: 100%;
   border-bottom: 4px solid #56ab2f;
+  padding-bottom: 32px;
 }
 
 .sponsorer h3 {
@@ -189,16 +193,11 @@ h3 {
 .spons-container img {
   width: 100%;
 }
-.spons-container.last {
-  max-width: 200px;
+.spons-container a {
   display: block;
-  width: 100%;
-  margin: 0 auto;
-  margin-bottom: 20px;
 }
-.spons-container.last img {
-  max-width: 250px;
-  height: auto;
+.spons-container a:hover {
+  background-color: transparent;
 }
 h4 {
   border-top: 1px solid #56ab2f;

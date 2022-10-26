@@ -2,7 +2,7 @@
   <div>
     <HeaderWithPepper header="Sponsra!" />
     <v-row class="mb-6" justify="start">
-      <v-col md="auto" class="content wrapper">
+      <v-col md="auto" class="content">
         <h2>Hjälp oss genomföra Umedev!</h2>
         <p>
           Kan ditt företag hjälpa oss att genomföra Umedev 2020? Vi har några
@@ -29,8 +29,6 @@
             (twitter, instagram, facebook). Vi länkar/taggar efter era önskemål.
           </li>
         </ul>
-        <br />
-        <br />
         <h3>Silversponsor ca 10 000 kr</h3>
         <p>Ni får:</p>
         <ul>
@@ -45,8 +43,6 @@
             (twitter, instagram, facebook). Vi länkar/taggar efter era önskemål.
           </li>
         </ul>
-        <br />
-        <br />
         <h3>Bronssponsor ca 5 000 kr</h3>
         <p>Ni får:</p>
         <ul>
@@ -56,7 +52,6 @@
           <li>Finnas med på webbsidan</li>
         </ul>
 
-        <br />
         <br />
 
         <h3>Praktisk information</h3>
