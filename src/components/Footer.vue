@@ -86,6 +86,12 @@ export default Vue.extend({
         icon: require("../assets/UmeCon.jpg"),
         alt: "Länk till Umecons hemsida",
       },
+      {
+        name: "Intinor",
+        url: "https://intinor.com/",
+        icon: require("../assets/Intinor.png"),
+        alt: "Länk till Intinors hemsida",
+      },
       /*{
         name: "Xlent",
         url: "https://www.xlent.se/",
@@ -110,12 +116,7 @@ export default Vue.extend({
         icon: require("../assets/MFEX.png"),
         alt: "Länk till MFEX IT:s hemsida",
       },
-      {
-        name: "Intinor",
-        url: "https://intinor.com/",
-        icon: require("../assets/Intinor.png"),
-        alt: "Länk till Intinors hemsida",
-      },
+  
       {
         name: "One Group",
         url: "https://one-group.se/",

@@ -55,7 +55,7 @@ export default Vue.extend({
     },
   },
   mounted() {
-    this.$nextTick(function() {
+    this.$nextTick(function () {
       window.addEventListener("resize", this.getWindowWidth);
       this.getWindowWidth();
     });
@@ -83,10 +83,10 @@ export default Vue.extend({
       //   link: "/kidz",
       //   title: "Kidz",
       // // },
-      // {
-      //   link: "/cfp",
-      //   title: "Cfp",
-      // },
+      {
+        link: "/cfp",
+        title: "Cfp",
+      },
       {
         link: "/sponsra",
         title: "Sponsra!",

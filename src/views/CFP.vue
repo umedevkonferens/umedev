@@ -6,12 +6,10 @@
         <br />
         <h2>Anmäl ditt bidrag</h2>
         <p class="last-date">
-          Sista datum för att skicka in ditt bidrag är 7 mars 2022
+          Sista datum för att skicka in ditt bidrag är 2 mars 2023
         </p>
         <h3>Välj mellan två typer</h3>
-        <p>
-          Konferensen består av två typer av bidrag;
-        </p>
+        <p>Konferensen består av två typer av bidrag;</p>
         <ul>
           <li>Presentationer</li>
           <li>Blixttal</li>
@@ -34,10 +32,8 @@
           och korta ner beskrivningar och texter för att passa in i det tryckta
           programmet.
         </p>
-
         <a
-          class="bold"
-          href="https://forms.gle/d4FcqMPbgevBiXLy5"
+          href="https://forms.gle/hHtjADmCqSpq1AvG8"
           rel="noopener noreferrer"
           target="_blank"
           >Anmäl dig via Google Forms</a

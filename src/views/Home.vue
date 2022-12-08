@@ -2,7 +2,7 @@
   <div>
     <HeaderWithPepper
       header="Umedev"
-      sub-header1="Mars 2023"
+      sub-header1="30 mars 2023"
       sub-header2="- Vår norrländska IT-konferens"
     />
     <v-row class="mb-6" justify="start">
@@ -10,16 +10,21 @@
         <div class="home-content-container">
           <div class="a">
             <v-card>
-              <v-card-title>Arbete pågår! </v-card-title>
+              <v-card-title
+                >Call For Papers öppen för tidig anmälan</v-card-title
+              >
               <v-card-text>
-                <p>Umedev organiseras av oss, för oss, för att vi vill det!</p>
                 <p>
-                  Projektgruppen har nu börjat planera 2023 års Umedev och är
-                  alltid öppen för fler som vill vara med och arrangera
-                  konferensen. Vill du vara med och organsiera Umedev, eller
-                  veta mer så maila
-                  <a href="mailto:info@umedev.org">info@umedev.org</a>.
+                  För dig som redan nu vet att du vill anmäla ditt bidrag till
+                  Umedev kan redan nu göra det via vårt Google Form.
                 </p>
+
+                <a
+                  href="https://forms.gle/hHtjADmCqSpq1AvG8"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Anmäl dig via Google Forms</a
+                >
               </v-card-text>
             </v-card>
           </div>
