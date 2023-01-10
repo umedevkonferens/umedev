@@ -9,7 +9,12 @@
             v-for="item in sponsors"
             v-bind:key="item.url"
           >
-            <a target="_blank" rel="noopener noreferrer" v-bind:href="item.url">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              v-bind:href="item.url"
+              v-bind:class="item.class"
+            >
               <img
                 v-bind:src="item.icon"
                 v-bind:alt="item.alt"
@@ -69,10 +74,41 @@ export default Vue.extend({
         alt: "Länk till Umeå Universitets hemsida",
       },
       {
+        name: "Intinor",
+        url: "https://intinor.com/",
+        icon: require("../assets/Intinor.png"),
+        alt: "Länk till Intinors hemsida",
+      },
+      {
         name: "Omegapoint",
         url: "https://www.omegapoint.se/",
         icon: require("../assets/OmegaPoint.png"),
         alt: "Länk till Omgeapoints hemsida",
+      },
+      {
+        name: "One Group",
+        url: "https://one-group.se/",
+        icon: require("../assets/Onegroup.jpg"),
+        alt: "Länk till One Groups hemsida",
+      },
+      {
+        name: "Kvardrat",
+        url: "https://www.kvadrat.se/",
+        icon: require("../assets/Kvadrat.png"),
+        alt: "Länk till Kvadrats hemsida",
+      },
+      {
+        name: "84 Codes",
+        url: "https://www.84codes.com/",
+        icon: require("../assets/84Codes.png"),
+        alt: "Länk till 84 Codes hemsida",
+        class: "codes",
+      },
+      {
+        name: "Xlent",
+        url: "https://www.xlent.se/",
+        icon: require("../assets/Xlent.jpg"),
+        alt: "Länk till Xlents hemsida",
       },
       {
         name: "Algoryx",
@@ -86,18 +122,8 @@ export default Vue.extend({
         icon: require("../assets/UmeCon.jpg"),
         alt: "Länk till Umecons hemsida",
       },
-      {
-        name: "Intinor",
-        url: "https://intinor.com/",
-        icon: require("../assets/Intinor.png"),
-        alt: "Länk till Intinors hemsida",
-      },
-      /*{
-        name: "Xlent",
-        url: "https://www.xlent.se/",
-        icon: require("../assets/Xlent.jpg"),
-        alt: "Länk till Xlents hemsida",
-      },
+
+      /*,
       {
         name: "Umecon",
         url: "https://umecon.se/",
@@ -116,13 +142,6 @@ export default Vue.extend({
         icon: require("../assets/MFEX.png"),
         alt: "Länk till MFEX IT:s hemsida",
       },
-  
-      {
-        name: "One Group",
-        url: "https://one-group.se/",
-        icon: require("../assets/Onegroup.jpg"),
-        alt: "Länk till One Groups hemsida",
-      },
       {
         name: "Algoryx",
         url: "https://www.algoryx.se/",
@@ -135,12 +154,7 @@ export default Vue.extend({
         icon: require("../assets/Teknikhuset.png"),
         alt: "Länk till Teknikhuset hemsida",
       },
-      {
-        name: "Kvardrat",
-        url: "https://www.kvadrat.se/",
-        icon: require("../assets/Kvadrat.png"),
-        alt: "Länk till Kvadrats hemsida",
-      },*/
+   */
     ],
   }),
 });
@@ -200,6 +214,15 @@ h3 {
 .spons-container a:hover {
   background-color: transparent;
 }
+.codes {
+  background-color: #29272e;
+  border-radius: 1rem;
+  padding: 0.25rem;
+}
+.spons-container .codes:hover {
+  background-color: #29272e;
+}
+
 h4 {
   border-top: 1px solid #56ab2f;
   padding-top: 3px;
