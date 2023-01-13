@@ -30,6 +30,17 @@
           </div>
           <div class="a">
             <v-card>
+              <v-card-title>Deltagaranmälan</v-card-title>
+              <v-card-text>
+                <p>
+                  Anmälan för deltagare öppnar i februari, håll utkik efter
+                  uppdateringar på våra sociala medier!
+                </p>
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card>
               <v-card-title>Följ oss på</v-card-title>
               <ul>
                 <li>

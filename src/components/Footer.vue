@@ -100,9 +100,8 @@ export default Vue.extend({
       {
         name: "84 Codes",
         url: "https://www.84codes.com/",
-        icon: require("../assets/84Codes.png"),
+        icon: require("../assets/84codes-original.png"),
         alt: "Länk till 84 Codes hemsida",
-        class: "codes",
       },
       {
         name: "Xlent",
@@ -121,6 +120,13 @@ export default Vue.extend({
         url: "https://umecon.se/",
         icon: require("../assets/UmeCon.jpg"),
         alt: "Länk till Umecons hemsida",
+      },
+      {
+        name: "Metria",
+        url: "https://metria.se/",
+        icon: require("../assets/Metria_logo.png"),
+        alt: "Länk till Metrias hemsida",
+        class: "metria",
       },
 
       /*,
@@ -205,6 +211,10 @@ h3 {
   width: 30%;
   margin: 10px;
 }
+.metria {
+  max-height: 120px;
+  width: fit-content;
+}
 .spons-container img {
   width: 100%;
 }
@@ -213,14 +223,6 @@ h3 {
 }
 .spons-container a:hover {
   background-color: transparent;
-}
-.codes {
-  background-color: #29272e;
-  border-radius: 1rem;
-  padding: 0.25rem;
-}
-.spons-container .codes:hover {
-  background-color: #29272e;
 }
 
 h4 {
