@@ -10,20 +10,21 @@
         <div class="home-content-container">
           <div class="a">
             <v-card>
-              <v-card-title
-                >Call For Papers öppen för tidig anmälan</v-card-title
-              >
+              <v-card-title>Call for Papers – anmäl ditt bidrag</v-card-title>
               <v-card-text>
                 <p>
-                  För dig som redan nu vet att du vill anmäla ditt bidrag till
-                  Umedev kan redan nu göra det via vårt Google Form.
+                  Nu har vi öppnat anmälan för bidrag till Umedev. Vi söker
+                  talare från alla professioner och välkomnar såväl rutinerade
+                  som förstagångs-talare. Se mer information och anmäl dig under
+                  Call for Papers.
                 </p>
-
+                <a class="link" href="/cfp">Call for Papers </a>
                 <a
                   href="https://forms.gle/hHtjADmCqSpq1AvG8"
                   rel="noopener noreferrer"
                   target="_blank"
-                  >Anmäl dig via Google Forms</a
+                  class="link"
+                  >Anmäl dig direkt via Google Forms</a
                 >
               </v-card-text>
             </v-card>
@@ -125,6 +126,10 @@ h4 {
   width: 45%;
   text-decoration: none;
   margin: 1rem;
+}
+.link {
+  margin-top: 0.5rem;
+  display: block;
 }
 li {
   list-style: none;

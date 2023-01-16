@@ -110,6 +110,18 @@ export default Vue.extend({
         alt: "Länk till Xlents hemsida",
       },
       {
+        name: "Pure IT",
+        url: "http://www.pure.se/",
+        icon: require("../assets/PureIT.png"),
+        alt: "Länk till Pure IT:s hemsida",
+      },
+      {
+        name: "Teknikhuset",
+        url: "https://www.teknikhuset.se/",
+        icon: require("../assets/Teknikhuset.png"),
+        alt: "Länk till Teknikhuset hemsida",
+      },
+      {
         name: "Algoryx",
         url: "https://www.algoryx.se/",
         icon: require("../assets/algoryx.png"),
