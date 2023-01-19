@@ -112,7 +112,7 @@ export default Vue.extend({
       {
         name: "Pure IT",
         url: "http://www.pure.se/",
-        icon: require("../assets/PureIT.png"),
+        icon: require("../assets/PureIT.svg"),
         alt: "Länk till Pure IT:s hemsida",
       },
       {
@@ -214,6 +214,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  align-items: center;
 }
 .sponsorer a {
   text-decoration: none;
