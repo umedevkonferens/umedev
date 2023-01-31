@@ -122,6 +122,12 @@ export default Vue.extend({
         alt: "Länk till Teknikhuset hemsida",
       },
       {
+        name: "Dizparc",
+        url: "https://dizparc.se/",
+        icon: require("../assets/Dizparc.png"),
+        alt: "Länk till Dizparcs hemsida",
+      },
+      {
         name: "Algoryx",
         url: "https://www.algoryx.se/",
         icon: require("../assets/algoryx.png"),
