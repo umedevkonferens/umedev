@@ -7,6 +7,114 @@
     </v-row>
     <!-- --------------------- -->
 
+    <div class="current-program">
+      <div class="current-program-inner">
+        <h2 class="current-program-heading">Årets program - 30 mars 2023</h2>
+        <div class="program-container">
+          <div class="program-row">
+            <br />
+            <div class="about-keynote">
+              <div class="profile-container">
+                <v-avatar class="bio-image" color="grey" size="256" rounded="1">
+                  <v-img
+                    cover
+                    v-bind:src="
+                      require('../assets/Johanna_Skarpman_Sundholm.jpg')
+                    "
+                  ></v-img>
+                </v-avatar>
+                <span class="keynote-speaker">Johanna Skarpman Sundholm</span>
+              </div>
+              <div class="keynote-description">
+                <div class="program-heading">
+                  <h2>
+                    Opening keynote:
+                    <span style="color: red">Titel</span>
+                  </h2>
+                </div>
+                <p>
+                  Fjärranalys används för att på ett effektivt sätt kartlägga
+                  och observera det som sker på jorden med hjälp av data som
+                  samlats in från ovan. Med nya satelliter och nationella
+                  laserskanningar öppnar sig nya möjligheter att studera och
+                  övervaka natur och miljö från ovan. Detta har drivit en våg av
+                  innovativa tilltag, särskilt kopplat till skogssektorn. Nu
+                  testas också greppet att ta till AI för att i högre grad
+                  nyttja de stora datamängderna för att ta fram helt nya eller
+                  förbättrade analyser.
+                </p>
+                <h3>Om Johanna Skarpman Sundholm</h3>
+                <p>
+                  Johanna Skarpman Sundholm började jobba med data science på
+                  Metria 2018. Hon läste teknisk fysik på KTH med
+                  masterprogrammet inom maskininlärning. Efter examen flyttade
+                  hon till Luleå och jobbade några år som algoritmutvecklare på
+                  en start-up i Luleå Science Park innan hon hamnade på Metria.
+                  Skarpman Sundholm har ena benet i Metrias GIS och
+                  fjärranalyskonsultverksamhet och det andra i företagets
+                  karttjänstutveckling.
+                </p>
+              </div>
+            </div>
+            <br />
+            <br />
+            <v-divider></v-divider>
+            <br />
+            <br />
+            <div class="about-keynote reverse">
+              <div class="profile-container">
+                <v-avatar class="bio-image" color="grey" size="256" rounded="1">
+                  <v-img
+                    cover
+                    v-bind:src="require('../assets/Johan_Lindfors.jpg')"
+                  ></v-img>
+                </v-avatar>
+                <span class="keynote-speaker">
+                  Johan Lindfors, CINO Truesec
+                </span>
+              </div>
+              <div class="keynote-description">
+                <div class="program-heading">
+                  <h2>
+                    Ending Keynote: How to be a superhero when supervillains
+                    leverage code!
+                  </h2>
+                </div>
+                <p>
+                  Different flavors of code in various complex architectures is
+                  being used for wrongdoing in an ever increasing magnitude of
+                  cyber attacks all over the world. Kids can purchase malware
+                  through virtual currencies, to leverage against their
+                  counterparts in games. And state founded actors are leveraging
+                  wipers to cripple infrastructure while preparing for military
+                  actions and intrusions. This session will briefly explain how
+                  code are being leveraged but also give some recommendations on
+                  how to protect ourselves against these campaigns.
+                </p>
+                <h3>About Johan Lindfors</h3>
+                <p>
+                  Johan Lindfors has been working with Windows and Windows Phone
+                  since the early days and he is often speaking about the
+                  platform and technologies at various events. In the middle of
+                  2011 he founded the company Coderox, and currently entirely
+                  focused on Microsoft platform with various customers and
+                  engagements, some leveraging XAML and C#, others using C++ and
+                  DirectX. Before Coderox, he worked at Microsoft in Sweden for
+                  almost 13 years, and have also been the head of development at
+                  Infozone. Currently he is the Chief Innovation Officer at
+                  Truesec, focusing on cyber security, advanced IT
+                  infrastructure and secure development.
+                </p>
+              </div>
+            </div>
+            <br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------- -->
+
     <div class="previous-program">
       <div class="previous-program-inner">
         <h2 class="previous-program-heading">Tidigare års program</h2>
@@ -18,109 +126,143 @@
             <v-expansion-panel-content>
               <div class="program-container">
                 <div class="program-row">
-                  <div class="program-heading">
-                    <h2>
-                      Opening Keynote: Digitalization Disrupts: How software,
-                      data and AI transform industry
-                    </h2>
-                  </div>
-                  <span class="keynote-speaker">
-                    Professor Helena Holmström Olsson, Malmö Universitet
-                  </span>
+                  <br />
                   <div class="about-keynote">
-                    <img
-                      v-bind:src="
-                        require('../assets/Helena_Holmstrom_Olsson_Mindre.jpg')
-                      "
-                      alt="Helena Holmström Olsson"
-                    />
+                    <div class="profile-container">
+                      <v-avatar
+                        class="bio-image"
+                        color="grey"
+                        size="256"
+                        rounded="1"
+                      >
+                        <v-img
+                          cover
+                          v-bind:src="
+                            require('../assets/Helena_Holmstrom_Olsson_Mindre.jpg')
+                          "
+                          alt="Helena Holmström Olsson"
+                        ></v-img>
+                      </v-avatar>
+                      <span class="keynote-speaker"
+                        >Professor Helena Holmström Olsson, Malmö
+                        Universitet</span
+                      >
+                    </div>
+                    <div class="keynote-description">
+                      <div class="program-heading">
+                        <h2>
+                          Opening Keynote: Digitalization Disrupts: How
+                          software, data and AI transform industry
+                        </h2>
+                      </div>
+                      <p>
+                        With digitalization and with technologies such as
+                        software, data, and artificial intelligence, industry in
+                        general, and companies in the embedded systems domain in
+                        particular, are experiencing a rapid transformation of
+                        their conventional businesses.
+                      </p>
+                      <p>
+                        While the physical products and associated product sales
+                        still provide the core revenue, these are increasingly
+                        being complemented with service offerings, new
+                        data-driven services, and digital products that allow
+                        for continuous value creation and delivery to customers.
+                      </p>
+                      <p>
+                        This talk explores the difference between what
+                        constitutes a traditional and a digital company and
+                        details the typical evolution path embedded systems
+                        companies take when transitioning towards becoming
+                        digital companies. The talk focuses on the opportunities
+                        and challenges that companies face in their digital
+                        transformation and it highlights the importance, and
+                        disruptive forces, of software, data and artificial
+                        intelligence. The talk provides concrete examples based
+                        on action-oriented research conducted in close
+                        collaboration with companies in the the embedded systems
+                        domain.
+                      </p>
+                      <span>
+                        <h3>About Helena Holmström Olsson</h3>
+                        <p>
+                          Helena Holmström Olsson is a Professor in Computer
+                          Science at the Department of Computer Science and
+                          Media Technology at Malmö University, Sweden, and a
+                          senior researcher in
+                          <a
+                            href="https://www.software-center.se/"
+                            rel="noopener noreffer"
+                            target="_blank"
+                            >Software Center </a
+                          >. She received her Ph.D. in Informatics from
+                          University of Gothenburg in 2004 and did her Post doc
+                          in LERO (‘The Irish Software Research Center’) at
+                          University of Limerick, Ireland. Her research is
+                          conducted in close collaboration with industry and
+                          primarily with software-intensive companies in the
+                          embedded systems domain. Her research interests
+                          include engineering aspects of AI systems, data driven
+                          development practices, data management, digital
+                          transformation and software and business ecosystems.
+                        </p>
+                        <a
+                          href="https://scholar.google.com/citations?user=bjGw_5QAAAAJ&hl=en&oi=ao"
+                          >Google Scholar profile</a
+                        >
+                      </span>
+                    </div>
+                  </div>
+                  <br />
+                  <br />
+                  <v-divider></v-divider>
+                  <br />
+                  <br />
+                  <div class="about-keynote reverse">
+                    <div class="profile-container">
+                      <v-avatar
+                        class="bio-image"
+                        color="grey"
+                        size="256"
+                        rounded="1"
+                      >
+                        <v-img
+                          cover
+                          v-bind:src="
+                            require('../assets/Kenneth_Bodin_mindre.jpg')
+                          "
+                        ></v-img>
+                      </v-avatar>
+                      <span class="keynote-speaker">
+                        Kenneth Bodin, CEO and co-founder Algoryx
+                      </span>
+                    </div>
+                    <div class="keynote-description">
+                      <div class="program-heading">
+                        <h2>
+                          Ending Keynote: The Metaverse - will it revolutionize
+                          innovation and social relations - or bring down our
+                          democracies?
+                        </h2>
+                      </div>
 
-                    <p>
-                      With digitalization and with technologies such as
-                      software, data, and artificial intelligence, industry in
-                      general, and companies in the embedded systems domain in
-                      particular, are experiencing a rapid transformation of
-                      their conventional businesses.
-                    </p>
-                    <p>
-                      While the physical products and associated product sales
-                      still provide the core revenue, these are increasingly
-                      being complemented with service offerings, new data-driven
-                      services, and digital products that allow for continuous
-                      value creation and delivery to customers.
-                    </p>
-                    <p>
-                      This talk explores the difference between what constitutes
-                      a traditional and a digital company and details the
-                      typical evolution path embedded systems companies take
-                      when transitioning towards becoming digital companies. The
-                      talk focuses on the opportunities and challenges that
-                      companies face in their digital transformation and it
-                      highlights the importance, and disruptive forces, of
-                      software, data and artificial intelligence. The talk
-                      provides concrete examples based on action-oriented
-                      research conducted in close collaboration with companies
-                      in the the embedded systems domain.
-                    </p>
-                  </div>
-                  <span>
-                    <span class="keynote-speaker">
-                      About Helena Holmström Olsson
-                    </span>
-                    <p>
-                      Helena Holmström Olsson is a Professor in Computer Science
-                      at the Department of Computer Science and Media Technology
-                      at Malmö University, Sweden, and a senior researcher in
-                      <a
-                        href="https://www.software-center.se/"
-                        rel="noopener noreffer"
-                        target="_blank"
-                        >Software Center </a
-                      >. She received her Ph.D. in Informatics from University
-                      of Gothenburg in 2004 and did her Post doc in LERO (‘The
-                      Irish Software Research Center’) at University of
-                      Limerick, Ireland. Her research is conducted in close
-                      collaboration with industry and primarily with
-                      software-intensive companies in the embedded systems
-                      domain. Her research interests include engineering aspects
-                      of AI systems, data driven development practices, data
-                      management, digital transformation and software and
-                      business ecosystems.
-                    </p>
-                    <a
-                      href="https://scholar.google.com/citations?user=bjGw_5QAAAAJ&hl=en&oi=ao"
-                      >Google Scholar profile</a
-                    >
-                  </span>
-                  <br />
-                  <br />
-                  <div class="program-heading">
-                    <h2>
-                      Ending Keynote: The Metaverse - will it revolutionize
-                      innovation and social relations - or bring down our
-                      democracies?
-                    </h2>
-                  </div>
-                  <span class="keynote-speaker">
-                    Kenneth Bodin, CEO and co-founder Algoryx
-                  </span>
-                  <div class="about-keynote">
-                    <img
-                      class="bio-image"
-                      v-bind:src="require('../assets/Kenneth_Bodin_mindre.jpg')"
-                      alt="Kenneth Bodin"
-                    />
-                    <p>
-                      Kenneth Bodin is CEO and co-founder of Algoryx. He has a
-                      research background in computational physics and virtual
-                      reality before co-founding Algoryx. Algoryx brings
-                      real-world physics to virtual engineering environments to
-                      realize an open engineering metaverse for innovation and
-                      collaboration.
-                    </p>
+                      <p>
+                        Kenneth Bodin is CEO and co-founder of Algoryx. He has a
+                        research background in computational physics and virtual
+                        reality before co-founding Algoryx. Algoryx brings
+                        real-world physics to virtual engineering environments
+                        to realize an open engineering metaverse for innovation
+                        and collaboration.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
+              <br />
+              <br />
+              <v-divider></v-divider>
+              <br />
+              <br />
               <div class="tracks-container">
                 <!-- TRACK 1 -->
                 <div class="track">
@@ -419,9 +561,7 @@
                         "färgblind" och hur det påverkar vad som kan bli svårt i
                         ett gränssnitt.
                       </p>
-                      <span class="track-speaker">
-                        Ellen Jacobsson, ITS
-                      </span>
+                      <span class="track-speaker"> Ellen Jacobsson, ITS </span>
                     </span>
                   </div>
                   <div class="program-row">
@@ -432,9 +572,7 @@
                         En kort föreläsning om hur kontinuerliga samtal med sina
                         medarbetare ökar engagemang och prestation.
                       </p>
-                      <span class="track-speaker">
-                        Tommy Eriksson, Evity
-                      </span>
+                      <span class="track-speaker"> Tommy Eriksson, Evity </span>
                     </span>
                   </div>
                   <div class="program-row">
@@ -491,9 +629,7 @@
                         användare. Vi kommer att prata om hur detta är
                         implementerat från början till slut.
                       </p>
-                      <span class="track-speaker">
-                        Fredrik Domeij, ITS
-                      </span>
+                      <span class="track-speaker"> Fredrik Domeij, ITS </span>
                     </span>
                   </div>
                 </div>
@@ -512,9 +648,7 @@
                 <div class="program-row">
                   <div class="program-heading">
                     <span class="time">11.35 - 11.55</span>
-                    <h3>
-                      Keynote - Designkompetenser i en föränderlig värld
-                    </h3>
+                    <h3>Keynote - Designkompetenser i en föränderlig värld</h3>
                   </div>
                   <span class="content">
                     <p>
@@ -559,9 +693,7 @@
                           as a Service” använder RabbitMQ som kärna i deras
                           arkitekturen.
                         </p>
-                        <span class="speaker">
-                          Lovisa Johansson, 84Codes
-                        </span>
+                        <span class="speaker"> Lovisa Johansson, 84Codes </span>
                       </span>
                     </div>
                     <div class="program-row">
@@ -666,6 +798,11 @@ export default {
   components: {
     HeaderWithPepper,
   },
+  data() {
+    return {
+      panel: 0,
+    };
+  },
 };
 </script>
 <style scoped>
@@ -682,11 +819,16 @@ export default {
   display: flex;
   flex-direction: row;
   font-size: 1.2rem;
-  margin: 15px 0;
+  margin-bottom: 1rem;
   width: 100%;
   justify-content: flex-start;
   align-items: center;
 }
+
+.program-heading h2 {
+  margin-top: 0;
+}
+
 .time {
   font-size: 0.95rem;
   min-width: 90px;
@@ -715,10 +857,23 @@ h4 {
   margin-bottom: 15px;
   margin-top: 10px;
   display: block;
+  text-align: center;
 }
 
 .about-keynote {
-  display: block;
+  /*display: block;*/
+  display: flex;
+  padding-top: 17px;
+  gap: 2rem;
+}
+
+.about-keynote.reverse {
+  flex-direction: row-reverse;
+}
+
+.keynote-description {
+  /*   padding-left: 2rem;
+ */
 }
 
 .about-keynote img {
@@ -849,19 +1004,41 @@ Previous program CSS
   background-color: rgba(86, 171, 47, 0.2);
 }
 
-.previous-program-inner {
-  max-width: 1024px;
-  margin: 0 auto;
+.current-program {
+  padding: 1rem 0;
+  background-color: #fff;
 }
 
-.previous-program-heading {
+.previous-program-inner,
+.current-program-inner {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 16px 24px;
+}
+
+.current-program-inner {
+  /*-webkit-box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%); */
+}
+
+.previous-program-heading,
+.current-program-heading {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-h3.previous-program-heading {
+h3.previous-program-heading,
+h3.current-program-heading {
   font-size: 1.5rem;
   border-bottom: 2px solid #56ab2f;
   margin-top: 1rem;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
@@ -885,6 +1062,11 @@ h3.previous-program-heading {
   }
   .previous-program-inner {
     padding: 1rem;
+  }
+
+  .about-keynote,
+  .about-keynote.reverse {
+    flex-direction: column;
   }
 }
 .program-row {

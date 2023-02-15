@@ -5,6 +5,7 @@
       sub-header1="30 mars 2023"
       sub-header2="- Vår norrländska IT-konferens"
     />
+
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <div class="home-content-container">
