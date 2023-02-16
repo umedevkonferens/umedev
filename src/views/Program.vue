@@ -91,7 +91,7 @@
                   code are being leveraged but also give some recommendations on
                   how to protect ourselves against these campaigns.
                 </p>
-                <h3>About Johan Lindfors</h3>
+                <h3>Om Johan Lindfors</h3>
                 <p>
                   Johan Lindfors has been working with Windows and Windows Phone
                   since the early days and he is often speaking about the

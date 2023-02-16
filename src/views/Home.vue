@@ -13,13 +13,13 @@
             title="Nu presenterar vi årets opening och ending keynote!"
             :opening-keynote="{
               title:
-                'Opening Keynote: How to be a superhero when supervillains leverage code!',
+                'Opening Keynote: TITEL',
               description:
-                'Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Nu testas också greppet att ta till AI för att i högre grad nyttja de stora datamängderna för att ta fram helt nya eller förbättrade analyser.',
+                'Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter…',
               url: '/program',
               speaker: {
                 name: 'Johanna Skarpman Sundholm',
-                title: 'Data scientist',
+                title: 'Data scientist, Metria',
                 imageUrl: 'Johanna_Skarpman_Sundholm.jpg',
               },
             }"
@@ -27,11 +27,11 @@
               title:
                 'Ending Keynote: How to be a superhero when supervillains leverage code!',
               description:
-                'Different flavors of code in various complex architectures is being used for wrongdoing in an ever increasing magnitude of cyber attacks all over the world...',
+                'Different flavors of code in various complex architectures is being used for wrongdoing in an ever increasing magnitude of cyber attacks all over the world. Kids can purchase malware through virtual currencies...',
               url: '/program',
               speaker: {
                 name: 'Johan Lindfors',
-                title: 'CINO Truesec',
+                title: 'CINO, Truesec',
                 imageUrl: 'Johan_Lindfors.jpg',
               },
             }"
@@ -163,8 +163,8 @@ h4 {
 }
 
 .a {
-  width: 45%;
   text-decoration: none;
+  width: 45%;
   margin: 1rem;
 }
 .link {
