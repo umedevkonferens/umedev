@@ -1,6 +1,6 @@
 <template>
   <v-card class="keynotes-card">
-    <v-card-title>{{ title }}</v-card-title>
+    <v-card-title class="keynotes-card-title">{{ title }}</v-card-title>
     <v-card-text>
       <div class="keynotes-container">
         <div class="keynote">
@@ -110,6 +110,11 @@ export default {
   margin: 1rem;
 }
 
+.keynotes-card-title {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 .keynotes-container {
   display: flex;
   width: 100%;
@@ -126,7 +131,6 @@ export default {
 
 .keynote-title-container {
   min-height: 50px;
-
 }
 
 .keynote-title {
