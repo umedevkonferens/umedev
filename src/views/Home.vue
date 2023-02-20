@@ -5,9 +5,37 @@
       sub-header1="30 mars 2023"
       sub-header2="- Vår norrländska IT-konferens"
     />
+
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <div class="home-content-container">
+          <KeynoteSpeakerCard
+            title="Nu presenterar vi årets opening och ending keynote!"
+            :opening-keynote="{
+              title:
+                'Opening Keynote: Nya analyser möjliga med fjärranalys och AI',
+              description:
+                'Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter…',
+              url: '/program',
+              speaker: {
+                name: 'Johanna Skarpman Sundholm',
+                title: 'Data scientist, Metria',
+                imageUrl: 'Johanna_Skarpman_Sundholm.jpg',
+              },
+            }"
+            :ending-keynote="{
+              title:
+                'Ending Keynote: How to be a superhero when supervillains leverage code!',
+              description:
+                'Different flavors of code in various complex architectures is being used for wrongdoing in an ever increasing magnitude of cyber attacks all over the world. Kids can purchase malware through virtual currencies...',
+              url: '/program',
+              speaker: {
+                name: 'Johan Lindfors',
+                title: 'CINO, Truesec',
+                imageUrl: 'Johan_Lindfors.jpg',
+              },
+            }"
+          />
           <div class="a">
             <v-card>
               <v-card-title>Deltagaranmälan är öppen!</v-card-title>
@@ -50,43 +78,6 @@
               </v-card-text>
             </v-card>
           </div>
-          <div class="a">
-            <v-card>
-              <v-card-title>Följ oss på</v-card-title>
-              <ul>
-                <li>
-                  <v-icon class="mdi" color="black" large>mdi-instagram</v-icon>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/umedevkonferens/"
-                    >Instagram
-                  </a>
-                </li>
-
-                <li>
-                  <v-icon class="mdi" color="black" large>mdi-twitter</v-icon>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://twitter.com/umedevkonferens"
-                    >Twitter
-                  </a>
-                </li>
-
-                <li>
-                  <v-icon class="mdi" color="black" large>mdi-facebook</v-icon>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.facebook.com/umedevkonferens/"
-                    >Facebook
-                  </a>
-                </li>
-              </ul>
-              <br />
-            </v-card>
-          </div>
         </div>
       </v-col>
     </v-row>
@@ -99,11 +90,13 @@
 <script lang="ts">
 import Vue from "vue";
 import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
+import KeynoteSpeakerCard from "@/components/KeynoteSpeakerCard.vue";
 
 export default {
   name: "Home",
   components: {
     HeaderWithPepper,
+    KeynoteSpeakerCard,
   },
 };
 </script>
@@ -133,8 +126,8 @@ h4 {
 }
 
 .a {
-  width: 45%;
   text-decoration: none;
+  width: 45%;
   margin: 1rem;
 }
 .link {
