@@ -13,7 +13,7 @@
             title="Nu presenterar vi årets opening och ending keynote!"
             :opening-keynote="{
               title:
-                'Opening Keynote: TITEL',
+                'Opening Keynote: Nya analyser möjliga med fjärranalys och AI',
               description:
                 'Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter…',
               url: '/program',
@@ -76,43 +76,6 @@
                   >Anmäl dig direkt via Google Forms</a
                 >
               </v-card-text>
-            </v-card>
-          </div>
-          <div class="a">
-            <v-card>
-              <v-card-title>Följ oss på</v-card-title>
-              <ul>
-                <li>
-                  <v-icon class="mdi" color="black" large>mdi-instagram</v-icon>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/umedevkonferens/"
-                    >Instagram
-                  </a>
-                </li>
-
-                <li>
-                  <v-icon class="mdi" color="black" large>mdi-twitter</v-icon>
-                  <a
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href="https://twitter.com/umedevkonferens"
-                    >Twitter
-                  </a>
-                </li>
-
-                <li>
-                  <v-icon class="mdi" color="black" large>mdi-facebook</v-icon>
-                  <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.facebook.com/umedevkonferens/"
-                    >Facebook
-                  </a>
-                </li>
-              </ul>
-              <br />
             </v-card>
           </div>
         </div>

@@ -23,7 +23,7 @@
             <v-avatar
               class="bio-image"
               color="grey"
-              size="120"
+              size="130"
               rounded="1"
             >
               <v-img
@@ -55,7 +55,7 @@
             <v-avatar
               class="bio-image"
               color="grey"
-              size="110"
+              size="130"
               rounded="1"
             >
               <v-img
@@ -131,6 +131,7 @@ export default {
 
 .keynote-title {
   font-size: 1.4rem;
+  line-height: 1.6rem;
   margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.87);
 }
