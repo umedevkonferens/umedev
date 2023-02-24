@@ -1,7 +1,6 @@
 <template>
   <div>
     <HeaderWithPepper header="Program Umedev" />
-
     <v-row
       class="mb-6"
       justify="start"
@@ -19,7 +18,6 @@
         <h2 class="current-program-heading">Årets program - 30 mars 2023</h2>
         <div class="program-container">
           <div class="program-row">
-            <br />
             <div class="about-keynote">
               <div class="profile-container">
                 <v-avatar
@@ -69,9 +67,7 @@
               </div>
             </div>
             <br />
-            <br />
             <v-divider></v-divider>
-            <br />
             <br />
             <div class="about-keynote reverse">
               <div class="profile-container">
@@ -124,6 +120,9 @@
               </div>
             </div>
             <br />
+            <v-divider></v-divider>
+            <bt />
+            <p class="extra-information-text">Fullständigt program presenteras i början av mars</p>
           </div>
         </div>
       </div>
@@ -1093,7 +1092,7 @@ h3.track-heading {
   width: 47%;
 }
 h2 {
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1.2;
   font-weight: bold;
   margin-top: 16px;
@@ -1108,7 +1107,7 @@ Previous program CSS
 }
 
 .current-program {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   background-color: #fff;
 }
 
@@ -1185,5 +1184,11 @@ h3.current-program-heading {
   width: 100%;
   background-color: #56ab2f;
   margin-bottom: 100px;
+}
+
+.extra-information-text {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 1.25rem;
 }
 </style>

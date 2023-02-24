@@ -26,7 +26,7 @@
       </div>
       <div class="sociala-media">
         <h3>Följ oss på</h3>
-        <div>
+        <div class="follow-container">
           <v-icon class="mdi" color="black" large>mdi-instagram</v-icon>
           <a
             target="_blank"
@@ -36,7 +36,7 @@
           </a>
         </div>
 
-        <div>
+        <div class="follow-container">
           <v-icon class="mdi" color="black" large>mdi-twitter</v-icon>
           <a
             rel="noopener noreferrer"
@@ -46,13 +46,23 @@
           </a>
         </div>
 
-        <div>
+        <div class="follow-container">
           <v-icon class="mdi" color="black" large>mdi-facebook</v-icon>
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.facebook.com/umedevkonferens/"
             >Facebook
+          </a>
+        </div>
+
+        <div class="follow-container">
+          <v-icon class="mdi" color="black" large>mdi-linkedin</v-icon>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/umedev/"
+            >LinkedIn
           </a>
         </div>
         <h4>Läs vår <a href="/integritetspolicy">integritetspolicy </a></h4>
@@ -242,6 +252,12 @@ h3 {
 }
 .spons-container a:hover {
   background-color: transparent;
+}
+.follow-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-block: 0.2rem;
 }
 
 h4 {
