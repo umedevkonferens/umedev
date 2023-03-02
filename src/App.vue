@@ -79,10 +79,10 @@ export default Vue.extend({
         link: "/program",
         title: "Program",
       },
-      // {
-      //   link: "/kidz",
-      //   title: "Kidz",
-      // // },
+      {
+        link: "/kidz",
+        title: "Kidz",
+      },
       {
         link: "/cfp",
         title: "Cfp",

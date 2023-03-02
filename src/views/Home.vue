@@ -20,25 +20,45 @@
               speaker: {
                 name: 'Johanna Skarpman Sundholm',
                 title: 'Data scientist, Metria',
-                imageUrl: 'Johanna_Skarpman_Sundholm.jpg',
+                imageUrl: 'johanna_skarpman_sundholm.jpg',
               },
             }"
             :ending-keynote="{
               title:
-                'Ending Keynote: How to be a superhero when supervillains leverage code!',
+                'Ending Keynote: Att vara superhjälte när superskurkarna använder kod!',
               description:
-                'Different flavors of code in various complex architectures is being used for wrongdoing in an ever increasing magnitude of cyber attacks all over the world. Kids can purchase malware through virtual currencies...',
+                'Olika typer av elakartad kod i olika komplexa arkitekturer används i en allt större utsträckning vid attacker över hela internet och världen. Ungdomar kan köpa virus och verktyg med virtuella valutor i dataspel för...',
               url: '/program',
               speaker: {
                 name: 'Johan Lindfors',
                 title: 'CINO, Truesec',
-                imageUrl: 'Johan_Lindfors.jpg',
+                imageUrl: 'johan_lindfors.jpg',
               },
             }"
           />
           <div class="a">
             <v-card>
-              <v-card-title>Deltagaranmälan är öppen!</v-card-title>
+              <v-card-title>Välkomna på Umedev Kidz 😎</v-card-title>
+              <v-card-text>
+                <p>
+                  Kvällen innan konferensen organiserar vi ett event där
+                  <span class="bold">10-15-åringar</span> får prova på
+                  programmering.
+                </p>
+                <p>
+                  Programmering handlar om samarbete och kommunikation i team
+                  och det är också så vi kommer att arbeta under sessionerna -
+                  tillsammans.
+                </p>
+                <a href="/kidz">Läs mer under Kidz</a>
+                <br />
+                <br />
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card>
+              <v-card-title>Deltagaranmälan öppen</v-card-title>
               <v-card-text>
                 <p>
                   Kom och utbyt erfarenheter, nätverka och utveckla ditt
@@ -51,30 +71,10 @@
                   href="https://forms.gle/Rx6d1USBoQkWH8B87"
                   rel="noopener noreferrer"
                   target="_blank"
-                  class="link"
                   >Anmäl dig direkt via Google Forms</a
                 >
-              </v-card-text>
-            </v-card>
-          </div>
-          <div class="a">
-            <v-card>
-              <v-card-title>Call for Papers – anmäl ditt bidrag</v-card-title>
-              <v-card-text>
-                <p>
-                  Nu har vi öppnat anmälan för bidrag till Umedev. Vi söker
-                  talare från alla professioner och välkomnar såväl rutinerade
-                  som förstagångs-talare. Se mer information och anmäl dig under
-                  Call for Papers.
-                </p>
-                <a class="link" href="/cfp">Call for Papers </a>
-                <a
-                  href="https://forms.gle/hHtjADmCqSpq1AvG8"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  class="link"
-                  >Anmäl dig direkt via Google Forms</a
-                >
+                <br />
+                <br />
               </v-card-text>
             </v-card>
           </div>

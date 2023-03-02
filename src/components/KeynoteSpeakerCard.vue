@@ -9,23 +9,14 @@
               <h4 class="keynote-title">{{ openingKeynote.title }}</h4>
             </div>
             <p class="description">{{ openingKeynote.description }}</p>
-            <a
-              class="url"
-              :href="openingKeynote.url"
-              >Läs mer</a
-            >
+            <a class="url" :href="openingKeynote.url">Läs mer</a>
           </div>
           <div class="speaker">
             <div>
               <p class="speaker-name">{{ openingKeynote.speaker.name }}</p>
               <p class="speaker-title">{{ openingKeynote.speaker.title }}</p>
             </div>
-            <v-avatar
-              class="bio-image"
-              color="grey"
-              size="130"
-              rounded="1"
-            >
+            <v-avatar class="bio-image" color="grey" size="130" rounded="1">
               <v-img
                 cover
                 v-bind:src="
@@ -41,23 +32,14 @@
               <h4 class="keynote-title">{{ endingKeynote.title }}</h4>
             </div>
             <p class="description">{{ endingKeynote.description }}</p>
-            <a
-              class="url"
-              :href="endingKeynote.url"
-              >Läs mer</a
-            >
+            <a class="url" :href="endingKeynote.url">Läs mer</a>
           </div>
           <div class="speaker">
             <div>
               <p class="speaker-name">{{ endingKeynote.speaker.name }}</p>
               <p class="speaker-title">{{ endingKeynote.speaker.title }}</p>
             </div>
-            <v-avatar
-              class="bio-image"
-              color="grey"
-              size="130"
-              rounded="1"
-            >
+            <v-avatar class="bio-image" color="grey" size="130" rounded="1">
               <v-img
                 cover
                 v-bind:src="
@@ -73,23 +55,23 @@
 </template>
 
 <script lang="ts">
-import Vue, { PropType } from 'vue'
+import Vue, { PropType } from "vue";
 
 type Keynote = {
-  title: string
-  description: string
-  url?: string
-  speaker: Speaker
-}
+  title: string;
+  description: string;
+  url?: string;
+  speaker: Speaker;
+};
 
 type Speaker = {
-  name: string
-  title: string
-  imageUrl: string
-}
+  name: string;
+  title: string;
+  imageUrl: string;
+};
 
 export default {
-  name: 'KeynoteSpeakerCard',
+  name: "KeynoteSpeakerCard",
   props: {
     title: String,
     openingKeynote: {
@@ -101,7 +83,7 @@ export default {
       required: true,
     },
   },
-}
+};
 </script>
 
 <style scoped>
@@ -113,6 +95,7 @@ export default {
 .keynotes-card-title {
   white-space: pre-wrap;
   word-break: break-word;
+  margin: 1rem 0;
 }
 
 .keynotes-container {
@@ -135,7 +118,7 @@ export default {
 
 .keynote-title {
   font-size: 1.4rem;
-  line-height: 1.6rem;
+  line-height: 1.85rem;
   margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.87);
 }

@@ -6,161 +6,112 @@
         <br />
         <br />
 
-        <h1>Välkomna på Kidz 22 april 17.30 - 19.30</h1>
+        <h1>Välkomna den 29 mars kl.17.30 - 19.30</h1>
+        <br />
+        <div class="kids-intro">
+          <p>
+            Kvällen innan konferensen organiserar vi ett event där
+            <span class="bold">10-15-åringar</span> får prova på programmering.
+          </p>
+          <p>
+            Programmering handlar om samarbete och kommunikation i team och det
+            är också så vi kommer att arbeta under sessionerna - tillsammans.
+          </p>
+          <h3 style="font-size: 1rem">Om kvällen</h3>
+          <ul>
+            <li>
+              Vi erbjuder två olika workshops med plats för 10 barn i vardera.
+              Anmälan är bindande.
+            </li>
+            <li>Alla workshops är gratis.</li>
+            <li>Plats: Kungsgatan 67 B (Metria i Utopiahuset)</li>
+            <li>Tid: 29 mars kl: 17.30 - 19.30</li>
+            <li>
+              Får du förhinder och kan inte komma, eller om du har några frågor
+              så kontakta
+              <a href="mailto:john.eriksson@metria.se">John Eriksson</a> på
+              Metria.
+            </li>
+          </ul>
+          <br />
+          <a
+            href="https://forms.gle/JxajT56dZSXsgbw2A"
+            rel="noopener noreferrer"
+            target="_blank"
+            class="link"
+            style="font-size: 1.15rem"
+            >Anmäl dig och ditt barn direkt via Google Forms</a
+          >
+        </div>
+        <br />
         <br />
 
-        <p>
-          Kvällen innan konferensen Umedev organiserar vi en kostnadsfri kväll
-          där
-          <span class="bold">10-15-åringar</span> får prova på programmering.
-          Genom att låta dem experimentera och programmera så engagerar vi dem
-          att bli aktiva producenter av den nya teknologin istället för passiva
-          konsumenter. Programmering handlar om samarbete och kommunikation i
-          ett team och det är också så vi kommer att arbeta under sessionerna -
-          tillsammans.
-        </p>
-        <h3>Om kvällen</h3>
-        <ul>
-          <li>Vi har plats för 30 flickor och 30 pojkar</li>
-          <li>Alla deltagare behöver ha med sig egen dator</li>
-          <li>Plats: Humanisthuset på Umeå Universitet</li>
-          <li>Tid: 22 april kl: 17.30 - 19.30</li>
-        </ul>
-        <br />
-        <p>
-          Workshops-hållare under kvällen är en blanding av erfrana utvecklare,
-          UX-designers och yngre förmågor.
-        </p>
-        <a href="#kidz-anmalan">Anmälan dig här nedan</a>
-        <br />
-        <br />
-
-        <br />
-        <hr />
         <h2>Årets workshops</h2>
         <div class="kids-workshop">
-          <h3>Scratch</h3>
+          <h3>Kidz spår 1: Uppfinn med micro:bit</h3>
+          <img src="../assets/Microbit.jpg" aria-hidden="true" />
+          <div>
+            <p class="bold">
+              Max deltagre: 10 st, ålder: 10-15 år
+              <br />
+              Jens Andreasson (NTI-gymnasiet)
+            </p>
+            <p>
+              En micro:bit är en jätteliten dator, även kallad en
+              mikrokontroller eller enchipdator. Med den kan du skapa
+              uppfinningar som både kan känna av sin omgiving och påverka den.
+              Kanske ett tjuvalarm, en skattjakt, en ank-teleporter eller ett
+              digitalt ljus som kan blåsas ut?
+            </p>
+            <p>
+              I detta pass får du lära dig grunderna och själv prova på att
+              uppfinna saker med hjälp av micro:bit! Ingen som helst förkunskap
+              krävs, men du behöver ha med dig en egen dator. Micro:bits och
+              annan labbutrustning kommer att finnas på plats.
+            </p>
+          </div>
+        </div>
+        <div class="kids-workshop">
+          <h3>Kidz spår 2: Spelutveckling med Scratch</h3>
           <img src="../assets/scratch.png" aria-hidden="true" />
-          <p>
-            Den här sessionen vänder sig till dig som har gjort en del grejer i
-            <a
-              href="https://scratch.mit.edu/"
-              target="_blank"
-              noreferrer
-              noopener
-              >Scratch
-            </a>
-            och funderar på vad mer man kan göra. Vi går igenom olika tekniker
-            som kommer att ge dig de verktyg du behöver för att ta nästa steg.
-            Du får lära dig om kloner, animationer och hur du kan skapa element
-            som anpassar sig. <br />Efter den här sessionen kommer du garanterat
-            att ha vad du behöver för att ta dina Scratch-projekt till nästa
-            nivå. <br />
-          </p>
+          <div>
+            <p class="bold">
+              Max deltagre: 10 st, ålder: 10-15 år
+              <br />
+              Evelina Malmqvist (Omegapoint)
+            </p>
+            <p>
+              Många älskar att spela datorspel. Många drömmer om att kunna
+              utveckla ett eget spel, och med hjälp av Scratch har det aldrig
+              varit enklare! Skapa ett spel, ett äventyr, en film eller varför
+              inte ett musikinstrument?
+            </p>
+            <p>
+              I detta pass får du lära dig grunderna och själv prova på att
+              skapa spel och program med hjälp av Scratch! Ingen som helst
+              förkunskap krävs, men du behöver ha med dig en egen dator.
+            </p>
+          </div>
+        </div>
+
+        <div class="kids-workshop">
+          <h3>Vuxenspåret: Hjälp, mitt barn vill bli programmerare!</h3>
+
           <p class="bold">
-            Du behöver en egen dator och en inloggning på Scratch.
-          </p>
-        </div>
-
-        <div class="kids-workshop">
-          <h3>Micro:bit</h3>
-          <div class="flex">
-            <img src="../assets/Microbit.jpg" aria-hidden="true" />
-            <div>
-              <p>
-                <a
-                  href="https://microbit.org/"
-                  target="_blank"
-                  noreferrer
-                  noopener
-                  >Micro:bit-datorer
-                </a>
-                är fyllda med sensorer som gör att den kan känna av ljus,
-                riktning, rörelse, etc. Du kan skriva program som känner av
-                detta och varna om någon flyttar på datorn. Det finns också
-                möjlighet att styra de inbyggda lysdioderna för att skriva text
-                eller göra olika mönster. För att göra det lite roligare så har
-                vi med lite elektronik som du kan använda för att bygga ett
-                tjuvalarm, testa hur snabb dina reaktioner är o.s.v.
-                <br />För att skriva programmen så används ett så kallat
-                "block-språk" som påminner mycket om Scratch.
-              </p>
-              <p>
-                På denna session får du alltså chansen att skriva program för
-                att styra en dator med sensorer och styra olika typer av
-                elektroniska komponenter.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="kids-workshop">
-          <h3>Designworkshop</h3>
-          <img src="../assets/Designworkshop.jpeg" aria-hidden="true" />
-          <p>
-            Varje system som byggs börjar med en idé! Och många av dessa behöver
-            någonstans där idén möter användaren. Det kan vara i form av en app,
-            en hemsida eller en fysisk produkt!
+            Max deltagare: 15 st
+            <br />John Eriksson (Metria)
           </p>
           <p>
-            I denna workshop väljer vi en eller ett par idéer som vi undersöker
-            om de skulle hålla för lite konkurrens. Efter det får alla som vill
-            designa hur de skulle vilja gestalta idén digitalt! Är det en app,
-            en hemsida, ett spel, eller ett AR/VR-system?
+            Digital konsumtion finns idag i överflöd, samtidigt är möjligheterna
+            att utveckla egna spel och program oändliga. Men var börjar man och
+            hur kan man stötta ett barn eller ungdom som visar intresse av att
+            skapa digitalt?
           </p>
           <p>
-            Har vi tid så väljer vi en av idéerna som kan gestaltas för webben
-            och bygger en prototyp i HTML, CSS och ev lite Javascript.
+            I detta pass får du lära dig vad Scratch och micro:bit är. Vad krävs
+            för att komma igång och vad finns det för steg efter det? Ingen som
+            helst förkunskap krävs.
           </p>
-        </div>
-
-        <div class="kids-workshop">
-          <h3>CodeCombat</h3>
-          <img src="../assets/Codecombat.png" aria-hidden="true" />
-          <p>
-            Du som tidigare har provat programmering med block som i t.ex
-            Scratch får nu prova att programmera med text. Du lär dig språket
-            Python genom spelet
-            <a
-              href="https://codecombat.com/"
-              target="_blank"
-              noreferrer
-              noopener
-              >CodeCombat</a
-            >
-            där man spelar med en fantasy-hjälte som slåss mot orcher, skyddar
-            byar och annat spännande.
-          </p>
-        </div>
-
-        <div class="kids-workshop">
-          <h3>Kodstuga med Kattis</h3>
-          <div class="flex">
-            <img src="../assets/Kattis.png" aria-hidden="true" />
-            <div>
-              <p>
-                För dig som redan programmerar och vill träffa andra som
-                programmerar anordnar vi i år en kodstuga. Kom och umgås med
-                andra i din ålder som programmerar. På plats kommer det att
-                finnas möjlighet att ställa frågor, få tips och råd från
-                personer med lång erfarenhet av programmering i olika
-                programmeringsspråk
-              </p>
-              <p>
-                För er som vill så finns möjlighet att få en introduktion till
-                <a
-                  href="https://open.kattis.com/"
-                  target="_blank"
-                  noreferrer
-                  noopener
-                  >Kattis</a
-                >, en plattform för kodutmaningar.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div id="kidz-anmalan">
-          <RegisterKidz />
         </div>
       </v-col>
     </v-row>
@@ -168,11 +119,11 @@
 </template>
 
 <script>
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
-import RegisterKidz from '@/components/RegisterKidz.vue';
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
+import RegisterKidz from "@/components/RegisterKidz.vue";
 
 export default {
-  name: 'Kidz',
+  name: "Kidz",
   components: {
     HeaderWithPepper,
     RegisterKidz,
@@ -181,8 +132,14 @@ export default {
 </script>
 
 <style scoped>
+.kids-intro {
+  max-width: 500px;
+}
 .kids-workshop {
-  margin-bottom: 75px;
+  margin-bottom: 1rem;
+  border: 1px solid #56ab2f;
+  border-radius: 4px;
+  padding: 1rem;
 }
 .flex {
   display: flex;
@@ -198,7 +155,7 @@ export default {
 h2 {
   margin: 30px 0;
   width: 100%;
-  text-align: center;
+  font-size: 1.95rem;
 }
 h3 {
   margin: 15px 0;
@@ -208,5 +165,6 @@ img {
   margin-bottom: 10px;
   max-width: 100%;
   width: auto;
+  max-height: 300px;
 }
 </style>

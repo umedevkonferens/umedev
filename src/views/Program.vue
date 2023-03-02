@@ -1,15 +1,8 @@
 <template>
   <div>
     <HeaderWithPepper header="Program Umedev" />
-    <v-row
-      class="mb-6"
-      justify="start"
-    >
-      <v-col
-        md="auto"
-        class="content wrapper"
-      >
-      </v-col>
+    <v-row class="mb-6" justify="start">
+      <v-col md="auto" class="content wrapper"> </v-col>
     </v-row>
     <!-- --------------------- -->
 
@@ -20,16 +13,11 @@
           <div class="program-row">
             <div class="about-keynote">
               <div class="profile-container">
-                <v-avatar
-                  class="bio-image"
-                  color="grey"
-                  size="256"
-                  rounded="1"
-                >
+                <v-avatar class="bio-image" color="grey" size="256" rounded="1">
                   <v-img
                     cover
                     v-bind:src="
-                      require('../assets/Johanna_Skarpman_Sundholm.jpg')
+                      require('../assets/johanna_skarpman_sundholm.jpg')
                     "
                   ></v-img>
                 </v-avatar>
@@ -71,15 +59,10 @@
             <br />
             <div class="about-keynote reverse">
               <div class="profile-container">
-                <v-avatar
-                  class="bio-image"
-                  color="grey"
-                  size="256"
-                  rounded="1"
-                >
+                <v-avatar class="bio-image" color="grey" size="256" rounded="1">
                   <v-img
                     cover
-                    v-bind:src="require('../assets/Johan_Lindfors.jpg')"
+                    v-bind:src="require('../assets/johan_lindfors.jpg')"
                   ></v-img>
                 </v-avatar>
                 <p class="keynote-speaker-name">Johan Lindfors</p>
@@ -88,41 +71,41 @@
               <div class="keynote-description">
                 <div class="program-heading">
                   <h2>
-                    Ending Keynote: How to be a superhero when supervillains
-                    leverage code!
+                    Ending Keynote: Att vara superhjälte när superskurkarna
+                    använder kod!
                   </h2>
                 </div>
                 <p>
-                  Different flavors of code in various complex architectures is
-                  being used for wrongdoing in an ever increasing magnitude of
-                  cyber attacks all over the world. Kids can purchase malware
-                  through virtual currencies, to leverage against their
-                  counterparts in games. And state founded actors are leveraging
-                  wipers to cripple infrastructure while preparing for military
-                  actions and intrusions. This session will briefly explain how
-                  code are being leveraged but also give some recommendations on
-                  how to protect ourselves against these campaigns.
+                  Olika typer av elakartad kod i olika komplexa arkitekturer
+                  används i en allt större utsträckning vid attacker över hela
+                  internet och världen. Ungdomar kan köpa virus och verktyg med
+                  virtuella valutor i dataspel för att automatisera attacker och
+                  använda mot sina motspelare, och regeringsfinansierade aktörer
+                  nyttjar mjukvara för att påverka infrastruktur vid
+                  förberedelser inför militära åtgärder och invasioner. Den här
+                  presentationen kommer att ge en introduktion till hur mjukvara
+                  och kod nyttjas, men också ge några rekommendationer hur vi
+                  kan skydda oss mot liknande kampanjer.
                 </p>
                 <h3>Om Johan Lindfors</h3>
                 <p>
-                  Johan Lindfors has been working with Windows and Windows Phone
-                  since the early days and he is often speaking about the
-                  platform and technologies at various events. In the middle of
-                  2011 he founded the company Coderox, and currently entirely
-                  focused on Microsoft platform with various customers and
-                  engagements, some leveraging XAML and C#, others using C++ and
-                  DirectX. Before Coderox, he worked at Microsoft in Sweden for
-                  almost 13 years, and have also been the head of development at
-                  Infozone. Currently he is the Chief Innovation Officer at
-                  Truesec, focusing on cyber security, advanced IT
-                  infrastructure and secure development.
+                  Johan Lindfors har jobbat med Microsofts ekosystem sedan 1998
+                  och är en återkommande talare vid olika evenemang, oftast med
+                  fokus på programmering och säkerhet. Under 2011 grundade han
+                  företaget Coderox som fokuserade uteslutande på Microsofts
+                  plattform med olika tekniker, allt från XAML och C# till C++
+                  och DirectX. Innan dess jobbade han på Microsoft och sedan
+                  2021 är han anställd på Truesec där han leder ett affärsområde
+                  med konsulter som jobbar med och utbildar i säker utveckling.
                 </p>
               </div>
             </div>
             <br />
             <v-divider></v-divider>
             <bt />
-            <p class="extra-information-text">Fullständigt program presenteras i början av mars</p>
+            <p class="extra-information-text">
+              Fullständigt program presenteras i början av mars
+            </p>
           </div>
         </div>
       </div>
@@ -283,11 +266,7 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 1 - Hörsal E</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-1-pass-1">10.00 - 10.40</span>
                     <h4>
                       Migrera till .NET 6 Blazor med hjälp av Strangler Fig
                       Pattern
@@ -305,11 +284,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-2"
-                      >10.50 - 11.10</span
-                    >
+                    <span class="time" id="spar-1-pass-2">10.50 - 11.10</span>
                     <h4>Mår man mindre Python efter en Java?</h4>
                     <span class="content">
                       <p class="program-description">
@@ -328,11 +303,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-3"
-                      >11.20 - 11.40</span
-                    >
+                    <span class="time" id="spar-1-pass-3">11.20 - 11.40</span>
                     <h4>The Future is Dark</h4>
                     <span class="content">
                       <p class="program-description">
@@ -358,11 +329,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-4"
-                      >12.50 - 13:30</span
-                    >
+                    <span class="time" id="spar-1-pass-4">12.50 - 13:30</span>
                     <h4>Jakarta EE 10 is Coming Your Way!</h4>
                     <span class="content">
                       <p class="program-description">
@@ -394,11 +361,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-5"
-                      >13:40 - 14:00</span
-                    >
+                    <span class="time" id="spar-1-pass-5">13:40 - 14:00</span>
                     <h4>
                       Service blueprint - How user interactions affect front-end
                       and back-end
@@ -418,11 +381,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-6"
-                      >14:30 - 15:10</span
-                    >
+                    <span class="time" id="spar-1-pass-6">14:30 - 15:10</span>
                     <h4>Jetpack Compose - Nutiden är här för UI på Android</h4>
                     <span class="content">
                       <p class="program-description">
@@ -449,11 +408,7 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 2 - Hörsal F</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-2-pass-1">10.00 - 10.40</span>
                     <h4>The future of blockchain technology in gaming</h4>
                     <span class="content">
                       <p class="program-description">
@@ -472,11 +427,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-2"
-                      >10.50 - 11.10</span
-                    >
+                    <span class="time" id="spar-2-pass-2">10.50 - 11.10</span>
                     <h4>
                       Utmaningar med att bygga ett multiplayer spel med ekonomi
                     </h4>
@@ -498,11 +449,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-3"
-                      >11.20 - 11.40</span
-                    >
+                    <span class="time" id="spar-2-pass-3">11.20 - 11.40</span>
                     <h4>Prediktion av vårdtid på IVA</h4>
                     <span class="content">
                       <p class="program-description">
@@ -516,11 +463,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-4"
-                      >12.50 - 13:30</span
-                    >
+                    <span class="time" id="spar-2-pass-4">12.50 - 13:30</span>
                     <h4>Space, the final frontier</h4>
                     <span class="content">
                       <p class="program-description">
@@ -555,11 +498,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-5"
-                      >13:40 - 14:00</span
-                    >
+                    <span class="time" id="spar-2-pass-5">13:40 - 14:00</span>
                     <h4>Cybersäkerhet, varför vi behöver det.</h4>
                     <span class="content">
                       <p class="program-description">
@@ -573,11 +512,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-6"
-                      >14:30 - 15:10</span
-                    >
+                    <span class="time" id="spar-2-pass-6">14:30 - 15:10</span>
                     <h4>Arkitektur i en snabbt växande organisation</h4>
                     <span class="content">
                       <p class="program-description">
@@ -597,11 +532,7 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 3 - Hörsal G</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-3-pass-1">10.00 - 10.40</span>
                     <h4>Trygghetsskapande tester</h4>
                     <span class="content">
                       <p class="program-description">
@@ -620,11 +551,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-2"
-                      >10.50 - 11.10</span
-                    >
+                    <span class="time" id="spar-3-pass-2">10.50 - 11.10</span>
                     <h4>Design för färgblinda - en personlig reflexion</h4>
                     <span class="content">
                       <p class="program-description">
@@ -636,11 +563,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-3"
-                      >11.20 - 11.40</span
-                    >
+                    <span class="time" id="spar-3-pass-3">11.20 - 11.40</span>
                     <h4>Ledarskap som ökar engagemang och prestation</h4>
                     <span class="content">
                       <p class="program-description">
@@ -651,11 +574,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-4"
-                      >12.50 - 13:30</span
-                    >
+                    <span class="time" id="spar-3-pass-4">12.50 - 13:30</span>
                     <h4>Norrsken i fyra dimensioner</h4>
                     <span class="content">
                       <p class="program-description">
@@ -678,11 +597,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-5"
-                      >13:40 - 14:00</span
-                    >
+                    <span class="time" id="spar-3-pass-5">13:40 - 14:00</span>
                     <h4>Konfiguration för kreativitet</h4>
                     <span class="content">
                       <p class="program-description">
@@ -698,11 +613,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-6"
-                      >14:30 - 15:10</span
-                    >
+                    <span class="time" id="spar-3-pass-6">14:30 - 15:10</span>
                     <h4>Daglig automatiserad uppgradering av Ladok</h4>
                     <span class="content">
                       <p class="program-description">
@@ -868,10 +779,7 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <h3 class="previous-program-heading">Program från 2019</h3>
-              <img
-                class="program-img"
-                src="../assets/Tidigare-schema.png"
-              />
+              <img class="program-img" src="../assets/Tidigare-schema.png" />
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -881,19 +789,19 @@
   </div>
 </template>
 <script>
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue'
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
 
 export default {
-  name: 'Program',
+  name: "Program",
   components: {
     HeaderWithPepper,
   },
   data() {
     return {
       panel: 0,
-    }
+    };
   },
-}
+};
 </script>
 <style scoped>
 .program-container {
@@ -959,7 +867,7 @@ h4 {
 
 .keynote-speaker-title {
   font-size: 0.95rem;
-  color: #585656
+  color: #585656;
 }
 
 .about-keynote {
@@ -1074,7 +982,7 @@ Tracks CSS
   font-size: 0.85rem;
   margin: 1rem 0;
   display: block;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bold;
   padding-left: 0.25rem;
 }
