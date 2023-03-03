@@ -49,7 +49,7 @@
         <h2>Årets workshops</h2>
         <div class="kids-workshop">
           <h3>Kidz spår 1: Uppfinn med micro:bit</h3>
-          <img src="../assets/Microbit.jpg" aria-hidden="true" />
+          <img src="../assets/microbit.jpeg" aria-hidden="true" />
           <div>
             <p class="bold">
               Max deltagre: 10 st, ålder: 10-15 år

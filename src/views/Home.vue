@@ -50,6 +50,12 @@
                   och det är också så vi kommer att arbeta under sessionerna -
                   tillsammans.
                 </p>
+                <p>
+                  Vi har också ett vuxenspår; Hjälp, mitt barn vill bli
+                  programmerare! Det är för dig som förälder eller vuxen som
+                  arbetar med barn och vill lära dig mer om hur du kan stödja
+                  unga som är nyfikna på programmering.
+                </p>
                 <a href="/kidz">Läs mer under Kidz</a>
                 <br />
                 <br />
