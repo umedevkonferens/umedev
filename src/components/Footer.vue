@@ -156,6 +156,12 @@ export default Vue.extend({
         alt: "Länk till Metrias hemsida",
         class: "metria",
       },
+      {
+        name: "Sartorius",
+        url: "https://www.sartorius.com/",
+        icon: require("../assets/Sartorius-Logo.jpg"),
+        alt: "Länk till Sartorius hemsida"
+      }
 
       /*,
       {
