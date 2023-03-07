@@ -242,6 +242,9 @@ h3 {
   text-decoration: none;
 }
 .spons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 300px;
   width: 30%;
   margin: 10px;
@@ -278,7 +281,7 @@ h4 a {
   font-weight: normal;
 }
 a {
-  margin-left: 10px;
+  margin-bottom: 1rem;
   font-size: 18px;
   color: black !important;
 }
@@ -290,7 +293,9 @@ a {
     width: 100%;
   }
   .sponsorer .flex-container {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
+    align-items: center;
+    justify-content: center;
   }
   .sponsorer h3 {
     margin-top: 30px;
