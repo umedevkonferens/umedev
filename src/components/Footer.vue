@@ -161,6 +161,12 @@ export default Vue.extend({
         url: "https://www.sartorius.com/",
         icon: require("../assets/Sartorius-Logo.jpg"),
         alt: "Länk till Sartorius hemsida"
+      },
+      { 
+        name: "Vitec",
+        url: "https://www.vitecsoftware.com/",
+        icon: require("../assets/Vitec-Logo-vertical-software.jpg"),
+        alt: "Länk till Vitecs hemsida"
       }
 
       /*,
