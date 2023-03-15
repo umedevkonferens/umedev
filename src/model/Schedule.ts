@@ -8,7 +8,7 @@ interface Slot {
     bookings: Booking[]
 }
 
-interface Booking {
+export interface Booking {
     title: string
     description?: string
     speakers?: Speaker[]

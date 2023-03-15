@@ -3,7 +3,8 @@ import { Schedule } from "@/model/Schedule";
 export const schedule2023 = {
   openingKeynote: {
     title: "Opening keynote: Nya analyser möjliga med fjärranalys och AI",
-    description: "Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter att studera och övervaka natur och miljö från ovan. Detta har drivit en våg av innovativa tilltag, särskilt kopplat till skogssektorn. Nu testas också greppet att ta till AI för att i högre grad nyttja de stora datamängderna för att ta fram helt nya eller förbättrade analyser.", speakers: [
+    description: "Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter att studera och övervaka natur och miljö från ovan. Detta har drivit en våg av innovativa tilltag, särskilt kopplat till skogssektorn. Nu testas också greppet att ta till AI för att i högre grad nyttja de stora datamängderna för att ta fram helt nya eller förbättrade analyser.",
+    speakers: [
       {
         name: "Johanna Skarpman Sundholm",
         company: "Metria"
@@ -32,7 +33,7 @@ export const schedule2023 = {
             name: "Jenny Odeblom",
             company: "Umedev"
           }],
-          room: "Hörsal X"
+          room: "Samtliga Spår"
         }
       ]
     },
@@ -41,11 +42,12 @@ export const schedule2023 = {
       bookings: [
         {
           title: "Opening Keynote: Nya analyser möjliga med fjärranalys och AI",
+          description: "Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter att studera och övervaka natur och miljö från ovan. Detta har drivit en våg av innovativa tilltag, särskilt kopplat till skogssektorn. Nu testas också greppet att ta till AI för att i högre grad nyttja de stora datamängderna för att ta fram helt nya eller förbättrade analyser.",
           speakers: [{
             name: "Johanna Skarpman Sundholm",
             company: "Metria"
           }],
-          room: "Hörsal X"
+          room: "Samtliga spår"
         }
       ]
     },
@@ -54,10 +56,6 @@ export const schedule2023 = {
       bookings: [
         {
           title: "Fika",
-          speakers: [{
-            name: "",
-            company: ""
-          }],
           room: ""
         }
       ]
@@ -74,16 +72,16 @@ export const schedule2023 = {
               company: "Active Solution"
             }
           ],
-          room: "Hörsal X"
+          room: "Spår 1"
         },
         {
           title: "Säkerheten genom historien",
-          description: "Detta pass kommer gå igenom hur man sett på säkerhet och teknik genom historien. Vilka säkerhets aspekter användes förr och hur har dessa utvecklats över åren? Detta pass är för den som älskar historia, säkerhet och teknik. Inga förkunskapskrav krävs, kom och luta dig tillbaka för en resa genom vår teknologiska historia.",
+          description: "Detta pass kommer gå igenom hur man sett på säkerhet och teknik genom historien. Vilka säkerhetsaspekter användes förr och hur har dessa utvecklats över åren? Detta pass är för den som älskar historia, säkerhet och teknik. Inga förkunskapskrav krävs, kom och luta dig tillbaka för en resa genom vår teknologiska historia.",
           speakers: [{
             name: "Emilia Modig",
             company: "Omegapoint"
           }],
-          room: "Hörsal Y"
+          room: "Spår 2"
         },
         {
           title: "Design systems - Less decisions, more time",
@@ -98,7 +96,7 @@ export const schedule2023 = {
               company: "Daresay by Knightec"
             }
           ],
-          room: "Hörsal Z"
+          room: "Spår 3"
         },
       ]
     },
@@ -114,7 +112,7 @@ export const schedule2023 = {
               company: "Elastisys"
             }
           ],
-          room: "Hörsal X"
+          room: "Spår 1"
         },
         {
           title: "HARA, TARA vänta bara - Utveckling av säkra maskinstyrsystem",
@@ -125,7 +123,7 @@ export const schedule2023 = {
               company: "Ålö AB"
             }
           ],
-          room: "Hörsal Y"
+          room: "Spår 2"
         },
         {
           title: "Feedback loops and how to refine them",
@@ -136,7 +134,7 @@ export const schedule2023 = {
               company: "Nasdaq Umeå"
             }
           ],
-          room: "Hörsal Z"
+          room: "Spår 3"
         }
       ]
     },
@@ -145,10 +143,6 @@ export const schedule2023 = {
       bookings: [
         {
           title: "Lunch",
-          speakers: [{
-            name: "",
-            company: ""
-          }],
           room: ""
         }
       ]
@@ -165,29 +159,29 @@ export const schedule2023 = {
               company: "Intinor"
             }
           ],
-          room: "Hörsal X"
+          room: "Spår 1"
         },
         {
           title: "Agil säkerhet",
-          description: "Säkerhet blir alltför ofta bortglömt i vår agila värld, där fokus ligger på effektivitet och snabba leveranser. Detta trots att säkerhet är en avgörande faktor för framgångsrik mjukvaruutveckling.\nFrån början till slut och alla steg däremellan, kommer vi att se på helhetsbilden av vilken typ av säkerhetsåtgärder som passar var, samt ge konkreta exempel som du kan ta med dig och börja implementera direkt.",
+          description: "Säkerhet blir alltför ofta bortglömt i vår agila värld, där fokus ligger på effektivitet och snabba leveranser. Detta trots att säkerhet är en avgörande faktor för framgångsrik mjukvaruutveckling.\n\nFrån början till slut och alla steg däremellan, kommer vi att se på helhetsbilden av vilken typ av säkerhetsåtgärder som passar var, samt ge konkreta exempel som du kan ta med dig och börja implementera direkt.",
           speakers: [
             {
               name: "Cecilia Wirén",
               company: "Active Solution"
             }
           ],
-          room: "Hörsal Y"
+          room: "Spår 2"
         },
         {
           title: "Hack the Accessibility Crisis",
-          description: "Trots lagkrav och riktlinjer så är fortfarande stora delar av webben otillgänglig för användare med funktionsnedsättningar och funktionsvariationer. \nPå detta pass kommer jag live-testa en sidas tillgänglighet, visa vilka verktyg jag använder för att identifiera olika tillgänglighetsbuggar, samt rätta till det jag hittar i koden. ",
+          description: "Trots lagkrav och riktlinjer så är fortfarande stora delar av webben otillgänglig för användare med funktionsnedsättningar och funktionsvariationer. \n\nPå detta pass kommer jag live-testa en sidas tillgänglighet, visa vilka verktyg jag använder för att identifiera olika tillgänglighetsbuggar, samt rätta till det jag hittar i koden. ",
           speakers: [
             {
               name: "Andrea Berglund",
               company: "Omegapoint"
             }
           ],
-          room: "Hörsal Z"
+          room: "Spår 3"
         },
       ]
     },
@@ -203,7 +197,7 @@ export const schedule2023 = {
               company: "Algoryx"
             }
           ],
-          room: "Hörsal X"
+          room: "Spår 1"
         },
         {
           title: "Huruvida du ska, eller inte ska, använda kö:er i din arkitektur",
@@ -214,7 +208,7 @@ export const schedule2023 = {
               company: "CloudAMQP by 84codes"
             }
           ],
-          room: "Hörsal Y"
+          room: "Spår 2"
         },
         {
           title: "Vanliga Myter om Scrum",
@@ -225,7 +219,7 @@ export const schedule2023 = {
               company: "Trygg-Hansa"
             }
           ],
-          room: "Hörsal Z"
+          room: "Spår 3"
         },
       ]
     },
@@ -234,10 +228,6 @@ export const schedule2023 = {
       bookings: [
         {
           title: "Fika",
-          speakers: [{
-            name: "",
-            company: ""
-          }],
           room: ""
         }
       ]
@@ -254,11 +244,11 @@ export const schedule2023 = {
               company: "Umecon AB"
             }
           ],
-          room: "Hörsal X"
+          room: "Spår 1"
         },
         {
           title: "Från vilda gissningar till mätbara leveranser",
-          description: "Visst är vi alla måna om att det vi lägger 8 timmar på per dag ska generera värde?\n Välkommen till panelsamtal med tips o trix på hur vi tar oss från den vilda gissningen till en värdefull leverans. \nMed i panelen sitter Mia Petersson, Andrea Berglund, Paul Alvarado Mendoza och Tea Berglund som alla jobbar med design i olika kontexter idag.",
+          description: "Visst är vi alla måna om att det vi lägger 8 timmar på per dag ska generera värde?\n\nVälkommen till panelsamtal med tips o trix på hur vi tar oss från den vilda gissningen till en värdefull leverans. \n\nMed i panelen sitter Mia Petersson, Andrea Berglund, Paul Alvarado Mendoza och Tea Berglund som alla jobbar med design i olika kontexter idag.",
           speakers: [
             {
               name: "Mia Petersson",
@@ -277,11 +267,11 @@ export const schedule2023 = {
               company: "VK media"
             }
           ],
-          room: "Hörsal Y"
+          room: "Spår 2"
         },
         {
           title: "Terapi-kaffe-samtal med en smula sammanbrott?",
-          description: "",
+          description: "Du känner säkert igen dig i den gnagande känslan av att något inte stämmer efter en lång planeringsdag. Urban är agilcoach och Adam är systemutvecklare, dom ska tillsammans gräva i de saker som vi suckar åt i våra arbetssätt. \n\nSe det lite som en fina mellan en agilcoach och en utvecklare efter en utpumpande planering.",
           speakers: [
             {
               name: "Adam Sernheim",
@@ -292,7 +282,7 @@ export const schedule2023 = {
               company: "Kvadrat AB"
             }
           ],
-          room: "Hörsal Z"
+          room: "Spår 3"
         },
 
       ]
@@ -309,7 +299,7 @@ export const schedule2023 = {
               company: "Truesec"
             }
           ],
-          room: "Hörsal X"
+          room: "Samtliga spår"
         },
       ]
     },
@@ -318,11 +308,8 @@ export const schedule2023 = {
       bookings: [
         {
           title: "Avslutning",
-          speakers: [{
-            name: "",
-            company: ""
-          }],
-          room: "Hörsal X"
+          room: "Samtliga spår",
+          speakers: []
         }
       ]
     }
