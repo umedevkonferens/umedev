@@ -15,14 +15,14 @@
                 <a href="/program">Läs mer under program</a>
               </div>
               <div class="kn-speaker">
-                <img src="../assets/Helena_Holmstrom_Olsson_Mindre.jpg" />
+                <img src="../assets/img/Helena_Holmstrom_Olsson_Mindre.jpg" />
                 <p class="speaker-name">Professor Helena Holmström Olsson</p>
               </div>
             </div>
 
             <div class="keynote-wrapper">
               <div class="kn-speaker">
-                <img src="../assets/Kenneth_Bodin_mindre.jpg" />
+                <img src="../assets/img/Kenneth_Bodin_mindre.jpg" />
                 <p class="speaker-name">
                   Kenneth Bodin, CEO and co-founder Algoryx
                 </p>

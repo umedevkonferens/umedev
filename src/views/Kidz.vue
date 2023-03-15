@@ -49,7 +49,7 @@
         <h2>Årets workshops</h2>
         <div class="kids-workshop">
           <h3>Kidz spår 1: Uppfinn med micro:bit</h3>
-          <img src="../assets/microbit.jpeg" aria-hidden="true" />
+          <img src="../assets/img/microbit.jpeg" aria-hidden="true" />
           <div>
             <p class="bold">
               Max deltagre: 10 st, ålder: 10-15 år
@@ -73,7 +73,7 @@
         </div>
         <div class="kids-workshop">
           <h3>Kidz spår 2: Spelutveckling med Scratch</h3>
-          <img src="../assets/scratch.png" aria-hidden="true" />
+          <img src="../assets/img/scratch.png" aria-hidden="true" />
           <div>
             <p class="bold">
               Max deltagre: 10 st, ålder: 10-15 år

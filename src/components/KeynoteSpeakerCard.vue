@@ -20,7 +20,7 @@
               <v-img
                 cover
                 v-bind:src="
-                  require('../assets/' + openingKeynote.speaker.imageUrl)
+                  require('../assets/img/' + openingKeynote.speaker.imageUrl)
                 "
               ></v-img>
             </v-avatar>
@@ -43,7 +43,7 @@
               <v-img
                 cover
                 v-bind:src="
-                  require('../assets/' + endingKeynote.speaker.imageUrl)
+                  require('../assets/img/' + endingKeynote.speaker.imageUrl)
                 "
               ></v-img>
             </v-avatar>

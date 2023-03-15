@@ -17,7 +17,7 @@
                   <v-img
                     cover
                     v-bind:src="
-                      require('../assets/johanna_skarpman_sundholm.jpg')
+                      require('../assets/img/johanna_skarpman_sundholm.jpg')
                     "
                   ></v-img>
                 </v-avatar>
@@ -62,7 +62,7 @@
                 <v-avatar class="bio-image" color="grey" size="256" rounded="1">
                   <v-img
                     cover
-                    v-bind:src="require('../assets/johan_lindfors.jpg')"
+                    v-bind:src="require('../assets/img/johan_lindfors.jpg')"
                   ></v-img>
                 </v-avatar>
                 <p class="keynote-speaker-name">Johan Lindfors</p>
@@ -102,10 +102,8 @@
             </div>
             <br />
             <v-divider></v-divider>
-            <bt />
-            <p class="extra-information-text">
-              Fullständigt program presenteras i början av mars
-            </p>
+            <br />
+            <Schedule :schedule="schedule" />
           </div>
         </div>
       </div>
@@ -136,7 +134,7 @@
                         <v-img
                           cover
                           v-bind:src="
-                            require('../assets/Helena_Holmstrom_Olsson_Mindre.jpg')
+                            require('../assets/img/Helena_Holmstrom_Olsson_Mindre.jpg')
                           "
                           alt="Helena Holmström Olsson"
                         ></v-img>
@@ -227,7 +225,7 @@
                         <v-img
                           cover
                           v-bind:src="
-                            require('../assets/Kenneth_Bodin_mindre.jpg')
+                            require('../assets/img/Kenneth_Bodin_mindre.jpg')
                           "
                         ></v-img>
                       </v-avatar>
@@ -779,7 +777,7 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <h3 class="previous-program-heading">Program från 2019</h3>
-              <img class="program-img" src="../assets/Tidigare-schema.png" />
+              <img class="program-img" src="../assets/img/Tidigare-schema.png" />
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -790,18 +788,22 @@
 </template>
 <script>
 import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
-
+import Schedule from "@/components/Schedule.vue"
+import { schedule2023 }  from "../data/schedule2023"
 export default {
   name: "Program",
   components: {
     HeaderWithPepper,
+    Schedule
   },
   data() {
     return {
       panel: 0,
+      schedule: schedule2023
     };
   },
 };
+
 </script>
 <style scoped>
 .program-container {
