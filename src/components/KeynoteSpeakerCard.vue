@@ -16,7 +16,7 @@
               <p class="speaker-name">{{ openingKeynote.speaker.name }}</p>
               <p class="speaker-title">{{ openingKeynote.speaker.title }}</p>
             </div>
-            <v-avatar class="bio-image" color="grey" size="130" rounded="1">
+            <v-avatar class="bio-image" color="grey" size="110" rounded="1">
               <v-img
                 cover
                 v-bind:src="
@@ -39,7 +39,7 @@
               <p class="speaker-name">{{ endingKeynote.speaker.name }}</p>
               <p class="speaker-title">{{ endingKeynote.speaker.title }}</p>
             </div>
-            <v-avatar class="bio-image" color="grey" size="130" rounded="1">
+            <v-avatar class="bio-image" color="grey" size="110" rounded="1">
               <v-img
                 cover
                 v-bind:src="
@@ -117,7 +117,7 @@ export default {
 }
 
 .keynote-title {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   line-height: 1.85rem;
   margin-bottom: 1rem;
   color: rgba(0, 0, 0, 0.87);

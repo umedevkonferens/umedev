@@ -107,7 +107,7 @@ export const schedule2023: Schedule = {
       bookings: [
         {
           title: "10 sätt att misslyckas med Kubernetes",
-          description: "Kubernetes har tagit IT-världen med storm senaste åren och används i produktion av 64% av organisationerna i en nylig studie från Linux Foundation. Vanliga motiv att börja använda Kubernetes är skalbarhet, förenklad releasehantering, och ökad produktivitet för utvecklare. I kontrast till detta har Johan på nära håll följt ett flertal misslyckade införandeprojekt där effekterna helt uteblir. Detta talk diskuterar dessa erfarenheter och fokuserar på förutsättningarna för att lyckas med Kubernetes. Spoiler: Kubernetes är egentligen en PaaS. Det finns ingen gratislunch utan applikationsutvecklare behöver göra en (hel) del jobb, det är bara inte alltid tydligt vad. ",
+          description: "Kubernetes har tagit IT-världen med storm senaste åren och används i produktion av 64% av organisationerna i en nylig studie från Linux Foundation. Vanliga motiv att börja använda Kubernetes är skalbarhet, förenklad releasehantering, och ökad produktivitet för utvecklare. I kontrast till detta har Johan på nära håll följt ett flertal misslyckade införandeprojekt där effekterna helt uteblir. Detta talk diskuterar dessa erfarenheter och fokuserar på förutsättningarna för att lyckas med Kubernetes. \n\nSpoiler: Kubernetes är egentligen en PaaS. Det finns ingen gratislunch utan applikationsutvecklare behöver göra en (hel) del jobb, det är bara inte alltid tydligt vad. ",
           speakers: [
             {
               name: "Johan Tordsson",

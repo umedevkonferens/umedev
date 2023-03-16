@@ -1,28 +1,39 @@
 <template>
-  <div class="booking-container">
-    <!-- <h4
+  <v-card>
+    <div class="booking-container">
+      <!-- <h4
       class="booking-heading"
       v-if="booking.room"
     >
       {{ booking.room }}
     </h4> -->
-    <div :class="contentClass">
-      <p
-        class="booking-information"
-        v-if="booking.room"
-      >
-        {{ `${booking.room} | ${timeSlot}` }}
-      </p>
-      <h4 :class="booking.speakers ? 'booking-title' : 'booking-title centered'">{{ booking.title }}</h4>
-      <div class="booking-description" v-if="booking.description">{{ booking.description }}</div>
-      <span class="slot-speaker" v-if="booking.speakers">
-        <div v-for="(speaker, index) in booking.speakers">
-          {{ speaker.name }}<span v-if="speaker.name">, </span>
-          <span class="company-name">{{ speaker.company }}</span>
-        </div>
-      </span>
-    </div>
-    <!-- <a
+      <div :class="contentClass">
+        <p
+          class="booking-information"
+          v-if="booking.room"
+        >
+          {{ `${booking.room} | ${timeSlot}` }}
+        </p>
+        <h4
+          :class="booking.speakers ? 'booking-title' : 'booking-title centered'"
+        >
+          {{ booking.title }}
+        </h4>
+        <div
+          class="booking-description"
+          v-if="booking.description"
+        >{{ booking.description }}</div>
+        <span
+          class="slot-speaker"
+          v-if="booking.speakers"
+        >
+          <div v-for="(speaker) in booking.speakers">
+            {{ speaker.name }}<span v-if="speaker.name">, </span>
+            <span class="company-name">{{ speaker.company }}</span>
+          </div>
+        </span>
+      </div>
+      <!-- <a
       href="#"
       v-if="!singleTrack && !open"
       @click.prevent="handleClickReadMore"
@@ -36,7 +47,8 @@
       aria-hidden="true"
       >Visa mindre</a
     > -->
-  </div>
+    </div>
+  </v-card>
 </template>
 
 <script lang="ts">
@@ -92,7 +104,6 @@ export default Vue.extend({
 
 .booking-description {
   line-height: 1.3rem;
-  /* max-height: 5rem; */
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;

@@ -6,8 +6,15 @@
     >
       <h3 class="slot-heading">{{ slot.time }}</h3>
       <div class="slot-row">
-        <div class="bookings-container" v-for="booking in slot.bookings">
-          <ScheduleBooking :booking="booking" :singleTrack="slot.bookings.length <= 1" :timeSlot="slot.time"/>
+        <div
+          class="bookings-container"
+          v-for="booking in slot.bookings"
+        >
+          <ScheduleBooking
+            :booking="booking"
+            :singleTrack="slot.bookings.length <= 1"
+            :timeSlot="slot.time"
+          />
         </div>
       </div>
     </div>
@@ -43,6 +50,7 @@ export default Vue.extend({
   flex-direction: row;
   justify-content: flex-start;
   column-gap: 0.8rem;
+  /* padding-bottom: 0.5rem; */
 }
 
 .bookings-container {
@@ -50,9 +58,15 @@ export default Vue.extend({
 }
 
 .slot-heading {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   margin: 0.3rem 0 1rem;
   font-size: 1.5rem;
+}
+
+.divider-container {
+  height: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 h4 {

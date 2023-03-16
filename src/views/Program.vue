@@ -8,7 +8,7 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <h2 class="current-program-heading">Årets program - 30 mars 2023</h2>
+        <h2 class="current-program-heading">Opening och Ending Keynote 2023</h2>
         <div class="program-container">
           <div class="program-row">
             <div class="about-keynote">
@@ -21,8 +21,8 @@
                     "
                   ></v-img>
                 </v-avatar>
-                <p class="keynote-speaker-name">{{ chedule.openingKeynote.speakers[0].name }}</p>
-                <p class="keynote-speaker-title">{{ chedule.openingKeynote.speakers[0].title }}, {{ chedule.openingKeynote.speakers[0].company }}</p>
+                <p class="keynote-speaker-name">{{ schedule.openingKeynote.speakers[0].name }}</p>
+                <p class="keynote-speaker-title">{{ schedule.openingKeynote.speakers[0].title }}, {{ schedule.openingKeynote.speakers[0].company }}</p>
               </div>
               <div class="keynote-description">
                 <div class="program-heading">
@@ -33,7 +33,7 @@
                 <p>
                   {{ schedule.openingKeynote.description }}
                 </p>
-                <h3>Om {{ chedule.openingKeynote.speakers[0].name }}</h3>
+                <h3>Om {{ schedule.openingKeynote.speakers[0].name }}</h3>
                 <p>
                   {{ schedule.openingKeynote.speakers[0].about }}
                 </p>
@@ -71,7 +71,7 @@
             <br />
             <v-divider></v-divider>
             <br />
-            <h2>Program Umedev 2023</h2>
+            <h2>Program Umedev 2023 - Torsdag 30 mars</h2>
             <Schedule :schedule="schedule" />
           </div>
         </div>
