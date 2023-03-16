@@ -1,6 +1,8 @@
 interface Speaker {
     name: string
     company: string
+    title?: string
+    about?: string
 }
 
 interface Slot {

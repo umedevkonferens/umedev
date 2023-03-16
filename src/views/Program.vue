@@ -21,36 +21,21 @@
                     "
                   ></v-img>
                 </v-avatar>
-                <p class="keynote-speaker-name">Johanna Skarpman Sundholm</p>
-                <p class="keynote-speaker-title">Data scientist, Metria</p>
+                <p class="keynote-speaker-name">{{ chedule.openingKeynote.speakers[0].name }}</p>
+                <p class="keynote-speaker-title">{{ chedule.openingKeynote.speakers[0].title }}, {{ chedule.openingKeynote.speakers[0].company }}</p>
               </div>
               <div class="keynote-description">
                 <div class="program-heading">
                   <h2>
-                    Opening keynote: Nya analyser möjliga med fjärranalys och AI
+                    {{ schedule.openingKeynote.title }}
                   </h2>
                 </div>
                 <p>
-                  Fjärranalys används för att på ett effektivt sätt kartlägga
-                  och observera det som sker på jorden med hjälp av data som
-                  samlats in från ovan. Med nya satelliter och nationella
-                  laserskanningar öppnar sig nya möjligheter att studera och
-                  övervaka natur och miljö från ovan. Detta har drivit en våg av
-                  innovativa tilltag, särskilt kopplat till skogssektorn. Nu
-                  testas också greppet att ta till AI för att i högre grad
-                  nyttja de stora datamängderna för att ta fram helt nya eller
-                  förbättrade analyser.
+                  {{ schedule.openingKeynote.description }}
                 </p>
-                <h3>Om Johanna Skarpman Sundholm</h3>
+                <h3>Om {{ chedule.openingKeynote.speakers[0].name }}</h3>
                 <p>
-                  Johanna Skarpman Sundholm började jobba med data science på
-                  Metria 2018. Hon läste teknisk fysik på KTH med
-                  masterprogrammet inom maskininlärning. Efter examen flyttade
-                  hon till Luleå och jobbade några år som algoritmutvecklare på
-                  en start-up i Luleå Science Park innan hon hamnade på Metria.
-                  Skarpman Sundholm har ena benet i Metrias GIS och
-                  fjärranalyskonsultverksamhet och det andra i företagets
-                  karttjänstutveckling.
+                  {{ schedule.openingKeynote.speakers[0].about }}
                 </p>
               </div>
             </div>
@@ -71,32 +56,15 @@
               <div class="keynote-description">
                 <div class="program-heading">
                   <h2>
-                    Ending Keynote: Att vara superhjälte när superskurkarna
-                    använder kod!
+                    {{ schedule.closingKeynote.title }}
                   </h2>
                 </div>
                 <p>
-                  Olika typer av elakartad kod i olika komplexa arkitekturer
-                  används i en allt större utsträckning vid attacker över hela
-                  internet och världen. Ungdomar kan köpa virus och verktyg med
-                  virtuella valutor i dataspel för att automatisera attacker och
-                  använda mot sina motspelare, och regeringsfinansierade aktörer
-                  nyttjar mjukvara för att påverka infrastruktur vid
-                  förberedelser inför militära åtgärder och invasioner. Den här
-                  presentationen kommer att ge en introduktion till hur mjukvara
-                  och kod nyttjas, men också ge några rekommendationer hur vi
-                  kan skydda oss mot liknande kampanjer.
+                  {{ schedule.closingKeynote.description }}
                 </p>
                 <h3>Om Johan Lindfors</h3>
                 <p>
-                  Johan Lindfors har jobbat med Microsofts ekosystem sedan 1998
-                  och är en återkommande talare vid olika evenemang, oftast med
-                  fokus på programmering och säkerhet. Under 2011 grundade han
-                  företaget Coderox som fokuserade uteslutande på Microsofts
-                  plattform med olika tekniker, allt från XAML och C# till C++
-                  och DirectX. Innan dess jobbade han på Microsoft och sedan
-                  2021 är han anställd på Truesec där han leder ett affärsområde
-                  med konsulter som jobbar med och utbildar i säker utveckling.
+                  {{ schedule.closingKeynote.speakers[0].about }}
                 </p>
               </div>
             </div>

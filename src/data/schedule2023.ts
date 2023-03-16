@@ -7,7 +7,9 @@ export const schedule2023: Schedule = {
     speakers: [
       {
         name: "Johanna Skarpman Sundholm",
-        company: "Metria"
+        company: "Metria",
+        title: "Data Scientist",
+        about: "Johanna Skarpman Sundholm började jobba med data science på Metria 2018. Hon läste teknisk fysik på KTH med masterprogrammet inom maskininlärning. Efter examen flyttade hon till Luleå och jobbade några år som algoritmutvecklare på en start-up i Luleå Science Park innan hon hamnade på Metria. Skarpman Sundholm har ena benet i Metrias GIS och fjärranalyskonsultverksamhet och det andra i företagets karttjänstutveckling."
       }
     ]
   },
@@ -17,7 +19,9 @@ export const schedule2023: Schedule = {
     speakers: [
       {
         name: "Johan Lindfors",
-        company: "Truesec"
+        company: "Truesec",
+        title: "CINO",
+        about: "Johan Lindfors har jobbat med Microsofts ekosystem sedan 1998 och är en återkommande talare vid olika evenemang, oftast med fokus på programmering och säkerhet. Under 2011 grundade han företaget Coderox som fokuserade uteslutande på Microsofts plattform med olika tekniker, allt från XAML och C# till C++ och DirectX. Innan dess jobbade han på Microsoft och sedan 2021 är han anställd på Truesec där han leder ett affärsområde med konsulter som jobbar med och utbildar i säker utveckling."
       }
     ]
   },
