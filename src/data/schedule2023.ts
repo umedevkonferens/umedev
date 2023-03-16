@@ -1,6 +1,6 @@
 import { Schedule } from "@/model/Schedule";
 
-export const schedule2023 = {
+export const schedule2023: Schedule = {
   openingKeynote: {
     title: "Opening keynote: Nya analyser möjliga med fjärranalys och AI",
     description: "Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter att studera och övervaka natur och miljö från ovan. Detta har drivit en våg av innovativa tilltag, särskilt kopplat till skogssektorn. Nu testas också greppet att ta till AI för att i högre grad nyttja de stora datamängderna för att ta fram helt nya eller förbättrade analyser.",
@@ -9,8 +9,7 @@ export const schedule2023 = {
         name: "Johanna Skarpman Sundholm",
         company: "Metria"
       }
-    ],
-    timeSlot: "08.45 - 09.30"
+    ]
   },
   closingKeynote: {
     title: "Ending Keynote: Att vara superhjälte när superskurkarna använder kod!",
@@ -20,8 +19,7 @@ export const schedule2023 = {
         name: "Johan Lindfors",
         company: "Truesec"
       }
-    ],
-    timeSlot: "15.20 - 16.05"
+    ]
   },
   slots: [
     {
@@ -212,7 +210,7 @@ export const schedule2023 = {
         },
         {
           title: "Vanliga Myter om Scrum",
-          description: "Scrum är det kanske med kända agila ramverket och många organisationer använder sig av det i sin utveckling. Men det cirkulerar också många myter och felaktigheter om Scrum. Denna presentation tar upp de vanligaste Scrum-myterna och ger en förklaring till v.",
+          description: "Scrum är det mest kända agila ramverket och många organisationer använder sig av det i sin produktutveckling. Men det cirkulerar också många myter och felaktigheter om Scrum. Vi kommer att gå igenom några av dessa och försöka förklara var de kommer från.",
           speakers: [
             {
               name: "Rikard Skelander",

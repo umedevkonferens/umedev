@@ -103,6 +103,7 @@
             <br />
             <v-divider></v-divider>
             <br />
+            <h2>Program Umedev 2023</h2>
             <Schedule :schedule="schedule" />
           </div>
         </div>
