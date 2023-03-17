@@ -1,12 +1,6 @@
 <template>
-  <v-card>
+  <v-card class="full-height">
     <div class="booking-container">
-      <!-- <h4
-      class="booking-heading"
-      v-if="booking.room"
-    >
-      {{ booking.room }}
-    </h4> -->
       <div :class="contentClass">
         <p
           class="booking-information"
@@ -33,20 +27,6 @@
           </div>
         </span>
       </div>
-      <!-- <a
-      href="#"
-      v-if="!singleTrack && !open"
-      @click.prevent="handleClickReadMore"
-      aria-hidden="true"
-      >Läs mer</a
-    >
-    <a
-      href="#"
-      v-else-if="!singleTrack && open"
-      @click.prevent="handleClickReadMore"
-      aria-hidden="true"
-      >Visa mindre</a
-    > -->
     </div>
   </v-card>
 </template>
@@ -84,12 +64,12 @@ export default Vue.extend({
   border: 1px solid rgba(86, 171, 47, 0.5);
   padding: 0.8rem;
   overflow: hidden;
+  height: 100%;
 }
 
 .booking-content {
   /* max-height: 10rem; */
   overflow: hidden;
-  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }
 
 .booking-content-full {
@@ -132,6 +112,10 @@ h4 {
 .centered {
   text-align: center;
   margin-bottom: 0.5rem !important;
+}
+
+.full-height {
+  height: 100%;
 }
 
 @media screen and (max-width: 600px) {
