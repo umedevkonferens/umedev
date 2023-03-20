@@ -2,8 +2,8 @@
   <div>
     <HeaderWithPepper
       header="Umedev"
-      sub-header1="30 mars 2023"
-      sub-header2="- Vår norrländska IT-konferens"
+      sub-header1="Vår norrländska IT-konferens"
+      sub-header2="Onsdag 30/3 2023, 08.30 - 16.30 på Umeå Universitet, Humanisthuset"
     />
 
     <v-row class="mb-6" justify="start">
