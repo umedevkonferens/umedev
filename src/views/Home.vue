@@ -6,8 +6,14 @@
       sub-header2="Torsdag 30/3 2023, 08.30 - 16.30 på Umeå Universitet, Humanisthuset"
     />
 
-    <v-row class="mb-6" justify="start">
-      <v-col md="auto" class="content wrapper">
+    <v-row
+      class="mb-6"
+      justify="start"
+    >
+      <v-col
+        md="auto"
+        class="content wrapper"
+      >
         <div class="home-content-container">
           <KeynoteSpeakerCard
             title="Nu presenterar vi årets opening och ending keynote!"
@@ -64,6 +70,29 @@
           </div>
           <div class="a">
             <v-card>
+              <v-card-title>Välkommen på After Conference!</v-card-title>
+              <v-card-text>
+                <p>
+                  Efter konferensen träffas vi och diskuterar dagens upplevelser
+                  och pass.
+                </p>
+                <p>
+                  Välkommen till O'learys 17.30, mat och dryck betalas själv.
+                </p>
+                <a
+                  href="https://forms.gle/pKqQf4xeztHpXD5TA"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  aria-label="Anmäl dig här, öppnas i ny flik"
+                  >Anmäl dig här!</a
+                >
+                <br />
+                <br />
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card>
               <v-card-title>Deltagaranmälan öppen</v-card-title>
               <v-card-text>
                 <p>
@@ -94,17 +123,17 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
-import KeynoteSpeakerCard from "@/components/KeynoteSpeakerCard.vue";
+import Vue from 'vue'
+import HeaderWithPepper from '@/components/HeaderWithPepper.vue'
+import KeynoteSpeakerCard from '@/components/KeynoteSpeakerCard.vue'
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     HeaderWithPepper,
     KeynoteSpeakerCard,
   },
-};
+}
 </script>
 
 <style scoped>

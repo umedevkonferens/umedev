@@ -250,7 +250,7 @@ export const schedule2023: Schedule = {
         },
         {
           title: "Från vilda gissningar till mätbara leveranser",
-          description: "Visst är vi alla måna om att det vi lägger 8 timmar på per dag ska generera värde?\n\nVälkommen till panelsamtal med tips o trix på hur vi tar oss från den vilda gissningen till en värdefull leverans. \n\nMed i panelen sitter Mia Petersson, Andrea Berglund, Paul Alvarado Mendoza och Tea Berglund som alla jobbar med design i olika kontexter idag.",
+          description: "Frågestund med UX-proffs som vet att UX mognad: \n\n- Låter utvecklare fokusera på utveckling \n- Förbättrar interna/externa processer för att leverera rätt värde \n- Når en större marknad \n- Ger konkurrensfördel \n- Ger ökat kundengagemang \n- Reducerar kostnader \n- Följer lagkrav \n\nStäll era frågor och vi svarar!",
           speakers: [
             {
               name: "Mia Petersson",
