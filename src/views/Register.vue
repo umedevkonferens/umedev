@@ -17,6 +17,7 @@
         target="_blank"
         >Anmäl dig direkt via Google Forms</a
       >
+      <p>Sista anmälningsdag onsdag 22/3 kl. 12.00</p>
       <br />
       <br />
       <br />

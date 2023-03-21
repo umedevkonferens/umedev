@@ -74,7 +74,7 @@ export const schedule2023: Schedule = {
               company: "Active Solution"
             }
           ],
-          room: "Spår 1"
+          room: "Spår 1 | Hörsal E"
         },
         {
           title: "Säkerheten genom historien",
@@ -83,7 +83,7 @@ export const schedule2023: Schedule = {
             name: "Emilia Modig",
             company: "Omegapoint"
           }],
-          room: "Spår 2"
+          room: "Spår 2 | Hörsal F"
         },
         {
           title: "Design systems - Less decisions, more time",
@@ -98,7 +98,7 @@ export const schedule2023: Schedule = {
               company: "Daresay by Knightec"
             }
           ],
-          room: "Spår 3"
+          room: "Spår 3 | Hörsal G"
         },
       ]
     },
@@ -114,7 +114,7 @@ export const schedule2023: Schedule = {
               company: "Elastisys"
             }
           ],
-          room: "Spår 1"
+          room: "Spår 1 | Hörsal E"
         },
         {
           title: "HARA, TARA vänta bara - Utveckling av säkra maskinstyrsystem",
@@ -125,7 +125,7 @@ export const schedule2023: Schedule = {
               company: "Ålö AB"
             }
           ],
-          room: "Spår 2"
+          room: "Spår 2 | Hörsal F"
         },
         {
           title: "Feedback loops and how to refine them",
@@ -136,7 +136,7 @@ export const schedule2023: Schedule = {
               company: "Nasdaq Umeå"
             }
           ],
-          room: "Spår 3"
+          room: "Spår 3 | Hörsal G"
         }
       ]
     },
@@ -161,7 +161,7 @@ export const schedule2023: Schedule = {
               company: "Intinor"
             }
           ],
-          room: "Spår 1"
+          room: "Spår 1 | Hörsal E"
         },
         {
           title: "Agil säkerhet",
@@ -172,7 +172,7 @@ export const schedule2023: Schedule = {
               company: "Active Solution"
             }
           ],
-          room: "Spår 2"
+          room: "Spår 2 | Hörsal F"
         },
         {
           title: "Hack the Accessibility Crisis",
@@ -183,7 +183,7 @@ export const schedule2023: Schedule = {
               company: "Omegapoint"
             }
           ],
-          room: "Spår 3"
+          room: "Spår 3 | Hörsal G"
         },
       ]
     },
@@ -199,7 +199,7 @@ export const schedule2023: Schedule = {
               company: "Algoryx"
             }
           ],
-          room: "Spår 1"
+          room: "Spår 1 | Hörsal E"
         },
         {
           title: "Huruvida du ska, eller inte ska, använda kö:er i din arkitektur",
@@ -210,7 +210,7 @@ export const schedule2023: Schedule = {
               company: "CloudAMQP by 84codes"
             }
           ],
-          room: "Spår 2"
+          room: "Spår 2 | Hörsal F"
         },
         {
           title: "Vanliga Myter om Scrum",
@@ -221,7 +221,7 @@ export const schedule2023: Schedule = {
               company: "Trygg-Hansa"
             }
           ],
-          room: "Spår 3"
+          room: "Spår 3 | Hörsal G"
         },
       ]
     },
@@ -246,7 +246,7 @@ export const schedule2023: Schedule = {
               company: "Umecon AB"
             }
           ],
-          room: "Spår 1"
+          room: "Spår 1 | Hörsal E"
         },
         {
           title: "Från vilda gissningar till mätbara leveranser",
@@ -269,7 +269,7 @@ export const schedule2023: Schedule = {
               company: "VK media"
             }
           ],
-          room: "Spår 2"
+          room: "Spår 2 | Hörsal F"
         },
         {
           title: "Terapi-kaffe-samtal med en smula sammanbrott?",
@@ -284,7 +284,7 @@ export const schedule2023: Schedule = {
               company: "Kvadrat AB"
             }
           ],
-          room: "Spår 3"
+          room: "Spår 3 | Hörsal G"
         },
 
       ]
