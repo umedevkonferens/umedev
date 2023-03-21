@@ -79,6 +79,8 @@
                 <p>
                   Välkommen till O'learys 17.30, mat och dryck betalas själv.
                 </p>
+                <p>Sista anmälningsdag tisdag 28/3 kl. 12.00</p>
+
                 <a
                   href="https://forms.gle/pKqQf4xeztHpXD5TA"
                   rel="noopener noreferrer"
@@ -102,6 +104,7 @@
                   eftermiddagsfika och är kostnadsfri för alla våra deltagare.
                 </p>
                 <p>Välkomna!</p>
+                <p>Sista anmälningsdag onsdag 22/3 kl. 12.00</p>
                 <a
                   href="https://forms.gle/Rx6d1USBoQkWH8B87"
                   rel="noopener noreferrer"
