@@ -3,25 +3,12 @@
     <HeaderWithPepper header="Anmälan" />
     <br />
     <div class="content">
-      <p>Anmäl dig till Umedev - 30 mars 2023</p>
+      <p>Anmälan till Umedev 2023 är nu stängd!</p>
       <p>
-        Kom och utbyt erfarenheter, nätverka och utveckla ditt kunnande. Umedev
-        är en endagskonferens för den norrländska IT-branschen. Det bjuds på
-        förmiddagsfika, lunch, eftermiddagsfika och är kostnadsfri för alla våra
-        deltagare.
+        Hann du inte knipa en plats? Ställ dig på reservlista genom att
+        kontakta:
+        <a href="mailto:umedevkonferens@gmail.com">umedevkonferens@gmail.com</a>
       </p>
-      <p>Välkomna!</p>
-      <a
-        href="https://forms.gle/Rx6d1USBoQkWH8B87"
-        rel="noopener noreferrer"
-        target="_blank"
-        >Anmäl dig direkt via Google Forms</a
-      >
-      <p>Sista anmälningsdag onsdag 22/3 kl. 12.00</p>
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   </div>
 </template>

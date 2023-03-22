@@ -95,24 +95,12 @@
           </div>
           <div class="a">
             <v-card>
-              <v-card-title>Deltagaranmälan öppen</v-card-title>
+              <v-card-title>Deltagaranmälan stängd</v-card-title>
               <v-card-text>
                 <p>
-                  Kom och utbyt erfarenheter, nätverka och utveckla ditt
-                  kunnande. Umedev är en endagskonferens för den norrländska
-                  IT-branschen. Det bjuds på förmiddagsfika, lunch,
-                  eftermiddagsfika och är kostnadsfri för alla våra deltagare.
+                  Nu har vi stängt vår deltagaranmälan för årets konferens.
                 </p>
-                <p>Välkomna!</p>
-                <p>Sista anmälningsdag onsdag 22/3 kl. 12.00</p>
-                <a
-                  href="https://forms.gle/Rx6d1USBoQkWH8B87"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  >Anmäl dig direkt via Google Forms</a
-                >
-                <br />
-                <br />
+                <p>Hann du inte knipa en plats? Ställ dig på reservlista genom att kontakta:  <a href="mailto:umedevkonferens@gmail.com">umedevkonferens@gmail.com</a></p>
               </v-card-text>
             </v-card>
           </div>
