@@ -52,7 +52,7 @@
           <img src="../assets/img/microbit.jpeg" aria-hidden="true" />
           <div>
             <p class="bold">
-              Max deltagre: 10 st, ålder: 10-15 år
+              Max deltagare: 10 st, ålder: 10-15 år
               <br />
               Jens Andreasson (NTI-gymnasiet)
             </p>
