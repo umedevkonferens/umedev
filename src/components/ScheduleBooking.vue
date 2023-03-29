@@ -56,14 +56,10 @@ export default Vue.extend({
 .booking-container {
   flex: 1;
   border-top: 4px solid rgba(86, 171, 47, 0.5);
+  padding-top: calc(0.8rem + 4px);
   padding: 0.8rem;
   overflow: hidden;
   height: 100%;
-}
-
-.booking-content {
-  /* max-height: 10rem; */
-  overflow: hidden;
 }
 
 .booking-content-full {
