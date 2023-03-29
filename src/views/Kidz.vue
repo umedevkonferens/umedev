@@ -76,7 +76,7 @@
           <img src="../assets/img/scratch.png" aria-hidden="true" />
           <div>
             <p class="bold">
-              Max deltagre: 10 st, ålder: 10-15 år
+              Max deltagare: 10 st, ålder: 10-15 år
               <br />
               Evelina Malmqvist (Omegapoint)
             </p>
