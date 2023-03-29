@@ -48,12 +48,6 @@ export default Vue.extend({
     booking: Object as () => Booking,
   },
   methods: {
-    handleClickReadMore(event) {
-      this.contentClass = this.open
-        ? 'booking-content'
-        : 'booking-content booking-content-full'
-      this.open = !this.open
-    },
   },
 })
 </script>
@@ -61,10 +55,8 @@ export default Vue.extend({
 <style scoped>
 .booking-container {
   flex: 1;
-  border: 1px solid rgba(86, 171, 47, 0.5);
-  /* border-bottom: none; */
+  border-top: 4px solid rgba(86, 171, 47, 0.5);
   padding: 0.8rem;
-  padding-bottom: 0;
   overflow: hidden;
   height: 100%;
 }
