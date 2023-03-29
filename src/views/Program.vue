@@ -1,19 +1,34 @@
 <template>
   <div>
     <HeaderWithPepper header="Program Umedev" />
-    <v-row class="mb-6" justify="start">
-      <v-col md="auto" class="content wrapper"> </v-col>
+    <v-row
+      class="mb-6"
+      justify="start"
+    >
+      <v-col
+        md="auto"
+        class="content wrapper"
+      >
+      </v-col>
     </v-row>
     <!-- --------------------- -->
 
     <div class="current-program">
       <div class="current-program-inner">
+        <h2>Program Umedev 2023 - Torsdag 30 mars</h2>
+        <Schedule :schedule="schedule" />
+        <br />
         <h2 class="current-program-heading">Opening och Ending Keynote 2023</h2>
         <div class="program-container">
           <div class="program-row">
             <div class="about-keynote">
               <div class="profile-container">
-                <v-avatar class="bio-image" color="grey" size="256" rounded="1">
+                <v-avatar
+                  class="bio-image"
+                  color="grey"
+                  size="256"
+                  rounded="1"
+                >
                   <v-img
                     cover
                     v-bind:src="
@@ -21,8 +36,13 @@
                     "
                   ></v-img>
                 </v-avatar>
-                <p class="keynote-speaker-name">{{ schedule.openingKeynote.speakers[0].name }}</p>
-                <p class="keynote-speaker-title">{{ schedule.openingKeynote.speakers[0].title }}, {{ schedule.openingKeynote.speakers[0].company }}</p>
+                <p class="keynote-speaker-name">
+                  {{ schedule.openingKeynote.speakers[0].name }}
+                </p>
+                <p class="keynote-speaker-title">
+                  {{ schedule.openingKeynote.speakers[0].title }},
+                  {{ schedule.openingKeynote.speakers[0].company }}
+                </p>
               </div>
               <div class="keynote-description">
                 <div class="program-heading">
@@ -44,7 +64,12 @@
             <br />
             <div class="about-keynote reverse">
               <div class="profile-container">
-                <v-avatar class="bio-image" color="grey" size="256" rounded="1">
+                <v-avatar
+                  class="bio-image"
+                  color="grey"
+                  size="256"
+                  rounded="1"
+                >
                   <v-img
                     cover
                     v-bind:src="require('../assets/img/johan_lindfors.jpg')"
@@ -71,8 +96,6 @@
             <br />
             <v-divider></v-divider>
             <br />
-            <h2>Program Umedev 2023 - Torsdag 30 mars</h2>
-            <Schedule :schedule="schedule" />
           </div>
         </div>
       </div>
@@ -233,7 +256,11 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 1 - Hörsal E</h3>
                   <div class="program-row">
-                    <span class="time" id="spar-1-pass-1">10.00 - 10.40</span>
+                    <span
+                      class="time"
+                      id="spar-1-pass-1"
+                      >10.00 - 10.40</span
+                    >
                     <h4>
                       Migrera till .NET 6 Blazor med hjälp av Strangler Fig
                       Pattern
@@ -251,7 +278,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-1-pass-2">10.50 - 11.10</span>
+                    <span
+                      class="time"
+                      id="spar-1-pass-2"
+                      >10.50 - 11.10</span
+                    >
                     <h4>Mår man mindre Python efter en Java?</h4>
                     <span class="content">
                       <p class="program-description">
@@ -270,7 +301,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-1-pass-3">11.20 - 11.40</span>
+                    <span
+                      class="time"
+                      id="spar-1-pass-3"
+                      >11.20 - 11.40</span
+                    >
                     <h4>The Future is Dark</h4>
                     <span class="content">
                       <p class="program-description">
@@ -296,7 +331,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-1-pass-4">12.50 - 13:30</span>
+                    <span
+                      class="time"
+                      id="spar-1-pass-4"
+                      >12.50 - 13:30</span
+                    >
                     <h4>Jakarta EE 10 is Coming Your Way!</h4>
                     <span class="content">
                       <p class="program-description">
@@ -328,7 +367,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-1-pass-5">13:40 - 14:00</span>
+                    <span
+                      class="time"
+                      id="spar-1-pass-5"
+                      >13:40 - 14:00</span
+                    >
                     <h4>
                       Service blueprint - How user interactions affect front-end
                       and back-end
@@ -348,7 +391,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-1-pass-6">14:30 - 15:10</span>
+                    <span
+                      class="time"
+                      id="spar-1-pass-6"
+                      >14:30 - 15:10</span
+                    >
                     <h4>Jetpack Compose - Nutiden är här för UI på Android</h4>
                     <span class="content">
                       <p class="program-description">
@@ -375,7 +422,11 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 2 - Hörsal F</h3>
                   <div class="program-row">
-                    <span class="time" id="spar-2-pass-1">10.00 - 10.40</span>
+                    <span
+                      class="time"
+                      id="spar-2-pass-1"
+                      >10.00 - 10.40</span
+                    >
                     <h4>The future of blockchain technology in gaming</h4>
                     <span class="content">
                       <p class="program-description">
@@ -394,7 +445,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-2-pass-2">10.50 - 11.10</span>
+                    <span
+                      class="time"
+                      id="spar-2-pass-2"
+                      >10.50 - 11.10</span
+                    >
                     <h4>
                       Utmaningar med att bygga ett multiplayer spel med ekonomi
                     </h4>
@@ -416,7 +471,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-2-pass-3">11.20 - 11.40</span>
+                    <span
+                      class="time"
+                      id="spar-2-pass-3"
+                      >11.20 - 11.40</span
+                    >
                     <h4>Prediktion av vårdtid på IVA</h4>
                     <span class="content">
                       <p class="program-description">
@@ -430,7 +489,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-2-pass-4">12.50 - 13:30</span>
+                    <span
+                      class="time"
+                      id="spar-2-pass-4"
+                      >12.50 - 13:30</span
+                    >
                     <h4>Space, the final frontier</h4>
                     <span class="content">
                       <p class="program-description">
@@ -465,7 +528,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-2-pass-5">13:40 - 14:00</span>
+                    <span
+                      class="time"
+                      id="spar-2-pass-5"
+                      >13:40 - 14:00</span
+                    >
                     <h4>Cybersäkerhet, varför vi behöver det.</h4>
                     <span class="content">
                       <p class="program-description">
@@ -479,7 +546,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-2-pass-6">14:30 - 15:10</span>
+                    <span
+                      class="time"
+                      id="spar-2-pass-6"
+                      >14:30 - 15:10</span
+                    >
                     <h4>Arkitektur i en snabbt växande organisation</h4>
                     <span class="content">
                       <p class="program-description">
@@ -499,7 +570,11 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 3 - Hörsal G</h3>
                   <div class="program-row">
-                    <span class="time" id="spar-3-pass-1">10.00 - 10.40</span>
+                    <span
+                      class="time"
+                      id="spar-3-pass-1"
+                      >10.00 - 10.40</span
+                    >
                     <h4>Trygghetsskapande tester</h4>
                     <span class="content">
                       <p class="program-description">
@@ -518,7 +593,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-3-pass-2">10.50 - 11.10</span>
+                    <span
+                      class="time"
+                      id="spar-3-pass-2"
+                      >10.50 - 11.10</span
+                    >
                     <h4>Design för färgblinda - en personlig reflexion</h4>
                     <span class="content">
                       <p class="program-description">
@@ -530,7 +609,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-3-pass-3">11.20 - 11.40</span>
+                    <span
+                      class="time"
+                      id="spar-3-pass-3"
+                      >11.20 - 11.40</span
+                    >
                     <h4>Ledarskap som ökar engagemang och prestation</h4>
                     <span class="content">
                       <p class="program-description">
@@ -541,7 +624,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-3-pass-4">12.50 - 13:30</span>
+                    <span
+                      class="time"
+                      id="spar-3-pass-4"
+                      >12.50 - 13:30</span
+                    >
                     <h4>Norrsken i fyra dimensioner</h4>
                     <span class="content">
                       <p class="program-description">
@@ -564,7 +651,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-3-pass-5">13:40 - 14:00</span>
+                    <span
+                      class="time"
+                      id="spar-3-pass-5"
+                      >13:40 - 14:00</span
+                    >
                     <h4>Konfiguration för kreativitet</h4>
                     <span class="content">
                       <p class="program-description">
@@ -580,7 +671,11 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span class="time" id="spar-3-pass-6">14:30 - 15:10</span>
+                    <span
+                      class="time"
+                      id="spar-3-pass-6"
+                      >14:30 - 15:10</span
+                    >
                     <h4>Daglig automatiserad uppgradering av Ladok</h4>
                     <span class="content">
                       <p class="program-description">
@@ -746,7 +841,10 @@
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <h3 class="previous-program-heading">Program från 2019</h3>
-              <img class="program-img" src="../assets/img/Tidigare-schema.png" />
+              <img
+                class="program-img"
+                src="../assets/img/Tidigare-schema.png"
+              />
             </v-expansion-panel-content>
           </v-expansion-panel>
         </v-expansion-panels>
@@ -756,23 +854,22 @@
   </div>
 </template>
 <script>
-import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
-import Schedule from "@/components/Schedule.vue"
-import { schedule2023 }  from "../data/schedule2023"
+import HeaderWithPepper from '@/components/HeaderWithPepper.vue'
+import Schedule from '@/components/Schedule.vue'
+import { schedule2023 } from '../data/schedule2023'
 export default {
-  name: "Program",
+  name: 'Program',
   components: {
     HeaderWithPepper,
-    Schedule
+    Schedule,
   },
   data() {
     return {
       panel: 0,
-      schedule: schedule2023
-    };
+      schedule: schedule2023,
+    }
   },
-};
-
+}
 </script>
 <style scoped>
 .program-container {
@@ -953,7 +1050,7 @@ Tracks CSS
   font-size: 0.85rem;
   margin: 1rem 0;
   display: block;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   padding-left: 0.25rem;
 }

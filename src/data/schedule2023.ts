@@ -35,7 +35,7 @@ export const schedule2023: Schedule = {
             name: "Jenny Odeblom",
             company: "Umedev"
           }],
-          room: "Samtliga Spår"
+          room: "Samtliga Spår | Hörsal G (live) Hörsal E (stream)"
         }
       ]
     },
@@ -49,7 +49,7 @@ export const schedule2023: Schedule = {
             name: "Johanna Skarpman Sundholm",
             company: "Metria"
           }],
-          room: "Samtliga spår"
+          room: "Samtliga spår | Hörsal G (live) Hörsal E (stream)"
         }
       ]
     },
@@ -273,7 +273,7 @@ export const schedule2023: Schedule = {
         },
         {
           title: "Terapi-kaffe-samtal med en smula sammanbrott?",
-          description: "Du känner säkert igen dig i den gnagande känslan av att något inte stämmer efter en lång planeringsdag. Urban är agilcoach och Adam är systemutvecklare, dom ska tillsammans gräva i de saker som vi suckar åt i våra arbetssätt. \n\nSe det lite som en fina mellan en agilcoach och en utvecklare efter en utpumpande planering.",
+          description: "Du känner säkert igen dig i den gnagande känslan av att något inte stämmer efter en lång planeringsdag. Urban är agilcoach och Adam är systemutvecklare, dom ska tillsammans gräva i de saker som vi suckar åt i våra arbetssätt. \n\nSe det lite som en fika mellan en agilcoach och en utvecklare efter en utpumpande planering.",
           speakers: [
             {
               name: "Adam Sernheim",
@@ -301,7 +301,7 @@ export const schedule2023: Schedule = {
               company: "Truesec"
             }
           ],
-          room: "Samtliga spår"
+          room: "Samtliga spår | Hörsal G (live) Hörsal E (stream)"
         },
       ]
     },
@@ -310,7 +310,7 @@ export const schedule2023: Schedule = {
       bookings: [
         {
           title: "Avslutning",
-          room: "Samtliga spår",
+          room: "Samtliga spår | Hörsal G (live) Hörsal E (stream)",
           speakers: []
         }
       ]
