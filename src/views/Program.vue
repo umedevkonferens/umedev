@@ -15,10 +15,11 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <h2>Program Umedev 2023 - Torsdag 30 mars</h2>
-        <Schedule :schedule="schedule" />
+        <h2>Program Umedev 2024 - Onsdag 17 april</h2>
+        <p>Mer info under Mars !</p>
+        <!-- <Schedule :schedule="schedule" /> -->
         <br />
-        <h2 class="current-program-heading">Opening och Ending Keynote 2023</h2>
+        <!-- <h2 class="current-program-heading">Opening och Ending Keynote 2023</h2>
         <div class="program-container">
           <div class="program-row">
             <div class="about-keynote">
@@ -97,7 +98,7 @@
             <v-divider></v-divider>
             <br />
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 

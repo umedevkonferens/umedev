@@ -3,7 +3,6 @@
     <HeaderWithPepper
       header="Umedev"
       sub-header1="Vår norrländska IT-konferens"
-      sub-header2="Torsdag 30/3 2023, 08.30 - 16.30 på Umeå Universitet, Humanisthuset"
     />
 
     <v-row
@@ -15,7 +14,7 @@
         class="content wrapper"
       >
         <div class="home-content-container">
-          <KeynoteSpeakerCard
+          <!-- <KeynoteSpeakerCard
             title="Nu presenterar vi årets opening och ending keynote!"
             :opening-keynote="{
               title:
@@ -41,66 +40,16 @@
                 imageUrl: 'johan_lindfors.jpg',
               },
             }"
-          />
-          <div class="a">
+          /> -->
+          <div style="width: 100%; text-align: center; ">
             <v-card>
-              <v-card-title>Välkomna på Umedev Kidz 😎</v-card-title>
+              <v-card-title style="text-align: center; display: block;">Umedev 2024 😎</v-card-title>
               <v-card-text>
                 <p>
-                  Kvällen innan konferensen organiserar vi ett event där
-                  <span class="bold">10-15-åringar</span> får prova på
-                  programmering.
+                  <b>Den 17 April</b>
+                  <br>
+                  Save the date !
                 </p>
-                <p>
-                  Programmering handlar om samarbete och kommunikation i team
-                  och det är också så vi kommer att arbeta under sessionerna -
-                  tillsammans.
-                </p>
-                <p>
-                  Vi har också ett vuxenspår; Hjälp, mitt barn vill bli
-                  programmerare! Det är för dig som förälder eller vuxen som
-                  arbetar med barn och vill lära dig mer om hur du kan stödja
-                  unga som är nyfikna på programmering.
-                </p>
-                <a href="/kidz">Läs mer under Kidz</a>
-                <br />
-                <br />
-              </v-card-text>
-            </v-card>
-          </div>
-          <div class="a">
-            <v-card>
-              <v-card-title>Välkommen på After Conference!</v-card-title>
-              <v-card-text>
-                <p>
-                  Efter konferensen träffas vi och diskuterar dagens upplevelser
-                  och pass.
-                </p>
-                <p>
-                  Välkommen till O'learys 17.30, mat och dryck betalas själv.
-                </p>
-                <p>Sista anmälningsdag tisdag 28/3 kl. 12.00</p>
-
-                <a
-                  href="https://forms.gle/pKqQf4xeztHpXD5TA"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  aria-label="Anmäl dig här, öppnas i ny flik"
-                  >Anmäl dig här!</a
-                >
-                <br />
-                <br />
-              </v-card-text>
-            </v-card>
-          </div>
-          <div class="a">
-            <v-card>
-              <v-card-title>Deltagaranmälan stängd</v-card-title>
-              <v-card-text>
-                <p>
-                  Nu har vi stängt vår deltagaranmälan för årets konferens.
-                </p>
-                <p>Hann du inte knipa en plats? Ställ dig på reservlista genom att kontakta:  <a href="mailto:umedevkonferens@gmail.com">umedevkonferens@gmail.com</a></p>
               </v-card-text>
             </v-card>
           </div>
