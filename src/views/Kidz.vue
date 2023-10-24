@@ -6,7 +6,7 @@
         <br />
         <br />
 
-        <h1>Välkomna den 29 mars kl.17.30 - 19.30</h1>
+        <!-- <h1>Mer info kommer sen! </h1> -->
         <br />
         <div class="kids-intro">
           <p>
@@ -17,7 +17,7 @@
             Programmering handlar om samarbete och kommunikation i team och det
             är också så vi kommer att arbeta under sessionerna - tillsammans.
           </p>
-          <h3 style="font-size: 1rem">Om kvällen</h3>
+          <!-- <h3 style="font-size: 1rem">Om kvällen</h3>
           <ul>
             <li>
               Vi erbjuder två olika workshops med plats för 10 barn i vardera.
@@ -32,22 +32,22 @@
               <a href="mailto:john.eriksson@metria.se">John Eriksson</a> på
               Metria.
             </li>
-          </ul>
+          </ul> -->
           <br />
-          <a
+          <!-- <a
             href="https://forms.gle/JxajT56dZSXsgbw2A"
             rel="noopener noreferrer"
             target="_blank"
             class="link"
             style="font-size: 1.15rem"
             >Anmäl dig och ditt barn direkt via Google Forms</a
-          >
+          > -->
         </div>
         <br />
         <br />
 
-        <h2>Årets workshops</h2>
-        <div class="kids-workshop">
+        <!-- <h2>Årets workshops</h2> -->
+        <!-- <div class="kids-workshop">
           <h3>Kidz spår 1: Uppfinn med micro:bit</h3>
           <img src="../assets/img/microbit.jpeg" aria-hidden="true" />
           <div>
@@ -112,7 +112,7 @@
             för att komma igång och vad finns det för steg efter det? Ingen som
             helst förkunskap krävs.
           </p>
-        </div>
+        </div> -->
       </v-col>
     </v-row>
   </div>

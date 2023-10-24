@@ -77,97 +77,97 @@ import Vue from "vue";
 export default Vue.extend({
   data: () => ({
     sponsors: [
-      {
-        name: "Umeå Universitet",
-        url: "https://www.umu.se/",
-        icon: require("../assets/img/UmeaUniversitat.png"),
-        alt: "Länk till Umeå Universitets hemsida",
-      },
-      {
-        name: "Intinor",
-        url: "https://intinor.com/",
-        icon: require("../assets/img/Intinor.png"),
-        alt: "Länk till Intinors hemsida",
-      },
-      {
-        name: "Omegapoint",
-        url: "https://www.omegapoint.se/",
-        icon: require("../assets/img/OmegaPoint.png"),
-        alt: "Länk till Omgeapoints hemsida",
-      },
-      {
-        name: "One Group",
-        url: "https://one-group.se/",
-        icon: require("../assets/img/Onegroup.jpg"),
-        alt: "Länk till One Groups hemsida",
-      },
-      {
-        name: "Kvardrat",
-        url: "https://www.kvadrat.se/",
-        icon: require("../assets/img/Kvadrat.png"),
-        alt: "Länk till Kvadrats hemsida",
-      },
-      {
-        name: "84 Codes",
-        url: "https://www.84codes.com/",
-        icon: require("../assets/img/84codes-original.png"),
-        alt: "Länk till 84 Codes hemsida",
-      },
-      {
-        name: "Xlent",
-        url: "https://www.xlent.se/",
-        icon: require("../assets/img/Xlent.jpg"),
-        alt: "Länk till Xlents hemsida",
-      },
-      {
-        name: "Pure IT",
-        url: "http://www.pure.se/",
-        icon: require("../assets/img/PureIT.svg"),
-        alt: "Länk till Pure IT:s hemsida",
-      },
-      {
-        name: "Teknikhuset",
-        url: "https://www.teknikhuset.se/",
-        icon: require("../assets/img/Teknikhuset.png"),
-        alt: "Länk till Teknikhuset hemsida",
-      },
-      {
-        name: "Dizparc",
-        url: "https://dizparc.se/",
-        icon: require("../assets/img/Dizparc.png"),
-        alt: "Länk till Dizparcs hemsida",
-      },
-      {
-        name: "Algoryx",
-        url: "https://www.algoryx.se/",
-        icon: require("../assets/img/algoryx.png"),
-        alt: "Länk till Algoryx hemsida",
-      },
-      {
-        name: "Umecon",
-        url: "https://umecon.se/",
-        icon: require("../assets/img/UmeCon.jpg"),
-        alt: "Länk till Umecons hemsida",
-      },
-      {
-        name: "Metria",
-        url: "https://metria.se/",
-        icon: require("../assets/img/Metria_logo.png"),
-        alt: "Länk till Metrias hemsida",
-        class: "metria",
-      },
-      {
-        name: "Sartorius",
-        url: "https://www.sartorius.com/",
-        icon: require("../assets/img/Sartorius-Logo.jpg"),
-        alt: "Länk till Sartorius hemsida"
-      },
-      { 
-        name: "Vitec",
-        url: "https://www.vitecsoftware.com/",
-        icon: require("../assets/img/Vitec-Logo-vertical-software.jpg"),
-        alt: "Länk till Vitecs hemsida"
-      }
+      // {
+      //   name: "Umeå Universitet",
+      //   url: "https://www.umu.se/",
+      //   icon: require("../assets/img/UmeaUniversitat.png"),
+      //   alt: "Länk till Umeå Universitets hemsida",
+      // },
+      // {
+      //   name: "Intinor",
+      //   url: "https://intinor.com/",
+      //   icon: require("../assets/img/Intinor.png"),
+      //   alt: "Länk till Intinors hemsida",
+      // },
+      // {
+      //   name: "Omegapoint",
+      //   url: "https://www.omegapoint.se/",
+      //   icon: require("../assets/img/OmegaPoint.png"),
+      //   alt: "Länk till Omgeapoints hemsida",
+      // },
+      // {
+      //   name: "One Group",
+      //   url: "https://one-group.se/",
+      //   icon: require("../assets/img/Onegroup.jpg"),
+      //   alt: "Länk till One Groups hemsida",
+      // },
+      // {
+      //   name: "Kvardrat",
+      //   url: "https://www.kvadrat.se/",
+      //   icon: require("../assets/img/Kvadrat.png"),
+      //   alt: "Länk till Kvadrats hemsida",
+      // },
+      // {
+      //   name: "84 Codes",
+      //   url: "https://www.84codes.com/",
+      //   icon: require("../assets/img/84codes-original.png"),
+      //   alt: "Länk till 84 Codes hemsida",
+      // },
+      // {
+      //   name: "Xlent",
+      //   url: "https://www.xlent.se/",
+      //   icon: require("../assets/img/Xlent.jpg"),
+      //   alt: "Länk till Xlents hemsida",
+      // },
+      // {
+      //   name: "Pure IT",
+      //   url: "http://www.pure.se/",
+      //   icon: require("../assets/img/PureIT.svg"),
+      //   alt: "Länk till Pure IT:s hemsida",
+      // },
+      // {
+      //   name: "Teknikhuset",
+      //   url: "https://www.teknikhuset.se/",
+      //   icon: require("../assets/img/Teknikhuset.png"),
+      //   alt: "Länk till Teknikhuset hemsida",
+      // },
+      // {
+      //   name: "Dizparc",
+      //   url: "https://dizparc.se/",
+      //   icon: require("../assets/img/Dizparc.png"),
+      //   alt: "Länk till Dizparcs hemsida",
+      // },
+      // {
+      //   name: "Algoryx",
+      //   url: "https://www.algoryx.se/",
+      //   icon: require("../assets/img/algoryx.png"),
+      //   alt: "Länk till Algoryx hemsida",
+      // },
+      // {
+      //   name: "Umecon",
+      //   url: "https://umecon.se/",
+      //   icon: require("../assets/img/UmeCon.jpg"),
+      //   alt: "Länk till Umecons hemsida",
+      // },
+      // {
+      //   name: "Metria",
+      //   url: "https://metria.se/",
+      //   icon: require("../assets/img/Metria_logo.png"),
+      //   alt: "Länk till Metrias hemsida",
+      //   class: "metria",
+      // },
+      // {
+      //   name: "Sartorius",
+      //   url: "https://www.sartorius.com/",
+      //   icon: require("../assets/img/Sartorius-Logo.jpg"),
+      //   alt: "Länk till Sartorius hemsida"
+      // },
+      // { 
+      //   name: "Vitec",
+      //   url: "https://www.vitecsoftware.com/",
+      //   icon: require("../assets/img/Vitec-Logo-vertical-software.jpg"),
+      //   alt: "Länk till Vitecs hemsida"
+      // }
 
       /*,
       {

@@ -5,7 +5,7 @@
       <v-col md="auto" class="content">
         <h2>Hjälp oss genomföra Umedev!</h2>
         <p>
-          Kan ditt företag hjälpa oss att genomföra Umedev 2020? Vi har några
+          Kan ditt företag hjälpa oss att genomföra Umedev 2024? Vi har några
           färdiga paket sponsorpaket som du kan läsa om längre ner på sidan. Om
           inget av dem passar så är går det såklart bra att höra av sig till oss
           för en enskild lösning, mejla oss på
