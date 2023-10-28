@@ -46,7 +46,7 @@
               <v-card-title style="text-align: center; display: block;">Umedev 2024 😎</v-card-title>
               <v-card-text>
                 <p>
-                  <b>Den 17 April</b>
+                  <b>Den 18 April</b>
                   <br>
                   Save the date !
                 </p>
