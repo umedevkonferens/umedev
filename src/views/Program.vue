@@ -15,7 +15,7 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <h2>Program Umedev 2024 - Onsdag 17 april</h2>
+        <h2>Program Umedev 2024 - Onsdag 18 april</h2>
         <p>Mer info under Mars !</p>
         <!-- <Schedule :schedule="schedule" /> -->
         <br />
@@ -108,6 +108,432 @@
       <div class="previous-program-inner">
         <h2 class="previous-program-heading">Tidigare års program</h2>
         <v-expansion-panels>
+          <v-expansion-panel>
+            <v-expansion-panel-header>
+              Program Umedev 2023
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <div class="program-container">
+                <div class="program-row">
+                  <br />
+                  <div class="about-keynote">
+                    <div class="profile-container">
+                      <v-avatar
+                        class="bio-image"
+                        color="grey"
+                        size="256"
+                        rounded="1"
+                      >
+                        <v-img
+                          cover
+                          v-bind:src="
+                            require('../assets/img/johanna_skarpman_sundholm.jpg')
+                          "
+                          alt="Johanna Skarpman Sundholm"
+                        ></v-img>
+                      </v-avatar>
+                      <span class="keynote-speaker"
+                        >Johanna Skarpman Sundholm, Data scientist, Metriat</span
+                      >
+                    </div>
+                    <div class="keynote-description">
+                      <div class="program-heading">
+                        <h2>
+                          Opening Keynote: Nya analyser möjliga med fjärranalys och AI
+                        </h2>
+                      </div>
+                      <p>
+                        Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som 
+                        sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter 
+                        och nationella laserskanningar öppnar sig nya möjligheter att studera och övervaka 
+                        natur och miljö från ovan. Detta har drivit en våg av innovativa tilltag, särskilt 
+                        kopplat till skogssektorn. Nu testas också greppet att ta till AI för att i högre 
+                        grad nyttja de stora datamängderna för att ta fram helt nya eller förbättrade 
+                        analyser.
+
+                      </p>
+                      <span>
+                        <h3>About Helena Holmström Olsson</h3>
+                        <p>
+                          Johanna Skarpman Sundholm började jobba med data science på Metria 2018. 
+                          Hon läste teknisk fysik på KTH med masterprogrammet inom maskininlärning. 
+                          Efter examen flyttade hon till Luleå och jobbade några år som algoritmutvecklare 
+                          på en start-up i Luleå Science Park innan hon hamnade på Metria. Skarpman 
+                          Sundholm har ena benet i Metrias GIS och fjärranalyskonsultverksamhet och det 
+                          andra i företagets karttjänstutveckling.
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <br />
+                  <br />
+                  <v-divider></v-divider>
+                  <br />
+                  <br />
+                  <div class="about-keynote reverse">
+                    <div class="profile-container">
+                      <v-avatar
+                        class="bio-image"
+                        color="grey"
+                        size="256"
+                        rounded="1"
+                      >
+                        <v-img
+                          cover
+                          v-bind:src="
+                            require('../assets/img/johan_lindfors.jpg')
+                          "
+                        ></v-img>
+                      </v-avatar>
+                      <span class="keynote-speaker">
+                        Johan Lindfors, CINO, Truesec
+                      </span>
+                    </div>
+                    <div class="keynote-description">
+                      <div class="program-heading">
+                        <h2>
+                          Ending Keynote: Att vara superhjälte när superskurkarna använder kod!
+                        </h2>
+                      </div>
+
+                      <p>
+                        Johan Lindfors har jobbat med Microsofts ekosystem sedan 1998 och är en 
+                        återkommande talare vid olika evenemang, oftast med fokus på programmering 
+                        och säkerhet. Under 2011 grundade han företaget Coderox som fokuserade uteslutande 
+                        på Microsofts plattform med olika tekniker, allt från XAML och C# till C++ och 
+                        DirectX. Innan dess jobbade han på Microsoft och sedan 2021 är han anställd på 
+                        Truesec där han leder ett affärsområde med konsulter som jobbar med och utbildar 
+                        i säker utveckling.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <br />
+              <v-divider></v-divider>
+              <br />
+              <br />
+              <div class="tracks-container">
+                <!-- TRACK 1 -->
+                <div class="track">
+                  <h3 class="track-heading">Spår 1 - Hörsal E</h3>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-1-pass-1"
+                      >10.00 - 10.40</span
+                    >
+                    <h4>
+                      Intro till Actor-baserad utveckling med Project Orleans
+                    </h4>
+                    <span class="content">
+                      <p class="program-description">
+                        I den här presentationen så tittar vi på vad det menas med att utveckla 
+                        med en actor-baserad modell. Och framförallt på hur vi gör detta rent 
+                        praktiskt med Project Orleans
+                      </p>
+                      <span class="track-speaker">
+                        Chris Klug, Active Solution
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-1-pass-2"
+                      >10.50 - 11.30</span
+                    >
+                    <h4>10 sätt att misslyckas med Kubernetes</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Kubernetes har tagit IT-världen med storm senaste åren och används i 
+                        produktion av 64% av organisationerna i en nylig studie från Linux Foundation. 
+                        Vanliga motiv att börja använda Kubernetes är skalbarhet, förenklad releasehantering,
+                         och ökad produktivitet för utvecklare. I kontrast till detta har Johan på nära 
+                         håll följt ett flertal misslyckade införandeprojekt där effekterna helt uteblir. 
+                         Detta talk diskuterar dessa erfarenheter och fokuserar på förutsättningarna för att 
+                         lyckas med Kubernetes. \n\nSpoiler: Kubernetes är egentligen en PaaS. Det finns 
+                         ingen gratislunch utan applikationsutvecklare behöver göra en (hel) del jobb, 
+                         det är bara inte alltid tydligt vad.
+                      </p>
+                      <span class="track-speaker">
+                        Johan Tordsson, Elastisys
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-1-pass-3"
+                      >12.50 - 13.30</span
+                    >
+                    <h4>Low latency video over public internet</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Att sända live-video över välfungerande nätverk är enkelt. Den här 
+                        föreläsningen går igenom de problem och lösningar som krävs för att sända 
+                        live-video när det är allt annat än enkelt. En lösning som ska göra det bästa 
+                        av situationen oavsett om du har 3G/4G/5G, Wi-Fi, KA-SAT, Starlink, fiber eller 
+                        något annat.
+                      </p>
+                      <span class="track-speaker">
+                        Anders Martinsson, Intinor
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-1-pass-4"
+                      >13.40 - 14.00</span
+                    >
+                    <h4>I, ChatGPT. En kort överblick.</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        För dig som är intresserad men inte expert på AI, neurala nät eller machine 
+                        learning. OpenAI:s ChatGPT är en av många large language models (LLM) som slagit
+                         världen med häpnad på väldigt kort tid. Vid första anblicken är det lätt att tro 
+                         att ChatGPT ger dig fakta, men det visar sig snart inte stämma. ChatGPT är kreativ 
+                         till den grad att vissa kallar den hallucinogen. Vi kommer att titta på vad en LLM 
+                         är, vad ChatGPT kan göra bra, dåligt, och vad du kan få den att göra trots dess 
+                         inbyggda spärrar.
+                      </p>
+                      <span class="track-speaker">
+                        Jonas Andersson, Algoryx
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-1-pass-5"
+                      >14.30 - 15.10</span
+                    >
+                    <h4>
+                      The Developers Guide to Awesome Code: 5 questions that will boost your career
+                    </h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Om du är som mig, gillar du att jobba med kod och projekt med hög kvalité. 
+                        Utvecklare som du berättar för mig att även fast de föredrar att fokusera på 
+                        kodkvalité, är inte alltid företaget eller kollegorna intresserade. Känner du 
+                        igen dig? Denna presentation ger dig verktyg som är enkla att använda för att 
+                        förbättra denna situation, förbättra kvalitén på din kod och ditt projekt, även 
+                        om ditt team inte är intresserade. Under denna presentation kommer du att (1) 
+                        lära dig 5 frågor som är enkla att använda och som kommer hjälpa dig i din karriär 
+                        (2) få en förståelse för varför personer runt dig inte gör det som är bäst för 
+                        dem eller deras karriär och (3) införa en process som hjälper dig och ditt team 
+                        förbättra kodkvalitén på ert projekt NU!
+                      </p>
+                      <span class="track-speaker"
+                        >Markus Westergren, Umecon AB</span
+                      >
+                    </span>
+                  </div>
+                </div>
+                <!-- TRACK 2 -->
+                <div class="track">
+                  <h3 class="track-heading">Spår 2 - Hörsal F</h3>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-2-pass-1"
+                      >10.00 - 10.40</span
+                    >
+                    <h4>Säkerheten genom historien</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Detta pass kommer gå igenom hur man sett på säkerhet och teknik genom historien. 
+                        Vilka säkerhetsaspekter användes förr och hur har dessa utvecklats över åren? 
+                        Detta pass är för den som älskar historia, säkerhet och teknik. Inga förkunskapskrav
+                         krävs, kom och luta dig tillbaka för en resa genom vår teknologiska historia.
+                      </p>
+                      <span class="track-speaker">
+                        Emilia Modig, Omegapoint
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-2-pass-2"
+                      >10.50 - 11.30</span
+                    >
+                    <h4>
+                      HARA, TARA vänta bara - Utveckling av säkra maskinstyrsystem
+                    </h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Vi tar ofta för givet att maskiner i vår omgivning är säkra för såväl operatören 
+                        som för förbipasserande, men vad innebär det egentligen och hur utvecklas dessa 
+                        maskiner så att de blir säkra? Här går vi igenom översiktligt hur projekt inom 
+                        maskinsäkerhet kan se ut.
+                      </p>
+                      <span class="track-speaker">
+                        Claes Gahlin, Ålö AB
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-2-pass-3"
+                      >12.50 - 13.30</span
+                    >
+                    <h4>Agil säkerhet</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Säkerhet blir alltför ofta bortglömt i vår agila värld, där fokus ligger på 
+                        effektivitet och snabba leveranser. Detta trots att säkerhet är en avgörande 
+                        faktor för framgångsrik mjukvaruutveckling.\n\nFrån början till slut och alla 
+                        steg däremellan, kommer vi att se på helhetsbilden av vilken typ av 
+                        säkerhetsåtgärder som passar var, samt ge konkreta exempel som du kan ta 
+                        med dig och börja implementera direkt.
+                      </p>
+                      <span class="track-speaker">Cecilia Wirén, Active Solution</span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-2-pass-4"
+                      >13.40 - 14.00</span
+                    >
+                    <h4>Huruvida du ska, eller inte ska, använda kö:er i din arkitektur</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Meddelandeköer används av många företag över hela världen för att underlätta 
+                        smidig, enkel skalning under tillväxt eller som ett sätt för 
+                        applikationsmikrotjänster att kommunicera. Detta föredrag ger en översikt över 
+                        hur en kö passar in i en arkitektur ur RabbitMQs perspektiv.
+                      </p>
+                      <span class="track-speaker">
+                        Lovisa Johansson, CloudAMQP by 84codes
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-2-pass-5"
+                      >14.30 - 15.10</span
+                    >
+                    <h4>Från vilda gissningar till mätbara leveranser</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Frågestund med UX-proffs som vet att UX mognad: - Låter utvecklare fokusera 
+                        på utveckling - Förbättrar interna/externa processer för att leverera rätt 
+                        värde \n- Når en större marknad \n- Ger konkurrensfördel - Ger ökat kundengagemang
+                         - Reducerar kostnader - Följer lagkrav \n\nStäll era frågor och vi svarar!
+                      </p>
+                      <span class="track-speaker">
+                        Mia Petersson, Umecon <br>
+                        Paul Alvarado Mendoza, Sartorius <br>
+                        Andrea Berglund, Omegapoint <br>
+                        Tea Berglund, VK media <br>
+                      </span>
+                    </span>
+                  </div>
+                </div>
+                <!-- TRACK 3 -->
+                <div class="track">
+                  <h3 class="track-heading">Spår 3 - Hörsal G</h3>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-3-pass-1"
+                      >10.00 - 10.40</span
+                    >
+                    <h4>Design systems - Less decisions, more time</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        In this talk we will explain how design systems help you free time, to focus on 
+                        solving real problems. One key element in a successful design system is bridging 
+                        the gap between design and code. Coming from both a design and tech background, 
+                        we will share our insights on this.
+                      </p>
+                      <span class="track-speaker">
+                        Joakim Olsson, Daresay by Knightec <br>
+                        Anna Viklund, Daresay by Knightec
+                      </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-3-pass-2"
+                      >10.50 - 11.30</span
+                    >
+                    <h4>Feedback loops and how to refine them</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Short Feedback loops and limiting context switching is one of the most important 
+                        cornerstones in developer efficiency and developer experience. This talk will 
+                        show were you can find improvements and tools to use.
+                      </p>
+                      <span class="track-speaker"> Mikael Svensson, Nasdaq Umeå </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-3-pass-3"
+                      >12.50 - 13.30</span
+                    >
+                    <h4>Hack the Accessibility Crisis</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Trots lagkrav och riktlinjer så är fortfarande stora delar av webben otillgänglig 
+                        för användare med funktionsnedsättningar och funktionsvariationer. \n\nPå detta 
+                        pass kommer jag live-testa en sidas tillgänglighet, visa vilka verktyg jag använder 
+                        för att identifiera olika tillgänglighetsbuggar, samt rätta till det jag hittar i 
+                        koden.
+                      </p>
+                      <span class="track-speaker"> Andrea Berglund, Omegapoint </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-3-pass-3"
+                      >13.40 - 14.00</span
+                    >
+                    <h4>Vanliga Myter om Scrum</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Scrum är det mest kända agila ramverket och många organisationer använder sig av 
+                        det i sin produktutveckling. Men det cirkulerar också många myter och felaktigheter 
+                        om Scrum. Vi kommer att gå igenom några av dessa och försöka förklara var de kommer 
+                        från.
+                      </p>
+                      <span class="track-speaker"> Rikard Skelander, Trygg-Hansa </span>
+                    </span>
+                  </div>
+                  <div class="program-row">
+                    <span
+                      class="time"
+                      id="spar-3-pass-4"
+                      >14.30 - 15.10</span
+                    >
+                    <h4>Terapi-kaffe-samtal med en smula sammanbrott?</h4>
+                    <span class="content">
+                      <p class="program-description">
+                        Du känner säkert igen dig i den gnagande känslan av att något inte stämmer efter 
+                        en lång planeringsdag. Urban är agilcoach och Adam är systemutvecklare, dom ska 
+                        tillsammans gräva i de saker som vi suckar åt i våra arbetssätt. \n\nSe det lite 
+                        som en fika mellan en agilcoach och en utvecklare efter en utpumpande planering.
+                      </p>
+                      <span class="track-speaker">
+                        Adam Sernheim, Kvadrat AB <br>
+                        Urban Sandström, Kvadrat AB
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
               Program Umedev 5 april 2022
