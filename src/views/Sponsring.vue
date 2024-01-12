@@ -16,12 +16,12 @@
         <p>
           <br>
           Likt tidigare år erbjuder vi 3 olika sponsornivåer (guld, silver och brons) 
-          ,vad som ingår i specifik nivå hittar ni nedan 
+          ,Vad som ingår i specifik nivå hittar ni nedan 
           <strong>(läs noga, vi har uppdaterat dessa från tidigare år)</strong>.
         </p>
         <div>
           <h2>Sponsringsnivåer</h2>
-          <h3>Guld (ca. 20 000 kr)</h3>
+          <h3>Guld (ca. 20 000 kr) <br> <span style="font-size: medium; color:darkgoldenrod ;" >OBS: I år tar vi in endast 10 guldsponsorer</span></h3>
           <p>Ni får:</p>
           <ul>
             <li>
