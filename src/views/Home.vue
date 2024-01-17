@@ -57,7 +57,7 @@
             <v-card>
               <v-card-title style="text-align: center; display: block;">Anmälan för talare till UmeDev 2024 är nu öppen! 🥳</v-card-title>
               <v-card-text>
-                <p><b>CFP pågår till och med 17 April</b></p>
+                <p><b>CFP pågår till och med 17 Mars</b></p>
                 <p>
                     Skicka in dina förslag på
                   <v-btn text class="text-none" target="_blank" href="https://sessionize.com/umedev_2024">sessionize.com/umedev_2024</v-btn>
