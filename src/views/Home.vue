@@ -41,7 +41,7 @@
               },
             }"
           /> -->
-          <div style="width: 100%; text-align: center; ">
+          <div class="a">
             <v-card>
               <v-card-title style="text-align: center; display: block;">Umedev 2024 😎</v-card-title>
               <v-card-text>
@@ -49,6 +49,22 @@
                   <b>Den 18 April</b>
                   <br>
                   Save the date !
+                </p>
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card>
+              <v-card-title style="text-align: center; display: block;">Anmälan för talare till UmeDev 2024 är nu öppen! 🥳</v-card-title>
+              <v-card-text>
+                <p><b>CFP pågår till och med 17 April</b></p>
+                <p>
+                    Skicka in dina förslag på
+                  <v-btn text class="text-none" target="_blank" href="https://sessionize.com/umedev_2024">sessionize.com/umedev_2024</v-btn>
+                </p>
+                <p>
+                  Dela gärna denna URL på din officiella webbplats, via sociala nätverk och 
+                  genom direkt inbjudan till talare som du skulle vilja se.
                 </p>
               </v-card-text>
             </v-card>
@@ -104,6 +120,7 @@ h4 {
   text-decoration: none;
   width: 45%;
   margin: 1rem;
+  text-align: center;
 }
 .link {
   margin-top: 0.5rem;
