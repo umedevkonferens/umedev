@@ -11,7 +11,7 @@
         <div class="kids-intro">
           <p>
             Kvällen innan konferensen organiserar vi ett event där
-            <span class="bold">10-15-åringar</span> får prova på programmering.
+            <span class="bold">8 - 14 åringar</span> får prova på programmering.
           </p>
           <p>
             Programmering handlar om samarbete och kommunikation i team och det
