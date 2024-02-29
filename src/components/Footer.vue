@@ -152,7 +152,7 @@ export default Vue.extend({
       {
         name: "Metria",
         url: "https://metria.se/",
-        icon: require("../assets/img/Metria_logo.png"),
+        icon: require("../assets/img/Metria_Logotyp.png"),
         alt: "Länk till Metrias hemsida",
         class: "metria",
       },
