@@ -48,7 +48,7 @@
                 <p>
                   <b>Den 18 April</b>
                   <br>
-                  Save the date !
+                  Save the date!
                 </p>
               </v-card-text>
             </v-card>
@@ -58,7 +58,7 @@
               <v-card-title style="text-align: center; display: block;">Anmälan för deltage till UmeDev 2024 är nu öppen! 🤩</v-card-title>
               <v-card-text>
                 <p>
-                  <b>Du vill väl inte missa detta !</b> <br>
+                  <b>Anmäl dig idag, begränsat antal platser.</b> <br>
                   Sista anmälningsdag onsdag 5 April, kl. 12.00
                 </p>
                 <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf2UYIhwqEtrqx865CBp5pcOzzfrBtFWp8iON7QVud3S5qd9Q/viewform?usp=sf_link">Anmäl dig här</v-btn>
@@ -70,7 +70,7 @@
               <v-card-title style="text-align: center; display: block;">Umedev Kidz 🎉</v-card-title>
               <v-card-text>
                 <p><b>Den 17 April <br> Barn mellan 8 - 14 år </b></p>
-                <p>Temat i år blir kreativt skapande med AI, där du få möjlighet av att skapa spel, berättelse, bilder, mm.</p>
+                <p>Temat i år blir kreativt skapande med AI, där du får möjlighet att skapa spel, berättelse, bilder, mm.</p>
                 <p>
                   Glöm <b>inte</b> att anmäla era Kidz till detta!
                 </p>
