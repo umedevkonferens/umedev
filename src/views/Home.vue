@@ -55,7 +55,7 @@
           </div>
           <div class="a">
             <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block;">Anmälan för deltage till UmeDev 2024 är nu öppen! 🤩</v-card-title>
+              <v-card-title style="text-align: center; display: block;">Anmälan för deltagare till UmeDev 2024 är nu öppen! 🤩</v-card-title>
               <v-card-text>
                 <p>
                   <b>Anmäl dig idag, begränsat antal platser.</b> <br>
