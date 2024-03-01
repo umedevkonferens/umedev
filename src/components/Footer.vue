@@ -96,9 +96,9 @@ export default Vue.extend({
         alt: "Länk till Omgeapoints hemsida",
       },
       {
-        name: "One Group",
-        url: "https://one-group.se/",
-        icon: require("../assets/img/Onegroup.jpg"),
+        name: "Visionite",
+        url: "https://visionite.se/",
+        icon: require("../assets/img/visionite.png"),
         alt: "Länk till One Groups hemsida",
       },
       {
