@@ -120,6 +120,12 @@ export default Vue.extend({
         alt: "Länk till Xlents hemsida",
       },
       {
+        name: "Clear Street",
+        url: "https://clearstreet.io/",
+        icon: require("../assets/img/clear_street_logo.png"),
+        alt: "Länk till Clear Street hemsida",
+      },
+      {
         name: "Pure IT",
         url: "http://www.pure.se/",
         icon: require("../assets/img/PureIT.svg"),
