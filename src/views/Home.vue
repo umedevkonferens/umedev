@@ -59,7 +59,7 @@
               <v-card-text>
                 <p>
                   <b>Anmäl dig idag, begränsat antal platser.</b> <br>
-                  Sista anmälningsdag onsdag 5 April, kl. 12.00
+                  Sista anmälningsdag fredag 5 April, kl. 12.00
                 </p>
                 <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf2UYIhwqEtrqx865CBp5pcOzzfrBtFWp8iON7QVud3S5qd9Q/viewform?usp=sf_link">Anmäl dig här</v-btn>
               </v-card-text>

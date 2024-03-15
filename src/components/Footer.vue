@@ -198,6 +198,13 @@ export default Vue.extend({
         icon: require("../assets/img/Logo-bulbul-yellow.png"),
         alt: "Länk till Bulbul hemsida"
       },
+      {
+        name: "Umecon",
+        url: "https://umecon.se/",
+        icon: require("../assets/img/UmeCon.jpg"),
+        alt: "Länk till Umecons hemsida",
+      },
+
 
       /*,
       {

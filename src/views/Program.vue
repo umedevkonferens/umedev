@@ -15,7 +15,7 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <h2>Program Umedev 2024 - Onsdag 18 april</h2>
+        <h2>Program Umedev 2024 - Torsdag 18 april</h2>
         <p>Mer info under Mars !</p>
         <!-- <Schedule :schedule="schedule" /> -->
         <br />
