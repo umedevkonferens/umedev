@@ -43,11 +43,8 @@
               <v-card-title style="text-align: center; display: block;">Umedev Kidz 🎉</v-card-title>
               <v-card-text>
                 <p><b>Den 17 April <br> Barn mellan 8 - 14 år </b></p>
-                <p>Temat i år blir kreativt skapande med AI, där du får möjlighet att skapa spel, berättelse, bilder, mm.</p>
-                <p>
-                  Glöm <b>inte</b> att anmäla era Kidz till detta!
-                </p>
-                <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf84ctzVjIP4-5aCl6wtEIuQxulWArGMUTy381mmm-7TvKcVQ/viewform?usp=sf_link">Anmäl er här</v-btn>
+                <p><b>Anmälan till Umedev Kidz 2024 är nu stängd.</b></p>
+                <p>Alla som har anmält sig kommer att få ett bekräftelsemail!</p>
               </v-card-text>
             </v-card>
           </div>
