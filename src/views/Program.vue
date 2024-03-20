@@ -15,11 +15,10 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <h2>Program Umedev 2024 - Torsdag 18 april</h2>
-        <p>Mer info under Mars !</p>
-        <!-- <Schedule :schedule="schedule" /> -->
+        <h2>Program Umedev 2024 - <span style="color: #56ab2f;">Torsdag 18 april</span></h2>
+        <Schedule :schedule="schedule" />
         <br />
-        <!-- <h2 class="current-program-heading">Opening och Ending Keynote 2023</h2>
+        <h3 class="current-program-heading">Opening och Ending Keynote</h3>
         <div class="program-container">
           <div class="program-row">
             <div class="about-keynote">
@@ -33,30 +32,30 @@
                   <v-img
                     cover
                     v-bind:src="
-                      require('../assets/img/johanna_skarpman_sundholm.jpg')
+                      require('../assets/img/joh_hollstrom.jpg')
                     "
                   ></v-img>
                 </v-avatar>
                 <p class="keynote-speaker-name">
-                  {{ schedule.openingKeynote.speakers[0].name }}
+                  {{ schedule?.openingKeynote?.speakers[0].name }}
                 </p>
                 <p class="keynote-speaker-title">
-                  {{ schedule.openingKeynote.speakers[0].title }},
-                  {{ schedule.openingKeynote.speakers[0].company }}
+                  {{ schedule?.openingKeynote?.speakers[0].title }},
+                  {{ schedule?.openingKeynote?.speakers[0].company }}
                 </p>
               </div>
               <div class="keynote-description">
                 <div class="program-heading">
                   <h2>
-                    {{ schedule.openingKeynote.title }}
+                    {{ schedule?.openingKeynote?.title }}
                   </h2>
                 </div>
-                <p>
-                  {{ schedule.openingKeynote.description }}
+                <p v-for="(text, index) in schedule?.openingKeynote?.description.split('<br>', 2)" :key="index">
+                  {{ text }}
                 </p>
-                <h3>Om {{ schedule.openingKeynote.speakers[0].name }}</h3>
+                <h3>Om {{ schedule?.openingKeynote?.speakers[0].name }}</h3>
                 <p>
-                  {{ schedule.openingKeynote.speakers[0].about }}
+                  {{ schedule?.openingKeynote?.speakers[0].about }}
                 </p>
               </div>
             </div>
@@ -73,24 +72,24 @@
                 >
                   <v-img
                     cover
-                    v-bind:src="require('../assets/img/johan_lindfors.jpg')"
+                    v-bind:src="require('../assets/img/peter_bystrom.jpg')"
                   ></v-img>
                 </v-avatar>
-                <p class="keynote-speaker-name">Johan Lindfors</p>
-                <p class="keynote-speaker-title">CINO, Truesec</p>
+                <p class="keynote-speaker-name">{{ schedule?.closingKeynote?.speakers[0].name }}</p>
+                <p class="keynote-speaker-title">{{ schedule?.closingKeynote?.speakers[0].title }}, {{ schedule?.closingKeynote?.speakers[0].company }}</p>
               </div>
               <div class="keynote-description">
                 <div class="program-heading">
                   <h2>
-                    {{ schedule.closingKeynote.title }}
+                    {{ schedule?.closingKeynote?.title }}
                   </h2>
                 </div>
-                <p>
-                  {{ schedule.closingKeynote.description }}
+                <p v-for="(text, index) in schedule?.closingKeynote?.description.split('<br>', 2)" :key="index">
+                  {{ text }}
                 </p>
-                <h3>Om Johan Lindfors</h3>
+                <h3>Om {{ schedule?.closingKeynote?.speakers[0].name }}</h3>
                 <p>
-                  {{ schedule.closingKeynote.speakers[0].about }}
+                  {{ schedule?.closingKeynote?.speakers[0].about }}
                 </p>
               </div>
             </div>
@@ -98,7 +97,14 @@
             <v-divider></v-divider>
             <br />
           </div>
-        </div> -->
+        </div>
+
+        <div>
+            <p>
+              <b>‼️ Mer info om programmet kommer snart ‼️</b> 
+              <br> Håll utskick. 👀
+            </p>
+        </div>
       </div>
     </div>
 
@@ -1283,7 +1289,7 @@
 <script>
 import HeaderWithPepper from '@/components/HeaderWithPepper.vue'
 import Schedule from '@/components/Schedule.vue'
-import { schedule2023 } from '../data/schedule2023'
+import { schedule2024 } from '../data/schedule2024'
 export default {
   name: 'Program',
   components: {
@@ -1293,7 +1299,7 @@ export default {
   data() {
     return {
       panel: 0,
-      schedule: schedule2023,
+      schedule: schedule2024 ,
     }
   },
 }

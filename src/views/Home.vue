@@ -14,33 +14,6 @@
         class="content wrapper"
       >
         <div class="home-content-container">
-          <!-- <KeynoteSpeakerCard
-            title="Nu presenterar vi årets opening och ending keynote!"
-            :opening-keynote="{
-              title:
-                'Opening Keynote: Nya analyser möjliga med fjärranalys och AI',
-              description:
-                'Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter och nationella laserskanningar öppnar sig nya möjligheter…',
-              url: '/program',
-              speaker: {
-                name: 'Johanna Skarpman Sundholm',
-                title: 'Data scientist, Metria',
-                imageUrl: 'johanna_skarpman_sundholm.jpg',
-              },
-            }"
-            :ending-keynote="{
-              title:
-                'Ending Keynote: Att vara superhjälte när superskurkarna använder kod!',
-              description:
-                'Olika typer av elakartad kod i olika komplexa arkitekturer används i en allt större utsträckning vid attacker över hela internet och världen. Ungdomar kan köpa virus och verktyg med virtuella valutor i dataspel för...',
-              url: '/program',
-              speaker: {
-                name: 'Johan Lindfors',
-                title: 'CINO, Truesec',
-                imageUrl: 'johan_lindfors.jpg',
-              },
-            }"
-          /> -->
           <div class="a">
             <v-card>
               <v-card-title style="text-align: center; display: block;">Umedev 2024 😎</v-card-title>
@@ -94,6 +67,33 @@
               </v-card-text>
             </v-card>
           </div>
+          <KeynoteSpeakerCard
+            title="Nu presenterar vi årets opening och ending keynote!"
+            :opening-keynote="{
+              title:
+                'Opening keynote: Trender och utmaningar i Media AI',
+              description: 
+                'AI/ML för media och språk är en möjliggörande teknik med många tillämpningsområden. I denna keynote pratar vi om hur långt fältet har kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc., och om vilka utmaningar som fortfarande kvarstår. Vi tittar även på nationella forskningsinitiativ inom området, och vilka möjligheter det finns för industrin att engagera sig... ',
+              url: '/program',
+              speaker: {
+                name: 'Jon Hollström',
+                title: 'Universitetslektor vid institutionen för datavetenskap vid Umeå universitet',
+                imageUrl: 'joh_hollstrom.jpg',
+              },
+            }"
+            :ending-keynote="{
+              title:
+                'Ending Keynote: Häng med i nuet, för det händer hela tiden',
+              description:
+                'Under den här presentationen så tittar vi på vad som händer nu med teknisk och social förändring i våran omgivning ur ett större perspektiv och vad du behöver tänka på för att hänga med. Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar...',
+              url: '/program',
+              speaker: {
+                name: 'Johan Lindfors',
+                title: 'CINO, Truesec',
+                imageUrl: 'peter_bystrom.jpg',
+              },
+            }"
+          />
         </div>
       </v-col>
     </v-row>
