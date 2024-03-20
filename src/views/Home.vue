@@ -88,8 +88,8 @@
                 'Under den här presentationen så tittar vi på vad som händer nu med teknisk och social förändring i våran omgivning ur ett större perspektiv och vad du behöver tänka på för att hänga med. Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar...',
               url: '/program',
               speaker: {
-                name: 'Johan Lindfors',
-                title: 'CINO, Truesec',
+                name: 'Peter Byström',
+                title: '',
                 imageUrl: 'peter_bystrom.jpg',
               },
             }"
