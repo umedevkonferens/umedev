@@ -2,7 +2,16 @@
   <div>
     <HeaderWithPepper header="Sponsra!" />
     <v-row class="mb-6" justify="start">
-      <v-col md="auto" class="content">
+      <v-col class="content" md="auto">
+        <p>
+          Sponsoranmälan för Umedev 2024 är nu stängd.
+        </p>
+        <div style="display: flex; align-items: baseline;gap: 1rem;">
+          Välkommen att anmäla intresse inför framtida konferenser
+          <v-btn class="text-none text-subtitle-1" text href="mailto:info@umedev.org">info@umedev.org</v-btn>
+        </div>
+      </v-col>
+      <!-- <v-col md="auto" class="content">
         <h2>Hjälp oss genomföra Umedev!</h2>
         <p>
           Umedev är en IT-konferens som är helt gratis för alla deltagare. Konferensen skapas av ett gäng 
@@ -88,7 +97,7 @@
         </p>
         <v-btn class="text-none text-subtitle-1" text href="mailto:info@umedev.org">info@umedev.org</v-btn>
         
-      </v-col>
+      </v-col> -->
     </v-row>
   </div>
 </template>
