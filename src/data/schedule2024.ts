@@ -6,7 +6,7 @@ export const schedule2024: Schedule = {
     description: "AI/ML för media och språk är en möjliggörande teknik med många tillämpningsområden. I denna keynote pratar vi om hur långt fältet har kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc., och om vilka utmaningar som fortfarande kvarstår. Vi tittar även på nationella forskningsinitiativ inom området, och vilka möjligheter det finns för industrin att engagera sig.<br> Hon utgår och svarar på frågorna; hur långt tekniken kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc. Vilka utmaningar kvarstår? Vilka nationella forskningsinitiativ finns inom området? Och finns det möjlighet för industrin att engagera sig?",
     speakers: [
       {
-        name: "Jon Hollström",
+        name: "Johanna Björklund",
         company: "Umeå universitet",
         title: "Universitetslektor vid institutionen för datavetenskap",
         about: "Johanna Björklund är universitetslektor vid institutionen för datavetenskap vid Umeå universitet. Hennes forskning kretsar kringsemantisk analys av multimodala data, med målet att uppnå en människolik förståelse genom att integrera olika element såsom bilder, ljud, video och text. Utöver sin akademiska resa är hon medgrundare av Codemill och Aeterna Labs, deep-tech-företag som tillhandahåller produkter och tjänster för videoproducenter, digitala publicister och annonsörer."

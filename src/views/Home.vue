@@ -73,7 +73,7 @@
                 'AI/ML för media och språk är en möjliggörande teknik med många tillämpningsområden. I denna keynote pratar vi om hur långt fältet har kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc., och om vilka utmaningar som fortfarande kvarstår. Vi tittar även på nationella forskningsinitiativ inom området, och vilka möjligheter det finns för industrin att engagera sig... ',
               url: '/program',
               speaker: {
-                name: 'Jon Hollström',
+                name: 'Johanna Björklund',
                 title: 'Universitetslektor vid institutionen för datavetenskap vid Umeå universitet',
                 imageUrl: 'joh_hollstrom.jpg',
               },
