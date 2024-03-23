@@ -28,21 +28,19 @@
           </div>
           <div class="a">
             <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block;">Anmälan för deltagare till UmeDev 2024 är nu öppen! 🤩</v-card-title>
+              <v-card-title style="text-align: center; display: block;">Anmälan för deltagare till UmeDev 2024 är nu stängd!</v-card-title>
               <v-card-text>
                 <p>
-                  <b>Anmäl dig idag, begränsat antal platser.</b> <br>
-                  Sista anmälningsdag fredag 5 April, kl. 12.00
+                  <b>Har du glömt anmäla dig och vill skriva upp dig på reservlistan?</b> <br>
                 </p>
-                <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf2UYIhwqEtrqx865CBp5pcOzzfrBtFWp8iON7QVud3S5qd9Q/viewform?usp=sf_link">Anmäl dig här</v-btn>
-              </v-card-text>
+                <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScBitcFJgSaY1pWUKq4dKHmAlut54d85vfLGtGnSLHQOa3R-w/viewform">Reservelista här</v-btn>
+                </v-card-text>
             </v-card>
           </div>
           <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block;">Umedev Kidz 🎉</v-card-title>
               <v-card-text>
-                <p><b>Den 17 April <br> Barn mellan 8 - 14 år </b></p>
                 <p><b>Anmälan till Umedev Kidz 2024 är nu stängd.</b></p>
                 <p>Alla som har anmält sig kommer att få ett bekräftelsemail!</p>
               </v-card-text>
@@ -50,17 +48,17 @@
           </div>
           <div class="a">
             <v-card>
-              <v-card-title style="text-align: center; display: block;">Anmälan för talare till UmeDev 2024 är nu öppen! 🥳</v-card-title>
+              <v-card-title style="text-align: center; display: block;">Anmälan för talare till UmeDev 2024 är nu stängd!</v-card-title>
               <v-card-text>
-                <p><b>CFP pågår till och med 17 Mars</b></p>
-                <p>
+                <p><b>CFP var öppen till och med 17 Mars</b></p>
+                <!-- <p>
                     Skicka in dina förslag på
                   <v-btn text class="text-none" target="_blank" href="https://sessionize.com/umedev_2024">sessionize.com/umedev_2024</v-btn>
                 </p>
                 <p>
                   Dela gärna denna URL på din officiella webbplats, via sociala nätverk och 
                   genom direkt inbjudan till talare som du skulle vilja se.
-                </p>
+                </p> -->
               </v-card-text>
             </v-card>
           </div>
