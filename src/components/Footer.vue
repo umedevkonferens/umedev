@@ -204,6 +204,13 @@ export default Vue.extend({
         icon: require("../assets/img/UmeCon.jpg"),
         alt: "Länk till Umecons hemsida",
       },
+      {
+        name: "Euroclear",
+        url: "https://euroclear.com/",
+        icon: require("../assets/img/euroclear.png"),
+        alt: "Länk till Euroclear hemsida",
+        class: "metria",
+      },
 
 
       /*,
