@@ -3,16 +3,17 @@
     <HeaderWithPepper header="Sponsra!" />
     <v-row class="mb-6" justify="start">
       <v-col class="content" md="auto">
-        <p>
+        <strong>
           Sponsoranmälan för Umedev 2024 är nu stängd.
-        </p>
+        </strong>
         <div style="display: flex; align-items: baseline;gap: 1rem;">
           Välkommen att anmäla intresse inför framtida konferenser
           <v-btn class="text-none text-subtitle-1" text href="mailto:info@umedev.org">info@umedev.org</v-btn>
         </div>
-      </v-col>
-      <!-- <v-col md="auto" class="content">
-        <h2>Hjälp oss genomföra Umedev!</h2>
+        <br><br>
+      <!-- </v-col>
+      <v-col md="auto" class="content"> -->
+        <!-- <h2>Hjälp oss genomföra Umedev!</h2> -->
         <p>
           Umedev är en IT-konferens som är helt gratis för alla deltagare. Konferensen skapas av ett gäng 
           engagerade personer som gör detta tillsammans, helt ideellt, vid sidan om sina ordinarie jobb. 
@@ -21,16 +22,17 @@
           <br> <br>
           Sponsorernas bidrag är det som gör konferensen möjlig. Utan er, inget Umedev.
         </p>
-        <v-btn outlined target="_blank" href="https://forms.gle/QRyWzNdBRo9Z1uYcA">Anmäl ditt företag som sponsor</v-btn>
+        <!-- <v-btn outlined target="_blank" href="https://forms.gle/QRyWzNdBRo9Z1uYcA">Anmäl ditt företag som sponsor</v-btn> -->
         <p>
           <br>
           Likt tidigare år erbjuder vi 3 olika sponsornivåer (guld, silver och brons) 
           ,Vad som ingår i specifik nivå hittar ni nedan 
           <strong>(läs noga, vi har uppdaterat dessa från tidigare år)</strong>.
         </p>
+        <br><br>
         <div>
-          <h2>Sponsringsnivåer</h2>
-          <h3>Guld (ca. 20 000 kr) <br> <span style="font-size: medium; color:darkgoldenrod ;" >OBS: I år tar vi in endast 10 guldsponsorer</span></h3>
+          <h2>Sponsringsnivåer 2024</h2>
+          <h3>Guld</h3>
           <p>Ni får:</p>
           <ul>
             <li>
@@ -45,7 +47,7 @@
             <li>Inlägg om företagets bidrag till konferensen på våra sociala kanaler (twitter, instagram, LinkedIn).</li>
             <li>Företagslogga på webbsidan.</li>
           </ul>
-          <h3>Silver (ca. 10 000 kr)</h3>
+          <h3>Silver</h3>
           <p>Ni får:</p>
           <ul>
             <li>
@@ -58,7 +60,7 @@
               kanaler (twitter, instagram, LinkedIn).</li>
             <li>Företagslogga på webbsidan.</li>
           </ul>
-          <h3>Brons (ca. 5 000 kr)</h3>
+          <h3>Brons</h3>
           <p>Ni får:</p>
           <ul>
             <li>
@@ -91,13 +93,13 @@
             antal mat/fika/specialkost samt veta hur många som rör sig i lokalerna.
           </li>
         </ul>
-        <p>
+        <!-- <p>
           <br>
           Frågor eller funderingar? Hör av er till oss via
         </p>
-        <v-btn class="text-none text-subtitle-1" text href="mailto:info@umedev.org">info@umedev.org</v-btn>
+        <v-btn class="text-none text-subtitle-1" text href="mailto:info@umedev.org">info@umedev.org</v-btn> -->
         
-      </v-col> -->
+      </v-col>
     </v-row>
   </div>
 </template>
