@@ -31,7 +31,7 @@
         </p>
         <br><br>
         <div>
-          <h2>Sponsringsnivåer 2024</h2>
+          <h2>Sponsringsnivåer</h2>
           <h3>Guld</h3>
           <p>Ni får:</p>
           <ul>

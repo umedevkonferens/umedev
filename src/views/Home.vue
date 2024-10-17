@@ -16,17 +16,15 @@
         <div class="home-content-container">
           <div class="a">
             <v-card>
-              <v-card-title style="text-align: center; display: block;">Umedev 2024 😎</v-card-title>
+              <v-card-title style="text-align: center; display: block;">Umedev 2025 😎</v-card-title>
               <v-card-text>
                 <p>
-                  <b>Den 18 April</b>
-                  <br>
-                  Save the date!
+                  Håll utkick
                 </p>
               </v-card-text>
             </v-card>
           </div>
-          <div class="a">
+          <!-- <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block;">Anmälan för deltagare till UmeDev 2024 är nu stängd!</v-card-title>
               <v-card-text>
@@ -36,8 +34,8 @@
                 <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScBitcFJgSaY1pWUKq4dKHmAlut54d85vfLGtGnSLHQOa3R-w/viewform">Reservelista här</v-btn>
                 </v-card-text>
             </v-card>
-          </div>
-          <div class="a">
+          </div> -->
+          <!-- <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block;">Umedev Kidz 🎉</v-card-title>
               <v-card-text>
@@ -45,24 +43,24 @@
                 <p>Alla som har anmält sig kommer att få ett bekräftelsemail!</p>
               </v-card-text>
             </v-card>
-          </div>
-          <div class="a">
+          </div> -->
+          <!-- <div class="a">
             <v-card>
               <v-card-title style="text-align: center; display: block;">Anmälan för talare till UmeDev 2024 är nu stängd!</v-card-title>
               <v-card-text>
                 <p><b>CFP var öppen till och med 17 Mars</b></p>
-                <!-- <p>
+                <p>
                     Skicka in dina förslag på
                   <v-btn text class="text-none" target="_blank" href="https://sessionize.com/umedev_2024">sessionize.com/umedev_2024</v-btn>
                 </p>
                 <p>
                   Dela gärna denna URL på din officiella webbplats, via sociala nätverk och 
                   genom direkt inbjudan till talare som du skulle vilja se.
-                </p> -->
+                </p>
               </v-card-text>
             </v-card>
-          </div>
-          <KeynoteSpeakerCard
+          </div> -->
+          <!-- <KeynoteSpeakerCard
             title="Nu presenterar vi årets opening och ending keynote!"
             :opening-keynote="{
               title:
@@ -88,7 +86,7 @@
                 imageUrl: 'peter_bystrom.jpg',
               },
             }"
-          />
+          /> -->
         </div>
       </v-col>
     </v-row>
@@ -126,7 +124,7 @@ h2 {
 .home-content-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   width: 100%;
   max-width: 1024px;
   margin-top: 30px;
