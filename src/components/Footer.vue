@@ -90,6 +90,12 @@ export default Vue.extend({
         alt: "Länk till Intinors hemsida",
       },
       {
+        name: "Crypto Rogue",
+        url: "https://www.linkedin.com/company/crypto-rogue-games-ab/?originalSubdomain=se",
+        icon: require("../assets/img/crg-logo.png"),
+        alt: "Länk till Crypto Rogue",
+      },
+      {
         name: "Omegapoint",
         url: "https://www.omegapoint.se/",
         icon: require("../assets/img/OmegaPoint.png"),

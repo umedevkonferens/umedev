@@ -15,6 +15,18 @@
       >
         <div class="home-content-container">
           <div class="a">
+            <v-card class="a-plus">
+              <v-card-title style="text-align: center; display: block;">Umedev winter edition 🎄</v-card-title>
+              <v-card-text>
+                <p>
+                  <b>Den 3e December<br> 10:30 - 15:00</b> 
+                </p>
+                <p>Humanisthuset Umeå Universitet <br> Hörsal HUM.D.230 - Hohaj</p>
+                <p>Mer info kommer snart!</p>
+                </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
             <v-card>
               <v-card-title style="text-align: center; display: block;">Umedev 2025 😎</v-card-title>
               <v-card-text>
@@ -24,17 +36,6 @@
               </v-card-text>
             </v-card>
           </div>
-          <!-- <div class="a">
-            <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block;">Anmälan för deltagare till UmeDev 2024 är nu stängd!</v-card-title>
-              <v-card-text>
-                <p>
-                  <b>Har du glömt anmäla dig och vill skriva upp dig på reservlistan?</b> <br>
-                </p>
-                <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScBitcFJgSaY1pWUKq4dKHmAlut54d85vfLGtGnSLHQOa3R-w/viewform">Reservelista här</v-btn>
-                </v-card-text>
-            </v-card>
-          </div> -->
           <!-- <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block;">Umedev Kidz 🎉</v-card-title>
