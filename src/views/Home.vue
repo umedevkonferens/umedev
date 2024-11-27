@@ -22,8 +22,15 @@
                   <b>Den 3e December<br> 10:30 - 15:00</b> 
                 </p>
                 <p>Humanisthuset Umeå Universitet <br> Hörsal HUM.D.230 - Hohaj</p>
-                <p>Mer info kommer snart!</p>
                 </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card class="a-plus">
+              <v-card-title style="text-align: center; display: block;">Umedev winter edition - Program ☃️</v-card-title>
+              <v-card-text>
+                <v-btn text class="text-none" href="/program">Ta en titt på programmet här</v-btn>
+              </v-card-text>
             </v-card>
           </div>
           <div class="a">

@@ -15,13 +15,13 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <h2>Program Umedev 2025</h2>
-        <p style="margin-top: 20px;">
-              <b>‼️ Mer info om programmet kommer snart ‼️</b> 
-              <br> Håll utskick. 👀
-            </p>
-        <!-- <h2>Program Umedev 2025 - <span style="color: #56ab2f;">Torsdag 18 april</span></h2> -->
-        <!-- <Schedule :schedule="schedule" />
+        <!-- <h2>Program Umedev 2025</h2> -->
+        <!-- <p style="margin-top: 20px;">
+          <b>‼️ Mer info om prsogrammet kommer snart ‼️</b> 
+          <br> Håll utskick. 👀
+        </p> -->
+        <h2>Program Umedev 2024 Winter edition - <span style="color: #56ab2f;">Tisdag 03 december</span></h2>
+        <!-- <Schedule :schedule="schedule" /> -->
         <br />
         <h3 class="current-program-heading">Opening och Ending Keynote</h3>
         <div class="program-container">
@@ -37,7 +37,7 @@
                   <v-img
                     cover
                     v-bind:src="
-                      require('../assets/img/joh_hollstrom.jpg')
+                      require('../assets/img/HansBrattberg.png')
                     "
                   ></v-img>
                 </v-avatar>
@@ -55,54 +55,123 @@
                     {{ schedule?.openingKeynote?.title }}
                   </h2>
                 </div>
+                <spans><i>Förmiddag 1,5h</i></spans><br><br>
                 <p v-for="(text, index) in schedule?.openingKeynote?.description.split('<br>', 2)" :key="index">
                   {{ text }}
                 </p>
-                <h3>Om {{ schedule?.openingKeynote?.speakers[0].name }}</h3>
+                <!-- Winter edition -->
+                <h3>Målgrupp</h3>
+                <p>Detta föredrag är skräddarsytt för både beslutsfattare och tekniska experter 
+                  som vill framtidssäkra sina organisationer och projekt. Oavsett om du 
+                  är VD, CTO, utvecklingschef, systemarkitekt, fullstack utvecklare eller 
+                  annan IT-personal, kommer du att få värdefulla och direkt applicerbara 
+                  insikter.</p>
+                
+                <h3>Innehåll</h3>
+                <ol>
+                  <li>
+                    <b>Nuläget: GenAI i praktiken</b>
+                    <ul>
+                      <li>Insikter i hur ledande företag redan nu använder GenAI för att omforma sina arbetsprocesser</li>
+                      <li>Konkreta fallstudier från olika branscher som visar på mångfalden av användningsområden</li>
+                      <li>Realistisk bild av framgångar och utmaningar vid implementering</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b>Autonoma AI-agenter: Den nya medarbetaren</b>
+                    <ul>
+                      <li>Utforska potentialen hos autonoma AI-agenter och hur de kompletterar mänskliga team</li>
+                      <li>Exempel på verkliga fall av optimering av värdeströmmar med hjälp av GenAI</li>
+                      <li>Demonstration av hur autonoma AI-agenter fungerar som effektiva digitala medarbetare</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b>Implementering och ansvar</b>
+                    <ul>
+                      <li>Strategier och mindset för att få med din organisation i den AI-drivna arbetsplatsen</li>
+                      <li>Hantering av utmaningar och potentiella hinder vid AI-implementering</li>
+                      <li>Etiska överväganden och ansvarsfull användning av AI i arbetslivet</li>
+                      <li>Exempel för att integrera AI-lösningar i existerande IT-infrastruktur</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b>Från vision till verklighet</b>
+                    <ul>
+                      <li>Konkreta steg för att börja implementera GenAI och autonoma agenter i din organisation idag</li>
+                    </ul>
+                  </li>
+                </ol>
+                <!-- <h3>Om {{ schedule?.openingKeynote?.speakers[0].name }}</h3>
                 <p>
                   {{ schedule?.openingKeynote?.speakers[0].about }}
-                </p>
-              </div>
-            </div>
-            <br />
-            <v-divider></v-divider>
-            <br />
-            <div class="about-keynote reverse">
-              <div class="profile-container">
-                <v-avatar
-                  class="bio-image"
-                  color="grey"
-                  size="256"
-                  rounded="1"
-                >
-                  <v-img
-                    cover
-                    v-bind:src="require('../assets/img/peter_bystrom.jpg')"
-                  ></v-img>
-                </v-avatar>
-                <p class="keynote-speaker-name">{{ schedule?.closingKeynote?.speakers[0].name }}</p>
-                <p class="keynote-speaker-title">{{ schedule?.closingKeynote?.speakers[0].title }}, {{ schedule?.closingKeynote?.speakers[0].company }}</p>
-              </div>
-              <div class="keynote-description">
+                </p> -->
+                <br>
                 <div class="program-heading">
                   <h2>
-                    {{ schedule?.closingKeynote?.title }}
+                    Implementering av Generativa Autonoma Agenter
                   </h2>
                 </div>
-                <p v-for="(text, index) in schedule?.closingKeynote?.description.split('<br>', 2)" :key="index">
-                  {{ text }}
-                </p>
-                <h3>Om {{ schedule?.closingKeynote?.speakers[0].name }}</h3>
+                <spans><i>Eftermiddag 2h</i></spans><br><br>
                 <p>
-                  {{ schedule?.closingKeynote?.speakers[0].about }}
+                  Från teori till praktik: Hur vi bygger och integrerar AI-agenter i verkliga miljöer
+                  <br>
+                  Jag delar med oss av min resa inom AI-agent utveckling, 
+                  från våra första experiment till dagens sofistikerade 
+                  lösningar. Du får en inblick i våra arbetsmetoder, 
+                  verktyg och best practices för att skapa effektiva och 
+                  skalbara AI-agenter. Inslag av hands-on kan förekomma.
+                  <br>
+                  Genom konkreta exempel och praktiska demonstrationer 
+                  visar vi hur du kan börja implementera dessa teknologier 
+                  i dina egna projekt och organisationer.
                 </p>
+                <!-- Winter edition -->
+                <h3>Målgrupp</h3>
+                <p>Detta riktar in sig på dig som är mer tekniskt 
+                  intresserad. Du behöver inte vara programmerare, 
+                  men du får ut mer av denna session om du någon gång 
+                  har kodat någonting. Du kommer efteråt att känna 
+                  “jag kan programmera” även om du aldrig känt så 
+                  tidigare.</p>
+                
+                <h3>Innehåll</h3>
+                <ol>
+                  <li>
+                    <b>Vår resa med AI-agenter: Från idé till implementation</b>
+                    <ul>
+                      <li>Historisk överblick: Hur vi började arbeta med AI-agenter</li>
+                      <li>Lärdomar och milstolpar längs vägen</li>
+                      <li>Hur vårt arbetssätt har utvecklats över tid</li>
+                      <li>Hur vi håller oss uppdaterade med den senaste AI-teknologin</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b>Utvecklingsmiljö och verktyg för AI-agent programmering</b>
+                    <ul>
+                      <li>Översikt över vår tech stack och för AI-utveckling</li>
+                      <li>Exempel av vår utvecklingsmiljö för AI-agenter</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b>Arbetsflöden och best practices</b>
+                    <ul>
+                      <li>Från spikes till produktion: Vår implementationsprocess</li>
+                      <li>Versionshantering och samarbete i AI-projekt</li>
+                      <li>Testning och kvalitetssäkring av AI-agenter</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <b>Praktisk implementation av autonoma AI-agenter</b>
+                    <ul>
+                      <li>Tekniska detaljer om hur vi bygger och konfigurerar agenter</li>
+                      <li>Arkitektur och design för system med flera samverkande AI-agenter</li>
+                    </ul>
+                  </li>
+                </ol>
               </div>
             </div>
-            <br />
-            <br />
           </div>
-        </div> -->
-
+        </div>
         <!-- <div id="schedule">
           <h3 class="current-program-heading">Program</h3>
             <p>
@@ -1727,7 +1796,7 @@
 <script>
 import HeaderWithPepper from '@/components/HeaderWithPepper.vue'
 import Schedule from '@/components/Schedule.vue'
-import { schedule2024 } from '../data/schedule2024'
+import { schedule2024Winter } from '../data/schedule2024Winter'
 export default {
   name: 'Program',
   components: {
@@ -1737,7 +1806,7 @@ export default {
   data() {
     return {
       panel: 0,
-      schedule: schedule2024 ,
+      schedule: schedule2024Winter ,
     }
   },
 }
