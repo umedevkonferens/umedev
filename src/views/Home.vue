@@ -5,40 +5,39 @@
       sub-header1="Vår norrländska IT-konferens"
     />
 
-    <v-row
-      class="mb-6"
-      justify="start"
-    >
-      <v-col
-        md="auto"
-        class="content wrapper"
-      >
+    <v-row class="mb-6" justify="start">
+      <v-col md="auto" class="content wrapper">
         <div class="home-content-container">
           <div class="a">
             <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block;">Umedev winter edition 🎄</v-card-title>
+              <v-card-title style="text-align: center; display: block"
+                >Umedev 2025</v-card-title
+              >
               <v-card-text>
-                <p>
-                  <b>Den 3e December<br> 10:30 - 15:00</b> 
+                <p style="margin-bottom: 0" class="bold">
+                  Fredagen den 11e April
                 </p>
-                <p>Humanisthuset Umeå Universitet <br> Hörsal HUM.D.230 - Hohaj</p>
-                </v-card-text>
-            </v-card>
-          </div>
-          <div class="a">
-            <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block;">Umedev winter edition - Program ☃️</v-card-title>
-              <v-card-text>
-                <v-btn text class="text-none" href="/program">Ta en titt på programmet här</v-btn>
+                <p class="bold">kl. 08:30 - 16:30</p>
+                <p>
+                  Humanisthuset Umeå Universitet, anmälan öppnar senare i vår.
+                </p>
               </v-card-text>
             </v-card>
           </div>
           <div class="a">
-            <v-card>
-              <v-card-title style="text-align: center; display: block;">Umedev 2025 😎</v-card-title>
+            <v-card class="a-plus">
+              <v-card-title style="text-align: center; display: block"
+                >Vi söker talare!</v-card-title
+              >
               <v-card-text>
                 <p>
-                  Håll utkick
+                  <a
+                    href="https://sessionize.com/umedev-2025"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Call for Speakers är öppen.</a
+                  >
+                  Varmt välkommen med din ansökan via Sessionize.
                 </p>
               </v-card-text>
             </v-card>
@@ -105,17 +104,17 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue'
-import KeynoteSpeakerCard from '@/components/KeynoteSpeakerCard.vue'
+import Vue from "vue";
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
+import KeynoteSpeakerCard from "@/components/KeynoteSpeakerCard.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     HeaderWithPepper,
     KeynoteSpeakerCard,
   },
-}
+};
 </script>
 
 <style scoped>
@@ -150,7 +149,7 @@ h4 {
 }
 
 .a-plus {
-  background-color: rgba(86, 171,47, 0.2);
+  background-color: rgba(86, 171, 47, 0.2);
 }
 
 .link {

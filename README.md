@@ -10,6 +10,8 @@
 
 ## Project setup
 
+Use Node version 16
+
 Install [Firebase cli](https://firebase.google.com/docs/cli), e.g.
 
 ```bash
@@ -55,7 +57,6 @@ Make sure you have logged in to firebase (`firebase login`) then run
 1. `npm run build`
 2. `firebase deploy` (not needed 2022 - collecting via google forms)
 3. `firebase deploy --only hosting`
-
 
 ## Adding contributors
 

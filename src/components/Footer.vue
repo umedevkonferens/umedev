@@ -35,17 +35,6 @@
             >Instagram
           </a>
         </div>
-
-        <div class="follow-container">
-          <v-icon class="mdi" color="black" large>mdi-twitter</v-icon>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://twitter.com/umedevkonferens"
-            >Twitter
-          </a>
-        </div>
-
         <div class="follow-container">
           <v-icon class="mdi" color="black" large>mdi-facebook</v-icon>
           <a
@@ -77,7 +66,7 @@ import Vue from "vue";
 export default Vue.extend({
   data: () => ({
     sponsors: [
-      {
+      /*{
         name: "Umeå Universitet",
         url: "https://www.umu.se/",
         icon: require("../assets/img/UmeaUniversitat.png"),
@@ -216,10 +205,8 @@ export default Vue.extend({
         icon: require("../assets/img/euroclear.png"),
         alt: "Länk till Euroclear hemsida",
         class: "metria",
-      },
-
-
-      /*,
+      }
+    ,
       {
         name: "Umecon",
         url: "https://umecon.se/",
