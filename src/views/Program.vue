@@ -15,16 +15,38 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <!-- <h2>Program Umedev 2025</h2> -->
-        <!-- <p style="margin-top: 20px;">
+        <h2>Program Umedev 2025</h2>
+        <p style="margin-top: 20px;">
           <b>‼️ Mer info om prsogrammet kommer snart ‼️</b> 
           <br> Håll utskick. 👀
-        </p> -->
+        </p>
+        <!--
         <h2>Program Umedev 2024 Winter edition - <span style="color: #56ab2f;">Tisdag 03 december</span></h2>
-        <!-- <Schedule :schedule="schedule" /> -->
+        <Schedule :schedule="schedule" />
         <br />
-        <h3 class="current-program-heading">Opening och Ending Keynote</h3>
-        <div class="program-container">
+        <h3 class="current-program-heading">Opening och Ending Keynote</h3> -->
+
+        <!-- <div id="schedule">
+          <h3 class="current-program-heading">Program</h3>
+            <p>
+              <b>‼️ Mer info om programmet kommer snart ‼️</b> 
+              <br> Håll utskick. 👀
+            </p>
+            <embed type="text/html" src="https://sessionize.com/api/v2/eaasrgtn/view/GridSmart"  width="100%" height="1500">
+        </div> -->
+      </div>
+    </div>
+
+    <!-- --------------------- -->
+
+    <div class="previous-program">
+      <div class="previous-program-inner">
+        <h2 class="previous-program-heading">Tidigare års program</h2>
+        <v-expansion-panels>
+          <v-expansion-panel>
+            <v-expansion-panel-header>Program Umedev 2024 Winter Edition</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <div class="program-container">
           <div class="program-row">
             <div class="about-keynote">
               <div class="profile-container">
@@ -55,7 +77,7 @@
                     {{ schedule?.openingKeynote?.title }}
                   </h2>
                 </div>
-                <spans><i>Förmiddag 1,5h</i></spans><br><br>
+                <span><i>Förmiddag 1,5h</i></span><br><br>
                 <p v-for="(text, index) in schedule?.openingKeynote?.description.split('<br>', 2)" :key="index">
                   {{ text }}
                 </p>
@@ -111,7 +133,7 @@
                     Implementering av Generativa Autonoma Agenter
                   </h2>
                 </div>
-                <spans><i>Eftermiddag 2h</i></spans><br><br>
+                <span><i>Eftermiddag 2h</i></span><br><br>
                 <p>
                   Från teori till praktik: Hur vi bygger och integrerar AI-agenter i verkliga miljöer
                   <br>
@@ -172,23 +194,8 @@
             </div>
           </div>
         </div>
-        <!-- <div id="schedule">
-          <h3 class="current-program-heading">Program</h3>
-            <p>
-              <b>‼️ Mer info om programmet kommer snart ‼️</b> 
-              <br> Håll utskick. 👀
-            </p>
-            <embed type="text/html" src="https://sessionize.com/api/v2/eaasrgtn/view/GridSmart"  width="100%" height="1500">
-        </div> -->
-      </div>
-    </div>
-
-    <!-- --------------------- -->
-
-    <div class="previous-program">
-      <div class="previous-program-inner">
-        <h2 class="previous-program-heading">Tidigare års program</h2>
-        <v-expansion-panels>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
               Program Umedev 2024

@@ -10,6 +10,7 @@
         <div class="home-content-container">
           <div class="a">
             <v-card class="a-plus">
+<<<<<<< HEAD
               <v-card-title style="text-align: center; display: block"
                 >Umedev 2025</v-card-title
               >
@@ -21,10 +22,29 @@
                 <p>
                   Humanisthuset Umeå Universitet, anmälan öppnar senare i vår.
                 </p>
-              </v-card-text>
+=======
+              <v-card-title style="text-align: center; display: block;">Umedev 2025</v-card-title>
+              <v-card-text>
+                <p>
+                  <b>Den 11e April<br> 08:30 - 16:30</b> 
+                </p>
+                <p>Humanisthuset Umeå Universitet</p>
+                <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfV3gV4HYvtz2v-PyQtu2fSypWz0wygHnXYeOIS62_LAo2U7w/viewform">Anmäl dig här!</v-btn>
+                </v-card-text>
             </v-card>
           </div>
           <div class="a">
+            <v-card class="a-plus">
+              <v-card-title style="text-align: center; display: block;">Vi söker talare</v-card-title>
+              <v-card-text>
+                <a class="text-none" href="https://sessionize.com/umedev-2025">Call for speaker är öppen</a>
+>>>>>>> 0cff783 (anmälan 2025)
+              </v-card-text>
+            </v-card>
+          </div>
+          <!--
+          <div class="a">
+<<<<<<< HEAD
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block"
                 >Vi söker talare!</v-card-title
@@ -38,10 +58,18 @@
                     >Call for Speakers är öppen.</a
                   >
                   Varmt välkommen med din ansökan via Sessionize.
+=======
+            <v-card>
+              <v-card-title style="text-align: center; display: block;">Sponsorer</v-card-title>
+              <v-card-text>
+                <p>
+                  
+>>>>>>> 0cff783 (anmälan 2025)
                 </p>
               </v-card-text>
             </v-card>
           </div>
+          -->
           <!-- <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block;">Umedev Kidz 🎉</v-card-title>
