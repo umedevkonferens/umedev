@@ -10,19 +10,6 @@
         <div class="home-content-container">
           <div class="a">
             <v-card class="a-plus">
-<<<<<<< HEAD
-              <v-card-title style="text-align: center; display: block"
-                >Umedev 2025</v-card-title
-              >
-              <v-card-text>
-                <p style="margin-bottom: 0" class="bold">
-                  Fredagen den 11e April
-                </p>
-                <p class="bold">kl. 08:30 - 16:30</p>
-                <p>
-                  Humanisthuset Umeå Universitet, anmälan öppnar senare i vår.
-                </p>
-=======
               <v-card-title style="text-align: center; display: block;">Umedev 2025</v-card-title>
               <v-card-text>
                 <p>
@@ -38,33 +25,16 @@
               <v-card-title style="text-align: center; display: block;">Vi söker talare</v-card-title>
               <v-card-text>
                 <a class="text-none" href="https://sessionize.com/umedev-2025">Call for speaker är öppen</a>
->>>>>>> 0cff783 (anmälan 2025)
               </v-card-text>
             </v-card>
           </div>
           <!--
           <div class="a">
-<<<<<<< HEAD
-            <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block"
-                >Vi söker talare!</v-card-title
-              >
-              <v-card-text>
-                <p>
-                  <a
-                    href="https://sessionize.com/umedev-2025"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Call for Speakers är öppen.</a
-                  >
-                  Varmt välkommen med din ansökan via Sessionize.
-=======
             <v-card>
               <v-card-title style="text-align: center; display: block;">Sponsorer</v-card-title>
               <v-card-text>
                 <p>
                   
->>>>>>> 0cff783 (anmälan 2025)
                 </p>
               </v-card-text>
             </v-card>
