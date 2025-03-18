@@ -66,96 +66,30 @@ import Vue from "vue";
 export default Vue.extend({
   data: () => ({
     sponsors: [
-      /*{
-        name: "Umeå Universitet",
-        url: "https://www.umu.se/",
-        icon: require("../assets/img/UmeaUniversitat.png"),
-        alt: "Länk till Umeå Universitets hemsida",
-      },
-      {
-        name: "Intinor",
-        url: "https://intinor.com/",
-        icon: require("../assets/img/Intinor.png"),
-        alt: "Länk till Intinors hemsida",
-      },
-      {
-        name: "Crypto Rogue",
-        url: "https://www.linkedin.com/company/crypto-rogue-games-ab/?originalSubdomain=se",
-        icon: require("../assets/img/crg-logo.png"),
-        alt: "Länk till Crypto Rogue",
-      },
-      {
-        name: "Omegapoint",
-        url: "https://www.omegapoint.se/",
-        icon: require("../assets/img/OmegaPoint.png"),
-        alt: "Länk till Omgeapoints hemsida",
-      },
-      {
-        name: "Visionite",
-        url: "https://visionite.se/",
-        icon: require("../assets/img/visionite.png"),
-        alt: "Länk till One Groups hemsida",
-      },
+      //Guld
       {
         name: "Kvardrat",
         url: "https://www.kvadrat.se/",
         icon: require("../assets/img/Kvadrat.png"),
         alt: "Länk till Kvadrats hemsida",
       },
-      {
-        name: "84 Codes",
-        url: "https://www.84codes.com/",
-        icon: require("../assets/img/84codes-original.png"),
-        alt: "Länk till 84 Codes hemsida",
+      { 
+        name: "Skatteverket",
+        url: "https://www.skatteverket.se/",
+        icon: require("../assets/img/SKV_RGB_st.png"),
+        alt: "Länk till Skatteverket hemsida"
       },
       {
-        name: "Xlent",
-        url: "https://www.xlent.se/",
-        icon: require("../assets/img/Xlent.jpg"),
-        alt: "Länk till Xlents hemsida",
-      },
-      {
-        name: "Clear Street",
-        url: "https://clearstreet.io/",
-        icon: require("../assets/img/clear_street_logo.png"),
-        alt: "Länk till Clear Street hemsida",
+        name: "Umeå Universitet",
+        url: "https://www.umu.se/",
+        icon: require("../assets/img/UmeaUniversitat.png"),
+        alt: "Länk till Umeå Universitets hemsida",
       },
       {
         name: "Pure IT",
         url: "http://www.pure.se/",
         icon: require("../assets/img/PureIT.svg"),
         alt: "Länk till Pure IT:s hemsida",
-      },
-      // {
-      //   name: "Teknikhuset",
-      //   url: "https://www.teknikhuset.se/",
-      //   icon: require("../assets/img/Teknikhuset.png"),
-      //   alt: "Länk till Teknikhuset hemsida",
-      // },
-      {
-        name: "Dizparc",
-        url: "https://dizparc.se/",
-        icon: require("../assets/img/Dizparc.png"),
-        alt: "Länk till Dizparcs hemsida",
-      },
-      {
-        name: "Algoryx",
-        url: "https://www.algoryx.se/",
-        icon: require("../assets/img/algoryx.png"),
-        alt: "Länk till Algoryx hemsida",
-      },
-      // {
-      //   name: "Umecon",
-      //   url: "https://umecon.se/",
-      //   icon: require("../assets/img/UmeCon.jpg"),
-      //   alt: "Länk till Umecons hemsida",
-      // },
-      {
-        name: "Metria",
-        url: "https://metria.se/",
-        icon: require("../assets/img/Metria_Logotyp.png"),
-        alt: "Länk till Metrias hemsida",
-        class: "metria",
       },
       {
         name: "Biometria",
@@ -164,22 +98,56 @@ export default Vue.extend({
         alt: "Länk till Biometria hemsida"
       },
       {
+        name: "Algoryx",
+        url: "https://www.algoryx.se/",
+        icon: require("../assets/img/algoryx.png"),
+        alt: "Länk till Algoryx hemsida",
+      },
+      {
+        name: "Umecon",
+        url: "https://umecon.se/",
+        icon: require("../assets/img/UmeCon.jpg"),
+        alt: "Länk till Umecons hemsida",
+      },
+      {
+        name: "Metria",
+        url: "https://metria.se/",
+        icon: require("../assets/img/Metria_Logotyp.png"),
+        alt: "Länk till Metrias hemsida",
+        class: "metria",
+      },
+
+   
+      //silver
+      {
+        name: "Clear Street",
+        url: "https://clearstreet.io/",
+        icon: require("../assets/img/clear_street_logo.png"),
+        alt: "Länk till Clear Street hemsida",
+      },
+      {
+        name: "Omegapoint",
+        url: "https://www.omegapoint.se/",
+        icon: require("../assets/img/OmegaPoint.png"),
+        alt: "Länk till Omgeapoints hemsida",
+      },
+      {
+        name: "Xlent",
+        url: "https://www.xlent.se/",
+        icon: require("../assets/img/Xlent.jpg"),
+        alt: "Länk till Xlents hemsida",
+      },
+      {
+        name: "Dizparc",
+        url: "https://dizparc.se/",
+        icon: require("../assets/img/Dizparc.png"),
+        alt: "Länk till Dizparcs hemsida",
+      },
+      {
         name: "Sartorius",
         url: "https://www.sartorius.com/",
         icon: require("../assets/img/Sartorius-Logo.jpg"),
         alt: "Länk till Sartorius hemsida"
-      },
-      { 
-        name: "Vitec",
-        url: "https://www.vitecsoftware.com/",
-        icon: require("../assets/img/Vitec-Logo-vertical-software.jpg"),
-        alt: "Länk till Vitecs hemsida"
-      },
-      { 
-        name: "Skatteverket",
-        url: "https://www.skatteverket.se/",
-        icon: require("../assets/img/SKV_RGB_st.png"),
-        alt: "Länk till Skatteverket hemsida"
       },
       { 
         name: "Upkeeper",
@@ -187,57 +155,19 @@ export default Vue.extend({
         icon: require("../assets/img/upkeeper-logo.png"),
         alt: "Länk till Upkeeper hemsida"
       },
+      //Brons
       { 
         name: "Bulbul",
         url: "https://www.bulbul.se/",
         icon: require("../assets/img/Logo-bulbul-yellow.png"),
         alt: "Länk till Bulbul hemsida"
       },
-      {
-        name: "Umecon",
-        url: "https://umecon.se/",
-        icon: require("../assets/img/UmeCon.jpg"),
-        alt: "Länk till Umecons hemsida",
+      { 
+        name: "Tietoevry",
+        url: "https://www.tietoevry.com/se/",
+        icon: require("../assets/img/tietoevry.png"),
+        alt: "Länk till Tietoevrys/ hemsida"
       },
-      {
-        name: "Euroclear",
-        url: "https://euroclear.com/",
-        icon: require("../assets/img/euroclear.png"),
-        alt: "Länk till Euroclear hemsida",
-        class: "metria",
-      }
-    ,
-      {
-        name: "Umecon",
-        url: "https://umecon.se/",
-        icon: require("../assets/img/UmeCon.jpg"),
-        alt: "Länk till Umecons hemsida",
-      },
-      {
-        name: "Pure IT",
-        url: "http://www.pure.se/",
-        icon: require("../assets/img/PureIT.png"),
-        alt: "Länk till Pure IT:s hemsida",
-      },
-      {
-        name: "MFEX",
-        url: "https://www.mfex.com/",
-        icon: require("../assets/img/MFEX.png"),
-        alt: "Länk till MFEX IT:s hemsida",
-      },
-      {
-        name: "Algoryx",
-        url: "https://www.algoryx.se/",
-        icon: require("../assets/img/algoryx.png"),
-        alt: "Länk till Algoryx hemsida",
-      },
-      {
-        name: "Teknikhuset",
-        url: "https://www.teknikhuset.se/",
-        icon: require("../assets/img/Teknikhuset.png"),
-        alt: "Länk till Teknikhuset hemsida",
-      },
-   */
     ],
   }),
 });

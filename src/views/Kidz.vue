@@ -8,6 +8,7 @@
           <h3 style="font-size: 1rem">Om kvällen</h3>
           <ul>
             <li>Alla workshops är gratis.</li>
+            <li>Föreläsnignen för vuxna är samtidigt som barnens workshop</li>
             <li>Plats: HUM-huset Umeå Universitet</li>
             <li>Tid: 10 april kl: 18.00 - 20.00</li>
             <li>
@@ -55,7 +56,7 @@
           <h3>Elza Dunkels om forskning och skärmstarka barn</h3>
 
           <p class="bold">
-            Max deltagare: 20 st
+            Max deltagare: 36 st
           </p>
           <p>Just nu diskuteras skärmtid en hel del, och det mesta har en negativ vinkel. Även Folkhälsomyndighetens forskningsöversikt pekade på övervägande negativa effekter, trots att det finns forskning som tydligt visar på att de flesta får ut positiva saker av sin skärmtid, som att lära sig, roa sig och umgås med andra. </p>
  

@@ -22,9 +22,20 @@
           </div>
           <div class="a">
             <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block;">Vi söker talare</v-card-title>
+              <v-card-title style="text-align: center; display: block;">Umedev Kidz</v-card-title>
               <v-card-text>
-                <a class="text-none" href="https://sessionize.com/umedev-2025">Call for speaker är öppen</a>
+                <p>Lär dig spelprogramering.</p>
+                <p>Skärmstarka barn - föreläsning för föräldrar</p>
+                <v-btn text :to="{ path: '/kidz' }">Läs mer</v-btn>
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card class="a-plus">
+              <v-card-title style="text-align: center; display: block;">Program 2025</v-card-title>
+              <v-card-text>
+                <p>Årets keynote speaker är släppt. Resterande program kommer snart.</p>
+                <v-btn text :to="{ path: '/program' }">Läs mer</v-btn>
               </v-card-text>
             </v-card>
           </div>
