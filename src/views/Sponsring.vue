@@ -18,12 +18,12 @@
           Sponsorernas bidrag är det som gör konferensen möjlig. Utan er, inget
           Umedev.
         </p>
-        <v-btn
+       <!-- <v-btn
           outlined
           target="_blank"
           href="https://forms.gle/VhaFhrF5XJQ4UWQp6"
           >Anmäl ditt företag som sponsor</v-btn
-        >
+        >-->
         <p>
           <br />
           Likt tidigare år erbjuder vi 3 olika sponsornivåer; guld, silver och

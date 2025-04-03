@@ -65,6 +65,9 @@
                   </div>
                   <br />
                   <br />
+                  <div>
+                    <embed type="text/html" src="https://sessionize.com/api/v2/bbai7aji/view/GridSmart"  width="100%" height="1500">
+                  </div>
                 <!-- <v-divider></v-divider>
                   <br />
                   <br />

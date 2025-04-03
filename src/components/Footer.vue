@@ -116,6 +116,12 @@ export default Vue.extend({
         alt: "Länk till Metrias hemsida",
         class: "metria",
       },
+      {
+        name: "Vitec",
+        url: "https://www.vitecsoftware.com",
+        icon: require("../assets/img/Vitec-Logo-vertical-software.jpg"),
+        alt: "Länk till Vitecs hemsida",
+      },
 
    
       //silver

@@ -35,42 +35,37 @@
             Under workshopen går vi igenom de allra enklaste grunderna och bygger ett litet spel tillsammans. 
             Vi kommer också att prova på lite av spelens magi – programmering! 
             </p>
-            <p>
-            Mer information om förberedelser, inklusive hur du installerar Godot, 
-            skickas via e-post efter att anmälan stänger den 24 mars. 
-            Instruktioner kommer också att finnas här.
-            </p>
-            <br/>
+            <h2>🔧 Installera Godot 4</h2>
+            <h3>Windows</h3>
+            <ol>
+              <li>Gå till <a href="https://godotengine.org/download">https://godotengine.org/download</a></li>
+              <li>Klicka på knappen <strong>“Godot Engine 4.4.1”</strong></li>
+              <li>Öppna mappen <i>Nedladdade filer (Downloads)</i> och högerklicka på zip-filen 
+                (ex: Godot_v4.4.1-stable_win64.exe.zip)</li>
+              <li>Välj <strong>“Extrahera alla…”</strong></li>
+              <li>Gå in i den nya mappen och dubbelklicka på Godot_v4.4.1-stable_win64.exe för att starta editorn</li>
+            </ol>
+            <h3>Mac</h3>
+            <ol>
+              <li>Gå till <a href="https://godotengine.org/download">https://godotengine.org/download</a></li>
+              <li>Klicka på knappen <strong>“Godot Engine 4.4.1”</strong></li>
+              <li>Öppna mappen <i>Nedladdade filer (Downloads)</i> och dubbelklicka på zip-filen
+                (ex: Godot_v4.4.1-stable_macos.universal.zip)</li>
+              <li>En fil med namnet Godot.app skapas – dubbelklicka på den för att starta editorn</li>
+            </ol>
+            <h2>📁 Packa upp projektet “DonutMadness_start.zip”</h2>
+            <ol>
+              <li>Ladda ner <a href="../assets/resources/DonutMadness_start.zip">DonutMadness_start.zip</a></li>
+              <li>Spara den på en plats du hittar lätt, t.ex. Skrivbordet eller Dokument</li>
+              <li><strong>Windows:</strong> Högerklicka på filen och välj “Extrahera alla…”</li>
+              <li><stong>Mac:</stong> Dubbelklicka på zip-filen – en ny mapp skapas automatiskt</li>
+              <li>Vi kommer gå igenom hur projektet öppnas i Godot 4 under workshoppen!</li>
+            </ol>
 
-            <a
-            href="https://forms.gle/5twJZedjjYvsr5qm7"
-            rel="noopener noreferrer"
-            target="_blank"
-            class="link"
-            style="font-size: 1.15rem"
-            >Anmäl ditt barn här!</a>  
+            <p>Om du har några frågor eller stöter på problem med installationen, hör gärna av dig innan workshopen – så hjälper vi till!
+              <br/>
+            Vi ses snart – det ska superkul! 🎮</p>
           </div>
-        </div>
-
-        <div class="kids-workshop">
-          <h3>Elza Dunkels om forskning och skärmstarka barn</h3>
-
-          <p class="bold">
-            Max deltagare: 36 st
-          </p>
-          <p>Just nu diskuteras skärmtid en hel del, och det mesta har en negativ vinkel. Även Folkhälsomyndighetens forskningsöversikt pekade på övervägande negativa effekter, trots att det finns forskning som tydligt visar på att de flesta får ut positiva saker av sin skärmtid, som att lära sig, roa sig och umgås med andra. </p>
- 
-          <p>Elza Dunkels har forskat om barn, unga och nätet sedan slutet av 1990-talet och är en känd folkbildare och debattör. Elza har bland mycket annat tilldelats Guldäpplets jubileumsutmärkelse år 2021 för för sina bidrag till digitaliseringen i skolan, RFSU-priset år 2020 för sina folkbildningsinsatser och hon utsågs till Årets Nätängel år 2019, ett pris som MySafety instiftat för att motarbeta näthat och främja nätkärlek. Hon har också skrivit ett flertal böcker på temat nätkultur och skärmtid.</p>
- 
-          <p>I den här föreläsningen får du höra om resultatet av Elzas forskning. Målet med föreläsningen är att du ska få verktyg att stötta barn och unga att bli skärmstarka. Det blir också Umeåpremiär för Elzas egna, alternativa skärmtidsrekommendationer! Föreläsningen är gratis, och riktar sig till alla som är intresserade av ungas nätkulturer; till exempel föräldrar och pedagoger.</p>
-
-            <a
-            href="https://forms.gle/38aWWRjGCRo4tDaUA"
-            rel="noopener noreferrer"
-            target="_blank"
-            class="link"
-            style="font-size: 1.15rem"
-            >Anmäl dig här!</a>  
         </div>
       </v-col>
     </v-row>

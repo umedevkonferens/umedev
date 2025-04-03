@@ -16,7 +16,7 @@
                   <b>Den 11e April<br> 08:30 - 16:30</b> 
                 </p>
                 <p>Humanisthuset Umeå Universitet</p>
-                <v-btn text class="text-none" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfV3gV4HYvtz2v-PyQtu2fSypWz0wygHnXYeOIS62_LAo2U7w/viewform">Anmäl dig här!</v-btn>
+                <v-btn text class="text-none" target="_blank" href="https://forms.gle/tK5Lr2UyehhZyvrt8">Skriv upp dig på reservlistan!</v-btn>
                 </v-card-text>
             </v-card>
           </div>
@@ -34,7 +34,7 @@
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block;">Program 2025</v-card-title>
               <v-card-text>
-                <p>Årets keynote speaker är släppt. Resterande program kommer snart.</p>
+                <p>Nu är hela programmet släppt!</p>
                 <v-btn text :to="{ path: '/program' }">Läs mer</v-btn>
               </v-card-text>
             </v-card>
