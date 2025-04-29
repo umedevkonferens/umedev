@@ -15,16 +15,123 @@
 
     <div class="current-program">
       <div class="current-program-inner">
-        <!-- <h2>Program Umedev 2025</h2> -->
-        <!-- <p style="margin-top: 20px;">
-          <b>‼️ Mer info om prsogrammet kommer snart ‼️</b> 
-          <br> Håll utskick. 👀
-        </p> -->
-        <h2>Program Umedev 2024 Winter edition - <span style="color: #56ab2f;">Tisdag 03 december</span></h2>
-        <!-- <Schedule :schedule="schedule" /> -->
-        <br />
-        <h3 class="current-program-heading">Opening och Ending Keynote</h3>
+        <h2>Program Umedev 2025</h2>
+
         <div class="program-container">
+                <div class="program-row">
+                  <br />
+                  <div class="about-keynote">
+                    <div class="profile-container">
+                      <v-avatar
+                        class="bio-image"
+                        color="grey"
+                        size="256"
+                        rounded="1"
+                      >
+                        <v-img
+                          cover
+                          v-bind:src="
+                            require('../assets/img/fredrik_bjoreman.jpg')
+                          "
+                          alt="Johanna Björklund"
+                        ></v-img>
+                      </v-avatar>
+                      <span class="keynote-speaker"
+                        >Fredrik Björeman</span
+                      >
+                    </div>
+                    <div class="keynote-description">
+                      <div class="program-heading">
+                        <h2>
+                          Opening keynote: Utvecklare i AI-bubblan
+                        </h2>
+                      </div>
+                      <p>
+                        Hur ska man tänka om AI?<br/>
+                        Vart är vi på väg? Som värld, som utvecklare, som byggare av tjänster och produkter?<br/>
+                        Borde vi ha mer AI i våra tjänster?<br/>
+                        Borde jag som utvecklare låta Copilot skriva min kod, luta mig tillbaka och håva in produktivitetsvinsten? Är det ute att skriva kod?<br/>
+                        Borde jag som chef införa AI för och i allt tänkbart?<br/>
+                        Låt oss försöka ta ner livet i - och kanske efter - AI-bubblan på jorden!<br/>
+
+                      </p>
+                      <span>
+                        <h3>About Fredrik Björeman</h3>
+                        <p>
+                          Fredrik Björeman har jobbat med data sedan AJAX var det nya heta. Sedan 2012 driver han också Kodsnack - Sveriges högst numrerade podd om livet som utvecklare. En nyfiken diskussion i veckan med svenska och internationella utvecklare av alla slag ger ett brett perspektiv på världen - och ibland kanske till och med en god idé eller två.
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <br />
+                  <br />
+                  <div>
+                    <embed type="text/html" src="https://sessionize.com/api/v2/bbai7aji/view/GridSmart"  width="100%" height="1500">
+                  </div>
+                <!-- <v-divider></v-divider>
+                  <br />
+                  <br />
+                  <div class="about-keynote reverse">
+                    <div class="profile-container">
+                      <v-avatar
+                        class="bio-image"
+                        color="grey"
+                        size="256"
+                        rounded="1"
+                      >
+                        <v-img
+                          cover
+                          v-bind:src="
+                            require('../assets/img/peter_bystrom.jpg')
+                          "
+                        ></v-img>
+                      </v-avatar>
+                      <span class="keynote-speaker">
+                        Peter Byström
+                      </span>
+                    </div>
+                    <div class="keynote-description">
+                      <div class="program-heading">
+                        <h2>
+                          Ending Keynote: Häng med i nuet, för det händer hela tiden
+                        </h2>
+                      </div>
+
+                      <p>
+                        Under den här presentationen så tittar vi på vad som händer nu med teknisk och social förändring i våran omgivning ur ett större perspektiv 
+                        och vad du behöver tänka på för att hänga med. Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem 
+                        i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring 
+                        sker i olika sammanhang och vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen. 
+                        Vi tittar också lite framåt i spåkulan och funderar kring var AI är på väg och hur nuet kan komma att se ut om inte allt för långt fram i tiden.<br> 
+                        En kortare skulle kunna vara: Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi 
+                        hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring sker i olika sammanhang och 
+                        vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen.
+                      </p>
+                      <span>
+                        <h3>About Peter Byström</h3>
+                        <p>
+                          Peter Boman Byström är en agil mentor, teoretiker och praktiker inom komplex system- och verksamhetsutveckling. Med en akademisk bakgrund inom 
+                          kognitionsvetenskap är han en generalist med djup förankring inom teknik, design & arkitektur samt organisation & ledarskap. 
+                          En profil som blir allt mer användbar i en värld av ständigt ökande komplexitet.
+                        </p>
+                      </span>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+      </div>
+    </div>
+
+    <!-- --------------------- -->
+
+    <div class="previous-program">
+      <div class="previous-program-inner">
+        <h2 class="previous-program-heading">Tidigare års program</h2>
+        <v-expansion-panels>
+          <v-expansion-panel>
+            <v-expansion-panel-header>Program Umedev 2024 Winter Edition</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <div class="program-container">
           <div class="program-row">
             <div class="about-keynote">
               <div class="profile-container">
@@ -55,7 +162,7 @@
                     {{ schedule?.openingKeynote?.title }}
                   </h2>
                 </div>
-                <spans><i>Förmiddag 1,5h</i></spans><br><br>
+                <span><i>Förmiddag 1,5h</i></span><br><br>
                 <p v-for="(text, index) in schedule?.openingKeynote?.description.split('<br>', 2)" :key="index">
                   {{ text }}
                 </p>
@@ -111,7 +218,7 @@
                     Implementering av Generativa Autonoma Agenter
                   </h2>
                 </div>
-                <spans><i>Eftermiddag 2h</i></spans><br><br>
+                <span><i>Eftermiddag 2h</i></span><br><br>
                 <p>
                   Från teori till praktik: Hur vi bygger och integrerar AI-agenter i verkliga miljöer
                   <br>
@@ -172,23 +279,8 @@
             </div>
           </div>
         </div>
-        <!-- <div id="schedule">
-          <h3 class="current-program-heading">Program</h3>
-            <p>
-              <b>‼️ Mer info om programmet kommer snart ‼️</b> 
-              <br> Håll utskick. 👀
-            </p>
-            <embed type="text/html" src="https://sessionize.com/api/v2/eaasrgtn/view/GridSmart"  width="100%" height="1500">
-        </div> -->
-      </div>
-    </div>
-
-    <!-- --------------------- -->
-
-    <div class="previous-program">
-      <div class="previous-program-inner">
-        <h2 class="previous-program-heading">Tidigare års program</h2>
-        <v-expansion-panels>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
               Program Umedev 2024
