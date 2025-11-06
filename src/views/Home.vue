@@ -32,31 +32,7 @@
               </v-card-text>
             </v-card>
           </div>
-          <!-- <div class="a">
-            <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block;">Umedev Kidz 🎉</v-card-title>
-              <v-card-text>
-                <p><b>Anmälan till Umedev Kidz 2024 är nu stängd.</b></p>
-                <p>Alla som har anmält sig kommer att få ett bekräftelsemail!</p>
-              </v-card-text>
-            </v-card>
-          </div> -->
-          <!-- <div class="a">
-            <v-card>
-              <v-card-title style="text-align: center; display: block;">Anmälan för talare till UmeDev 2024 är nu stängd!</v-card-title>
-              <v-card-text>
-                <p><b>CFP var öppen till och med 17 Mars</b></p>
-                <p>
-                    Skicka in dina förslag på
-                  <v-btn text class="text-none" target="_blank" href="https://sessionize.com/umedev_2024">sessionize.com/umedev_2024</v-btn>
-                </p>
-                <p>
-                  Dela gärna denna URL på din officiella webbplats, via sociala nätverk och 
-                  genom direkt inbjudan till talare som du skulle vilja se.
-                </p>
-              </v-card-text>
-            </v-card>
-          </div> -->
+
           <!-- <KeynoteSpeakerCard
             title="Nu presenterar vi årets opening och ending keynote!"
             :opening-keynote="{

@@ -1,186 +1,13 @@
 <template>
   <div>
     <HeaderWithPepper header="Program Umedev" />
-    <v-row
-      class="mb-6"
-      justify="start"
-    >
-      <v-col
-        md="auto"
-        class="content wrapper"
-      >
-      </v-col>
+    <v-row class="mb-6" justify="start">
+      <v-col md="auto" class="content wrapper"> </v-col>
     </v-row>
     <!-- --------------------- -->
 
     <div class="current-program">
-      <div class="current-program-inner">
-        <!-- <h2>Program Umedev 2025</h2> -->
-        <!-- <p style="margin-top: 20px;">
-          <b>‼️ Mer info om prsogrammet kommer snart ‼️</b> 
-          <br> Håll utskick. 👀
-        </p> -->
-        <h2>Program Umedev 2024 Winter edition - <span style="color: #56ab2f;">Tisdag 03 december</span></h2>
-        <!-- <Schedule :schedule="schedule" /> -->
-        <br />
-        <h3 class="current-program-heading">Opening och Ending Keynote</h3>
-        <div class="program-container">
-          <div class="program-row">
-            <div class="about-keynote">
-              <div class="profile-container">
-                <v-avatar
-                  class="bio-image"
-                  color="grey"
-                  size="256"
-                  rounded="1"
-                >
-                  <v-img
-                    cover
-                    v-bind:src="
-                      require('../assets/img/HansBrattberg.png')
-                    "
-                  ></v-img>
-                </v-avatar>
-                <p class="keynote-speaker-name">
-                  {{ schedule?.openingKeynote?.speakers[0].name }}
-                </p>
-                <p class="keynote-speaker-title">
-                  {{ schedule?.openingKeynote?.speakers[0].title }},
-                  {{ schedule?.openingKeynote?.speakers[0].company }}
-                </p>
-              </div>
-              <div class="keynote-description">
-                <div class="program-heading">
-                  <h2>
-                    {{ schedule?.openingKeynote?.title }}
-                  </h2>
-                </div>
-                <spans><i>Förmiddag 1,5h</i></spans><br><br>
-                <p v-for="(text, index) in schedule?.openingKeynote?.description.split('<br>', 2)" :key="index">
-                  {{ text }}
-                </p>
-                <!-- Winter edition -->
-                <h3>Målgrupp</h3>
-                <p>Detta föredrag är skräddarsytt för både beslutsfattare och tekniska experter 
-                  som vill framtidssäkra sina organisationer och projekt. Oavsett om du 
-                  är VD, CTO, utvecklingschef, systemarkitekt, fullstack utvecklare eller 
-                  annan IT-personal, kommer du att få värdefulla och direkt applicerbara 
-                  insikter.</p>
-                
-                <h3>Innehåll</h3>
-                <ol>
-                  <li>
-                    <b>Nuläget: GenAI i praktiken</b>
-                    <ul>
-                      <li>Insikter i hur ledande företag redan nu använder GenAI för att omforma sina arbetsprocesser</li>
-                      <li>Konkreta fallstudier från olika branscher som visar på mångfalden av användningsområden</li>
-                      <li>Realistisk bild av framgångar och utmaningar vid implementering</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <b>Autonoma AI-agenter: Den nya medarbetaren</b>
-                    <ul>
-                      <li>Utforska potentialen hos autonoma AI-agenter och hur de kompletterar mänskliga team</li>
-                      <li>Exempel på verkliga fall av optimering av värdeströmmar med hjälp av GenAI</li>
-                      <li>Demonstration av hur autonoma AI-agenter fungerar som effektiva digitala medarbetare</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <b>Implementering och ansvar</b>
-                    <ul>
-                      <li>Strategier och mindset för att få med din organisation i den AI-drivna arbetsplatsen</li>
-                      <li>Hantering av utmaningar och potentiella hinder vid AI-implementering</li>
-                      <li>Etiska överväganden och ansvarsfull användning av AI i arbetslivet</li>
-                      <li>Exempel för att integrera AI-lösningar i existerande IT-infrastruktur</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <b>Från vision till verklighet</b>
-                    <ul>
-                      <li>Konkreta steg för att börja implementera GenAI och autonoma agenter i din organisation idag</li>
-                    </ul>
-                  </li>
-                </ol>
-                <!-- <h3>Om {{ schedule?.openingKeynote?.speakers[0].name }}</h3>
-                <p>
-                  {{ schedule?.openingKeynote?.speakers[0].about }}
-                </p> -->
-                <br>
-                <div class="program-heading">
-                  <h2>
-                    Implementering av Generativa Autonoma Agenter
-                  </h2>
-                </div>
-                <spans><i>Eftermiddag 2h</i></spans><br><br>
-                <p>
-                  Från teori till praktik: Hur vi bygger och integrerar AI-agenter i verkliga miljöer
-                  <br>
-                  Jag delar med oss av min resa inom AI-agent utveckling, 
-                  från våra första experiment till dagens sofistikerade 
-                  lösningar. Du får en inblick i våra arbetsmetoder, 
-                  verktyg och best practices för att skapa effektiva och 
-                  skalbara AI-agenter. Inslag av hands-on kan förekomma.
-                  <br>
-                  Genom konkreta exempel och praktiska demonstrationer 
-                  visar vi hur du kan börja implementera dessa teknologier 
-                  i dina egna projekt och organisationer.
-                </p>
-                <!-- Winter edition -->
-                <h3>Målgrupp</h3>
-                <p>Detta riktar in sig på dig som är mer tekniskt 
-                  intresserad. Du behöver inte vara programmerare, 
-                  men du får ut mer av denna session om du någon gång 
-                  har kodat någonting. Du kommer efteråt att känna 
-                  “jag kan programmera” även om du aldrig känt så 
-                  tidigare.</p>
-                
-                <h3>Innehåll</h3>
-                <ol>
-                  <li>
-                    <b>Vår resa med AI-agenter: Från idé till implementation</b>
-                    <ul>
-                      <li>Historisk överblick: Hur vi började arbeta med AI-agenter</li>
-                      <li>Lärdomar och milstolpar längs vägen</li>
-                      <li>Hur vårt arbetssätt har utvecklats över tid</li>
-                      <li>Hur vi håller oss uppdaterade med den senaste AI-teknologin</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <b>Utvecklingsmiljö och verktyg för AI-agent programmering</b>
-                    <ul>
-                      <li>Översikt över vår tech stack och för AI-utveckling</li>
-                      <li>Exempel av vår utvecklingsmiljö för AI-agenter</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <b>Arbetsflöden och best practices</b>
-                    <ul>
-                      <li>Från spikes till produktion: Vår implementationsprocess</li>
-                      <li>Versionshantering och samarbete i AI-projekt</li>
-                      <li>Testning och kvalitetssäkring av AI-agenter</li>
-                    </ul>
-                  </li>
-                  <li>
-                    <b>Praktisk implementation av autonoma AI-agenter</b>
-                    <ul>
-                      <li>Tekniska detaljer om hur vi bygger och konfigurerar agenter</li>
-                      <li>Arkitektur och design för system med flera samverkande AI-agenter</li>
-                    </ul>
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div id="schedule">
-          <h3 class="current-program-heading">Program</h3>
-            <p>
-              <b>‼️ Mer info om programmet kommer snart ‼️</b> 
-              <br> Håll utskick. 👀
-            </p>
-            <embed type="text/html" src="https://sessionize.com/api/v2/eaasrgtn/view/GridSmart"  width="100%" height="1500">
-        </div> -->
-      </div>
+      <div class="current-program-inner"></div>
     </div>
 
     <!-- --------------------- -->
@@ -189,6 +16,248 @@
       <div class="previous-program-inner">
         <h2 class="previous-program-heading">Tidigare års program</h2>
         <v-expansion-panels>
+          <v-expansion-panel>
+            <v-expansion-panel-header>Umedev 2025</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <embed
+                type="text/html"
+                src="https://sessionize.com/api/v2/bbai7aji/view/GridSmart"
+                width="100%"
+                height="1500"
+              />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel>
+            <v-expansion-panel-header
+              >Program Umedev 2024 Winter edition</v-expansion-panel-header
+            >
+            <v-expansion-panel-content>
+              <h3 class="current-program-heading">
+                Opening och Ending Keynote
+              </h3>
+              <div class="program-container">
+                <div class="program-row">
+                  <div class="about-keynote">
+                    <div class="profile-container">
+                      <v-avatar
+                        class="bio-image"
+                        color="grey"
+                        size="256"
+                        rounded="1"
+                      >
+                        <v-img
+                          cover
+                          v-bind:src="
+                            require('../assets/img/HansBrattberg.png')
+                          "
+                        ></v-img>
+                      </v-avatar>
+                      <p class="keynote-speaker-name">
+                        {{ schedule?.openingKeynote?.speakers[0].name }}
+                      </p>
+                      <p class="keynote-speaker-title">
+                        {{ schedule?.openingKeynote?.speakers[0].title }},
+                        {{ schedule?.openingKeynote?.speakers[0].company }}
+                      </p>
+                    </div>
+                    <div class="keynote-description">
+                      <div class="program-heading">
+                        <h2>
+                          {{ schedule?.openingKeynote?.title }}
+                        </h2>
+                      </div>
+                      <spans><i>Förmiddag 1,5h</i></spans
+                      ><br /><br />
+                      <p
+                        v-for="(
+                          text, index
+                        ) in schedule?.openingKeynote?.description.split(
+                          '<br>',
+                          2,
+                        )"
+                        :key="index"
+                      >
+                        {{ text }}
+                      </p>
+                      <!-- Winter edition -->
+                      <h3>Målgrupp</h3>
+                      <p>
+                        Detta föredrag är skräddarsytt för både beslutsfattare
+                        och tekniska experter som vill framtidssäkra sina
+                        organisationer och projekt. Oavsett om du är VD, CTO,
+                        utvecklingschef, systemarkitekt, fullstack utvecklare
+                        eller annan IT-personal, kommer du att få värdefulla och
+                        direkt applicerbara insikter.
+                      </p>
+
+                      <h3>Innehåll</h3>
+                      <ol>
+                        <li>
+                          <b>Nuläget: GenAI i praktiken</b>
+                          <ul>
+                            <li>
+                              Insikter i hur ledande företag redan nu använder
+                              GenAI för att omforma sina arbetsprocesser
+                            </li>
+                            <li>
+                              Konkreta fallstudier från olika branscher som
+                              visar på mångfalden av användningsområden
+                            </li>
+                            <li>
+                              Realistisk bild av framgångar och utmaningar vid
+                              implementering
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <b>Autonoma AI-agenter: Den nya medarbetaren</b>
+                          <ul>
+                            <li>
+                              Utforska potentialen hos autonoma AI-agenter och
+                              hur de kompletterar mänskliga team
+                            </li>
+                            <li>
+                              Exempel på verkliga fall av optimering av
+                              värdeströmmar med hjälp av GenAI
+                            </li>
+                            <li>
+                              Demonstration av hur autonoma AI-agenter fungerar
+                              som effektiva digitala medarbetare
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <b>Implementering och ansvar</b>
+                          <ul>
+                            <li>
+                              Strategier och mindset för att få med din
+                              organisation i den AI-drivna arbetsplatsen
+                            </li>
+                            <li>
+                              Hantering av utmaningar och potentiella hinder vid
+                              AI-implementering
+                            </li>
+                            <li>
+                              Etiska överväganden och ansvarsfull användning av
+                              AI i arbetslivet
+                            </li>
+                            <li>
+                              Exempel för att integrera AI-lösningar i
+                              existerande IT-infrastruktur
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <b>Från vision till verklighet</b>
+                          <ul>
+                            <li>
+                              Konkreta steg för att börja implementera GenAI och
+                              autonoma agenter i din organisation idag
+                            </li>
+                          </ul>
+                        </li>
+                      </ol>
+                      <!-- <h3>Om {{ schedule?.openingKeynote?.speakers[0].name }}</h3>
+                <p>
+                  {{ schedule?.openingKeynote?.speakers[0].about }}
+                </p> -->
+                      <br />
+                      <div class="program-heading">
+                        <h2>Implementering av Generativa Autonoma Agenter</h2>
+                      </div>
+                      <spans><i>Eftermiddag 2h</i></spans
+                      ><br /><br />
+                      <p>
+                        Från teori till praktik: Hur vi bygger och integrerar
+                        AI-agenter i verkliga miljöer
+                        <br />
+                        Jag delar med oss av min resa inom AI-agent utveckling,
+                        från våra första experiment till dagens sofistikerade
+                        lösningar. Du får en inblick i våra arbetsmetoder,
+                        verktyg och best practices för att skapa effektiva och
+                        skalbara AI-agenter. Inslag av hands-on kan förekomma.
+                        <br />
+                        Genom konkreta exempel och praktiska demonstrationer
+                        visar vi hur du kan börja implementera dessa teknologier
+                        i dina egna projekt och organisationer.
+                      </p>
+                      <!-- Winter edition -->
+                      <h3>Målgrupp</h3>
+                      <p>
+                        Detta riktar in sig på dig som är mer tekniskt
+                        intresserad. Du behöver inte vara programmerare, men du
+                        får ut mer av denna session om du någon gång har kodat
+                        någonting. Du kommer efteråt att känna “jag kan
+                        programmera” även om du aldrig känt så tidigare.
+                      </p>
+
+                      <h3>Innehåll</h3>
+                      <ol>
+                        <li>
+                          <b
+                            >Vår resa med AI-agenter: Från idé till
+                            implementation</b
+                          >
+                          <ul>
+                            <li>
+                              Historisk överblick: Hur vi började arbeta med
+                              AI-agenter
+                            </li>
+                            <li>Lärdomar och milstolpar längs vägen</li>
+                            <li>Hur vårt arbetssätt har utvecklats över tid</li>
+                            <li>
+                              Hur vi håller oss uppdaterade med den senaste
+                              AI-teknologin
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <b
+                            >Utvecklingsmiljö och verktyg för AI-agent
+                            programmering</b
+                          >
+                          <ul>
+                            <li>
+                              Översikt över vår tech stack och för AI-utveckling
+                            </li>
+                            <li>
+                              Exempel av vår utvecklingsmiljö för AI-agenter
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <b>Arbetsflöden och best practices</b>
+                          <ul>
+                            <li>
+                              Från spikes till produktion: Vår
+                              implementationsprocess
+                            </li>
+                            <li>
+                              Versionshantering och samarbete i AI-projekt
+                            </li>
+                            <li>Testning och kvalitetssäkring av AI-agenter</li>
+                          </ul>
+                        </li>
+                        <li>
+                          <b>Praktisk implementation av autonoma AI-agenter</b>
+                          <ul>
+                            <li>
+                              Tekniska detaljer om hur vi bygger och
+                              konfigurerar agenter
+                            </li>
+                            <li>
+                              Arkitektur och design för system med flera
+                              samverkande AI-agenter
+                            </li>
+                          </ul>
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div></v-expansion-panel-content
+            >
+          </v-expansion-panel>
           <v-expansion-panel>
             <v-expansion-panel-header>
               Program Umedev 2024
@@ -214,7 +283,8 @@
                         ></v-img>
                       </v-avatar>
                       <span class="keynote-speaker"
-                        >Johanna Björklund, Universitetslektor vid institutionen för datavetenskap, Umeå universitet</span
+                        >Johanna Björklund, Universitetslektor vid institutionen
+                        för datavetenskap, Umeå universitet</span
                       >
                     </div>
                     <div class="keynote-description">
@@ -224,20 +294,34 @@
                         </h2>
                       </div>
                       <p>
-                        AI/ML för media och språk är en möjliggörande teknik med många tillämpningsområden. I denna keynote pratar vi om hur långt fältet har kommit med avseende på 
-                        generering och analys av olika modaliteter, t.ex. bild, ljud, video etc., och om vilka utmaningar som fortfarande kvarstår. 
-                        Vi tittar även på nationella forskningsinitiativ inom området, och vilka möjligheter det finns för industrin att engagera sig.<br> 
-                        Hon utgår och svarar på frågorna; hur långt tekniken kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc. 
-                        Vilka utmaningar kvarstår? Vilka nationella forskningsinitiativ finns inom området? Och finns det möjlighet för industrin att engagera sig?
-
+                        AI/ML för media och språk är en möjliggörande teknik med
+                        många tillämpningsområden. I denna keynote pratar vi om
+                        hur långt fältet har kommit med avseende på generering
+                        och analys av olika modaliteter, t.ex. bild, ljud, video
+                        etc., och om vilka utmaningar som fortfarande kvarstår.
+                        Vi tittar även på nationella forskningsinitiativ inom
+                        området, och vilka möjligheter det finns för industrin
+                        att engagera sig.<br />
+                        Hon utgår och svarar på frågorna; hur långt tekniken
+                        kommit med avseende på generering och analys av olika
+                        modaliteter, t.ex. bild, ljud, video etc. Vilka
+                        utmaningar kvarstår? Vilka nationella
+                        forskningsinitiativ finns inom området? Och finns det
+                        möjlighet för industrin att engagera sig?
                       </p>
                       <span>
                         <h3>About Johanna Björklund</h3>
                         <p>
-                          Johanna Björklund är universitetslektor vid institutionen för datavetenskap vid Umeå universitet. Hennes forskning kretsar kringsemantisk analys av 
-                          multimodala data, med målet att uppnå en människolik förståelse genom att integrera olika element såsom bilder, ljud, video och text. 
-                          Utöver sin akademiska resa är hon medgrundare av Codemill och Aeterna Labs, deep-tech-företag som tillhandahåller produkter och tjänster 
-                          för videoproducenter, digitala publicister och annonsörer.
+                          Johanna Björklund är universitetslektor vid
+                          institutionen för datavetenskap vid Umeå universitet.
+                          Hennes forskning kretsar kringsemantisk analys av
+                          multimodala data, med målet att uppnå en människolik
+                          förståelse genom att integrera olika element såsom
+                          bilder, ljud, video och text. Utöver sin akademiska
+                          resa är hon medgrundare av Codemill och Aeterna Labs,
+                          deep-tech-företag som tillhandahåller produkter och
+                          tjänster för videoproducenter, digitala publicister
+                          och annonsörer.
                         </p>
                       </span>
                     </div>
@@ -262,33 +346,50 @@
                           "
                         ></v-img>
                       </v-avatar>
-                      <span class="keynote-speaker">
-                        Peter Byström
-                      </span>
+                      <span class="keynote-speaker"> Peter Byström </span>
                     </div>
                     <div class="keynote-description">
                       <div class="program-heading">
                         <h2>
-                          Ending Keynote: Häng med i nuet, för det händer hela tiden
+                          Ending Keynote: Häng med i nuet, för det händer hela
+                          tiden
                         </h2>
                       </div>
 
                       <p>
-                        Under den här presentationen så tittar vi på vad som händer nu med teknisk och social förändring i våran omgivning ur ett större perspektiv 
-                        och vad du behöver tänka på för att hänga med. Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem 
-                        i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring 
-                        sker i olika sammanhang och vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen. 
-                        Vi tittar också lite framåt i spåkulan och funderar kring var AI är på väg och hur nuet kan komma att se ut om inte allt för långt fram i tiden.<br> 
-                        En kortare skulle kunna vara: Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi 
-                        hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring sker i olika sammanhang och 
-                        vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen.
+                        Under den här presentationen så tittar vi på vad som
+                        händer nu med teknisk och social förändring i våran
+                        omgivning ur ett större perspektiv och vad du behöver
+                        tänka på för att hänga med. Hur vi kan lära oss att leva
+                        i, och vara en bidragande del av ett sociotekniskt
+                        ekosystem i ständig förändring där vi hela tiden måste
+                        innovera och anpassa oss till omvärldens nya
+                        förväntningar. Vi kommer titta på hur teorier om
+                        förändring sker i olika sammanhang och vilka fallgropar
+                        som vi behöver undvika för inte riskera att fastna och
+                        hamna efter i utvecklingen. Vi tittar också lite framåt
+                        i spåkulan och funderar kring var AI är på väg och hur
+                        nuet kan komma att se ut om inte allt för långt fram i
+                        tiden.<br />
+                        En kortare skulle kunna vara: Hur vi kan lära oss att
+                        leva i, och vara en bidragande del av ett sociotekniskt
+                        ekosystem i ständig förändring där vi hela tiden måste
+                        innovera och anpassa oss till omvärldens nya
+                        förväntningar. Vi kommer titta på hur teorier om
+                        förändring sker i olika sammanhang och vilka fallgropar
+                        som vi behöver undvika för inte riskera att fastna och
+                        hamna efter i utvecklingen.
                       </p>
                       <span>
                         <h3>About Peter Byström</h3>
                         <p>
-                          Peter Boman Byström är en agil mentor, teoretiker och praktiker inom komplex system- och verksamhetsutveckling. Med en akademisk bakgrund inom 
-                          kognitionsvetenskap är han en generalist med djup förankring inom teknik, design & arkitektur samt organisation & ledarskap. 
-                          En profil som blir allt mer användbar i en värld av ständigt ökande komplexitet.
+                          Peter Boman Byström är en agil mentor, teoretiker och
+                          praktiker inom komplex system- och
+                          verksamhetsutveckling. Med en akademisk bakgrund inom
+                          kognitionsvetenskap är han en generalist med djup
+                          förankring inom teknik, design & arkitektur samt
+                          organisation & ledarskap. En profil som blir allt mer
+                          användbar i en värld av ständigt ökande komplexitet.
                         </p>
                       </span>
                     </div>
@@ -301,7 +402,12 @@
               <br />
               <br />
               <div class="tracks-container">
-                <embed type="text/html" src="https://sessionize.com/api/v2/eaasrgtn/view/GridSmart"  width="100%" height="1500">
+                <embed
+                  type="text/html"
+                  src="https://sessionize.com/api/v2/eaasrgtn/view/GridSmart"
+                  width="100%"
+                  height="1500"
+                />
                 <!-- TRACK 1 -->
                 <!-- <div class="track">
                   <h3 class="track-heading">Spår 1 - Hörsal E</h3>
@@ -646,34 +752,41 @@
                         ></v-img>
                       </v-avatar>
                       <span class="keynote-speaker"
-                        >Johanna Skarpman Sundholm, Data scientist, Metriat</span
+                        >Johanna Skarpman Sundholm, Data scientist,
+                        Metriat</span
                       >
                     </div>
                     <div class="keynote-description">
                       <div class="program-heading">
                         <h2>
-                          Opening Keynote: Nya analyser möjliga med fjärranalys och AI
+                          Opening Keynote: Nya analyser möjliga med fjärranalys
+                          och AI
                         </h2>
                       </div>
                       <p>
-                        Fjärranalys används för att på ett effektivt sätt kartlägga och observera det som 
-                        sker på jorden med hjälp av data som samlats in från ovan. Med nya satelliter 
-                        och nationella laserskanningar öppnar sig nya möjligheter att studera och övervaka 
-                        natur och miljö från ovan. Detta har drivit en våg av innovativa tilltag, särskilt 
-                        kopplat till skogssektorn. Nu testas också greppet att ta till AI för att i högre 
-                        grad nyttja de stora datamängderna för att ta fram helt nya eller förbättrade 
+                        Fjärranalys används för att på ett effektivt sätt
+                        kartlägga och observera det som sker på jorden med hjälp
+                        av data som samlats in från ovan. Med nya satelliter och
+                        nationella laserskanningar öppnar sig nya möjligheter
+                        att studera och övervaka natur och miljö från ovan.
+                        Detta har drivit en våg av innovativa tilltag, särskilt
+                        kopplat till skogssektorn. Nu testas också greppet att
+                        ta till AI för att i högre grad nyttja de stora
+                        datamängderna för att ta fram helt nya eller förbättrade
                         analyser.
-
                       </p>
                       <span>
                         <h3>About Helena Holmström Olsson</h3>
                         <p>
-                          Johanna Skarpman Sundholm började jobba med data science på Metria 2018. 
-                          Hon läste teknisk fysik på KTH med masterprogrammet inom maskininlärning. 
-                          Efter examen flyttade hon till Luleå och jobbade några år som algoritmutvecklare 
-                          på en start-up i Luleå Science Park innan hon hamnade på Metria. Skarpman 
-                          Sundholm har ena benet i Metrias GIS och fjärranalyskonsultverksamhet och det 
-                          andra i företagets karttjänstutveckling.
+                          Johanna Skarpman Sundholm började jobba med data
+                          science på Metria 2018. Hon läste teknisk fysik på KTH
+                          med masterprogrammet inom maskininlärning. Efter
+                          examen flyttade hon till Luleå och jobbade några år
+                          som algoritmutvecklare på en start-up i Luleå Science
+                          Park innan hon hamnade på Metria. Skarpman Sundholm
+                          har ena benet i Metrias GIS och
+                          fjärranalyskonsultverksamhet och det andra i
+                          företagets karttjänstutveckling.
                         </p>
                       </span>
                     </div>
@@ -705,18 +818,21 @@
                     <div class="keynote-description">
                       <div class="program-heading">
                         <h2>
-                          Ending Keynote: Att vara superhjälte när superskurkarna använder kod!
+                          Ending Keynote: Att vara superhjälte när
+                          superskurkarna använder kod!
                         </h2>
                       </div>
 
                       <p>
-                        Johan Lindfors har jobbat med Microsofts ekosystem sedan 1998 och är en 
-                        återkommande talare vid olika evenemang, oftast med fokus på programmering 
-                        och säkerhet. Under 2011 grundade han företaget Coderox som fokuserade uteslutande 
-                        på Microsofts plattform med olika tekniker, allt från XAML och C# till C++ och 
-                        DirectX. Innan dess jobbade han på Microsoft och sedan 2021 är han anställd på 
-                        Truesec där han leder ett affärsområde med konsulter som jobbar med och utbildar 
-                        i säker utveckling.
+                        Johan Lindfors har jobbat med Microsofts ekosystem sedan
+                        1998 och är en återkommande talare vid olika evenemang,
+                        oftast med fokus på programmering och säkerhet. Under
+                        2011 grundade han företaget Coderox som fokuserade
+                        uteslutande på Microsofts plattform med olika tekniker,
+                        allt från XAML och C# till C++ och DirectX. Innan dess
+                        jobbade han på Microsoft och sedan 2021 är han anställd
+                        på Truesec där han leder ett affärsområde med konsulter
+                        som jobbar med och utbildar i säker utveckling.
                       </p>
                     </div>
                   </div>
@@ -732,19 +848,16 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 1 - Hörsal E</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-1-pass-1">10.00 - 10.40</span>
                     <h4>
                       Intro till Actor-baserad utveckling med Project Orleans
                     </h4>
                     <span class="content">
                       <p class="program-description">
-                        I den här presentationen så tittar vi på vad det menas med att utveckla 
-                        med en actor-baserad modell. Och framförallt på hur vi gör detta rent 
-                        praktiskt med Project Orleans
+                        I den här presentationen så tittar vi på vad det menas
+                        med att utveckla med en actor-baserad modell. Och
+                        framförallt på hur vi gör detta rent praktiskt med
+                        Project Orleans
                       </p>
                       <span class="track-speaker">
                         Chris Klug, Active Solution
@@ -752,23 +865,23 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-2"
-                      >10.50 - 11.30</span
-                    >
+                    <span class="time" id="spar-1-pass-2">10.50 - 11.30</span>
                     <h4>10 sätt att misslyckas med Kubernetes</h4>
                     <span class="content">
                       <p class="program-description">
-                        Kubernetes har tagit IT-världen med storm senaste åren och används i 
-                        produktion av 64% av organisationerna i en nylig studie från Linux Foundation. 
-                        Vanliga motiv att börja använda Kubernetes är skalbarhet, förenklad releasehantering,
-                         och ökad produktivitet för utvecklare. I kontrast till detta har Johan på nära 
-                         håll följt ett flertal misslyckade införandeprojekt där effekterna helt uteblir. 
-                         Detta talk diskuterar dessa erfarenheter och fokuserar på förutsättningarna för att 
-                         lyckas med Kubernetes. \n\nSpoiler: Kubernetes är egentligen en PaaS. Det finns 
-                         ingen gratislunch utan applikationsutvecklare behöver göra en (hel) del jobb, 
-                         det är bara inte alltid tydligt vad.
+                        Kubernetes har tagit IT-världen med storm senaste åren
+                        och används i produktion av 64% av organisationerna i en
+                        nylig studie från Linux Foundation. Vanliga motiv att
+                        börja använda Kubernetes är skalbarhet, förenklad
+                        releasehantering, och ökad produktivitet för utvecklare.
+                        I kontrast till detta har Johan på nära håll följt ett
+                        flertal misslyckade införandeprojekt där effekterna helt
+                        uteblir. Detta talk diskuterar dessa erfarenheter och
+                        fokuserar på förutsättningarna för att lyckas med
+                        Kubernetes. \n\nSpoiler: Kubernetes är egentligen en
+                        PaaS. Det finns ingen gratislunch utan
+                        applikationsutvecklare behöver göra en (hel) del jobb,
+                        det är bara inte alltid tydligt vad.
                       </p>
                       <span class="track-speaker">
                         Johan Tordsson, Elastisys
@@ -776,19 +889,16 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-3"
-                      >12.50 - 13.30</span
-                    >
+                    <span class="time" id="spar-1-pass-3">12.50 - 13.30</span>
                     <h4>Low latency video over public internet</h4>
                     <span class="content">
                       <p class="program-description">
-                        Att sända live-video över välfungerande nätverk är enkelt. Den här 
-                        föreläsningen går igenom de problem och lösningar som krävs för att sända 
-                        live-video när det är allt annat än enkelt. En lösning som ska göra det bästa 
-                        av situationen oavsett om du har 3G/4G/5G, Wi-Fi, KA-SAT, Starlink, fiber eller 
-                        något annat.
+                        Att sända live-video över välfungerande nätverk är
+                        enkelt. Den här föreläsningen går igenom de problem och
+                        lösningar som krävs för att sända live-video när det är
+                        allt annat än enkelt. En lösning som ska göra det bästa
+                        av situationen oavsett om du har 3G/4G/5G, Wi-Fi,
+                        KA-SAT, Starlink, fiber eller något annat.
                       </p>
                       <span class="track-speaker">
                         Anders Martinsson, Intinor
@@ -796,21 +906,20 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-4"
-                      >13.40 - 14.00</span
-                    >
+                    <span class="time" id="spar-1-pass-4">13.40 - 14.00</span>
                     <h4>I, ChatGPT. En kort överblick.</h4>
                     <span class="content">
                       <p class="program-description">
-                        För dig som är intresserad men inte expert på AI, neurala nät eller machine 
-                        learning. OpenAI:s ChatGPT är en av många large language models (LLM) som slagit
-                         världen med häpnad på väldigt kort tid. Vid första anblicken är det lätt att tro 
-                         att ChatGPT ger dig fakta, men det visar sig snart inte stämma. ChatGPT är kreativ 
-                         till den grad att vissa kallar den hallucinogen. Vi kommer att titta på vad en LLM 
-                         är, vad ChatGPT kan göra bra, dåligt, och vad du kan få den att göra trots dess 
-                         inbyggda spärrar.
+                        För dig som är intresserad men inte expert på AI,
+                        neurala nät eller machine learning. OpenAI:s ChatGPT är
+                        en av många large language models (LLM) som slagit
+                        världen med häpnad på väldigt kort tid. Vid första
+                        anblicken är det lätt att tro att ChatGPT ger dig fakta,
+                        men det visar sig snart inte stämma. ChatGPT är kreativ
+                        till den grad att vissa kallar den hallucinogen. Vi
+                        kommer att titta på vad en LLM är, vad ChatGPT kan göra
+                        bra, dåligt, och vad du kan få den att göra trots dess
+                        inbyggda spärrar.
                       </p>
                       <span class="track-speaker">
                         Jonas Andersson, Algoryx
@@ -818,25 +927,26 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-5"
-                      >14.30 - 15.10</span
-                    >
+                    <span class="time" id="spar-1-pass-5">14.30 - 15.10</span>
                     <h4>
-                      The Developers Guide to Awesome Code: 5 questions that will boost your career
+                      The Developers Guide to Awesome Code: 5 questions that
+                      will boost your career
                     </h4>
                     <span class="content">
                       <p class="program-description">
-                        Om du är som mig, gillar du att jobba med kod och projekt med hög kvalité. 
-                        Utvecklare som du berättar för mig att även fast de föredrar att fokusera på 
-                        kodkvalité, är inte alltid företaget eller kollegorna intresserade. Känner du 
-                        igen dig? Denna presentation ger dig verktyg som är enkla att använda för att 
-                        förbättra denna situation, förbättra kvalitén på din kod och ditt projekt, även 
-                        om ditt team inte är intresserade. Under denna presentation kommer du att (1) 
-                        lära dig 5 frågor som är enkla att använda och som kommer hjälpa dig i din karriär 
-                        (2) få en förståelse för varför personer runt dig inte gör det som är bäst för 
-                        dem eller deras karriär och (3) införa en process som hjälper dig och ditt team 
+                        Om du är som mig, gillar du att jobba med kod och
+                        projekt med hög kvalité. Utvecklare som du berättar för
+                        mig att även fast de föredrar att fokusera på
+                        kodkvalité, är inte alltid företaget eller kollegorna
+                        intresserade. Känner du igen dig? Denna presentation ger
+                        dig verktyg som är enkla att använda för att förbättra
+                        denna situation, förbättra kvalitén på din kod och ditt
+                        projekt, även om ditt team inte är intresserade. Under
+                        denna presentation kommer du att (1) lära dig 5 frågor
+                        som är enkla att använda och som kommer hjälpa dig i din
+                        karriär (2) få en förståelse för varför personer runt
+                        dig inte gör det som är bäst för dem eller deras karriär
+                        och (3) införa en process som hjälper dig och ditt team
                         förbättra kodkvalitén på ert projekt NU!
                       </p>
                       <span class="track-speaker"
@@ -849,18 +959,16 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 2 - Hörsal F</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-2-pass-1">10.00 - 10.40</span>
                     <h4>Säkerheten genom historien</h4>
                     <span class="content">
                       <p class="program-description">
-                        Detta pass kommer gå igenom hur man sett på säkerhet och teknik genom historien. 
-                        Vilka säkerhetsaspekter användes förr och hur har dessa utvecklats över åren? 
-                        Detta pass är för den som älskar historia, säkerhet och teknik. Inga förkunskapskrav
-                         krävs, kom och luta dig tillbaka för en resa genom vår teknologiska historia.
+                        Detta pass kommer gå igenom hur man sett på säkerhet och
+                        teknik genom historien. Vilka säkerhetsaspekter användes
+                        förr och hur har dessa utvecklats över åren? Detta pass
+                        är för den som älskar historia, säkerhet och teknik.
+                        Inga förkunskapskrav krävs, kom och luta dig tillbaka
+                        för en resa genom vår teknologiska historia.
                       </p>
                       <span class="track-speaker">
                         Emilia Modig, Omegapoint
@@ -868,58 +976,55 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-2"
-                      >10.50 - 11.30</span
-                    >
+                    <span class="time" id="spar-2-pass-2">10.50 - 11.30</span>
                     <h4>
-                      HARA, TARA vänta bara - Utveckling av säkra maskinstyrsystem
+                      HARA, TARA vänta bara - Utveckling av säkra
+                      maskinstyrsystem
                     </h4>
                     <span class="content">
                       <p class="program-description">
-                        Vi tar ofta för givet att maskiner i vår omgivning är säkra för såväl operatören 
-                        som för förbipasserande, men vad innebär det egentligen och hur utvecklas dessa 
-                        maskiner så att de blir säkra? Här går vi igenom översiktligt hur projekt inom 
-                        maskinsäkerhet kan se ut.
+                        Vi tar ofta för givet att maskiner i vår omgivning är
+                        säkra för såväl operatören som för förbipasserande, men
+                        vad innebär det egentligen och hur utvecklas dessa
+                        maskiner så att de blir säkra? Här går vi igenom
+                        översiktligt hur projekt inom maskinsäkerhet kan se ut.
                       </p>
-                      <span class="track-speaker">
-                        Claes Gahlin, Ålö AB
-                      </span>
+                      <span class="track-speaker"> Claes Gahlin, Ålö AB </span>
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-3"
-                      >12.50 - 13.30</span
-                    >
+                    <span class="time" id="spar-2-pass-3">12.50 - 13.30</span>
                     <h4>Agil säkerhet</h4>
                     <span class="content">
                       <p class="program-description">
-                        Säkerhet blir alltför ofta bortglömt i vår agila värld, där fokus ligger på 
-                        effektivitet och snabba leveranser. Detta trots att säkerhet är en avgörande 
-                        faktor för framgångsrik mjukvaruutveckling.\n\nFrån början till slut och alla 
-                        steg däremellan, kommer vi att se på helhetsbilden av vilken typ av 
-                        säkerhetsåtgärder som passar var, samt ge konkreta exempel som du kan ta 
-                        med dig och börja implementera direkt.
+                        Säkerhet blir alltför ofta bortglömt i vår agila värld,
+                        där fokus ligger på effektivitet och snabba leveranser.
+                        Detta trots att säkerhet är en avgörande faktor för
+                        framgångsrik mjukvaruutveckling.\n\nFrån början till
+                        slut och alla steg däremellan, kommer vi att se på
+                        helhetsbilden av vilken typ av säkerhetsåtgärder som
+                        passar var, samt ge konkreta exempel som du kan ta med
+                        dig och börja implementera direkt.
                       </p>
-                      <span class="track-speaker">Cecilia Wirén, Active Solution</span>
+                      <span class="track-speaker"
+                        >Cecilia Wirén, Active Solution</span
+                      >
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-4"
-                      >13.40 - 14.00</span
-                    >
-                    <h4>Huruvida du ska, eller inte ska, använda kö:er i din arkitektur</h4>
+                    <span class="time" id="spar-2-pass-4">13.40 - 14.00</span>
+                    <h4>
+                      Huruvida du ska, eller inte ska, använda kö:er i din
+                      arkitektur
+                    </h4>
                     <span class="content">
                       <p class="program-description">
-                        Meddelandeköer används av många företag över hela världen för att underlätta 
-                        smidig, enkel skalning under tillväxt eller som ett sätt för 
-                        applikationsmikrotjänster att kommunicera. Detta föredrag ger en översikt över 
-                        hur en kö passar in i en arkitektur ur RabbitMQs perspektiv.
+                        Meddelandeköer används av många företag över hela
+                        världen för att underlätta smidig, enkel skalning under
+                        tillväxt eller som ett sätt för
+                        applikationsmikrotjänster att kommunicera. Detta
+                        föredrag ger en översikt över hur en kö passar in i en
+                        arkitektur ur RabbitMQs perspektiv.
                       </p>
                       <span class="track-speaker">
                         Lovisa Johansson, CloudAMQP by 84codes
@@ -927,24 +1032,22 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-5"
-                      >14.30 - 15.10</span
-                    >
+                    <span class="time" id="spar-2-pass-5">14.30 - 15.10</span>
                     <h4>Från vilda gissningar till mätbara leveranser</h4>
                     <span class="content">
                       <p class="program-description">
-                        Frågestund med UX-proffs som vet att UX mognad: - Låter utvecklare fokusera 
-                        på utveckling - Förbättrar interna/externa processer för att leverera rätt 
-                        värde \n- Når en större marknad \n- Ger konkurrensfördel - Ger ökat kundengagemang
-                         - Reducerar kostnader - Följer lagkrav \n\nStäll era frågor och vi svarar!
+                        Frågestund med UX-proffs som vet att UX mognad: - Låter
+                        utvecklare fokusera på utveckling - Förbättrar
+                        interna/externa processer för att leverera rätt värde
+                        \n- Når en större marknad \n- Ger konkurrensfördel - Ger
+                        ökat kundengagemang - Reducerar kostnader - Följer
+                        lagkrav \n\nStäll era frågor och vi svarar!
                       </p>
                       <span class="track-speaker">
-                        Mia Petersson, Umecon <br>
-                        Paul Alvarado Mendoza, Sartorius <br>
-                        Andrea Berglund, Omegapoint <br>
-                        Tea Berglund, VK media <br>
+                        Mia Petersson, Umecon <br />
+                        Paul Alvarado Mendoza, Sartorius <br />
+                        Andrea Berglund, Omegapoint <br />
+                        Tea Berglund, VK media <br />
                       </span>
                     </span>
                   </div>
@@ -953,92 +1056,86 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 3 - Hörsal G</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-3-pass-1">10.00 - 10.40</span>
                     <h4>Design systems - Less decisions, more time</h4>
                     <span class="content">
                       <p class="program-description">
-                        In this talk we will explain how design systems help you free time, to focus on 
-                        solving real problems. One key element in a successful design system is bridging 
-                        the gap between design and code. Coming from both a design and tech background, 
-                        we will share our insights on this.
+                        In this talk we will explain how design systems help you
+                        free time, to focus on solving real problems. One key
+                        element in a successful design system is bridging the
+                        gap between design and code. Coming from both a design
+                        and tech background, we will share our insights on this.
                       </p>
                       <span class="track-speaker">
-                        Joakim Olsson, Daresay by Knightec <br>
+                        Joakim Olsson, Daresay by Knightec <br />
                         Anna Viklund, Daresay by Knightec
                       </span>
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-2"
-                      >10.50 - 11.30</span
-                    >
+                    <span class="time" id="spar-3-pass-2">10.50 - 11.30</span>
                     <h4>Feedback loops and how to refine them</h4>
                     <span class="content">
                       <p class="program-description">
-                        Short Feedback loops and limiting context switching is one of the most important 
-                        cornerstones in developer efficiency and developer experience. This talk will 
-                        show were you can find improvements and tools to use.
+                        Short Feedback loops and limiting context switching is
+                        one of the most important cornerstones in developer
+                        efficiency and developer experience. This talk will show
+                        were you can find improvements and tools to use.
                       </p>
-                      <span class="track-speaker"> Mikael Svensson, Nasdaq Umeå </span>
+                      <span class="track-speaker">
+                        Mikael Svensson, Nasdaq Umeå
+                      </span>
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-3"
-                      >12.50 - 13.30</span
-                    >
+                    <span class="time" id="spar-3-pass-3">12.50 - 13.30</span>
                     <h4>Hack the Accessibility Crisis</h4>
                     <span class="content">
                       <p class="program-description">
-                        Trots lagkrav och riktlinjer så är fortfarande stora delar av webben otillgänglig 
-                        för användare med funktionsnedsättningar och funktionsvariationer. \n\nPå detta 
-                        pass kommer jag live-testa en sidas tillgänglighet, visa vilka verktyg jag använder 
-                        för att identifiera olika tillgänglighetsbuggar, samt rätta till det jag hittar i 
-                        koden.
+                        Trots lagkrav och riktlinjer så är fortfarande stora
+                        delar av webben otillgänglig för användare med
+                        funktionsnedsättningar och funktionsvariationer. \n\nPå
+                        detta pass kommer jag live-testa en sidas
+                        tillgänglighet, visa vilka verktyg jag använder för att
+                        identifiera olika tillgänglighetsbuggar, samt rätta till
+                        det jag hittar i koden.
                       </p>
-                      <span class="track-speaker"> Andrea Berglund, Omegapoint </span>
+                      <span class="track-speaker">
+                        Andrea Berglund, Omegapoint
+                      </span>
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-3"
-                      >13.40 - 14.00</span
-                    >
+                    <span class="time" id="spar-3-pass-3">13.40 - 14.00</span>
                     <h4>Vanliga Myter om Scrum</h4>
                     <span class="content">
                       <p class="program-description">
-                        Scrum är det mest kända agila ramverket och många organisationer använder sig av 
-                        det i sin produktutveckling. Men det cirkulerar också många myter och felaktigheter 
-                        om Scrum. Vi kommer att gå igenom några av dessa och försöka förklara var de kommer 
-                        från.
+                        Scrum är det mest kända agila ramverket och många
+                        organisationer använder sig av det i sin
+                        produktutveckling. Men det cirkulerar också många myter
+                        och felaktigheter om Scrum. Vi kommer att gå igenom
+                        några av dessa och försöka förklara var de kommer från.
                       </p>
-                      <span class="track-speaker"> Rikard Skelander, Trygg-Hansa </span>
+                      <span class="track-speaker">
+                        Rikard Skelander, Trygg-Hansa
+                      </span>
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-4"
-                      >14.30 - 15.10</span
-                    >
+                    <span class="time" id="spar-3-pass-4">14.30 - 15.10</span>
                     <h4>Terapi-kaffe-samtal med en smula sammanbrott?</h4>
                     <span class="content">
                       <p class="program-description">
-                        Du känner säkert igen dig i den gnagande känslan av att något inte stämmer efter 
-                        en lång planeringsdag. Urban är agilcoach och Adam är systemutvecklare, dom ska 
-                        tillsammans gräva i de saker som vi suckar åt i våra arbetssätt. \n\nSe det lite 
-                        som en fika mellan en agilcoach och en utvecklare efter en utpumpande planering.
+                        Du känner säkert igen dig i den gnagande känslan av att
+                        något inte stämmer efter en lång planeringsdag. Urban är
+                        agilcoach och Adam är systemutvecklare, dom ska
+                        tillsammans gräva i de saker som vi suckar åt i våra
+                        arbetssätt. \n\nSe det lite som en fika mellan en
+                        agilcoach och en utvecklare efter en utpumpande
+                        planering.
                       </p>
                       <span class="track-speaker">
-                        Adam Sernheim, Kvadrat AB <br>
+                        Adam Sernheim, Kvadrat AB <br />
                         Urban Sandström, Kvadrat AB
                       </span>
                     </span>
@@ -1196,11 +1293,7 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 1 - Hörsal E</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-1-pass-1">10.00 - 10.40</span>
                     <h4>
                       Migrera till .NET 6 Blazor med hjälp av Strangler Fig
                       Pattern
@@ -1218,11 +1311,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-2"
-                      >10.50 - 11.10</span
-                    >
+                    <span class="time" id="spar-1-pass-2">10.50 - 11.10</span>
                     <h4>Mår man mindre Python efter en Java?</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1241,11 +1330,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-3"
-                      >11.20 - 11.40</span
-                    >
+                    <span class="time" id="spar-1-pass-3">11.20 - 11.40</span>
                     <h4>The Future is Dark</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1271,11 +1356,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-4"
-                      >12.50 - 13:30</span
-                    >
+                    <span class="time" id="spar-1-pass-4">12.50 - 13:30</span>
                     <h4>Jakarta EE 10 is Coming Your Way!</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1307,11 +1388,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-5"
-                      >13:40 - 14:00</span
-                    >
+                    <span class="time" id="spar-1-pass-5">13:40 - 14:00</span>
                     <h4>
                       Service blueprint - How user interactions affect front-end
                       and back-end
@@ -1331,11 +1408,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-1-pass-6"
-                      >14:30 - 15:10</span
-                    >
+                    <span class="time" id="spar-1-pass-6">14:30 - 15:10</span>
                     <h4>Jetpack Compose - Nutiden är här för UI på Android</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1362,11 +1435,7 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 2 - Hörsal F</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-2-pass-1">10.00 - 10.40</span>
                     <h4>The future of blockchain technology in gaming</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1385,11 +1454,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-2"
-                      >10.50 - 11.10</span
-                    >
+                    <span class="time" id="spar-2-pass-2">10.50 - 11.10</span>
                     <h4>
                       Utmaningar med att bygga ett multiplayer spel med ekonomi
                     </h4>
@@ -1411,11 +1476,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-3"
-                      >11.20 - 11.40</span
-                    >
+                    <span class="time" id="spar-2-pass-3">11.20 - 11.40</span>
                     <h4>Prediktion av vårdtid på IVA</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1429,11 +1490,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-4"
-                      >12.50 - 13:30</span
-                    >
+                    <span class="time" id="spar-2-pass-4">12.50 - 13:30</span>
                     <h4>Space, the final frontier</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1468,11 +1525,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-5"
-                      >13:40 - 14:00</span
-                    >
+                    <span class="time" id="spar-2-pass-5">13:40 - 14:00</span>
                     <h4>Cybersäkerhet, varför vi behöver det.</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1486,11 +1539,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-2-pass-6"
-                      >14:30 - 15:10</span
-                    >
+                    <span class="time" id="spar-2-pass-6">14:30 - 15:10</span>
                     <h4>Arkitektur i en snabbt växande organisation</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1510,11 +1559,7 @@
                 <div class="track">
                   <h3 class="track-heading">Spår 3 - Hörsal G</h3>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-1"
-                      >10.00 - 10.40</span
-                    >
+                    <span class="time" id="spar-3-pass-1">10.00 - 10.40</span>
                     <h4>Trygghetsskapande tester</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1533,11 +1578,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-2"
-                      >10.50 - 11.10</span
-                    >
+                    <span class="time" id="spar-3-pass-2">10.50 - 11.10</span>
                     <h4>Design för färgblinda - en personlig reflexion</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1549,11 +1590,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-3"
-                      >11.20 - 11.40</span
-                    >
+                    <span class="time" id="spar-3-pass-3">11.20 - 11.40</span>
                     <h4>Ledarskap som ökar engagemang och prestation</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1564,11 +1601,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-4"
-                      >12.50 - 13:30</span
-                    >
+                    <span class="time" id="spar-3-pass-4">12.50 - 13:30</span>
                     <h4>Norrsken i fyra dimensioner</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1591,11 +1624,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-5"
-                      >13:40 - 14:00</span
-                    >
+                    <span class="time" id="spar-3-pass-5">13:40 - 14:00</span>
                     <h4>Konfiguration för kreativitet</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1611,11 +1640,7 @@
                     </span>
                   </div>
                   <div class="program-row">
-                    <span
-                      class="time"
-                      id="spar-3-pass-6"
-                      >14:30 - 15:10</span
-                    >
+                    <span class="time" id="spar-3-pass-6">14:30 - 15:10</span>
                     <h4>Daglig automatiserad uppgradering av Ladok</h4>
                     <span class="content">
                       <p class="program-description">
@@ -1794,11 +1819,11 @@
   </div>
 </template>
 <script>
-import HeaderWithPepper from '@/components/HeaderWithPepper.vue'
-import Schedule from '@/components/Schedule.vue'
-import { schedule2024Winter } from '../data/schedule2024Winter'
+import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
+import Schedule from "@/components/Schedule.vue";
+import { schedule2024Winter } from "../data/schedule2024Winter";
 export default {
-  name: 'Program',
+  name: "Program",
   components: {
     HeaderWithPepper,
     Schedule,
@@ -1806,10 +1831,10 @@ export default {
   data() {
     return {
       panel: 0,
-      schedule: schedule2024Winter ,
-    }
+      schedule: schedule2024Winter,
+    };
   },
-}
+};
 </script>
 <style scoped>
 .program-container {
@@ -1990,7 +2015,7 @@ Tracks CSS
   font-size: 0.85rem;
   margin: 1rem 0;
   display: block;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: bold;
   padding-left: 0.25rem;
 }

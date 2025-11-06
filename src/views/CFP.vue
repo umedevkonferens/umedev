@@ -4,10 +4,6 @@
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <br />
-        <!-- <h2>Anmäl ditt bidrag</h2>
-        <p class="last-date">
-          Sista datum för att skicka in ditt bidrag är 2 mars 2023
-        </p> -->
         <h3>Välj mellan två typer</h3>
         <p>Konferensen består av två typer av bidrag;</p>
         <ul>
@@ -32,12 +28,6 @@
           och korta ner beskrivningar och texter för att passa in i det tryckta
           programmet.
         </p>
-        <!-- <a
-          href="https://forms.gle/hHtjADmCqSpq1AvG8"
-          rel="noopener noreferrer"
-          target="_blank"
-          >Anmäl dig via Google Forms</a
-        > -->
         <br />
 
         <br />
