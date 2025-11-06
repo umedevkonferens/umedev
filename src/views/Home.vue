@@ -4,41 +4,31 @@
       header="Umedev"
       sub-header1="Vår norrländska IT-konferens"
     />
-
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <div class="home-content-container">
           <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block"
-                >Umedev 2025</v-card-title
+                >Umedev Winter Edition</v-card-title
               >
               <v-card-text>
-                <p style="margin-bottom: 0" class="bold">
-                  Fredagen den 11e April
-                </p>
-                <p class="bold">kl. 08:30 - 16:30</p>
-                <p>
-                  Humanisthuset Umeå Universitet, anmälan öppnar senare i vår.
-                </p>
+                <p style="margin-bottom: 0" class="bold">Torsdag 20 november</p>
+                <p class="bold">kl.10.00 - 15.00</p>
+                <p>Humanisthuset Umeå Universitet.</p>
+                <p>Anmälan öppnar inom kort!</p>
               </v-card-text>
             </v-card>
           </div>
           <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block"
-                >Vi söker talare!</v-card-title
+                >Save the Date för Umedev 2026</v-card-title
               >
               <v-card-text>
-                <p>
-                  <a
-                    href="https://sessionize.com/umedev-2025"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Call for Speakers är öppen.</a
-                  >
-                  Varmt välkommen med din ansökan via Sessionize.
-                </p>
+                <p class="bold">Torsdag 26 mars</p>
+                <p>Humanisthuset Umeå Universitet.</p>
+                <p>Anmälan öppnar senare i vår.</p>
               </v-card-text>
             </v-card>
           </div>
