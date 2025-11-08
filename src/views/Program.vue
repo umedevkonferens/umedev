@@ -66,7 +66,7 @@
                           {{ schedule?.openingKeynote?.title }}
                         </h2>
                       </div>
-                      <spans><i>Förmiddag 1,5h</i></spans
+                      <span><i>Förmiddag 1,5h</i></span
                       ><br /><br />
                       <p
                         v-for="(
@@ -165,7 +165,7 @@
                       <div class="program-heading">
                         <h2>Implementering av Generativa Autonoma Agenter</h2>
                       </div>
-                      <spans><i>Eftermiddag 2h</i></spans
+                      <span><i>Eftermiddag 2h</i></span
                       ><br /><br />
                       <p>
                         Från teori till praktik: Hur vi bygger och integrerar
