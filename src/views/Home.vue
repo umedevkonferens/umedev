@@ -26,13 +26,13 @@
             <div class="w-keynote-item">
               <p class="bold w-speaker-name">Rune Carlsen</p>
               <p>
-                Föreläsningen CYBERSHOW är en kraftfull blandning av
+                Föreläsningen Cybershow är en kraftfull blandning av
                 underhållning och professionell insikt från Rune. Både
                 kriminella och trollkarlar använder psykologiska tekniker för
                 att manipulera och påverka sin publik eller sitt mål. Metoder
-                som vilseledning, social manipulation, valillusioner,
-                perception, utnyttjande av nyfikenhet och känslor, förvirring,
-                manipulation av förtroende, användning av teknik och mycket mer.
+                som vilseledning, social manipulation, illusionen av val,
+                utnyttjande av nyfikenhet och känslor, förvirring, manipulation
+                av förtroende, användning av teknik och mycket mer.
               </p>
               <p>
                 Detta är en presentation i en klass för sig där underhållning
@@ -93,7 +93,7 @@
                     Om talaren
                   </h4>
                   <p>
-                    Thomas har en Magisterexamen i Datorvetenskap och är en
+                    Thomas har en Magisterexamen i Datavetenskap och är en
                     Senior utvecklare och IT konsult som har arbetat mer än 25
                     år i IT branschen.
                   </p>
