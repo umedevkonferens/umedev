@@ -162,7 +162,7 @@
                   <li>
                     <span class="bold">Hackaton</span> - vi delar in oss i
                     grupper med lite olika fokus: design, utveckling, lagar och
-                    mätningar
+                    mätningar.
                   </li>
                   <li>
                     <span class="bold">Metod</span> - vi jobbar en bit och demar
@@ -173,7 +173,7 @@
                   </li>
                   <li>
                     <span class="bold">Koden och designen</span> kommer
-                    publiceras med Apache 2 licens och läggs upp här...
+                    publiceras med Apache 2 licens och läggs upp GitHub.
                   </li>
                 </ul>
                 <p>
