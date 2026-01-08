@@ -7,6 +7,36 @@
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <div class="w-wrapper">
+          <div class="a">
+            <v-card class="a-plus">
+              <v-card-title style="text-align: center; display: block"
+                >Call for speakers öppen för Umedev 2026</v-card-title
+              >
+              <v-card-text>
+                <p class="bold">
+                  <a
+                    href="https://sessionize.com/umedev-2026/?e=d10900"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >Anmäl dig här</a
+                  >
+                </p>
+              </v-card-text>
+            </v-card>
+          </div>
+          <div class="a">
+            <v-card>
+              <v-card-title style="text-align: center; display: block"
+                >Save the Date för Umedev 2026</v-card-title
+              >
+              <v-card-text>
+                <p class="bold">Torsdag 26 mars</p>
+                <p>Humanisthuset Umeå Universitet.</p>
+                <p>Anmälan öppnar senare i vår.</p>
+              </v-card-text>
+            </v-card>
+          </div>
+          <!--
           <h1>Umedev Winter Edition</h1>
           <div style="margin-bottom: 1rem">
             <p style="margin-bottom: 0" class="bold">Torsdag 20 november</p>
@@ -20,7 +50,7 @@
               >Anmäl dig till årets Winter Edition</a
             >
           </div>
-
+       
           <h3 class="w-keynote">Opening Keynote: Cybershow</h3>
           <div class="w-keynote-wrapper">
             <div class="w-keynote-item">
@@ -202,7 +232,9 @@
               </div>
             </div>
           </div>
+             -->
         </div>
+
         <div class="home-content-container">
           <!-- <div class="a">
             <v-card class="a-plus">
@@ -217,18 +249,6 @@
               </v-card-text>
             </v-card>
           </div> -->
-          <div class="a">
-            <v-card class="a-plus">
-              <v-card-title style="text-align: center; display: block"
-                >Save the Date för Umedev 2026</v-card-title
-              >
-              <v-card-text>
-                <p class="bold">Torsdag 26 mars</p>
-                <p>Humanisthuset Umeå Universitet.</p>
-                <p>Anmälan öppnar senare i vår.</p>
-              </v-card-text>
-            </v-card>
-          </div>
 
           <!--      <KeynoteSpeakerCard
             title="Umedev Winter Edition 2025"
@@ -338,6 +358,8 @@ h4 {
 }
 .w-wrapper {
   padding: 2rem;
+  display: flex;
+  flex-direction: row;
 }
 .w-keynote {
   font-size: 2.5rem;
@@ -390,6 +412,7 @@ h4 {
   a,
   .a {
     width: 100%;
+    margin: 1rem 0;
   }
   .w-keynote {
     font-size: 2rem;
@@ -397,6 +420,7 @@ h4 {
   .w-wrapper {
     padding: 0;
     margin: 1rem;
+    flex-direction: column;
   }
   .w-program-wrapper,
   .w-keynote-wrapper {
