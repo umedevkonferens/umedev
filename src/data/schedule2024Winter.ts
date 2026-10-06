@@ -1,36 +1,36 @@
-import { Schedule } from "@/model/Schedule";
+import { Schedule } from '@/model/Schedule';
 
 export const schedule2024Winter: Schedule = {
   openingKeynote: {
-    title: "Framtidens medarbetare: Generativ AI och Autonoma Agenter",
-    description: `Utforska potentialen hos autonoma Generativa AI agenter 
+    title: 'Framtidens medarbetare: Generativ AI och Autonoma Agenter',
+    description: `Utforska potentialen hos autonoma Generativa AI agenter
     och hur de revolutionerar arbetsplatsen redan idag. <br>
-    Tänk dig en värld där varje anställd har tillgång till en handfull 
-    smarta, snabba och kostnadseffektiva AI-assistenter. I detta föredrag 
-    tar vi dig med på en resa från ChatGPT till Autonoma Generativa AI 
+    Tänk dig en värld där varje anställd har tillgång till en handfull
+    smarta, snabba och kostnadseffektiva AI-assistenter. I detta föredrag
+    tar vi dig med på en resa från ChatGPT till Autonoma Generativa AI
     agenter och visar hur denna revolution redan är här.`,
     speakers: [
       {
-        name: "Hans Brattberg",
-        title: "Gen AI consultant, coach & trainer",
-        company: "",
-        about:`As an expert in practical generative AI and autonomous agents, 
-        I focus on making advanced AI technology accessible and useful in 
-        everyday situations. My experience includes developing AI applications 
-        since GPT-3's introduction, co-founding Flitig.ai, and integrating AI 
-        tools into various projects. I conduct training in generative AI for 
-        product owners and have led numerous seminars and innovation workshops 
-        in the AI field. With practical experience integrating AI agents into 
-        corporate workflows, my interest in AI dates back to the 90s. I closely 
-        follow industry developments, including self-driving cars and other 
-        groundbreaking AI applications, with recurring deep dives into various 
+        name: 'Hans Brattberg',
+        title: 'Gen AI consultant, coach & trainer',
+        company: '',
+        about: `As an expert in practical generative AI and autonomous agents,
+        I focus on making advanced AI technology accessible and useful in
+        everyday situations. My experience includes developing AI applications
+        since GPT-3's introduction, co-founding Flitig.ai, and integrating AI
+        tools into various projects. I conduct training in generative AI for
+        product owners and have led numerous seminars and innovation workshops
+        in the AI field. With practical experience integrating AI agents into
+        corporate workflows, my interest in AI dates back to the 90s. I closely
+        follow industry developments, including self-driving cars and other
+        groundbreaking AI applications, with recurring deep dives into various
         AI-related areas.`,
       }
     ]
   },
   closingKeynote: {
-    title: "",
-    description: "",
+    title: '',
+    description: '',
     speakers: []
   },
   slots: [
@@ -324,4 +324,4 @@ export const schedule2024Winter: Schedule = {
     //   ]
     // }
   ]
-}
+};

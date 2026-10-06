@@ -6,14 +6,14 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { Speaker } from 'src/model/Schedule'
+import Vue from 'vue';
+import { Speaker } from 'src/model/Schedule';
 export default Vue.extend({
   props: {
     speaker: Object as () => Speaker,
   },
   methods: {},
-})
+});
 </script>
 
 <style scoped>

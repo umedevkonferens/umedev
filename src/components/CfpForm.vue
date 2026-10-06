@@ -130,19 +130,19 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import { db } from "../db";
-const proposalsDb = db.ref("proposals-2022");
+import Vue from 'vue';
+import { db } from '../db';
+const proposalsDb = db.ref('proposals-2022');
 const proposalDefaults = {
-  name: "",
-  descriptionOfSpeaker: "",
-  title: "",
-  email: "",
-  target: "",
-  description: "",
-  typeOfTalk: "",
-  otherInfo: "",
-  newSpeaker: "",
+  name: '',
+  descriptionOfSpeaker: '',
+  title: '',
+  email: '',
+  target: '',
+  description: '',
+  typeOfTalk: '',
+  otherInfo: '',
+  newSpeaker: '',
   equipment: {
     internet: false,
     projector: false,
@@ -157,34 +157,34 @@ export default Vue.extend({
     valid: true,
     multiLine: true,
     snackbar: false,
-    snackbarText: "",
+    snackbarText: '',
     proposal: JSON.parse(JSON.stringify(proposalDefaults)),
     nameRules: [
-      (v: string) => !!v || "Namn är obligatoriskt",
+      (v: string) => !!v || 'Namn är obligatoriskt',
       (v: string) =>
-        (v && v.length <= 30) || "Namn måste vara mindre än 30 bokstäver",
+        (v && v.length <= 30) || 'Namn måste vara mindre än 30 bokstäver',
     ],
     emailRules: [
-      (v: string) => !!v || "Email adress är obligatoriskt",
-      (v: string) => /.+@.+\..+/.test(v) || "Email måste vara i rätt format",
+      (v: string) => !!v || 'Email adress är obligatoriskt',
+      (v: string) => /.+@.+\..+/.test(v) || 'Email måste vara i rätt format',
     ],
     titleRules: [
-      (v: string) => !!v || "Titel är obligatoriskt",
+      (v: string) => !!v || 'Titel är obligatoriskt',
       (v: string) =>
-        (v && v.length <= 100) || "Titeln måste vara mindre än 100 bokstäver",
+        (v && v.length <= 100) || 'Titeln måste vara mindre än 100 bokstäver',
     ],
     descriptionRules: [
-      (v: string) => !!v || "Beskrivning är obligatoriskt",
+      (v: string) => !!v || 'Beskrivning är obligatoriskt',
       (v: string) =>
         (v && v.length <= 1000) ||
-        "Beskrivningen måste vara mindre än 1000 bokstäver",
+        'Beskrivningen måste vara mindre än 1000 bokstäver',
     ],
-    typeOfTalkRules: [(v: string) => !!v || "Typ av pass är obligatoriskt"],
+    typeOfTalkRules: [(v: string) => !!v || 'Typ av pass är obligatoriskt'],
     descriptionOfSpeakerRules: [
-      (v: string) => !!v || "Beskrivning av dig är obligatoriskt",
+      (v: string) => !!v || 'Beskrivning av dig är obligatoriskt',
       (v: string) =>
         (v && v.length <= 1000) ||
-        "Beskrivningen måste vara mindre än 1000 bokstäver",
+        'Beskrivningen måste vara mindre än 1000 bokstäver',
     ],
   }),
   computed: {
@@ -199,7 +199,7 @@ export default Vue.extend({
     submit() {
       if (!navigator.onLine) {
         this.snackbarText =
-          "Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ";
+          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
         this.snackbar = true;
         return;
       }
@@ -208,10 +208,10 @@ export default Vue.extend({
 
       const onComplete = (error: any) => {
         if (error) {
-          that.snackbarText = "Något gick fel. Var vänlig försök igen senare.";
+          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
         } else {
           that.reset();
-          that.snackbarText = "Tack för ditt bidrag!";
+          that.snackbarText = 'Tack för ditt bidrag!';
         }
         that.snackbar = true;
       };
@@ -219,9 +219,9 @@ export default Vue.extend({
       if (this.form.validate()) {
         try {
           console.log(this.form);
-          //proposalsDb.push(this.proposal, onComplete);
+          // proposalsDb.push(this.proposal, onComplete);
         } catch (e) {
-          this.snackbarText = "Oväntat fel. Var vänlig försök igen senare.";
+          this.snackbarText = 'Oväntat fel. Var vänlig försök igen senare.';
           this.snackbar = true;
         }
       }

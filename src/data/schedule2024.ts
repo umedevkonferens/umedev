@@ -1,27 +1,27 @@
-import { Schedule } from "@/model/Schedule";
+import { Schedule } from '@/model/Schedule';
 
 export const schedule2024: Schedule = {
   openingKeynote: {
-    title: "Opening keynote: Trender och utmaningar i Media AI",
-    description: "AI/ML för media och språk är en möjliggörande teknik med många tillämpningsområden. I denna keynote pratar vi om hur långt fältet har kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc., och om vilka utmaningar som fortfarande kvarstår. Vi tittar även på nationella forskningsinitiativ inom området, och vilka möjligheter det finns för industrin att engagera sig.<br> Hon utgår och svarar på frågorna; hur långt tekniken kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc. Vilka utmaningar kvarstår? Vilka nationella forskningsinitiativ finns inom området? Och finns det möjlighet för industrin att engagera sig?",
+    title: 'Opening keynote: Trender och utmaningar i Media AI',
+    description: 'AI/ML för media och språk är en möjliggörande teknik med många tillämpningsområden. I denna keynote pratar vi om hur långt fältet har kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc., och om vilka utmaningar som fortfarande kvarstår. Vi tittar även på nationella forskningsinitiativ inom området, och vilka möjligheter det finns för industrin att engagera sig.<br> Hon utgår och svarar på frågorna; hur långt tekniken kommit med avseende på generering och analys av olika modaliteter, t.ex. bild, ljud, video etc. Vilka utmaningar kvarstår? Vilka nationella forskningsinitiativ finns inom området? Och finns det möjlighet för industrin att engagera sig?',
     speakers: [
       {
-        name: "Johanna Björklund",
-        company: "Umeå universitet",
-        title: "Universitetslektor vid institutionen för datavetenskap",
-        about: "Johanna Björklund är universitetslektor vid institutionen för datavetenskap vid Umeå universitet. Hennes forskning kretsar kringsemantisk analys av multimodala data, med målet att uppnå en människolik förståelse genom att integrera olika element såsom bilder, ljud, video och text. Utöver sin akademiska resa är hon medgrundare av Codemill och Aeterna Labs, deep-tech-företag som tillhandahåller produkter och tjänster för videoproducenter, digitala publicister och annonsörer."
+        name: 'Johanna Björklund',
+        company: 'Umeå universitet',
+        title: 'Universitetslektor vid institutionen för datavetenskap',
+        about: 'Johanna Björklund är universitetslektor vid institutionen för datavetenskap vid Umeå universitet. Hennes forskning kretsar kringsemantisk analys av multimodala data, med målet att uppnå en människolik förståelse genom att integrera olika element såsom bilder, ljud, video och text. Utöver sin akademiska resa är hon medgrundare av Codemill och Aeterna Labs, deep-tech-företag som tillhandahåller produkter och tjänster för videoproducenter, digitala publicister och annonsörer.'
       }
     ]
   },
   closingKeynote: {
-    title: "Ending Keynote: Häng med i nuet, för det händer hela tiden",
-    description: "Under den här presentationen så tittar vi på vad som händer nu med teknisk och social förändring i våran omgivning ur ett större perspektiv och vad du behöver tänka på för att hänga med. Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring sker i olika sammanhang och vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen. Vi tittar också lite framåt i spåkulan och funderar kring var AI är på väg och hur nuet kan komma att se ut om inte allt för långt fram i tiden.<br> En kortare skulle kunna vara: Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring sker i olika sammanhang och vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen.",
+    title: 'Ending Keynote: Häng med i nuet, för det händer hela tiden',
+    description: 'Under den här presentationen så tittar vi på vad som händer nu med teknisk och social förändring i våran omgivning ur ett större perspektiv och vad du behöver tänka på för att hänga med. Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring sker i olika sammanhang och vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen. Vi tittar också lite framåt i spåkulan och funderar kring var AI är på väg och hur nuet kan komma att se ut om inte allt för långt fram i tiden.<br> En kortare skulle kunna vara: Hur vi kan lära oss att leva i, och vara en bidragande del av ett sociotekniskt ekosystem i ständig förändring där vi hela tiden måste innovera och anpassa oss till omvärldens nya förväntningar. Vi kommer titta på hur teorier om förändring sker i olika sammanhang och vilka fallgropar som vi behöver undvika för inte riskera att fastna och hamna efter i utvecklingen.',
     speakers: [
       {
-        name: "Peter Byström",
-        company: "",
-        title: "",
-        about: "Peter Boman Byström är en agil mentor, teoretiker och praktiker inom komplex system- och verksamhetsutveckling. Med en akademisk bakgrund inom kognitionsvetenskap är han en generalist med djup förankring inom teknik, design & arkitektur samt organisation & ledarskap. En profil som blir allt mer användbar i en värld av ständigt ökande komplexitet."
+        name: 'Peter Byström',
+        company: '',
+        title: '',
+        about: 'Peter Boman Byström är en agil mentor, teoretiker och praktiker inom komplex system- och verksamhetsutveckling. Med en akademisk bakgrund inom kognitionsvetenskap är han en generalist med djup förankring inom teknik, design & arkitektur samt organisation & ledarskap. En profil som blir allt mer användbar i en värld av ständigt ökande komplexitet.'
       }
     ]
   },
@@ -316,4 +316,4 @@ export const schedule2024: Schedule = {
     //   ]
     // }
   ]
-}
+};

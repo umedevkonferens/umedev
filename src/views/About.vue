@@ -146,11 +146,11 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import HeaderWithPepper from "../components/HeaderWithPepper.vue";
+import Vue from 'vue';
+import HeaderWithPepper from '../components/HeaderWithPepper.vue';
 
 export default Vue.extend({
-  name: "About",
+  name: 'About',
   components: {
     HeaderWithPepper,
   },

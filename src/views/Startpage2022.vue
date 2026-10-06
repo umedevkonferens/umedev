@@ -110,10 +110,10 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 
 export default {
-  name: "Startpage2022",
+  name: 'Startpage2022',
   components: {},
 };
 </script>

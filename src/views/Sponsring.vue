@@ -118,10 +118,10 @@
   </div>
 </template>
 <script lang="ts">
-import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
+import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
 
 export default {
-  name: "Sponsring",
+  name: 'Sponsring',
   components: {
     HeaderWithPepper,
   },

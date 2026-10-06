@@ -55,23 +55,23 @@
 </template>
 
 <script lang="ts">
-import Vue, { PropType } from "vue";
+import Vue, { PropType } from 'vue';
 
-type Keynote = {
+interface Keynote {
   title: string;
   description: string;
   url?: string;
   speaker: Speaker;
-};
+}
 
-type Speaker = {
+interface Speaker {
   name: string;
   title: string;
   imageUrl: string;
-};
+}
 
 export default {
-  name: "KeynoteSpeakerCard",
+  name: 'KeynoteSpeakerCard',
   props: {
     title: String,
     openingKeynote: {

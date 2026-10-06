@@ -61,7 +61,7 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue';
 
 export default Vue.extend({
   data: () => ({
@@ -169,25 +169,25 @@ export default Vue.extend({
         icon: require("../assets/img/Sartorius-Logo.jpg"),
         alt: "Länk till Sartorius hemsida"
       },
-      { 
+      {
         name: "Vitec",
         url: "https://www.vitecsoftware.com/",
         icon: require("../assets/img/Vitec-Logo-vertical-software.jpg"),
         alt: "Länk till Vitecs hemsida"
       },
-      { 
+      {
         name: "Skatteverket",
         url: "https://www.skatteverket.se/",
         icon: require("../assets/img/SKV_RGB_st.png"),
         alt: "Länk till Skatteverket hemsida"
       },
-      { 
+      {
         name: "Upkeeper",
         url: "https://www.upkeeper.se/",
         icon: require("../assets/img/upkeeper-logo.png"),
         alt: "Länk till Upkeeper hemsida"
       },
-      { 
+      {
         name: "Bulbul",
         url: "https://www.bulbul.se/",
         icon: require("../assets/img/Logo-bulbul-yellow.png"),

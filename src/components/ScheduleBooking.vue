@@ -32,15 +32,15 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { Booking } from 'src/model/Schedule'
+import Vue from 'vue';
+import { Booking } from 'src/model/Schedule';
 export default Vue.extend({
   data() {
     return {
       windowHeight: window.innerHeight,
       open: false,
       contentClass: 'booking-content',
-    }
+    };
   },
   props: {
     singleTrack: Boolean,
@@ -49,7 +49,7 @@ export default Vue.extend({
   },
   methods: {
   },
-})
+});
 </script>
 
 <style scoped>

@@ -22,9 +22,9 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import { Schedule } from 'src/model/Schedule'
-import ScheduleBooking from './ScheduleBooking.vue'
+import Vue from 'vue';
+import { Schedule } from 'src/model/Schedule';
+import ScheduleBooking from './ScheduleBooking.vue';
 export default Vue.extend({
   components: {
     ScheduleBooking,
@@ -32,7 +32,7 @@ export default Vue.extend({
   props: {
     schedule: Object as () => Schedule,
   },
-})
+});
 </script>
 
 <style scoped>

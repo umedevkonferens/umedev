@@ -7,7 +7,7 @@
     <v-row class="mb-6" justify="start">
       <v-col md="auto" class="content wrapper">
         <div class="w-wrapper">
-          <div class="a">
+          <!-- <div class="a">
             <v-card class="a-plus">
               <v-card-title style="text-align: center; display: block"
                 >Call for speakers öppen för Umedev 2026</v-card-title
@@ -23,16 +23,16 @@
                 </p>
               </v-card-text>
             </v-card>
-          </div>
+          </div> -->
           <div class="a">
             <v-card>
               <v-card-title style="text-align: center; display: block"
-                >Save the Date för Umedev 2026</v-card-title
+                >Save the Date för Umedev 2026 Winter</v-card-title
               >
               <v-card-text>
-                <p class="bold">Torsdag 26 mars</p>
+                <p class="bold">Onsdag 25:e November</p>
                 <p>Humanisthuset Umeå Universitet.</p>
-                <p>Anmälan öppnar senare i vår.</p>
+                <!-- <p>Anmälan öppnar senare i vår.</p> -->
               </v-card-text>
             </v-card>
           </div>
@@ -50,7 +50,7 @@
               >Anmäl dig till årets Winter Edition</a
             >
           </div>
-       
+
           <h3 class="w-keynote">Opening Keynote: Cybershow</h3>
           <div class="w-keynote-wrapper">
             <div class="w-keynote-item">
@@ -283,12 +283,12 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import HeaderWithPepper from "@/components/HeaderWithPepper.vue";
-import KeynoteSpeakerCard from "@/components/KeynoteSpeakerCard.vue";
+import Vue from 'vue';
+import HeaderWithPepper from '@/components/HeaderWithPepper.vue';
+import KeynoteSpeakerCard from '@/components/KeynoteSpeakerCard.vue';
 
 export default {
-  name: "Home",
+  name: 'Home',
   components: {
     HeaderWithPepper,
     KeynoteSpeakerCard,

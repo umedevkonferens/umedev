@@ -63,11 +63,11 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import { db } from "../db";
+import Vue from 'vue';
+import { db } from '../db';
 
 export default Vue.extend({
-  name: "EditRegister",
+  name: 'EditRegister',
   created() {
     this.fetchData();
   },
@@ -77,7 +77,7 @@ export default Vue.extend({
     showRegister: false,
     multiLine: true,
     snackbar: false,
-    snackbarText: "",
+    snackbarText: '',
     anmalan: {},
   }),
   methods: {
@@ -88,12 +88,12 @@ export default Vue.extend({
       }
 
       const confirmDelete = window.confirm(
-        "Är du säker på att du att du vill avboka din plats? ",
+        'Är du säker på att du att du vill avboka din plats? ',
       );
 
       if (confirmDelete) {
         const that = this;
-        db.ref("register/" + this.$route.params.id)
+        db.ref('register/' + this.$route.params.id)
           .remove()
           .then(() => {
             that.deletedRegisterSuccess = true;
@@ -101,7 +101,7 @@ export default Vue.extend({
           })
           .catch((error) => {
             that.snackbarText =
-              "Något gick fel. Var vänlig försök igen senare.";
+              'Något gick fel. Var vänlig försök igen senare.';
             that.snackbar = true;
           });
       }
@@ -109,7 +109,7 @@ export default Vue.extend({
     checkInternetConnection() {
       if (!navigator.onLine) {
         this.snackbarText =
-          "Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ";
+          'Du verkar sakna internetuppkoppling. Anslut till internet och prova igen. ';
         this.snackbar = true;
         return true;
       }
@@ -120,8 +120,8 @@ export default Vue.extend({
         return;
       }
       const that = this;
-      const registerDb = db.ref("register/" + this.$route.params.id);
-      registerDb.once("value").then(
+      const registerDb = db.ref('register/' + this.$route.params.id);
+      registerDb.once('value').then(
         (snapshot) => {
           if (snapshot.val() !== null) {
             that.anmalan = snapshot.val();
@@ -131,7 +131,7 @@ export default Vue.extend({
           }
         },
         (error) => {
-          that.snackbarText = "Något gick fel. Var vänlig försök igen senare.";
+          that.snackbarText = 'Något gick fel. Var vänlig försök igen senare.';
           that.snackbar = true;
         },
       );
