@@ -28,23 +28,23 @@ npm install
 npm run serve
 ```
 
+### Lints and fixes files
+
+```bash
+npm run lint
+```
+
 ### Compiles and minifies for production
 
 ```bash
 npm run build
 ```
 
-### Run your tests
+<!-- ### Run your tests
 
 ```bash
 npm run test
-```
-
-### Lints and fixes files
-
-```bash
-npm run lint
-```
+``` -->
 
 ### Customize configuration
 
@@ -55,8 +55,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 Make sure you have logged in to firebase (`firebase login`) then run
 
 1. `npm run build`
-2. `firebase deploy` (not needed 2022 - collecting via google forms)
-3. `firebase deploy --only hosting`
+<!-- 2. `firebase deploy` (not needed 2022 - collecting via google forms) -->
+2. `firebase deploy --only hosting`
 
 ## Adding contributors
 
