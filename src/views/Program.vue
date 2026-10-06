@@ -17,6 +17,17 @@
         <h2 class="previous-program-heading">Tidigare års program</h2>
         <v-expansion-panels>
           <v-expansion-panel>
+            <v-expansion-panel-header>Umedev 2026</v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <embed
+                type="text/html"
+                src="https://sessionize.com/view/d5fvxlps/GridSmart?format=Embed_Styled_Html&isDark=False&title=Umedev%202026"
+                width="100%"
+                height="1500"
+              />
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel>
             <v-expansion-panel-header
               >Program Umedev 2025 Winter edition</v-expansion-panel-header
             >
