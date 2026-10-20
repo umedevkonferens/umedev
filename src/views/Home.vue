@@ -31,7 +31,14 @@
           </div> -->
           <div class="w-column">
             <div class="w-keynote-wrapper">
-              <div class="w-keynote-item">
+              <div class="w-keynote-item w-signup-anchor">
+                <a
+                  href="https://forms.gle/FpA2HF1GPDuzCM4v6"
+                  class="w-signup"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Anmäl dig här</a
+                >
                 <h1>Umedev Winter Edition 2026</h1>
                 <div style="margin-bottom: 1rem">
                   <p style="margin-bottom: 0" class="bold">Onsdag 25 november</p>
@@ -63,7 +70,6 @@
                 <div class="w-program-item">
                   <p class="w-pill">10.30 - 12.00</p>
                   <h3 class="w-program-heading">Beyond Scrum and Agile</h3>
-                  <p class="bold w-speaker-name">Joakim Sundén</p>
                   <p>
                     Scrum can be really great, but it only gets you so far.
                     Team based collaboration and delivering product increments
@@ -107,7 +113,6 @@
                     "The smoothest reorg I've ever seen": Lessons in
                     collaborative org design
                   </h3>
-                  <p class="bold w-speaker-name">Joakim Sundén</p>
                   <p>
                     Most reorgs create confusion and friction. At Spotify, we
                     developed a more collaborative way of approaching org design
@@ -535,6 +540,43 @@ h4 {
   position: relative;
   margin-top: -440px;
 }
+.w-signup-anchor {
+  position: relative;
+}
+/* Sits above the heading without pushing it down */
+.w-signup {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  margin-bottom: 0.5rem;
+}
+.v-application a.w-signup {
+  display: inline-block;
+  width: auto;
+  padding: 0.75rem 1.75rem;
+  border-radius: 8px;
+  background-color: #56ab2f;
+  color: #fff !important;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.15s, box-shadow 0.15s, transform 0.1s;
+}
+.v-application a.w-signup:hover {
+  background-color: #468c25;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-1px);
+}
+.v-application a.w-signup:active {
+  background-color: #3a7520;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  transform: translateY(1px);
+}
+.v-application a.w-signup:focus-visible {
+  outline: 3px solid #224412;
+  outline-offset: 2px;
+}
 .w-profile {
   display: flex;
   flex-direction: column;
@@ -606,7 +648,7 @@ h4 {
 }
 .w-program-heading {
   font-size: 1.6rem;
-  margin: 0;
+  margin: 0 0 1rem;
   line-height: 1.25;
   font-weight: normal;
 }
