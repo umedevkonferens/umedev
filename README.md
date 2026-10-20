@@ -60,4 +60,4 @@ Make sure you have logged in to firebase (`firebase login`) then run
 
 ## Adding contributors
 
-NOTE: In order to add contributors, you must be logged in with umedevkonferens
+NOTE: In order to add contributors, you must be logged in as umedevkonferens@gmail.com
