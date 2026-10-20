@@ -1,5 +1,10 @@
 <template>
   <div>
+    <div
+      class="w-banner"
+      role="img"
+      aria-label="Umedev Winter Edition"
+    ></div>
     <!--    <HeaderWithPepper
       header="Umedev"
       sub-header1="Vår norrländska IT-konferens"
@@ -24,17 +29,131 @@
               </v-card-text>
             </v-card>
           </div> -->
-          <div class="a">
-            <v-card>
-              <v-card-title style="text-align: center; display: block"
-                >Save the Date för Umedev 2026 Winter</v-card-title
-              >
-              <v-card-text>
-                <p class="bold">Onsdag 25:e November</p>
-                <p>Humanisthuset Umeå Universitet.</p>
-                <!-- <p>Anmälan öppnar senare i vår.</p> -->
-              </v-card-text>
-            </v-card>
+          <div class="w-column">
+            <div class="w-keynote-wrapper">
+              <div class="w-keynote-item">
+                <h1>Umedev Winter Edition 2026</h1>
+                <div style="margin-bottom: 1rem">
+                  <p style="margin-bottom: 0" class="bold">Onsdag 25 november</p>
+                  <p style="margin-bottom: 0" class="bold">kl.10.30 - 14.30</p>
+                  <p>Humanisthuset Umeå Universitet.</p>
+                </div>
+                <h2>Agenda</h2>
+                <p class="w-agenda">
+                  <span class="bold">10.30 - 12.00</span> Beyond Scrum and
+                  Agile<br />
+                  <span class="bold">12.00 - 13.00</span> Lunch<br />
+                  <span class="bold">13.00 - 14.30</span> "The smoothest reorg
+                  I've ever seen"
+                </p>
+              </div>
+              <div class="w-keynote-item w-profile">
+                <div class="w-profile-image">
+                  <img src="/joakim-sunden-2026.png" alt="Joakim Sundén" />
+                </div>
+                <p class="w-profile-name">Joakim Sundén</p>
+                <p class="w-profile-title">
+                  Founding partner, Better Product Work
+                </p>
+              </div>
+            </div>
+            <br />
+            <div>
+              <div class="w-program-wrapper">
+                <div class="w-program-item">
+                  <p class="w-pill">10.30 - 12.00</p>
+                  <h3 class="w-program-heading">Beyond Scrum and Agile</h3>
+                  <p class="bold w-speaker-name">Joakim Sundén</p>
+                  <p>
+                    Scrum can be really great, but it only gets you so far.
+                    Team based collaboration and delivering product increments
+                    every two weeks is no longer the competitive advantage it
+                    maybe once was, it’s more or less expected in a modern
+                    workplace. Sure, many bigger organizations still struggle
+                    with being able to release more frequently and consistently
+                    with high quality, but most are well aware of the problem
+                    and know where to shop for solutions.
+                  </p>
+                  <p>
+                    In my experience, the biggest difference between great
+                    product companies, and the not-so-great, is that the latter
+                    are busy delivering tons of stuff that they don’t know is
+                    going to make any difference whatsoever. And even worse –
+                    they don’t seem to care! At least that’s what it looks like
+                    as their teams are busy implementing requirements and
+                    specifications initiated by “business people” and calling it
+                    done as soon as the solution fulfills the specification (if
+                    even that). Teams simply don’t have the tools, the way of
+                    working, or the responsibility of making sure they are
+                    actually changing user behaviors, creating impact, and
+                    delivering business results.
+                  </p>
+                  <p>
+                    On the other hand, in the best companies, teams have all
+                    this and they know that most ideas on a typical roadmap are
+                    going to fail. This is why the leaders in these companies
+                    focus on what objectives they need to achieve, then give the
+                    teams the context and information they need, and let them
+                    figure out how to actually reach results.
+                  </p>
+                  <p>
+                    You should do this too. In this talk I explain why and share
+                    my view and experience of how to make that happen.
+                  </p>
+                </div>
+                <div class="w-program-item">
+                  <p class="w-pill">13.00 - 14.30</p>
+                  <h3 class="w-program-heading">
+                    "The smoothest reorg I've ever seen": Lessons in
+                    collaborative org design
+                  </h3>
+                  <p class="bold w-speaker-name">Joakim Sundén</p>
+                  <p>
+                    Most reorgs create confusion and friction. At Spotify, we
+                    developed a more collaborative way of approaching org design
+                    where teams help shape their missions, boundaries, and
+                    structure. This talk is a career experience report about
+                    taking the lessons from that work and applying a similar
+                    approach, which we now call Collaborative Org Design, years
+                    later at a fast-growing B2B scale-up facing a shift in
+                    strategy and team topology.
+                  </p>
+                  <p>
+                    I’ll share what worked, what didn’t, how we used ideas from
+                    Team Topologies and self-selection, and how initial
+                    skepticism turned into comments like “this was the smoothest
+                    reorg I’ve ever seen.” You’ll leave with practical patterns,
+                    pitfalls, and facilitation tips for involving teams directly
+                    in org design.
+                  </p>
+                </div>
+              </div>
+              <br />
+              <div>
+                <div>
+                  <h4 class="w-about-stuff">Om talaren</h4>
+                  <p>
+                    Joakim Sundén is a founding partner of Better Product Work,
+                    where he helps visionary leaders challenge the conventional
+                    way of building products. From 2011 to 2017, he worked as a
+                    Senior Agile Coach at Spotify, where he was part of a team
+                    collaborating with the CTO to develop the company’s approach
+                    to customer-focused product development at scale. This model
+                    would later become world-famous as ‘the Spotify Model’ of
+                    Tribes, Squads, Chapters, and Guilds. He now assists leaders
+                    in transforming and improving their organizations into
+                    models where employees are empowered to create innovative
+                    solutions that not only customers love but also drive
+                    business success.
+                  </p>
+                  <p>
+                    Joakim frequently speaks and teaches on topics such as the
+                    Product Model, the Spotify Model, Empowered Product Teams,
+                    Intent-Based Leadership and Product Strategy.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           <!--
           <h1>Umedev Winter Edition</h1>
@@ -361,6 +480,50 @@ h4 {
   display: flex;
   flex-direction: row;
 }
+.w-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.w-agenda {
+  line-height: 1.75;
+}
+.w-banner {
+  width: 100%;
+  height: 360px;
+  background-image: url('/umedev-winter.png');
+  background-size: cover;
+  background-position: center 45%;
+}
+.w-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.w-profile-image {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.w-profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+.w-profile-name {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.w-profile-title {
+  color: #555;
+  font-size: 1.125rem;
+}
 .w-keynote {
   font-size: 2.5rem;
   font-weight: normal;
@@ -413,6 +576,9 @@ h4 {
   .a {
     width: 100%;
     margin: 1rem 0;
+  }
+  .w-banner {
+    height: 200px;
   }
   .w-keynote {
     font-size: 2rem;
