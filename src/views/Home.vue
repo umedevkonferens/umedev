@@ -619,6 +619,7 @@ h4 {
   }
   .w-banner {
     height: 420px;
+    background-position: center 40%;
   }
   .w-banner::before {
     background: linear-gradient(
