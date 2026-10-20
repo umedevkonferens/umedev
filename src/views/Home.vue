@@ -9,7 +9,7 @@
       header="Umedev"
       sub-header1="Vår norrländska IT-konferens"
     /> -->
-    <v-row class="mb-6" justify="start">
+    <v-row class="mb-6 w-over-banner" justify="start">
       <v-col md="auto" class="content wrapper">
         <div class="w-wrapper">
           <!-- <div class="a">
@@ -489,11 +489,51 @@ h4 {
   line-height: 1.75;
 }
 .w-banner {
+  position: relative;
   width: 100%;
-  height: 360px;
+  height: 1100px;
   background-image: url('/umedev-winter.png');
   background-size: cover;
-  background-position: center 45%;
+  /* Keeps the logo at roughly the same height regardless of screen width */
+  background-position: center calc(450px - 44vw);
+}
+/* Fade the whole image out towards the bottom */
+.w-banner::before,
+.w-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+.w-banner::before {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, #fff);
+}
+/* White band behind the content, so the image only shows at the sides */
+.w-banner::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) calc(50% - 800px),
+    #fff calc(50% - 500px),
+    #fff calc(50% + 500px),
+    rgba(255, 255, 255, 0) calc(50% + 800px)
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 520px,
+    rgba(0, 0, 0, 0.35) 600px,
+    rgba(0, 0, 0, 0.75) 680px,
+    #000 780px
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 520px,
+    rgba(0, 0, 0, 0.35) 600px,
+    rgba(0, 0, 0, 0.75) 680px,
+    #000 780px
+  );
+}
+.w-over-banner {
+  position: relative;
+  margin-top: -440px;
 }
 .w-profile {
   display: flex;
@@ -578,7 +618,21 @@ h4 {
     margin: 1rem 0;
   }
   .w-banner {
-    height: 200px;
+    height: 420px;
+  }
+  .w-banner::before {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 35%,
+      rgba(255, 255, 255, 0.85) 70%,
+      #fff
+    );
+  }
+  .w-banner::after {
+    display: none;
+  }
+  .w-over-banner {
+    margin-top: -140px;
   }
   .w-keynote {
     font-size: 2rem;
