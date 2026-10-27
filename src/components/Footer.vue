@@ -2,18 +2,22 @@
   <v-footer padless>
     <div class="footer">
       <div class="sponsorer">
-        <!-- <h3>Tack till våra sponsorer!</h3> -->
-        <div class="flex-container">
-          <div
-            class="spons-container"
-            v-for="item in sponsors"
-            v-bind:key="item.url"
-          >
+        <h3>Tack till våra sponsorer!</h3>
+        <div
+          class="sponsor-tier"
+          v-for="tier in sponsorTiers"
+          v-bind:key="tier.name"
+          v-bind:class="tier.class"
+        >
+          <h5>{{ tier.name }}</h5>
+          <div class="flex-container">
             <a
+              class="spons-container"
+              v-for="item in tier.sponsors"
+              v-bind:key="item.name"
               target="_blank"
               rel="noopener noreferrer"
               v-bind:href="item.url"
-              v-bind:class="item.class"
             >
               <img
                 v-bind:src="item.icon"
@@ -65,7 +69,107 @@ import Vue from 'vue';
 
 export default Vue.extend({
   data: () => ({
-    sponsors: [
+    sponsorTiers: [
+      {
+        name: 'Guldsponsorer',
+        class: 'gold',
+        sponsors: [
+          {
+            name: 'Pure',
+            url: 'https://www.pure.se/',
+            icon: '/logos/pure.png',
+            alt: 'Länk till Pures hemsida',
+          },
+          {
+            name: 'Vitec',
+            url: 'https://www.vitecsoftware.com/',
+            icon: '/logos/vitec.jpg',
+            alt: 'Länk till Vitecs hemsida',
+          },
+          {
+            name: 'Skatteverket',
+            url: 'https://www.skatteverket.se/',
+            icon: '/logos/skv.png',
+            alt: 'Länk till Skatteverkets hemsida',
+            class: 'square',
+          },
+          {
+            name: 'Kvadrat',
+            url: 'https://www.kvadrat.se/',
+            icon: '/logos/kvadrat.png',
+            alt: 'Länk till Kvadrats hemsida',
+          },
+        ],
+      },
+      {
+        name: 'Silversponsorer',
+        class: 'silver',
+        sponsors: [
+          {
+            name: 'Sartorius',
+            url: 'https://www.sartorius.com/',
+            icon: '/logos/Sartorius-Logo-RGB-Positiv-72dpi.png',
+            alt: 'Länk till Sartorius hemsida',
+          },
+          {
+            name: 'Dizparc',
+            url: 'https://dizparc.se/',
+            icon: '/logos/disparc.svg',
+            alt: 'Länk till Dizparcs hemsida',
+          },
+          {
+            name: 'Xlent',
+            url: 'https://www.xlent.se/',
+            icon: '/logos/xlent-dark.svg',
+            alt: 'Länk till Xlents hemsida',
+          },
+          {
+            name: 'Upkeeper',
+            url: 'https://www.upkeeper.se/',
+            icon: '/logos/upkeeper_logotyp_webb-1536x460.png.webp',
+            alt: 'Länk till Upkeepers hemsida',
+          },
+          {
+            name: 'Clear Street',
+            url: 'https://clearstreet.io/',
+            icon: '/logos/clearstreet.jpg',
+            alt: 'Länk till Clear Streets hemsida',
+          },
+          {
+            name: 'Release Finans',
+            url: 'https://www.releasefinans.se/',
+            icon: '/logos/release%20finans.png',
+            alt: 'Länk till Release Finans hemsida',
+          },
+          {
+            name: 'Omegapoint',
+            url: 'https://www.omegapoint.se/',
+            icon: '/logos/omegapoint.png',
+            alt: 'Länk till Omegapoints hemsida',
+            class: 'dense',
+          },
+        ],
+      },
+      {
+        name: 'Bronssponsorer',
+        class: 'bronze',
+        sponsors: [
+          {
+            name: 'Tieto',
+            url: 'https://www.tieto.com/',
+            icon: '/logos/tieto.png',
+            alt: 'Länk till Tietos hemsida',
+          },
+          {
+            name: 'Bulbul',
+            url: 'https://www.bulbul.se/',
+            icon: '/logos/bulbul.svg',
+            alt: 'Länk till Bulbuls hemsida',
+          },
+        ],
+      },
+    ],
+    previousSponsors: [
       /*{
         name: "Umeå Universitet",
         url: "https://www.umu.se/",
@@ -275,11 +379,37 @@ h3 {
   width: 100%;
 }
 
+.sponsor-tier {
+  --logo-width: 160px;
+  --logo-height: 80px;
+  max-width: 1400px;
+  margin: 0 auto 24px;
+}
+.sponsor-tier.gold {
+  --logo-width: 260px;
+  --logo-height: 110px;
+}
+.sponsor-tier.bronze {
+  --logo-width: 170px;
+  --logo-height: 70px;
+}
+
+.sponsor-tier h5 {
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #555;
+  margin: 16px 0 8px;
+}
+
 .sponsorer .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 16px 32px;
 }
 .sponsorer a {
   text-decoration: none;
@@ -288,22 +418,28 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 300px;
-  width: 20%;
-  margin: 10px;
+  width: var(--logo-width);
+  height: var(--logo-height);
+  padding: 8px;
+  margin: 0;
+  transition: transform 0.2s ease;
 }
-.metria {
-  max-height: 120px;
-  width: fit-content;
+.spons-container:hover {
+  background-color: transparent;
+  transform: scale(1.05);
 }
 .spons-container img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
-.spons-container a {
-  display: block;
+/* Square logos would otherwise fill the whole box height and look heavier */
+.spons-container img.square {
+  max-height: 85%;
 }
-.spons-container a:hover {
-  background-color: transparent;
+/* Stacked, heavy wordmarks need less room to match the lighter logos */
+.spons-container img.dense {
+  max-height: 60%;
 }
 .follow-container {
   display: flex;
@@ -342,11 +478,14 @@ a {
   }
   .sponsorer h3 {
     margin-top: 30px;
-    text-align: start;
+    text-align: center;
+  }
+  .sponsorer .flex-container {
+    gap: 12px 16px;
   }
   .spons-container {
-    margin: 10px 0px;
-    width: 100%;
+    width: calc(50% - 8px);
+    height: calc(var(--logo-height) * 0.7);
   }
 }
 </style>
