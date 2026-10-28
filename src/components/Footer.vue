@@ -3,29 +3,17 @@
     <div class="footer">
       <div class="sponsorer">
         <h3>Tack till våra sponsorer!</h3>
-        <div
-          class="sponsor-tier"
-          v-for="tier in sponsorTiers"
-          v-bind:key="tier.name"
-          v-bind:class="tier.class"
-        >
-          <h5>{{ tier.name }}</h5>
-          <div class="flex-container">
-            <a
-              class="spons-container"
-              v-for="item in tier.sponsors"
-              v-bind:key="item.name"
-              target="_blank"
-              rel="noopener noreferrer"
-              v-bind:href="item.url"
-            >
-              <img
-                v-bind:src="item.icon"
-                v-bind:alt="item.alt"
-                v-bind:class="item.class"
-              />
-            </a>
-          </div>
+        <div class="flex-container">
+          <a
+            class="spons-container"
+            v-for="item in sponsors"
+            v-bind:key="item.name"
+            target="_blank"
+            rel="noopener noreferrer"
+            v-bind:href="item.url"
+          >
+            <img v-bind:src="item.icon" v-bind:alt="item.alt" />
+          </a>
         </div>
       </div>
       <div class="sociala-media">
@@ -69,104 +57,84 @@ import Vue from 'vue';
 
 export default Vue.extend({
   data: () => ({
-    sponsorTiers: [
+    sponsors: [
       {
-        name: 'Guldsponsorer',
-        class: 'gold',
-        sponsors: [
-          {
-            name: 'Pure',
-            url: 'https://www.pure.se/',
-            icon: '/logos/pure.png',
-            alt: 'Länk till Pures hemsida',
-          },
-          {
-            name: 'Vitec',
-            url: 'https://www.vitecsoftware.com/',
-            icon: '/logos/vitec.jpg',
-            alt: 'Länk till Vitecs hemsida',
-          },
-          {
-            name: 'Skatteverket',
-            url: 'https://www.skatteverket.se/',
-            icon: '/logos/skv.png',
-            alt: 'Länk till Skatteverkets hemsida',
-            class: 'square',
-          },
-          {
-            name: 'Kvadrat',
-            url: 'https://www.kvadrat.se/',
-            icon: '/logos/kvadrat.png',
-            alt: 'Länk till Kvadrats hemsida',
-          },
-        ],
+        name: "Metria",
+        url: "https://metria.se/",
+        icon: "/logos/metria.png",
+        alt: "Länk till Metrias hemsida",
       },
       {
-        name: 'Silversponsorer',
-        class: 'silver',
-        sponsors: [
-          {
-            name: 'Sartorius',
-            url: 'https://www.sartorius.com/',
-            icon: '/logos/Sartorius-Logo-RGB-Positiv-72dpi.png',
-            alt: 'Länk till Sartorius hemsida',
-          },
-          {
-            name: 'Dizparc',
-            url: 'https://dizparc.se/',
-            icon: '/logos/disparc.svg',
-            alt: 'Länk till Dizparcs hemsida',
-          },
-          {
-            name: 'Xlent',
-            url: 'https://www.xlent.se/',
-            icon: '/logos/xlent-dark.svg',
-            alt: 'Länk till Xlents hemsida',
-          },
-          {
-            name: 'Upkeeper',
-            url: 'https://www.upkeeper.se/',
-            icon: '/logos/upkeeper_logotyp_webb-1536x460.png.webp',
-            alt: 'Länk till Upkeepers hemsida',
-          },
-          {
-            name: 'Clear Street',
-            url: 'https://clearstreet.io/',
-            icon: '/logos/clearstreet.jpg',
-            alt: 'Länk till Clear Streets hemsida',
-          },
-          {
-            name: 'Release Finans',
-            url: 'https://www.releasefinans.se/',
-            icon: '/logos/release%20finans.png',
-            alt: 'Länk till Release Finans hemsida',
-          },
-          {
-            name: 'Omegapoint',
-            url: 'https://www.omegapoint.se/',
-            icon: '/logos/omegapoint.png',
-            alt: 'Länk till Omegapoints hemsida',
-            class: 'dense',
-          },
-        ],
+        name: "ITS",
+        url: "https://www.umu.se/its/",
+        icon: "/logos/iTS.png",
+        alt: "Länk till ITS hemsida, Umeå universitet",
       },
       {
-        name: 'Bronssponsorer',
-        class: 'bronze',
-        sponsors: [
-          {
-            name: 'Tieto',
-            url: 'https://www.tieto.com/',
-            icon: '/logos/tieto.png',
-            alt: 'Länk till Tietos hemsida',
-          },
-          {
-            name: 'Bulbul',
-            url: 'https://www.bulbul.se/',
-            icon: '/logos/bulbul.svg',
-            alt: 'Länk till Bulbuls hemsida',
-          },
-        ],
+        name: "Umecon",
+        url: "https://umecon.se/",
+        icon: "/logos/Umecon.png",
+        alt: "Länk till Umecons hemsida",
+      },
+      {
+        name: "Sogeti",
+        url: "https://www.sogeti.se/",
+        icon: "/logos/sogeti.png",
+        alt: "Länk till Sogetis hemsida",
+      },
+      {
+        name: "Pure",
+        url: "https://www.pure.se/",
+        icon: "/logos/Pure.png",
+        alt: "Länk till Pures hemsida",
+      },
+      {
+        name: "LavinMQ",
+        url: "https://lavinmq.com/",
+        icon: "/logos/LavinMQ.png",
+        alt: "Länk till LavinMQs hemsida",
+      },
+      {
+        name: "Skatteverket",
+        url: "https://www.skatteverket.se/",
+        icon: "/logos/Skatteverket.png",
+        alt: "Länk till Skatteverkets hemsida",
+      },
+      {
+        name: "Vitec",
+        url: "https://www.vitecsoftware.com/",
+        icon: "/logos/vitec.png",
+        alt: "Länk till Vitecs hemsida",
+      },
+      {
+        name: "Kvadrat",
+        url: "https://www.kvadrat.se/",
+        icon: "/logos/kvadrat.png",
+        alt: "Länk till Kvadrats hemsida",
+      },
+      {
+        name: "Oxio",
+        url: "https://oxio.se/",
+        icon: "/logos/oxio.png",
+        alt: "Länk till Oxios hemsida",
+      },
+      {
+        name: "Omegapoint",
+        url: "https://www.omegapoint.se/",
+        icon: "/logos/Omegapoint.png",
+        alt: "Länk till Omegapoints hemsida",
+      },
+      {
+        name: "Sartorius",
+        url: "https://www.sartorius.com/",
+        icon: "/logos/Sartorius.png",
+        alt: "Länk till Sartorius hemsida",
+      },
+      {
+        name: "Upkeeper",
+        url: "https://www.upkeeper.se/",
+        icon: "/logos/upkeeper.png",
+        alt: "Länk till Upkeepers hemsida",
       },
     ],
     previousSponsors: [
@@ -379,67 +347,39 @@ h3 {
   width: 100%;
 }
 
-.sponsor-tier {
-  --logo-width: 160px;
-  --logo-height: 80px;
-  max-width: 1400px;
-  margin: 0 auto 24px;
-}
-.sponsor-tier.gold {
-  --logo-width: 260px;
-  --logo-height: 110px;
-}
-.sponsor-tier.bronze {
-  --logo-width: 170px;
-  --logo-height: 70px;
-}
-
-.sponsor-tier h5 {
-  text-align: center;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #555;
-  margin: 16px 0 8px;
-}
-
+/* The logo files share one canvas size, so equal-width tiles keep them uniform */
 .sponsorer .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 16px 32px;
+  gap: 20px;
+  max-width: 1180px;
+  margin: 8px auto 0;
 }
 .sponsorer a {
   text-decoration: none;
 }
 .spons-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: var(--logo-width);
-  height: var(--logo-height);
-  padding: 8px;
+  display: block;
+  width: 210px;
+  aspect-ratio: 726 / 408;
   margin: 0;
-  transition: transform 0.2s ease;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .spons-container:hover {
-  background-color: transparent;
-  transform: scale(1.05);
+  background-color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
 .spons-container img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-/* Square logos would otherwise fill the whole box height and look heavier */
-.spons-container img.square {
-  max-height: 85%;
-}
-/* Stacked, heavy wordmarks need less room to match the lighter logos */
-.spons-container img.dense {
-  max-height: 60%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .follow-container {
   display: flex;
@@ -481,11 +421,10 @@ a {
     text-align: center;
   }
   .sponsorer .flex-container {
-    gap: 12px 16px;
+    gap: 12px;
   }
   .spons-container {
-    width: calc(50% - 8px);
-    height: calc(var(--logo-height) * 0.7);
+    width: calc(50% - 6px);
   }
 }
 </style>

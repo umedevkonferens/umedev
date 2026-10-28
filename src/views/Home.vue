@@ -30,15 +30,27 @@
             </v-card>
           </div> -->
           <div class="w-column">
+            <div class="w-signup-group">
+              <p class="w-intro">
+                <span class="w-intro-line">
+                  Umedev är den årliga
+                  <span class="w-nowrap">IT-konferensen</span> i Umeå.
+                </span>
+                <span class="w-intro-line">
+                  Här möts alla discipliner för att utbyta erfarenheter,
+                  nätverka och utvecklas.
+                </span>
+              </p>
+              <a
+                href="https://forms.gle/FpA2HF1GPDuzCM4v6"
+                class="w-signup"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Anmäl dig här</a
+              >
+            </div>
             <div class="w-keynote-wrapper">
-              <div class="w-keynote-item w-signup-anchor">
-                <a
-                  href="https://forms.gle/FpA2HF1GPDuzCM4v6"
-                  class="w-signup"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Anmäl dig här</a
-                >
+              <div class="w-keynote-item">
                 <h1>Umedev Winter Edition 2026</h1>
                 <div style="margin-bottom: 1rem">
                   <p style="margin-bottom: 0" class="bold">Onsdag 25 november</p>
@@ -486,6 +498,7 @@ h4 {
   flex-direction: row;
 }
 .w-column {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -540,15 +553,45 @@ h4 {
   position: relative;
   margin-top: -440px;
 }
-.w-signup-anchor {
-  position: relative;
-}
-/* Sits above the heading without pushing it down */
-.w-signup {
+/* Sits above the heading without pushing it down, spanning both columns */
+.w-signup-group {
   position: absolute;
   bottom: 100%;
   left: 0;
-  margin-bottom: 0.5rem;
+  right: 0;
+  /* Ends 0.5rem above the columns, which start after their 1rem top margin */
+  margin-bottom: -0.5rem;
+}
+.w-signup-group .w-signup {
+  margin: 0;
+}
+/* On narrower screens the banner logo sits lower, so keep the text in flow */
+@media screen and (max-width: 999px) {
+  .w-signup-group {
+    position: static;
+    margin-bottom: 0.5rem;
+  }
+}
+/* Frosted panel keeps the text readable over the banner image */
+.w-intro {
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  text-align: center;
+  /* Avoids a single word left alone on the last line */
+  text-wrap: balance;
+}
+/* One sentence per line */
+.w-intro-line {
+  display: block;
+}
+.w-nowrap {
+  white-space: nowrap;
 }
 .v-application a.w-signup {
   display: inline-block;
