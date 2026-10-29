@@ -136,6 +136,18 @@ export default Vue.extend({
         icon: "/logos/upkeeper.png",
         alt: "Länk till Upkeepers hemsida",
       },
+      {
+        name: "Biometria",
+        url: "https://biometria.se/",
+        icon: "/logos/biometria.png",
+        alt: "Länk till Biometrias hemsida",
+      },
+      {
+        name: "Algoryx",
+        url: "https://www.algoryx.se/",
+        icon: "/logos/algoryx.png",
+        alt: "Länk till Algoryx hemsida",
+      },
     ],
     previousSponsors: [
       /*{
