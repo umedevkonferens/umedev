@@ -148,6 +148,12 @@ export default Vue.extend({
         icon: "/logos/algoryx.png",
         alt: "Länk till Algoryx hemsida",
       },
+      {
+        name: "Prediktera",
+        url: "https://prediktera.com/",
+        icon: "/logos/prediktera.png",
+        alt: "Länk till Predikteras hemsida",
+      },
     ],
     previousSponsors: [
       /*{
@@ -365,7 +371,8 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  max-width: 1180px;
+  /* Room for four tiles per row, so 16 sponsors make an even 4×4 grid */
+  max-width: 920px;
   margin: 8px auto 0;
 }
 .sponsorer a {
