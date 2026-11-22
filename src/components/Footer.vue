@@ -144,7 +144,7 @@ export default Vue.extend({
       },
       {
         name: "Algoryx",
-        url: "https://www.algoryx.se/",
+        url: "https://www.algoryx.com/",
         icon: "/logos/algoryx.png",
         alt: "Länk till Algoryx hemsida",
       },
@@ -153,6 +153,18 @@ export default Vue.extend({
         url: "https://prediktera.com/",
         icon: "/logos/prediktera.png",
         alt: "Länk till Predikteras hemsida",
+      },
+      {
+        name: "Vermiculus",
+        url: "https://www.vermiculus.se/",
+        icon: "/logos/Vermiculus.png",
+        alt: "Länk till Vermiculus hemsida",
+      },
+      {
+        name: "Knowit",
+        url: "https://www.knowit.se/",
+        icon: "/logos/Knowit.png",
+        alt: "Länk till Knowits hemsida",
       },
     ],
     previousSponsors: [
