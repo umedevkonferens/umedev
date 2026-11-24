@@ -1,5 +1,18 @@
 <template>
   <div>
+    <aside class="s-splash" aria-label="Umedev våren 2027">
+      <p class="s-splash-text">
+        <span class="s-splash-date">Vårens Umedev är den 18:e mars 2027!</span>
+        Call for papers är nu öppet.
+      </p>
+      <a
+        href="https://sessionize.com/umedev-2027/"
+        class="s-splash-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Skicka in ditt förslag</a
+      >
+    </aside>
     <div
       class="w-banner"
       role="img"
@@ -491,6 +504,50 @@ h4 {
   color: black;
   font-size: 1rem;
   line-height: 1.5rem;
+}
+/* Announcement strip for the spring conference, above the banner */
+.s-splash {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 1.5rem;
+  padding: 1rem;
+  background-color: #224412;
+  color: #fff;
+  text-align: center;
+}
+.s-splash-text {
+  margin: 0 !important;
+  /* Overrides the global black paragraph color from App.vue */
+  color: #fff;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+.s-splash-date {
+  font-weight: 700;
+  margin-right: 0.35rem;
+}
+.v-application a.s-splash-link {
+  display: inline-block;
+  margin: 0;
+  padding: 0.5rem 1.25rem;
+  border-radius: 8px;
+  background-color: #56ab2f;
+  color: #fff !important;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.15s;
+}
+.v-application a.s-splash-link:hover {
+  background-color: #468c25;
+}
+.v-application a.s-splash-link:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
 }
 .w-wrapper {
   padding: 2rem;
