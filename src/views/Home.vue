@@ -54,13 +54,6 @@
                   nätverka och utvecklas.
                 </span>
               </p>
-              <a
-                href="https://forms.gle/FpA2HF1GPDuzCM4v6"
-                class="w-signup"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Anmäl dig här</a
-              >
             </div>
             <div class="w-keynote-wrapper">
               <div class="w-keynote-item">
@@ -73,10 +66,22 @@
                 <h2>Agenda</h2>
                 <p class="w-agenda">
                   <span class="bold">10.30 - 12.00</span> Beyond Scrum and
-                  Agile<br />
+                  Agile
+                  - <a
+                    href="https://www.dropbox.com/scl/fi/v7tm6ko0euyx9qwnpwnul/261125-Beyond-Agile-UmeDev.pdf?rlkey=s88z6gmg52kjoraseup18r1h5&dl=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Slides(PDF)</a
+                  ><br />
                   <span class="bold">12.00 - 13.00</span> Lunch<br />
                   <span class="bold">13.00 - 14.30</span> "The smoothest reorg
                   I've ever seen"
+                  - <a
+                    href="https://www.dropbox.com/scl/fi/kp9mrkoii14lr55dycb9y/261125-Collaborative-Org-Design-UmeDev.pdf?rlkey=nkyxjb1lbj2blr8romb7f68bw&dl=0"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Slides(PDF)</a
+                  >
                 </p>
               </div>
               <div class="w-keynote-item w-profile">
